@@ -1,0 +1,156 @@
+{
+  "gameName": "cleanup-crew",
+  "pageUrl": "https://poki.com/zh/g/cleanup-crew#fullscreen",
+  "gameUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-7f10f4a1341ac62ef094daaeadbdd404ac84cb7a&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcleanup-crew&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=69%2C91%2C1187%2C1196&game_id=e4e14733-d145-4702-9c3f-b387c610d3eb&game_version_id=ff03ad2b-577a-4894-aa6b-93a59165f7dc&inspector=0&csp=1",
+  "engine": "defold",
+  "startedAt": "2026-05-06T02:52:49.492Z",
+  "stoppedAt": "2026-05-06T02:59:59.380Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 1319,
+    "downloaded": 19,
+    "failed": 0,
+    "skipped": 379
+  },
+  "files": [
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-7f10f4a1341ac62ef094daaeadbdd404ac84cb7a&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcleanup-crew&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=69%2C91%2C1187%2C1196&game_id=e4e14733-d145-4702-9c3f-b387c610d3eb&game_version_id=ff03ad2b-577a-4894-aa6b-93a59165f7dc&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/dmloader.js",
+      "localPath": "dmloader.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/dmloader.js",
+      "localPath": "dmloader.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/splash_html5.png",
+      "localPath": "splash_html5.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/splash_html5.png",
+      "localPath": "splash_html5.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/archive_files.json",
+      "localPath": "archive/archive_files.json",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/CleanupCrew_wasm.js",
+      "localPath": "CleanupCrew_wasm.js",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.projectc",
+      "localPath": "archive/game0.projectc",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/CleanupCrew_wasm.js",
+      "localPath": "CleanupCrew_wasm.js",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.projectc",
+      "localPath": "archive/game0.projectc",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.arci",
+      "localPath": "archive/game0.arci",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.arci",
+      "localPath": "archive/game0.arci",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/CleanupCrew.wasm",
+      "localPath": "CleanupCrew.wasm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/CleanupCrew.wasm",
+      "localPath": "CleanupCrew.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.arcd",
+      "localPath": "archive/game0.arcd",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.arcd",
+      "localPath": "archive/game0.arcd",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.dmanifest",
+      "localPath": "archive/game0.dmanifest",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.dmanifest",
+      "localPath": "archive/game0.dmanifest",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e4e14733-d145-4702-9c3f-b387c610d3eb.gdn.poki.com/ff03ad2b-577a-4894-aa6b-93a59165f7dc/archive/game0.public.der",
+      "localPath": "archive/game0.public.der",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok"
+    }
+  ]
+}

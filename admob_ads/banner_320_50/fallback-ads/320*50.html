@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fallback Ad 300x50</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 320px;
+      height: 50px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+    }
+    .ad {
+      width: 320px;
+      height: 50px;
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: #ffffff;
+      border: 1px solid #e8e8ee;
+      border-radius: 8px;
+      justify-content: space-between;
+    }
+    .item {
+      position: relative;
+      width: 43px;
+      height: 43px;
+      border-radius: 8px;
+      overflow: hidden;
+      flex: 0 0 auto;
+      background: #dcdde6;
+    }
+    .item img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    .hot {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding: 1px 4px;
+      border-radius: 8px;
+      font-size: 9px;
+      line-height: 1.2;
+      color: #fff;
+      background: #ff4d67;
+      font-weight: 700;
+    }
+    .play {
+      margin-left: auto;
+      width: 52px;
+      height: 42px;
+      border: 0;
+      border-radius: 10px;
+      background: linear-gradient(180deg, #35d06e 0%, #21b15a 100%);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="ad">
+    <a class="item" href="https://rabigame.fun/r_game/blumgi-dragon/index.html?gameChannel=admob" aria-label="game 1">
+      <span class="hot">Hot</span>
+      <img src="images/blumgi-dragon.png" alt="game 1" />
+    </a>
+    <a class="item" href="https://rabigame.fun/r_game/parkour-race/index.html?gameChannel=admob" aria-label="game 2">
+      <span class="hot">Hot</span>
+      <img src="images/parkour-race.png" alt="game 2" />
+    </a>
+    <a class="item" href="https://rabigame.fun/r_game/shape-fold-html5/index.html?gameChannel=admob" aria-label="game 3">
+      <span class="hot">Hot</span>
+      <img src="images/shape-fold-html5.png" alt="game 3" />
+    </a>
+    <a class="item" href="https://rabigame.fun/r_game/Blocky_Puzzle/index.html?gameChannel=admob" aria-label="game 3">
+        <span class="hot">Hot</span>
+        <img src="images/Blocky_Puzzle.png" alt="game 3" />
+      </a>
+      <a class="item" href="https://rabigame.fun/r_game/puffy_cat/index.html?gameChannel=admob" aria-label="game 3">
+        <span class="hot">Hot</span>
+        <img src="images/puffy_cat.png" alt="game 3" />
+      </a>
+      <a class="item" href="https://rabigame.fun/r_game/hotel-manager/index.html?gameChannel=admob" aria-label="game 3">
+        <span class="hot">Hot</span>
+        <img src="images/hotel-manager.png" alt="game 3" />
+      </a>
+  </div>
+  <script>
+    (function () {
+      function onAdClick(event) {
+        event.preventDefault();
+        var href = event.currentTarget && event.currentTarget.getAttribute("href");
+        if (!href || href === "#" || href.indexOf("javascript:") === 0) return;
+        try {
+          window.parent.postMessage({ type: "fallback_ad_navigate", href: href }, "*");
+        } catch (e) {
+          window.top.location.href = href;
+        }
+      }
+      var links = document.querySelectorAll("a.item[href]");
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", onAdClick);
+      }
+    })();
+  </script>
+</body>
+</html>

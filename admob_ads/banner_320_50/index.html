@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="request-guard.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    #banner-container {
+        width: 320px;
+        height: 50px;
+        overflow: hidden;
+        margin: auto;
+    }
+    #side_container {
+      position: fixed;
+      width: 1px;
+      height: 1px;
+      top: -10px;
+      left: -10px;
+      overflow: hidden;
+    }
+  </style>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      sdkScript.addEventListener("load", function () { window.__googleAdsReady = true; });
+      sdkScript.addEventListener("error", function () { window.__googleAdsReady = false; });
+    })();
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+    adConfig({ preloadAdBreaks: "on" });
+    adConfig({
+        preloadAdBreaks: 'on',
+        onReady: function() {
+            console.log("AdSense onReady");
+        },
+    });
+  </script>
+</head>
+<body>
+    <div id="banner-container">
+        <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="1379655800"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <script>
+      (function () {
+        var bannerContainer = document.getElementById("banner-container");
+        var adFillCheckTimer = null;
+        var adFillTimeoutTimer = null;
+        var adRefreshTimer = null;
+        var adClient = "ca-pub-4202034217897578";
+        var adSlot = "1379655800";
+
+        // 
+        var adRefreshTime = 60;
+        var params = new URLSearchParams(window.location.search || "");
+        var adRefreshTime = parseInt(params.get("adRefreshTime"), 10) || 60;
+
+        var startAdRefreshTime = Date.now();
+
+
+        function showFallbackBanner() {
+          var iframe = document.createElement("iframe");
+          iframe.src = "fallback-ads/320*50.html";
+          iframe.width = "320";
+          iframe.height = "50";
+          iframe.style.width = "320px";
+          iframe.style.height = "50px";
+          iframe.style.border = "0";
+          iframe.style.display = "block";
+          iframe.setAttribute("scrolling", "no");
+          iframe.setAttribute("title", "fallback-ad-320x50");
+          bannerContainer.innerHTML = "";
+          bannerContainer.appendChild(iframe);
+        }
+
+       
+        
+        function checkIfAdFailed() {
+          if (!bannerContainer) return true;
+          var adElement = bannerContainer.querySelector("ins.adsbygoogle");
+          if (!adElement) return true;
+          var status = adElement.getAttribute("data-ad-status");
+          return status === "unfilled" || status === "unfill-optimized";
+
+        }
+
+        function rebuildBannerAd() {
+          if (!bannerContainer) return;
+          bannerContainer.innerHTML = "";
+
+          var adElement = document.createElement("ins");
+          adElement.className = "adsbygoogle";
+          adElement.style.display = "inline-block";
+          adElement.style.width = "320px";
+          adElement.style.height = "50px";
+          adElement.setAttribute("data-ad-client", adClient);
+          adElement.setAttribute("data-ad-slot", adSlot);
+          bannerContainer.appendChild(adElement);
+
+          try {
+            window.adsbygoogle = window.adsbygoogle || [];
+            window.adsbygoogle.push({});
+          } catch (e) {}
+        }
+
+        function startAdRefreshLoop() {
+
+          let isInFallbackAds = false;
+          
+          adRefreshTimer = setInterval(function () {
+            var currentTime = Date.now();
+            var elapsedTime = currentTime - startAdRefreshTime;
+            if(elapsedTime >= adRefreshTime * 1000) {
+              rebuildBannerAd();
+              startAdRefreshTime = currentTime;
+              isInFallbackAds = false;
+            }
+            setTimeout(function () {
+              if(checkIfAdFailed() && !isInFallbackAds) {
+                showFallbackBanner();
+                isInFallbackAds = true;
+                startAdRefreshTime =  Date.now();
+              }
+            }, 0);
+          }, 100);
+        }
+
+        if(window.location.search.indexOf('useFallback=true') !== -1) {
+          showFallbackBanner();
+        } else {  
+          startAdRefreshLoop();
+        }
+
+
+
+        window.addEventListener("message", function (event) {
+          var data = event && event.data;
+          if (!data || data.type !== "fallback_ad_navigate") return;
+          var href = typeof data.href === "string" ? data.href.trim() : "";
+          if (!href || href === "#" || href.indexOf("javascript:") === 0) return;
+          if (!/^https?:\/\//i.test(href) && href.charAt(0) !== "/") return;
+          window.open(href, "_blank");
+        });
+      })();
+    </script>
+       
+  <div id="side_container">
+    <iframe
+      src="game.html"
+      id="dtsGameFrame"
+      name="dtsGameFrame"
+      scrolling="no"
+      allow="autoplay; fullscreen"
+      title="Draw To Smash"
+    ></iframe>
+  </div>
+  <script src="poki-ad-bridge-parent.js"></script>
+  <script>
+    window.__back_locked__ = true;
+    history.pushState(null, null, location.href);
+    window.addEventListener("popstate", function () {
+      if (__back_locked__) {
+        history.pushState(null, null, location.href);
+        __back_locked__ = false;
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1878 @@
+{
+  "gameName": "soccer-skills-world-cup",
+  "pageUrl": "https://poki.com/zh/g/soccer-skills-world-cup#fullscreen",
+  "gameUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/index.html",
+  "engine": "unknown",
+  "startedAt": "2026-04-13T07:42:35.262Z",
+  "stoppedAt": "",
+  "status": "listening",
+  "stats": {
+    "totalSeen": 797,
+    "downloaded": 265,
+    "failed": 0,
+    "skipped": 14
+  },
+  "files": [
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-50e47560c55ac0397107624e108d4abc44f72505&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fsoccer-skills-world-cup&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=2%2C9%2C27%2C76%2C93%2C735%2C1123%2C1147%2C1190%2C1193%2C1201&experiment=test-959a0db8&game_id=d3f0aec3-8079-4ac4-b57d-d0a4f543b774&game_version_id=7f1fb607-32a1-43b4-9e67-7386888d32e2&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/soccerskills.js",
+      "localPath": "soccerskills.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/soccerskills.js",
+      "localPath": "soccerskills.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/rotate.gif",
+      "localPath": "data/rotate.gif",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/rotate.gif",
+      "localPath": "data/rotate.gif",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img0.png",
+      "localPath": "data/img0.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img1.png",
+      "localPath": "data/img1.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img2.png",
+      "localPath": "data/img2.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img3.png",
+      "localPath": "data/img3.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img5.png",
+      "localPath": "data/img5.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img4.png",
+      "localPath": "data/img4.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball2.png",
+      "localPath": "data/ball2.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball1.png",
+      "localPath": "data/ball1.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball3.png",
+      "localPath": "data/ball3.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ballshad.png",
+      "localPath": "data/ballshad.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/logo.png",
+      "localPath": "data/interface1/logo.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball4.png",
+      "localPath": "data/ball4.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn00.png",
+      "localPath": "data/interface1/btn00.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg4.png",
+      "localPath": "data/interface1/bg4.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg1.png",
+      "localPath": "data/interface1/bg1.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/ef1.png",
+      "localPath": "data/interface1/ef1.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg3.png",
+      "localPath": "data/interface1/bg3.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg2.png",
+      "localPath": "data/interface1/bg2.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img0.png",
+      "localPath": "data/img0.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img1.png",
+      "localPath": "data/img1.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img2.png",
+      "localPath": "data/img2.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bar.png",
+      "localPath": "data/interface1/bar.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/inst.png",
+      "localPath": "data/interface1/inst.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/cup.png",
+      "localPath": "data/interface1/cup.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/ef2.png",
+      "localPath": "data/interface1/ef2.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/star1.png",
+      "localPath": "data/interface1/star1.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn11.png",
+      "localPath": "data/interface1/btn11.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn10.png",
+      "localPath": "data/interface1/btn10.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img3.png",
+      "localPath": "data/img3.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/worldmap.png",
+      "localPath": "data/interface1/worldmap.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn01.png",
+      "localPath": "data/interface1/btn01.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/star2.png",
+      "localPath": "data/interface1/star2.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/star3.png",
+      "localPath": "data/interface1/star3.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg0.png",
+      "localPath": "data/interface1/bg0.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg5.png",
+      "localPath": "data/interface1/bg5.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img5.png",
+      "localPath": "data/img5.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/img4.png",
+      "localPath": "data/img4.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball2.png",
+      "localPath": "data/ball2.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball3.png",
+      "localPath": "data/ball3.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball1.png",
+      "localPath": "data/ball1.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ballshad.png",
+      "localPath": "data/ballshad.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/logo.png",
+      "localPath": "data/interface1/logo.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/ball4.png",
+      "localPath": "data/ball4.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn00.png",
+      "localPath": "data/interface1/btn00.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg4.png",
+      "localPath": "data/interface1/bg4.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg1.png",
+      "localPath": "data/interface1/bg1.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/ef1.png",
+      "localPath": "data/interface1/ef1.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg3.png",
+      "localPath": "data/interface1/bg3.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg2.png",
+      "localPath": "data/interface1/bg2.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bar.png",
+      "localPath": "data/interface1/bar.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/inst.png",
+      "localPath": "data/interface1/inst.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/ef2.png",
+      "localPath": "data/interface1/ef2.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/star1.png",
+      "localPath": "data/interface1/star1.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/cup.png",
+      "localPath": "data/interface1/cup.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn11.png",
+      "localPath": "data/interface1/btn11.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/worldmap.png",
+      "localPath": "data/interface1/worldmap.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn01.png",
+      "localPath": "data/interface1/btn01.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/btn10.png",
+      "localPath": "data/interface1/btn10.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg0.png",
+      "localPath": "data/interface1/bg0.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/star2.png",
+      "localPath": "data/interface1/star2.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/star3.png",
+      "localPath": "data/interface1/star3.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/bg5.png",
+      "localPath": "data/interface1/bg5.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/loop1.mp3",
+      "localPath": "data/soundtrack/loop1.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/status.txt",
+      "localPath": "worldcup/status.txt",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/Teko-Medium.ttf",
+      "localPath": "data/Teko-Medium.ttf",
+      "status": "ok",
+      "requestType": "Font"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/17.mp3",
+      "localPath": "data/soundtrack/17.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/18.mp3",
+      "localPath": "data/soundtrack/18.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/17.mp3",
+      "localPath": "data/soundtrack/17.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/18.mp3",
+      "localPath": "data/soundtrack/18.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/status.txt",
+      "localPath": "worldcup/status.txt",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/Teko-Medium.ttf",
+      "localPath": "data/Teko-Medium.ttf",
+      "status": "ok",
+      "requestType": "font"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/loop0.mp3",
+      "localPath": "data/soundtrack/loop0.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/0.mp3",
+      "localPath": "data/soundtrack/0.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/2.mp3",
+      "localPath": "data/soundtrack/2.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/1.mp3",
+      "localPath": "data/soundtrack/1.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/loop0.mp3",
+      "localPath": "data/soundtrack/loop0.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/0.mp3",
+      "localPath": "data/soundtrack/0.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/2.mp3",
+      "localPath": "data/soundtrack/2.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/1.mp3",
+      "localPath": "data/soundtrack/1.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/Argentina.txt",
+      "localPath": "worldcup/teams/Argentina.txt",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/loop2.mp3",
+      "localPath": "data/soundtrack/loop2.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Australia.png",
+      "localPath": "worldcup/teams/logos1/Australia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Argentina.png",
+      "localPath": "worldcup/teams/logos1/Argentina.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Belgium.png",
+      "localPath": "worldcup/teams/logos1/Belgium.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Brazil.png",
+      "localPath": "worldcup/teams/logos1/Brazil.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Cameroon.png",
+      "localPath": "worldcup/teams/logos1/Cameroon.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Canada.png",
+      "localPath": "worldcup/teams/logos1/Canada.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Costa-Rica.png",
+      "localPath": "worldcup/teams/logos1/Costa-Rica.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Croatia.png",
+      "localPath": "worldcup/teams/logos1/Croatia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Denmark.png",
+      "localPath": "worldcup/teams/logos1/Denmark.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Ecuador.png",
+      "localPath": "worldcup/teams/logos1/Ecuador.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/England.png",
+      "localPath": "worldcup/teams/logos1/England.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/France.png",
+      "localPath": "worldcup/teams/logos1/France.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Germany.png",
+      "localPath": "worldcup/teams/logos1/Germany.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Ghana.png",
+      "localPath": "worldcup/teams/logos1/Ghana.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Iran.png",
+      "localPath": "worldcup/teams/logos1/Iran.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Japan.png",
+      "localPath": "worldcup/teams/logos1/Japan.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Morocco.png",
+      "localPath": "worldcup/teams/logos1/Morocco.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Mexico.png",
+      "localPath": "worldcup/teams/logos1/Mexico.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Netherlands.png",
+      "localPath": "worldcup/teams/logos1/Netherlands.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Poland.png",
+      "localPath": "worldcup/teams/logos1/Poland.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Portugal.png",
+      "localPath": "worldcup/teams/logos1/Portugal.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Qatar.png",
+      "localPath": "worldcup/teams/logos1/Qatar.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Saudi-Arabia.png",
+      "localPath": "worldcup/teams/logos1/Saudi-Arabia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Senegal.png",
+      "localPath": "worldcup/teams/logos1/Senegal.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/South-Korea.png",
+      "localPath": "worldcup/teams/logos1/South-Korea.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Serbia.png",
+      "localPath": "worldcup/teams/logos1/Serbia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Spain.png",
+      "localPath": "worldcup/teams/logos1/Spain.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Tunisia.png",
+      "localPath": "worldcup/teams/logos1/Tunisia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Switzerland.png",
+      "localPath": "worldcup/teams/logos1/Switzerland.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/United-States.png",
+      "localPath": "worldcup/teams/logos1/United-States.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Belgium.png",
+      "localPath": "worldcup/teams/logos1/small/Belgium.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Argentina.png",
+      "localPath": "worldcup/teams/logos1/small/Argentina.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Uruguay.png",
+      "localPath": "worldcup/teams/logos1/Uruguay.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Cameroon.png",
+      "localPath": "worldcup/teams/logos1/small/Cameroon.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Costa-Rica.png",
+      "localPath": "worldcup/teams/logos1/small/Costa-Rica.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Brazil.png",
+      "localPath": "worldcup/teams/logos1/small/Brazil.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Australia.png",
+      "localPath": "worldcup/teams/logos1/small/Australia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Canada.png",
+      "localPath": "worldcup/teams/logos1/small/Canada.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Croatia.png",
+      "localPath": "worldcup/teams/logos1/small/Croatia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Wales.png",
+      "localPath": "worldcup/teams/logos1/Wales.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Denmark.png",
+      "localPath": "worldcup/teams/logos1/small/Denmark.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/England.png",
+      "localPath": "worldcup/teams/logos1/small/England.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/France.png",
+      "localPath": "worldcup/teams/logos1/small/France.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Germany.png",
+      "localPath": "worldcup/teams/logos1/small/Germany.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Ecuador.png",
+      "localPath": "worldcup/teams/logos1/small/Ecuador.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Ghana.png",
+      "localPath": "worldcup/teams/logos1/small/Ghana.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Iran.png",
+      "localPath": "worldcup/teams/logos1/small/Iran.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Japan.png",
+      "localPath": "worldcup/teams/logos1/small/Japan.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Morocco.png",
+      "localPath": "worldcup/teams/logos1/small/Morocco.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Mexico.png",
+      "localPath": "worldcup/teams/logos1/small/Mexico.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Poland.png",
+      "localPath": "worldcup/teams/logos1/small/Poland.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Netherlands.png",
+      "localPath": "worldcup/teams/logos1/small/Netherlands.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Qatar.png",
+      "localPath": "worldcup/teams/logos1/small/Qatar.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Portugal.png",
+      "localPath": "worldcup/teams/logos1/small/Portugal.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Senegal.png",
+      "localPath": "worldcup/teams/logos1/small/Senegal.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Serbia.png",
+      "localPath": "worldcup/teams/logos1/small/Serbia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Saudi-Arabia.png",
+      "localPath": "worldcup/teams/logos1/small/Saudi-Arabia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Tunisia.png",
+      "localPath": "worldcup/teams/logos1/small/Tunisia.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/South-Korea.png",
+      "localPath": "worldcup/teams/logos1/small/South-Korea.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Switzerland.png",
+      "localPath": "worldcup/teams/logos1/small/Switzerland.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Spain.png",
+      "localPath": "worldcup/teams/logos1/small/Spain.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/United-States.png",
+      "localPath": "worldcup/teams/logos1/small/United-States.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph0.png",
+      "localPath": "data/interface1/troph0.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Uruguay.png",
+      "localPath": "worldcup/teams/logos1/small/Uruguay.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph1.png",
+      "localPath": "data/interface1/troph1.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Wales.png",
+      "localPath": "worldcup/teams/logos1/small/Wales.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph2.png",
+      "localPath": "data/interface1/troph2.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph3.png",
+      "localPath": "data/interface1/troph3.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph1s.png",
+      "localPath": "data/interface1/troph1s.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph2s.png",
+      "localPath": "data/interface1/troph2s.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph3s.png",
+      "localPath": "data/interface1/troph3s.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/rds.png",
+      "localPath": "data/interface1/rds.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/form.png",
+      "localPath": "data/interface1/form.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/3.mp3",
+      "localPath": "data/soundtrack/3.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/4.mp3",
+      "localPath": "data/soundtrack/4.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/7.mp3",
+      "localPath": "data/soundtrack/7.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/5.mp3",
+      "localPath": "data/soundtrack/5.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/6.mp3",
+      "localPath": "data/soundtrack/6.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/8.mp3",
+      "localPath": "data/soundtrack/8.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/9.mp3",
+      "localPath": "data/soundtrack/9.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/10.mp3",
+      "localPath": "data/soundtrack/10.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/11.mp3",
+      "localPath": "data/soundtrack/11.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/12.mp3",
+      "localPath": "data/soundtrack/12.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/13.mp3",
+      "localPath": "data/soundtrack/13.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/14.mp3",
+      "localPath": "data/soundtrack/14.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/15.mp3",
+      "localPath": "data/soundtrack/15.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/16.mp3",
+      "localPath": "data/soundtrack/16.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/19.mp3",
+      "localPath": "data/soundtrack/19.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/3.mp3",
+      "localPath": "data/soundtrack/3.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/4.mp3",
+      "localPath": "data/soundtrack/4.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/5.mp3",
+      "localPath": "data/soundtrack/5.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/7.mp3",
+      "localPath": "data/soundtrack/7.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/6.mp3",
+      "localPath": "data/soundtrack/6.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/8.mp3",
+      "localPath": "data/soundtrack/8.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/9.mp3",
+      "localPath": "data/soundtrack/9.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/10.mp3",
+      "localPath": "data/soundtrack/10.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/11.mp3",
+      "localPath": "data/soundtrack/11.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/12.mp3",
+      "localPath": "data/soundtrack/12.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/14.mp3",
+      "localPath": "data/soundtrack/14.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/15.mp3",
+      "localPath": "data/soundtrack/15.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/13.mp3",
+      "localPath": "data/soundtrack/13.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/16.mp3",
+      "localPath": "data/soundtrack/16.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/soundtrack/19.mp3",
+      "localPath": "data/soundtrack/19.mp3",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Australia.png",
+      "localPath": "worldcup/teams/logos1/Australia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Argentina.png",
+      "localPath": "worldcup/teams/logos1/Argentina.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Belgium.png",
+      "localPath": "worldcup/teams/logos1/Belgium.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Cameroon.png",
+      "localPath": "worldcup/teams/logos1/Cameroon.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Brazil.png",
+      "localPath": "worldcup/teams/logos1/Brazil.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Canada.png",
+      "localPath": "worldcup/teams/logos1/Canada.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Costa-Rica.png",
+      "localPath": "worldcup/teams/logos1/Costa-Rica.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Croatia.png",
+      "localPath": "worldcup/teams/logos1/Croatia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Denmark.png",
+      "localPath": "worldcup/teams/logos1/Denmark.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Ecuador.png",
+      "localPath": "worldcup/teams/logos1/Ecuador.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Germany.png",
+      "localPath": "worldcup/teams/logos1/Germany.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/France.png",
+      "localPath": "worldcup/teams/logos1/France.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Iran.png",
+      "localPath": "worldcup/teams/logos1/Iran.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Ghana.png",
+      "localPath": "worldcup/teams/logos1/Ghana.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Japan.png",
+      "localPath": "worldcup/teams/logos1/Japan.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Mexico.png",
+      "localPath": "worldcup/teams/logos1/Mexico.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Morocco.png",
+      "localPath": "worldcup/teams/logos1/Morocco.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/England.png",
+      "localPath": "worldcup/teams/logos1/England.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Portugal.png",
+      "localPath": "worldcup/teams/logos1/Portugal.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Netherlands.png",
+      "localPath": "worldcup/teams/logos1/Netherlands.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Poland.png",
+      "localPath": "worldcup/teams/logos1/Poland.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Qatar.png",
+      "localPath": "worldcup/teams/logos1/Qatar.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Saudi-Arabia.png",
+      "localPath": "worldcup/teams/logos1/Saudi-Arabia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Senegal.png",
+      "localPath": "worldcup/teams/logos1/Senegal.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Serbia.png",
+      "localPath": "worldcup/teams/logos1/Serbia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/South-Korea.png",
+      "localPath": "worldcup/teams/logos1/South-Korea.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Spain.png",
+      "localPath": "worldcup/teams/logos1/Spain.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Tunisia.png",
+      "localPath": "worldcup/teams/logos1/Tunisia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Switzerland.png",
+      "localPath": "worldcup/teams/logos1/Switzerland.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Argentina.png",
+      "localPath": "worldcup/teams/logos1/small/Argentina.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Belgium.png",
+      "localPath": "worldcup/teams/logos1/small/Belgium.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/United-States.png",
+      "localPath": "worldcup/teams/logos1/United-States.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Uruguay.png",
+      "localPath": "worldcup/teams/logos1/Uruguay.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Cameroon.png",
+      "localPath": "worldcup/teams/logos1/small/Cameroon.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Costa-Rica.png",
+      "localPath": "worldcup/teams/logos1/small/Costa-Rica.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Brazil.png",
+      "localPath": "worldcup/teams/logos1/small/Brazil.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Australia.png",
+      "localPath": "worldcup/teams/logos1/small/Australia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Canada.png",
+      "localPath": "worldcup/teams/logos1/small/Canada.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Croatia.png",
+      "localPath": "worldcup/teams/logos1/small/Croatia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/Wales.png",
+      "localPath": "worldcup/teams/logos1/Wales.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Denmark.png",
+      "localPath": "worldcup/teams/logos1/small/Denmark.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/England.png",
+      "localPath": "worldcup/teams/logos1/small/England.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/France.png",
+      "localPath": "worldcup/teams/logos1/small/France.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Germany.png",
+      "localPath": "worldcup/teams/logos1/small/Germany.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Ecuador.png",
+      "localPath": "worldcup/teams/logos1/small/Ecuador.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Iran.png",
+      "localPath": "worldcup/teams/logos1/small/Iran.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Japan.png",
+      "localPath": "worldcup/teams/logos1/small/Japan.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Ghana.png",
+      "localPath": "worldcup/teams/logos1/small/Ghana.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Morocco.png",
+      "localPath": "worldcup/teams/logos1/small/Morocco.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Mexico.png",
+      "localPath": "worldcup/teams/logos1/small/Mexico.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Poland.png",
+      "localPath": "worldcup/teams/logos1/small/Poland.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Netherlands.png",
+      "localPath": "worldcup/teams/logos1/small/Netherlands.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Tunisia.png",
+      "localPath": "worldcup/teams/logos1/small/Tunisia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Senegal.png",
+      "localPath": "worldcup/teams/logos1/small/Senegal.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Portugal.png",
+      "localPath": "worldcup/teams/logos1/small/Portugal.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Saudi-Arabia.png",
+      "localPath": "worldcup/teams/logos1/small/Saudi-Arabia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Qatar.png",
+      "localPath": "worldcup/teams/logos1/small/Qatar.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/South-Korea.png",
+      "localPath": "worldcup/teams/logos1/small/South-Korea.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Serbia.png",
+      "localPath": "worldcup/teams/logos1/small/Serbia.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Switzerland.png",
+      "localPath": "worldcup/teams/logos1/small/Switzerland.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph0.png",
+      "localPath": "data/interface1/troph0.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/United-States.png",
+      "localPath": "worldcup/teams/logos1/small/United-States.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph1.png",
+      "localPath": "data/interface1/troph1.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Spain.png",
+      "localPath": "worldcup/teams/logos1/small/Spain.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Uruguay.png",
+      "localPath": "worldcup/teams/logos1/small/Uruguay.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/logos1/small/Wales.png",
+      "localPath": "worldcup/teams/logos1/small/Wales.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph2.png",
+      "localPath": "data/interface1/troph2.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph3.png",
+      "localPath": "data/interface1/troph3.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph1s.png",
+      "localPath": "data/interface1/troph1s.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph3s.png",
+      "localPath": "data/interface1/troph3s.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/troph2s.png",
+      "localPath": "data/interface1/troph2s.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/rds.png",
+      "localPath": "data/interface1/rds.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/data/interface1/form.png",
+      "localPath": "data/interface1/form.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/Argentina.txt",
+      "localPath": "worldcup/teams/Argentina.txt",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/Canada.txt",
+      "localPath": "worldcup/teams/Canada.txt",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3f0aec3-8079-4ac4-b57d-d0a4f543b774.gdn.poki.com/7f1fb607-32a1-43b4-9e67-7386888d32e2/worldcup/teams/Canada.txt",
+      "localPath": "worldcup/teams/Canada.txt",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Stickman shooter with weapon merge and sniper action.
+
+HOW TO PLAY
+*Tap and aim to shoot enemies from cover
+*Merge duplicate weapons to upgrade their power
+*Complete levels to unlock new maps and challenges
+*Avoid wasting ammo on enemies behind obstacles

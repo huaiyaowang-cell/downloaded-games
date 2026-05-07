@@ -1,0 +1,114 @@
+{
+  "gameName": "drive-mad",
+  "pageUrl": "https://poki.com/zh/g/drive-mad#fullscreen",
+  "gameUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-fe2c3b6d4e1e018c00d5bba6e29ef0b044eefda4&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdrive-mad&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=1%2C76%2C78%2C93%2C96%2C103%2C377%2C390%2C400%2C893%2C1126%2C1147%2C1177%2C1185%2C1190%2C1193&experiment=test-959a0db8&game_id=f9564e4e-ef25-4e4b-ba67-cb11a1576bbd&game_version_id=0add2eac-2e2f-4786-8b30-d32f3edb38e4&inspector=0&csp=1",
+  "engine": "unknown",
+  "startedAt": "2026-04-14T03:53:07.807Z",
+  "stoppedAt": "2026-04-14T04:01:45.135Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 535,
+    "downloaded": 13,
+    "failed": 0,
+    "skipped": 29
+  },
+  "files": [
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-fe2c3b6d4e1e018c00d5bba6e29ef0b044eefda4&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdrive-mad&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=1%2C76%2C78%2C93%2C96%2C103%2C377%2C390%2C400%2C893%2C1126%2C1147%2C1177%2C1185%2C1190%2C1193&experiment=test-959a0db8&game_id=f9564e4e-ef25-4e4b-ba67-cb11a1576bbd&game_version_id=0add2eac-2e2f-4786-8b30-d32f3edb38e4&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/fancade.css",
+      "localPath": "webapp/fancade.css",
+      "status": "ok",
+      "requestType": "Stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/cover.jpg",
+      "localPath": "webapp/cover.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/fancade.css",
+      "localPath": "webapp/fancade.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/cover.jpg",
+      "localPath": "webapp/cover.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/source_min.js",
+      "localPath": "webapp/source_min.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/source_min.js",
+      "localPath": "webapp/source_min.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/index.js",
+      "localPath": "webapp/index.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/index.js",
+      "localPath": "webapp/index.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/index.data",
+      "localPath": "webapp/index.data",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/index.data",
+      "localPath": "webapp/index.data",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/index.wasm",
+      "localPath": "webapp/index.wasm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://f9564e4e-ef25-4e4b-ba67-cb11a1576bbd.gdn.poki.com/0add2eac-2e2f-4786-8b30-d32f3edb38e4/webapp/index.wasm",
+      "localPath": "webapp/index.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok"
+    }
+  ]
+}

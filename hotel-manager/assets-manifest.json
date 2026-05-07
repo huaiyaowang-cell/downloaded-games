@@ -1,0 +1,464 @@
+{
+  "gameName": "my-perfect-hotel",
+  "pageUrl": "https://poki.com/zh/g/my-perfect-hotel#fullscreen",
+  "gameUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/index.html",
+  "engine": "unity",
+  "startedAt": "2026-03-31T10:31:51.331Z",
+  "stoppedAt": "2026-03-31T10:35:56.518Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 825,
+    "downloaded": 63,
+    "failed": 0,
+    "skipped": 219
+  },
+  "files": [
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-83d853bd8f42e833b62aa7812b3c1ff8f9d08ff4&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fmy-perfect-hotel&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=4%2C69%2C91%2C93%2C1014%2C1147%2C1187%2C1190%2C1205&experiment=test-959a0db8&game_id=dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304&game_version_id=bea1a935-2356-4744-9ac3-09e05a13eff0&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/Build/2809ee090e7f1bf0e1a32425590981e7.framework.js",
+      "localPath": "Build/2809ee090e7f1bf0e1a32425590981e7.framework.js",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/Build/ea153e321edf23b9a40b38d65ce41d01.loader.js",
+      "localPath": "Build/ea153e321edf23b9a40b38d65ce41d01.loader.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/Build/2809ee090e7f1bf0e1a32425590981e7.framework.js",
+      "localPath": "Build/2809ee090e7f1bf0e1a32425590981e7.framework.js",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/Build/9d94f3fbc22c5914756c67722e0cdaca.wasm",
+      "localPath": "Build/9d94f3fbc22c5914756c67722e0cdaca.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/catalog.json",
+      "localPath": "StreamingAssets/aa/catalog.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/Build/101a0553a2917fd4c62a7e2159d30814.data",
+      "localPath": "Build/101a0553a2917fd4c62a7e2159d30814.data",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/catalog.json",
+      "localPath": "StreamingAssets/aa/catalog.json",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/Build/101a0553a2917fd4c62a7e2159d30814.data",
+      "localPath": "Build/101a0553a2917fd4c62a7e2159d30814.data",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/_prefabs/ui/screens/loader/downloadtext.prefab_4d64e3fe894c2c30078babf873f31a56.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/_prefabs/ui/screens/loader/downloadtext.prefab_4d64e3fe894c2c30078babf873f31a56.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimplewhite.asset_55f7869fdf64e660d30538d82dd3af68.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimplewhite.asset_55f7869fdf64e660d30538d82dd3af68.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimpleoutlineunderlayuniversal.asset_ccecc84f59232bf0ac40f1d3357274c8.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimpleoutlineunderlayuniversal.asset_ccecc84f59232bf0ac40f1d3357274c8.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosansjp-blackwhite.asset_9f01239a0c9533d40bd804b7f196ba06.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosansjp-blackwhite.asset_9f01239a0c9533d40bd804b7f196ba06.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosans-blacksdf.asset_fddbeaeef73283f0481fd15647bbbb05.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosans-blacksdf.asset_fddbeaeef73283f0481fd15647bbbb05.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosanskr-blackwhite.asset_3b9ffe4ddeae901417517392a88b700a.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosanskr-blackwhite.asset_3b9ffe4ddeae901417517392a88b700a.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosanssc-blackwhite.asset_0ab5a16cf82e088e3afc27adf637d978.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/notosanssc-blackwhite.asset_0ab5a16cf82e088e3afc27adf637d978.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/_prefabs/ui/tutorial/tutorialmessage.prefab_09c33c5c6b3ac484d08e5d4b7059342f.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/_prefabs/ui/tutorial/tutorialmessage.prefab_09c33c5c6b3ac484d08e5d4b7059342f.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/commonui_assets_all_1524223ea0b04b30111bb29dc474c617.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/commonui_assets_all_1524223ea0b04b30111bb29dc474c617.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/ingamevfx_assets_all_90f1bc24df9d25ad913ccf575ad01a41.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/ingamevfx_assets_all_90f1bc24df9d25ad913ccf575ad01a41.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_gamedata_ac72057cfe2a6fb2edd74bf5fd2aa704.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_gamedata_ac72057cfe2a6fb2edd74bf5fd2aa704.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/161c6cad8d2d02eb63792b6e733f4f6c_unitybuiltinshaders_b5f53022d630966edba2cfbd27c21883.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/161c6cad8d2d02eb63792b6e733f4f6c_unitybuiltinshaders_b5f53022d630966edba2cfbd27c21883.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/sharedassetsglobal_assets_all_f9fe7f7de1b7ebcc1a6f377ad7632043.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/sharedassetsglobal_assets_all_f9fe7f7de1b7ebcc1a6f377ad7632043.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/commoningametextures_assets_all_c7639136510f8d5f60b478187070ae9e.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/commoningametextures_assets_all_c7639136510f8d5f60b478187070ae9e.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/gamedata/sounddata.asset_2758c05aa9b48608666fa9a4720efb12.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/gamedata/sounddata.asset_2758c05aa9b48608666fa9a4720efb12.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimpleoutlineunderlaywhite.asset_9691a8692ce553ab3d50cc10ffd308bd.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimpleoutlineunderlaywhite.asset_9691a8692ce553ab3d50cc10ffd308bd.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/hotel_2_props_assets_all_dd0dbdd23e8970dda2f9036e9cb437bb.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/hotel_2_props_assets_all_dd0dbdd23e8970dda2f9036e9cb437bb.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/sharedcustomersassets_assets_all_a15b2636f9aed9295f554bd028a964f2.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/sharedcustomersassets_assets_all_a15b2636f9aed9295f554bd028a964f2.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/sharedassets_assets_all_df459a76198131a145bdd2ab5f02da45.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/sharedassets_assets_all_df459a76198131a145bdd2ab5f02da45.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/sharedworkersassets_assets_all_851882a0596d256bdce70048f5191493.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/sharedworkersassets_assets_all_851882a0596d256bdce70048f5191493.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/hotel_1_props_assets_all_e005255a8043696c7546b31241a30fe4.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/hotel_1_props_assets_all_e005255a8043696c7546b31241a30fe4.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/hotel_1_assets_all_478f386f42e9a99742620f2a02db6ecf.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/hotel_1_assets_all_478f386f42e9a99742620f2a02db6ecf.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/playerskins_assets_all_cb3488c17e707cf919616686148aaa54.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/playerskins_assets_all_cb3488c17e707cf919616686148aaa54.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/scenes/boot/lightingdata.asset_3eacca923cecfcc775fba45b77a8f634.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/scenes/boot/lightingdata.asset_3eacca923cecfcc775fba45b77a8f634.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/hotel_1_scenes_all_d9af0601f1f9692e4928670673eb5366.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/hotel_1_scenes_all_d9af0601f1f9692e4928670673eb5366.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimpleunderlayyellow.asset_25cbb0f28ebf0322743cbbfd757f5276.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/fonts_assets_assets/fonts/lilitaonesimpleunderlayyellow.asset_25cbb0f28ebf0322743cbbfd757f5276.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/transferableitems_assets_all_efcefa027b046c8e1d5817cb0833e479.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/transferableitems_assets_all_efcefa027b046c8e1d5817cb0833e479.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/hotel_7_props_assets_all_41449535d618521812e6498a682d40da.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/hotel_7_props_assets_all_41449535d618521812e6498a682d40da.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/scenes/boot/lightingdata.asset_3eacca923cecfcc775fba45b77a8f634.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_assets/scenes/boot/lightingdata.asset_3eacca923cecfcc775fba45b77a8f634.bundle",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dollar_edb0c3861f1f961c96f7ad6124e0cf36.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dollar_edb0c3861f1f961c96f7ad6124e0cf36.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dollar_edb0c3861f1f961c96f7ad6124e0cf36.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_dollar_edb0c3861f1f961c96f7ad6124e0cf36.bundle",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_customerindicator_e7d806a72dd727d5641bdc58b90e1739.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_customerindicator_e7d806a72dd727d5641bdc58b90e1739.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_indicatorclear_53697d4e876b80a0813f83f4cac21b0e.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_indicatorclear_53697d4e876b80a0813f83f4cac21b0e.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/workersprefabs_assets_all_fec610e11e8c1f60c003d290767e1288.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/workersprefabs_assets_all_fec610e11e8c1f60c003d290767e1288.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/screens_assets_assets/textures/ui/softcurrencies/plusicons/hotel1softmoneycounterplus.png_1d2aa55cc9c4c8b272586883d34d2e5f.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/screens_assets_assets/textures/ui/softcurrencies/plusicons/hotel1softmoneycounterplus.png_1d2aa55cc9c4c8b272586883d34d2e5f.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/rwingameoffers_assets_all_53e57f7d86e8da8edf45d9cdaa612ac8.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/rwingameoffers_assets_all_53e57f7d86e8da8edf45d9cdaa612ac8.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/screens_assets_assets/_prefabs/ui/screens/hudscreen.prefab_ce5e7d72b4c75278b79ce290dd2b280a.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/screens_assets_assets/_prefabs/ui/screens/hudscreen.prefab_ce5e7d72b4c75278b79ce290dd2b280a.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/screens_assets_assets/textures/ui/softcurrencies/hud/hotel1softmoneywhitestroke.png_924b1b61d26ba8dab51ca27601e1dc1e.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/screens_assets_assets/textures/ui/softcurrencies/hud/hotel1softmoneywhitestroke.png_924b1b61d26ba8dab51ca27601e1dc1e.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tutorialarrow_c140ad0df41cbbcb24f2490a353ab874.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_tutorialarrow_c140ad0df41cbbcb24f2490a353ab874.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://dec0e7c4-f6bd-4ae6-95f0-e8241d6ca304.gdn.poki.com/bea1a935-2356-4744-9ac3-09e05a13eff0/StreamingAssets/aa/WebGL/sharedcustomers_assets_all_6d95ed744dafa706895113672133943c.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/sharedcustomers_assets_all_6d95ed744dafa706895113672133943c.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok"
+    }
+  ]
+}

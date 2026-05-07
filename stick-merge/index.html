@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="request-guard-0.0.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+  <title>Stick Merge</title>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #000;
+      font-family: Arial, sans-serif;
+    }
+    #smLayout {
+      width: 100%;
+      height: 100%;
+    }
+    #smGameFrame {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #000;
+    }
+    #ad-banner-container {
+      position: fixed;
+      top: 8px;
+      left: 50%;
+      width: 320px;
+      height: 50px;
+      z-index: 9999;
+      transform: translateX(-50%);
+      display: none;
+    }
+  </style>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous"></script>
+  <script>
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      sdkScript.addEventListener("load", function () { window.__googleAdsReady = true; });
+      sdkScript.addEventListener("error", function () { window.__googleAdsReady = false; });
+    })();
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+    adConfig({ preloadAdBreaks: "on" });
+  </script>
+</head>
+<body>
+  <div id="smLayout">
+    <iframe
+      src="game.html"
+      id="smGameFrame"
+      name="smGameFrame"
+      scrolling="no"
+      allow="autoplay; fullscreen"
+      title="Stick Merge"
+    ></iframe>
+  </div>
+  <div id="ad-banner-container"></div>
+  <script src="./poki-ad-bridge-parent.js"></script>
+</body>
+</html>
