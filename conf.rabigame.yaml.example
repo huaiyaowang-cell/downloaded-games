@@ -1,0 +1,25 @@
+BUCKET: your-bucket-name
+# GC_KEY 支持三种方式:
+# 1) 直接填 service-account 的 JSON 对象
+# 2) JSON 字符串
+# 3) 本机 JSON 文件路径（推荐）
+GC_KEY: /absolute/path/to/service-account.json
+
+# 桶内前缀，默认 r_game
+BUCKET_TARGET: r_game
+
+# 为空表示自动上传项目根目录下所有一级文件夹（会排除 .git/scripts/node_modules 等）
+UPLOAD_INCLUDE_FOLDERS: []
+
+# 当 UPLOAD_INCLUDE_FOLDERS 为空时，这些一级文件夹会被排除
+UPLOAD_EXCLUDE_FOLDERS:
+  - .git
+  - .cursor
+  - .output
+  - node_modules
+  - scripts
+  - __pycache__
+
+# 文件名过滤（基于文件名 glob）
+UPLOAD_INCLUDE_FILES: []
+UPLOAD_EXCLUDE_FILES: []

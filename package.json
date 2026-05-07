@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "upload:bucket": "python3 scripts/upload_root_folders_to_bucket.py",
+    "upload:bucket:dry": "python3 scripts/upload_root_folders_to_bucket.py --dry-run",
+    "upload:bucket:deps": "python3 -m pip install google-cloud-storage pyyaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
