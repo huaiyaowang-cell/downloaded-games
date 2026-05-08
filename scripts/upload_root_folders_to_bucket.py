@@ -181,16 +181,19 @@ def _expand_include_item_to_root_paths(item: str) -> list[Path]:
     item 可以是：
     - root 名字（相对 PROJECT_ROOT）
     - 配置文件路径：文件中列出 root 名字
-    - 文件夹路径：如果传“路径形式”（包含 `/` 或以 `./../~` 开头），枚举其下子目录作为要上传的根目录；否则当作 root 自身
+    - 文件夹路径：
+      - 普通相对路径（如 admob_ads/Blocky_Puzzle）：当作 root 自身
+      - 容器路径（如 ./some_dir、../some_dir、~/some_dir、绝对路径）：枚举其下子目录作为要上传的根目录
     """
     raw_item = (item or "").strip()
     p = _normalize_to_project_root_path(item)
 
-    # 兼容：不含路径分隔符的“纯名字”按旧行为，当作 root 本身；
-    # 传“路径形式”则把目录当作容器，枚举其下子目录当作 root 列表。
-    is_bare_name = bool(raw_item) and ("/" not in raw_item) and (not raw_item.startswith(".")) and (not raw_item.startswith("..")) and (not raw_item.startswith("~"))
+    # 规则：
+    # - admob_ads/Blocky_Puzzle 这类普通相对路径应当作“具体 root 目录”
+    # - ./、../、~、绝对路径 这类路径当作“容器目录”，枚举其下子目录
+    is_container_path = raw_item.startswith("./") or raw_item.startswith("../") or raw_item.startswith("~") or Path(os.path.expanduser(raw_item)).is_absolute()
     if p.exists() and p.is_dir():
-        if is_bare_name:
+        if not is_container_path:
             return [p]
 
         out: list[Path] = []

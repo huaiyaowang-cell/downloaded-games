@@ -1,25 +1,97 @@
 {
   "bucket": "rabigame",
-  "bucket_target": "r_game",
-  "upload_time": "2026-05-08T09:58:46.223444",
-  "success": 4,
+  "bucket_target": "r_game/dev",
+  "upload_time": "2026-05-08T11:07:30.530361",
+  "success": 22,
   "failed": 0,
   "files": [
     {
-      "path": "r_game/color-pencil-run-test2/index.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test2/index.html"
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/index.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/index.html"
     },
     {
-      "path": "r_game/color-pencil-run-test2/game.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test2/game.html"
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/style.css",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/style.css"
     },
     {
-      "path": "r_game/color-pencil-run-test3/index.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test3/index.html"
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/video/video_Blocky_Puzzle.mp4",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/video/video_Blocky_Puzzle.mp4"
     },
     {
-      "path": "r_game/color-pencil-run-test3/game.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test3/game.html"
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-draw-to-smash.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-draw-to-smash.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/.DS_Store",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/.DS_Store"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/volum-on.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/volum-on.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-temple-run-2.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-temple-run-2.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-bullet-bros.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-bullet-bros.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-Blocky_Puzzle.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-Blocky_Puzzle.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/volum-off.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/volum-off.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads-banner.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads-banner.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/play-button.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/play-button.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/.DS_Store",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/.DS_Store"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-bullet-bros.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-bullet-bros.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/hot-icon.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/hot-icon.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-temple-run-2.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-temple-run-2.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-popular.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-popular.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-blumgi-slime.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-blumgi-slime.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-Blocky_Puzzle.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-Blocky_Puzzle.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-tail-wing-h5.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-tail-wing-h5.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-draw-to-smash.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-draw-to-smash.png"
     }
   ]
 }
