@@ -14,6 +14,11 @@
 可选配置:
 - BUCKET_TARGET: 桶内前缀路径，默认 r_game
 - UPLOAD_INCLUDE_FOLDERS: 仅上传这些一级文件夹（列表）
+  - 支持两种写法：
+    1) 写一级文件夹“名字”（相对 PROJECT_ROOT）
+    2) 写“配置文件路径/文件夹路径”
+       - 配置文件：每行一个一级文件夹名（也支持 JSON 数组形式）
+       - 文件夹：会枚举该文件夹下的所有一级子目录作为要上传的根目录
 - UPLOAD_EXCLUDE_FOLDERS: 排除这些一级文件夹（列表）
 - UPLOAD_INCLUDE_FILES: 仅上传匹配文件名（glob 列表）
 - UPLOAD_EXCLUDE_FILES: 排除匹配文件名（glob 列表）
@@ -21,6 +26,7 @@
 
 from __future__ import annotations
 
+from collections import defaultdict
 import fnmatch
 import json
 import mimetypes
@@ -40,7 +46,7 @@ CONF_PATH = PROJECT_ROOT / "conf.rabigame.yaml"
 
 DEFAULT_CONFIG = {
     "BUCKET_TARGET": "r_game",
-    "UPLOAD_INCLUDE_FOLDERS": [],
+    "UPLOAD_INCLUDE_FOLDERS": ["subway-surfers-test"],
     "UPLOAD_EXCLUDE_FOLDERS": [
         ".git",
         ".cursor",
@@ -48,10 +54,13 @@ DEFAULT_CONFIG = {
         "node_modules",
         "scripts",
         "__pycache__",
+        "conf.rabigame.yaml"
     ],
     "UPLOAD_INCLUDE_FILES": [],
     "UPLOAD_EXCLUDE_FILES": [],
 }
+
+FAILED_LOG_FILENAME = "bucket-upload-failed-manifest.json"
 
 
 def _load_yaml_config() -> dict[str, Any]:
@@ -135,16 +144,116 @@ def _content_encoding(file_path: Path) -> str | None:
     return None
 
 
+def _normalize_to_project_root_path(raw: str) -> Path:
+    """
+    把配置里的路径解析成 PROJECT_ROOT 内的 Path。
+    - 相对路径：视为相对 PROJECT_ROOT
+    - 绝对路径/~/：解析出来后要求必须在 PROJECT_ROOT 内，否则由调用者跳过
+    """
+    raw = (raw or "").strip()
+    raw = os.path.expanduser(raw)
+    p = Path(raw)
+    if not p.is_absolute():
+        p = PROJECT_ROOT / p
+    return p
+
+
+def _read_folder_names_from_file(list_file: Path) -> list[str]:
+    """
+    配置文件支持两种格式：
+    - JSON 数组：["dir1","dir2"]
+    - 文本：每行一个目录名（允许 # 注释、允许 "- xxx"）
+    """
+    content = list_file.read_text(encoding="utf-8").strip()
+    if not content:
+        return []
+
+    if content.startswith("["):
+        parsed = json.loads(content)
+        if isinstance(parsed, list):
+            return [str(x).strip() for x in parsed if str(x).strip()]
+
+    out: list[str] = []
+    for line in content.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith("#"):
+            continue
+        # 兼容 YAML 列表项 "- xxx"
+        if s.startswith("- "):
+            s = s[2:].strip()
+        s = s.strip("\"' ")
+        if s:
+            out.append(s)
+    return out
+
+
+def _expand_include_item_to_root_paths(item: str) -> list[Path]:
+    """
+    将 UPLOAD_INCLUDE_FOLDERS 的单个元素展开为 root 目录集合。
+    item 可以是：
+    - root 名字（相对 PROJECT_ROOT）
+    - 配置文件路径：文件中列出 root 名字
+    - 文件夹路径：枚举其下所有一级子目录
+    """
+    p = _normalize_to_project_root_path(item)
+
+    # 文件夹：如果它是 PROJECT_ROOT 的一级子目录，则当作一个 root；
+    # 否则当作“父目录”，枚举其下所有一级子目录。
+    if p.exists() and p.is_dir():
+        try:
+            rel = p.relative_to(PROJECT_ROOT)
+            if len(rel.parts) == 1:
+                return [p]
+        except Exception:
+            pass
+
+        out: list[Path] = []
+        for child in sorted(p.iterdir(), key=lambda x: x.name.lower()):
+            if child.is_dir() and not child.name.startswith("."):
+                out.append(child)
+        return out
+
+    # 配置文件：读取里面的 root 名字
+    if p.exists() and p.is_file():
+        names = _read_folder_names_from_file(p)
+        out: list[Path] = []
+        for name in names:
+            rp = _normalize_to_project_root_path(name)
+            if rp.exists() and rp.is_dir():
+                out.append(rp)
+            else:
+                print(f"⚠️ 跳过不存在目录: {name}")
+        return out
+
+    # 兜底：当作 root 名字处理（旧行为兼容）
+    rp = _normalize_to_project_root_path(item)
+    if rp.exists() and rp.is_dir():
+        return [rp]
+    print(f"⚠️ 跳过不存在目录/文件: {item}")
+    return []
+
+
 def _discover_root_folders(include_folders: list[str], exclude_folders: list[str]) -> list[Path]:
     if include_folders:
         folders = []
-        for name in include_folders:
-            p = PROJECT_ROOT / name
-            if p.is_dir():
-                folders.append(p)
-            else:
-                print(f"⚠️ 跳过不存在目录: {name}")
-        return folders
+        out_set: dict[str, Path] = {}
+        for item in include_folders:
+            for p in _expand_include_item_to_root_paths(item):
+                # 必须是 PROJECT_ROOT 的一级子目录，才能保证相对路径计算正确
+                try:
+                    rel = p.relative_to(PROJECT_ROOT)
+                except Exception:
+                    print(f"⚠️ 跳过不在项目根目录内的路径: {p}")
+                    continue
+                if len(rel.parts) != 1:
+                    continue
+                if p.name in exclude_folders:
+                    continue
+                if p.is_dir() and not p.name.startswith("."):
+                    out_set[p.name] = p
+        return [out_set[k] for k in sorted(out_set.keys(), key=lambda x: x.lower())]
 
     folders = []
     for item in sorted(PROJECT_ROOT.iterdir(), key=lambda p: p.name.lower()):
@@ -163,6 +272,7 @@ def _collect_files(
 ) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for root in roots:
+        root_name = root.name
         for cur_dir, _subdirs, files in os.walk(root):
             cur = Path(cur_dir)
             for fn in files:
@@ -171,7 +281,14 @@ def _collect_files(
                 local_path = cur / fn
                 rel = local_path.relative_to(PROJECT_ROOT)
                 remote = f"{bucket_target.rstrip('/')}/{rel.as_posix()}"
-                out.append({"local_path": local_path, "remote_path": remote})
+                out.append(
+                    {
+                        "local_path": local_path,
+                        "remote_path": remote,
+                        "relative_path": rel.as_posix(),
+                        "root_name": root_name,
+                    }
+                )
     return out
 
 
@@ -192,6 +309,37 @@ def _upload_one(bucket, local_path: Path, remote_path: str) -> str | None:
     except Exception as e:
         print(f"    ❌ {e}")
         return None
+
+
+def _load_failed_manifest_for_root(root: Path) -> dict[str, Any] | None:
+    log_path = root / ".output" / FAILED_LOG_FILENAME
+    if not log_path.exists():
+        return None
+    with open(log_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _write_failed_manifest_for_root(
+    root: Path,
+    bucket_name: str,
+    bucket_target: str,
+    failed_files: list[dict[str, Any]],
+) -> None:
+    log_path = root / ".output" / FAILED_LOG_FILENAME
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "bucket": bucket_name,
+                "bucket_target": bucket_target,
+                "upload_time": datetime.now().isoformat(),
+                "failed": len(failed_files),
+                "files": failed_files,
+            },
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
 
 
 def _load_config() -> dict[str, Any]:
