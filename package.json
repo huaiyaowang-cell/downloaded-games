@@ -8,6 +8,9 @@
     "upload:bucket-dev": "python3 scripts/upload_root_folders_to_bucket.py --dev",
     "upload:bucket:dry": "python3 scripts/upload_root_folders_to_bucket.py --dry-run",
     "upload:bucket:retry-failed": "python3 scripts/upload_root_folders_to_bucket.py --retry-failed",
+    "offline:build": "python3 scripts/build_offline_game_zips.py --build-only",
+    "offline:upload": "python3 scripts/build_offline_game_zips.py --upload-only",
+    "offline:build-upload": "python3 scripts/build_offline_game_zips.py --build-upload",
     "upload:bucket:deps": "python3 -m pip install google-cloud-storage pyyaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

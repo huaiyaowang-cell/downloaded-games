@@ -22,6 +22,7 @@
 - UPLOAD_EXCLUDE_FOLDERS: 排除这些一级文件夹（列表）
 - UPLOAD_INCLUDE_FILES: 仅上传匹配文件名（glob 列表）
 - UPLOAD_EXCLUDE_FILES: 排除匹配文件名（glob 列表）
+- OFFLINE_INCLUDE_FOLDERS: 离线包专用游戏目录列表（列表，默认空；为空时离线包脚本回退到 UPLOAD_INCLUDE_FOLDERS）
 """
 
 from __future__ import annotations
@@ -58,6 +59,7 @@ DEFAULT_CONFIG = {
     ],
     "UPLOAD_INCLUDE_FILES": [],
     "UPLOAD_EXCLUDE_FILES": [],
+    "OFFLINE_INCLUDE_FOLDERS": [],
 }
 
 FAILED_LOG_FILENAME = "bucket-upload-failed-manifest.json"
