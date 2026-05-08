@@ -25,6 +25,62 @@ cd /Users/neptune/Downloads/downloaded-games
 
 说明：`upload_root_folders_to_bucket.py` 中不再写死具体游戏目录，项目级配置都放在 `conf.rabigame.yaml`。
 
+## 配置示例
+
+### 示例 1：上传单个游戏目录
+
+```yaml
+BUCKET_TARGET: r_game
+UPLOAD_INCLUDE_FOLDERS:
+  - drive-mad
+UPLOAD_INCLUDE_FILES: []
+UPLOAD_EXCLUDE_FILES: []
+```
+
+### 示例 2：上传嵌套路径游戏目录
+
+```yaml
+BUCKET_TARGET: r_game
+UPLOAD_INCLUDE_FOLDERS:
+  - admob_ads/Blocky_Puzzle
+```
+
+会上传到：
+`r_game/admob_ads/Blocky_Puzzle/...`
+
+### 示例 3：只上传指定类型文件
+
+```yaml
+UPLOAD_INCLUDE_FOLDERS:
+  - color-pencil-run-test
+UPLOAD_INCLUDE_FILES:
+  - "*.html"
+  - "*.js"
+  - "*.wasm.br"
+UPLOAD_EXCLUDE_FILES:
+  - "*.map"
+```
+
+### 示例 4：离线包独立游戏列表
+
+```yaml
+OFFLINE_INCLUDE_FOLDERS:
+  - happy-glass
+  - drive-mad
+```
+
+离线包命令会优先使用 `OFFLINE_INCLUDE_FOLDERS`，不配时才回退到 `UPLOAD_INCLUDE_FOLDERS`。
+
+### 示例 5：大离线包上传优化
+
+```yaml
+OFFLINE_UPLOAD_TIMEOUT_SEC: 1800
+OFFLINE_UPLOAD_RETRIES: 6
+OFFLINE_UPLOAD_CHUNK_SIZE_MB: 16
+```
+
+适合几十 MB 或更大的 zip，网络波动时更稳。
+
 ## 命令说明
 
 ### 依赖安装

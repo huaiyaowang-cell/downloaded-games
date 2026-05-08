@@ -1,14 +1,10 @@
 {
   "bucket": "rabigame",
   "bucket_target": "r_game/dev",
-  "upload_time": "2026-05-08T11:07:30.530361",
+  "upload_time": "2026-05-08T11:18:48.506233",
   "success": 22,
-  "failed": 0,
+  "failed": 1,
   "files": [
-    {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/index.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/index.html"
-    },
     {
       "path": "r_game/dev/admob_ads/Blocky_Puzzle/style.css",
       "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/style.css"
@@ -92,6 +88,10 @@
     {
       "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-draw-to-smash.png",
       "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-draw-to-smash.png"
+    },
+    {
+      "path": "r_game/dev/admob_ads/Blocky_Puzzle/.output/bucket-upload-failed-manifest.json",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/.output/bucket-upload-failed-manifest.json"
     }
   ]
 }
