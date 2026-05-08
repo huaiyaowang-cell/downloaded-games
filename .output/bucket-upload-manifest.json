@@ -1,0 +1,25 @@
+{
+  "bucket": "rabigame",
+  "bucket_target": "r_game",
+  "upload_time": "2026-05-08T09:58:46.223444",
+  "success": 4,
+  "failed": 0,
+  "files": [
+    {
+      "path": "r_game/color-pencil-run-test2/index.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test2/index.html"
+    },
+    {
+      "path": "r_game/color-pencil-run-test2/game.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test2/game.html"
+    },
+    {
+      "path": "r_game/color-pencil-run-test3/index.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test3/index.html"
+    },
+    {
+      "path": "r_game/color-pencil-run-test3/game.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/color-pencil-run-test3/game.html"
+    }
+  ]
+}

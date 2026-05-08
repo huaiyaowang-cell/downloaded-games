@@ -9,6 +9,10 @@ GC_KEY: /absolute/path/to/service-account.json
 BUCKET_TARGET: r_game
 
 # 为空表示自动上传项目根目录下所有一级文件夹（会排除 .git/scripts/node_modules 等）
+# UPLOAD_INCLUDE_FOLDERS 也支持“配置文件/文件夹”：
+# - 直接填一级文件夹名字（相对项目根目录）
+# - 填配置文件路径：每行一个一级文件夹名（也支持 JSON 数组）
+# - 填文件夹路径（例如 `./some_dir` 或绝对路径）：枚举该目录下的子目录作为要上传的根目录
 UPLOAD_INCLUDE_FOLDERS: []
 
 # 当 UPLOAD_INCLUDE_FOLDERS 为空时，这些一级文件夹会被排除

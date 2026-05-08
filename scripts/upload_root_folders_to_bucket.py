@@ -18,7 +18,7 @@
     1) 写一级文件夹“名字”（相对 PROJECT_ROOT）
     2) 写“配置文件路径/文件夹路径”
        - 配置文件：每行一个一级文件夹名（也支持 JSON 数组形式）
-       - 文件夹：会枚举该文件夹下的所有一级子目录作为要上传的根目录
+       - 文件夹：如果以“路径形式”提供（例如 `./some_dir` 或绝对路径），会枚举该目录下的子目录作为要上传的根目录；否则按 root 自身处理
 - UPLOAD_EXCLUDE_FOLDERS: 排除这些一级文件夹（列表）
 - UPLOAD_INCLUDE_FILES: 仅上传匹配文件名（glob 列表）
 - UPLOAD_EXCLUDE_FILES: 排除匹配文件名（glob 列表）
@@ -46,7 +46,7 @@ CONF_PATH = PROJECT_ROOT / "conf.rabigame.yaml"
 
 DEFAULT_CONFIG = {
     "BUCKET_TARGET": "r_game",
-    "UPLOAD_INCLUDE_FOLDERS": ["subway-surfers-test"],
+    "UPLOAD_INCLUDE_FOLDERS": ["color-pencil-run-test2", "color-pencil-run-test3"],
     "UPLOAD_EXCLUDE_FOLDERS": [
         ".git",
         ".cursor",
@@ -61,6 +61,7 @@ DEFAULT_CONFIG = {
 }
 
 FAILED_LOG_FILENAME = "bucket-upload-failed-manifest.json"
+CDN_BASE_URL = "https://rabigame.fun"
 
 
 def _load_yaml_config() -> dict[str, Any]:
@@ -195,19 +196,17 @@ def _expand_include_item_to_root_paths(item: str) -> list[Path]:
     item 可以是：
     - root 名字（相对 PROJECT_ROOT）
     - 配置文件路径：文件中列出 root 名字
-    - 文件夹路径：枚举其下所有一级子目录
+    - 文件夹路径：如果传“路径形式”（包含 `/` 或以 `./../~` 开头），枚举其下子目录作为要上传的根目录；否则当作 root 自身
     """
+    raw_item = (item or "").strip()
     p = _normalize_to_project_root_path(item)
 
-    # 文件夹：如果它是 PROJECT_ROOT 的一级子目录，则当作一个 root；
-    # 否则当作“父目录”，枚举其下所有一级子目录。
+    # 兼容：不含路径分隔符的“纯名字”按旧行为，当作 root 本身；
+    # 传“路径形式”则把目录当作容器，枚举其下子目录当作 root 列表。
+    is_bare_name = bool(raw_item) and ("/" not in raw_item) and (not raw_item.startswith(".")) and (not raw_item.startswith("..")) and (not raw_item.startswith("~"))
     if p.exists() and p.is_dir():
-        try:
-            rel = p.relative_to(PROJECT_ROOT)
-            if len(rel.parts) == 1:
-                return [p]
-        except Exception:
-            pass
+        if is_bare_name:
+            return [p]
 
         out: list[Path] = []
         for child in sorted(p.iterdir(), key=lambda x: x.name.lower()):
@@ -241,18 +240,16 @@ def _discover_root_folders(include_folders: list[str], exclude_folders: list[str
         out_set: dict[str, Path] = {}
         for item in include_folders:
             for p in _expand_include_item_to_root_paths(item):
-                # 必须是 PROJECT_ROOT 的一级子目录，才能保证相对路径计算正确
+                # 必须在 PROJECT_ROOT 内，才能保证后续相对路径计算正确
                 try:
                     rel = p.relative_to(PROJECT_ROOT)
                 except Exception:
                     print(f"⚠️ 跳过不在项目根目录内的路径: {p}")
                     continue
-                if len(rel.parts) != 1:
-                    continue
                 if p.name in exclude_folders:
                     continue
                 if p.is_dir() and not p.name.startswith("."):
-                    out_set[p.name] = p
+                    out_set[rel.as_posix()] = p
         return [out_set[k] for k in sorted(out_set.keys(), key=lambda x: x.lower())]
 
     folders = []
@@ -272,7 +269,7 @@ def _collect_files(
 ) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for root in roots:
-        root_name = root.name
+        root_key = root.relative_to(PROJECT_ROOT).as_posix()
         for cur_dir, _subdirs, files in os.walk(root):
             cur = Path(cur_dir)
             for fn in files:
@@ -286,7 +283,7 @@ def _collect_files(
                         "local_path": local_path,
                         "remote_path": remote,
                         "relative_path": rel.as_posix(),
-                        "root_name": root_name,
+                        "root_key": root_key,
                     }
                 )
     return out
@@ -359,14 +356,24 @@ def _load_config() -> dict[str, Any]:
     return cfg
 
 
-def main(dry_run: bool = False) -> None:
+def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = False) -> None:
     print("=" * 56)
-    print("上传项目根目录一级文件夹到 GCS Bucket" + (" [dry-run]" if dry_run else ""))
+    header = "上传项目根目录一级文件夹到 GCS Bucket"
+    tags: list[str] = []
+    if dry_run:
+        tags.append("dry-run")
+    if retry_failed:
+        tags.append("retry-failed")
+    if dev_target:
+        tags.append("dev")
+    print(header + (f" [{', '.join(tags)}]" if tags else ""))
     print("=" * 56)
 
     cfg = _load_config()
     bucket_name = cfg["BUCKET"]
     bucket_target = (cfg["BUCKET_TARGET"] or "r_game").strip().strip("/") or "r_game"
+    if dev_target:
+        bucket_target = f"{bucket_target}/dev"
     include_folders = cfg["UPLOAD_INCLUDE_FOLDERS"] or []
     exclude_folders = cfg["UPLOAD_EXCLUDE_FOLDERS"] or []
     include_files = cfg["UPLOAD_INCLUDE_FILES"] or []
@@ -385,6 +392,8 @@ def main(dry_run: bool = False) -> None:
         print(f"📋 文件白名单: {include_files}")
     if exclude_files:
         print(f"📋 文件黑名单: {exclude_files}")
+    if retry_failed:
+        print(f"📋 重试模式：从每个根目录的失败日志中读取待上传文件")
 
     creds = Credentials.from_service_account_info(
         cfg["GC_KEY"],
@@ -393,10 +402,41 @@ def main(dry_run: bool = False) -> None:
     client = Client(credentials=creds)
     bucket = client.bucket(bucket_name)
 
-    files = _collect_files(roots, bucket_target, include_files, exclude_files)
+    files: list[dict[str, Any]]
+    roots_with_existing_logs: set[str] = set()
+
+    if retry_failed:
+        files = []
+        for root in roots:
+            manifest = _load_failed_manifest_for_root(root)
+            if not manifest:
+                continue
+            root_key = root.relative_to(PROJECT_ROOT).as_posix()
+            roots_with_existing_logs.add(root_key)
+            for item in manifest.get("files", []) or []:
+                rel_path = item.get("relative_path")
+                remote_path = item.get("remote_path")
+                if not rel_path or not remote_path:
+                    continue
+                local_path = PROJECT_ROOT / rel_path
+                if not local_path.exists():
+                    print(f"⚠️ 跳过不存在文件（来自失败日志）: {rel_path}")
+                    continue
+                files.append(
+                    {
+                        "local_path": local_path,
+                        "remote_path": remote_path,
+                        "relative_path": rel_path,
+                        "root_key": root_key,
+                    }
+                )
+    else:
+        files = _collect_files(roots, bucket_target, include_files, exclude_files)
+
     if not files:
-        print("⚠️ 没有匹配到文件")
+        print("⚠️ 没有匹配到文件" if not retry_failed else "⚠️ 没有可重试的失败文件")
         return
+
     print(f"\n🔍 共 {len(files)} 个文件待上传")
 
     if dry_run:
@@ -409,18 +449,34 @@ def main(dry_run: bool = False) -> None:
 
     success = 0
     failed = 0
-    uploaded = []
+    uploaded: list[dict[str, Any]] = []
+    failed_by_root: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    entry_urls: set[str] = set()
+
     for idx, item in enumerate(files, 1):
         rp = item["remote_path"]
         lp = item["local_path"]
+        root_key = item.get("root_key") or ""
         print(f"[{idx}/{len(files)}] {rp} ... ", end="", flush=True)
         url = _upload_one(bucket, lp, rp)
         if url:
             print("✅")
             success += 1
             uploaded.append({"path": rp, "url": url})
+            if rp.endswith("/index.html"):
+                entry_urls.add(f"{CDN_BASE_URL.rstrip('/')}/{rp.lstrip('/')}")
         else:
+            print("❌")
             failed += 1
+            if not root_key:
+                rel_path = item.get("relative_path") or lp.relative_to(PROJECT_ROOT).as_posix()
+                root_key = rel_path.split("/", 1)[0]
+            failed_by_root[root_key].append(
+                {
+                    "relative_path": item.get("relative_path") or lp.relative_to(PROJECT_ROOT).as_posix(),
+                    "remote_path": rp,
+                }
+            )
 
     manifest_path = PROJECT_ROOT / ".output" / "bucket-upload-manifest.json"
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -439,18 +495,41 @@ def main(dry_run: bool = False) -> None:
             ensure_ascii=False,
         )
 
+    # 每个一级目录单独写入失败日志（覆盖写）
+    if retry_failed:
+        for root in roots:
+            root_key = root.relative_to(PROJECT_ROOT).as_posix()
+            if root_key not in roots_with_existing_logs:
+                continue
+            failed_files = failed_by_root.get(root_key, [])
+            _write_failed_manifest_for_root(root, bucket_name, bucket_target, failed_files)
+    else:
+        for root_dir in roots:
+            log_path = root_dir / ".output" / FAILED_LOG_FILENAME
+            root_key = root_dir.relative_to(PROJECT_ROOT).as_posix()
+            failed_files = failed_by_root.get(root_key, [])
+            # 如果本次有失败则写入；如果上次有失败日志但这次全成功则覆盖清空
+            if failed_files or log_path.exists():
+                _write_failed_manifest_for_root(root_dir, bucket_name, bucket_target, failed_files)
+
     print("\n" + "=" * 56)
     print(f"✅ 成功: {success}")
     if failed:
         print(f"❌ 失败: {failed}")
+    if entry_urls:
+        print("🎮 游戏入口地址:")
+        for u in sorted(entry_urls):
+            print(f"  - {u}")
     print(f"📄 上传清单: {manifest_path}")
     print("=" * 56)
 
 
 if __name__ == "__main__":
     is_dry_run = "--dry-run" in sys.argv
+    is_retry_failed = "--retry-failed" in sys.argv
+    is_dev_target = "--dev" in sys.argv
     try:
-        main(dry_run=is_dry_run)
+        main(dry_run=is_dry_run, retry_failed=is_retry_failed, dev_target=is_dev_target)
     except KeyboardInterrupt:
         print("\n⚠️ 用户中断")
         sys.exit(1)

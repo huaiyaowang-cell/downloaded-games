@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "upload:bucket": "python3 scripts/upload_root_folders_to_bucket.py",
+    "upload:bucket-dev": "python3 scripts/upload_root_folders_to_bucket.py --dev",
     "upload:bucket:dry": "python3 scripts/upload_root_folders_to_bucket.py --dry-run",
+    "upload:bucket:retry-failed": "python3 scripts/upload_root_folders_to_bucket.py --retry-failed",
     "upload:bucket:deps": "python3 -m pip install google-cloud-storage pyyaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
