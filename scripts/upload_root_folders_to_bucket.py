@@ -45,23 +45,6 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 CONF_PATH = PROJECT_ROOT / "conf.rabigame.yaml"
 
-DEFAULT_CONFIG = {
-    "BUCKET_TARGET": "r_game",
-    "UPLOAD_INCLUDE_FOLDERS": ["color-pencil-run-test2", "color-pencil-run-test3"],
-    "UPLOAD_EXCLUDE_FOLDERS": [
-        ".git",
-        ".cursor",
-        ".output",
-        "node_modules",
-        "scripts",
-        "__pycache__",
-        "conf.rabigame.yaml"
-    ],
-    "UPLOAD_INCLUDE_FILES": [],
-    "UPLOAD_EXCLUDE_FILES": [],
-    "OFFLINE_INCLUDE_FOLDERS": [],
-}
-
 FAILED_LOG_FILENAME = "bucket-upload-failed-manifest.json"
 CDN_BASE_URL = "https://rabigame.fun"
 
@@ -350,9 +333,26 @@ def _load_config() -> dict[str, Any]:
     if gc_key_raw is None:
         raise ValueError("缺少 GC_KEY（环境变量或 conf.rabigame.yaml）")
 
-    cfg = dict(DEFAULT_CONFIG)
-    for k in cfg.keys():
-        cfg[k] = _config_value(k, file_cfg, cfg[k])
+    cfg = {
+        "BUCKET_TARGET": _config_value("BUCKET_TARGET", file_cfg, "r_game"),
+        "UPLOAD_INCLUDE_FOLDERS": _config_value("UPLOAD_INCLUDE_FOLDERS", file_cfg, []),
+        "UPLOAD_EXCLUDE_FOLDERS": _config_value(
+            "UPLOAD_EXCLUDE_FOLDERS",
+            file_cfg,
+            [
+                ".git",
+                ".cursor",
+                ".output",
+                "node_modules",
+                "scripts",
+                "__pycache__",
+                "conf.rabigame.yaml",
+            ],
+        ),
+        "UPLOAD_INCLUDE_FILES": _config_value("UPLOAD_INCLUDE_FILES", file_cfg, []),
+        "UPLOAD_EXCLUDE_FILES": _config_value("UPLOAD_EXCLUDE_FILES", file_cfg, []),
+        "OFFLINE_INCLUDE_FOLDERS": _config_value("OFFLINE_INCLUDE_FOLDERS", file_cfg, []),
+    }
     cfg["BUCKET"] = bucket
     cfg["GC_KEY"] = _parse_gc_key(gc_key_raw)
     return cfg
