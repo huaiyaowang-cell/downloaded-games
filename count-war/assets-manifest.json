@@ -1,0 +1,106 @@
+{
+  "gameName": "count-war",
+  "pageUrl": "https://poki.com/zh/g/count-war",
+  "gameUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-7f10f4a1341ac62ef094daaeadbdd404ac84cb7a&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcount-war&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=77%2C927%2C933%2C1014%2C1190&game_id=bd47f8cf-4104-4de0-a213-804297a5f77f&game_version_id=beb4a67d-b43c-4db0-91cd-d73adad9f4aa&inspector=0&csp=1",
+  "engine": "unity",
+  "startedAt": "2026-05-06T03:13:46.174Z",
+  "stoppedAt": "2026-05-06T03:21:35.529Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 80,
+    "downloaded": 11,
+    "failed": 0,
+    "skipped": 7
+  },
+  "files": [
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/Build/7943b1736380558df407533a08415f43.loader.js",
+      "localPath": "Build/7943b1736380558df407533a08415f43.loader.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/Build/3c29c9bbd1eb934e9fa2d7bb59921309.wasm",
+      "localPath": "Build/3c29c9bbd1eb934e9fa2d7bb59921309.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/Build/68c85b6609a9789c8ac70522b812be45.framework.js",
+      "localPath": "Build/68c85b6609a9789c8ac70522b812be45.framework.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/Build/b24fedab7b0e5a88a5bcbe49ae403c3c.data",
+      "localPath": "Build/b24fedab7b0e5a88a5bcbe49ae403c3c.data",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://bd47f8cf-4104-4de0-a213-804297a5f77f.gdn.poki.com/beb4a67d-b43c-4db0-91cd-d73adad9f4aa/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-7f10f4a1341ac62ef094daaeadbdd404ac84cb7a&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcount-war&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=77%2C927%2C933%2C1014%2C1190&game_id=bd47f8cf-4104-4de0-a213-804297a5f77f&game_version_id=beb4a67d-b43c-4db0-91cd-d73adad9f4aa&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok"
+    }
+  ]
+}
