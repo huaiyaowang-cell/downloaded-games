@@ -1,97 +1,1173 @@
 {
   "bucket": "rabigame",
   "bucket_target": "r_game/dev",
-  "upload_time": "2026-05-08T11:18:48.506233",
-  "success": 22,
-  "failed": 1,
+  "upload_time": "2026-05-11T20:39:38.612937",
+  "success": 291,
+  "failed": 0,
   "files": [
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/style.css",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/style.css"
+      "path": "r_game/dev/lips-diy-master/assets-manifest.json",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/assets-manifest.json"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/video/video_Blocky_Puzzle.mp4",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/video/video_Blocky_Puzzle.mp4"
+      "path": "r_game/dev/lips-diy-master/data.json",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/data.json"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads.png"
+      "path": "r_game/dev/lips-diy-master/index.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/index.html"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-draw-to-smash.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-draw-to-smash.png"
+      "path": "r_game/dev/lips-diy-master/load-sdk.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/load-sdk.js"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/.DS_Store",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/.DS_Store"
+      "path": "r_game/dev/lips-diy-master/master-loader.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/master-loader.js"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/volum-on.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/volum-on.png"
+      "path": "r_game/dev/lips-diy-master/poki-sdk-stub.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/poki-sdk-stub.js"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-temple-run-2.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-temple-run-2.png"
+      "path": "r_game/dev/lips-diy-master/style.css",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/style.css"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-bullet-bros.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-bullet-bros.png"
+      "path": "r_game/dev/lips-diy-master/unity-2020.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/unity-2020.js"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-Blocky_Puzzle.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-cover-Blocky_Puzzle.png"
+      "path": "r_game/dev/lips-diy-master/workermain.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/workermain.js"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/volum-off.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/volum-off.png"
+      "path": "r_game/dev/lips-diy-master/images/bggradients-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/bggradients-sheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads-banner.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/fall-back-ads-banner.png"
+      "path": "r_game/dev/lips-diy-master/images/bgicons-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/bgicons-sheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/play-button.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/play-button.png"
+      "path": "r_game/dev/lips-diy-master/images/bgtiletb-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/bgtiletb-sheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/.DS_Store",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/.DS_Store"
+      "path": "r_game/dev/lips-diy-master/images/buttonicon-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/buttonicon-lsheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-bullet-bros.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-bullet-bros.png"
+      "path": "r_game/dev/lips-diy-master/images/buttonicon-lsheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/buttonicon-lsheet1.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/hot-icon.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/hot-icon.png"
+      "path": "r_game/dev/lips-diy-master/images/buttonsettingsclose-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/buttonsettingsclose-lsheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-temple-run-2.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-temple-run-2.png"
+      "path": "r_game/dev/lips-diy-master/images/clothes-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/clothes-lsheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-popular.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-popular.png"
+      "path": "r_game/dev/lips-diy-master/images/clothes-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/clothes-sheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-blumgi-slime.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-blumgi-slime.png"
+      "path": "r_game/dev/lips-diy-master/images/clothes-sheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/clothes-sheet1.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-Blocky_Puzzle.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-Blocky_Puzzle.png"
+      "path": "r_game/dev/lips-diy-master/images/clothes-sheet2.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/clothes-sheet2.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-tail-wing-h5.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/icon-tail-wing-h5.png"
+      "path": "r_game/dev/lips-diy-master/images/clothes-sheet3.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/clothes-sheet3.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-draw-to-smash.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/images/game-icon/game-icon-draw-to-smash.png"
+      "path": "r_game/dev/lips-diy-master/images/handback-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/handback-sheet0.webp"
     },
     {
-      "path": "r_game/dev/admob_ads/Blocky_Puzzle/.output/bucket-upload-failed-manifest.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/admob_ads/Blocky_Puzzle/.output/bucket-upload-failed-manifest.json"
+      "path": "r_game/dev/lips-diy-master/images/itemicons-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/itemicons-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/itemicons-lsheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/itemicons-lsheet1.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/itemspanelanchortb-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/itemspanelanchortb-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/lipsoverlayfinishtb-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/lipsoverlayfinishtb-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/lipspart-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/lipspart-sheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/lipspart-sheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/lipspart-sheet1.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/lipstextures-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/lipstextures-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/lipstextures-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/lipstextures-sheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/maintiledbg-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/maintiledbg-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/newclothess-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/newclothess-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/newclothess-lsheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/newclothess-lsheet1.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/newclothess-lsheet2.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/newclothess-lsheet2.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/newclothess-lsheet3.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/newclothess-lsheet3.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/paintpart-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/paintpart-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet1.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet10.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet10.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet11.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet11.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet12.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet12.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet13.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet13.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet14.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet14.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet15.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet15.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet16.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet16.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet2.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet2.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet3.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet3.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet4.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet4.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet5.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet5.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet6.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet6.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet7.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet7.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet8.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet8.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-lsheet9.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-lsheet9.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet1.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet1.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet2.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet2.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet3.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet3.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet4.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet4.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet5.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet5.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/shared-0-sheet6.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/shared-0-sheet6.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/stagescreenbgtb-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/stagescreenbgtb-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/sticker-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/sticker-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/stickerbuttonanchortb-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/stickerbuttonanchortb-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/uistageprogressbackline-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/uistageprogressbackline-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/uistageprogressicons-lsheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/uistageprogressicons-lsheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/images/uistageprogressicons-sheet0.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/images/uistageprogressicons-sheet0.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/bgimg_high.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/bgimg_high.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/bgimg_low.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/bgimg_low.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/eye_closed.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/eye_closed.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/girl.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/girl.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/hand.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/hand.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/lilita-one-numbers.woff2",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/lilita-one-numbers.woff2"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/loading.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/loading.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/logo.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/logo.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/progress_pattern.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/progress_pattern.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/Loader/sparkle.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/Loader/sparkle.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/media/ad_collect.webm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/media/ad_collect.webm"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/media/cleaning.webm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/media/cleaning.webm"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/media/click.webm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/media/click.webm"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/media/LipsSound.webm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/media/LipsSound.webm"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/media/paint.webm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/media/paint.webm"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/media/pimple.webm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/media/pimple.webm"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/c3main.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/c3main.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/c3runtime.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/c3runtime.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/dispatchworker.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/dispatchworker.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/jobworker.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/jobworker.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/main.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/main.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/modernjscheck.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/modernjscheck.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/objRefTable.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/objRefTable.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/supportcheck.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/supportcheck.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/actions.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/actions.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/conditions.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/conditions.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/expressions.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/expressions.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/instance.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/instance.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/main.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/main.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/plugin.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/plugin.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/type.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/plugins/WeLoPlay_WSDK/c3runtime/type.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/project/game.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/project/game.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/scripts/project/javaScriptInEvents.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/scripts/project/javaScriptInEvents.js"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/arrows/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/arrows/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/000.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/000.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/001.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/001.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/002.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/002.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/003.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/003.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/004.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/004.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/005.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/005.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/006.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/006.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/007.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/007.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/008.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/008.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/bgs/009.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/bgs/009.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/009.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/009.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/010.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/010.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/011.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/011.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/012.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/012.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/013.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/013.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/014.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/014.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/015.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/015.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/016.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/016.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/017.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/017.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/018.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/018.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/blush/019.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/blush/019.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/browns/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/browns/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/decor/009.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/decor/009.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/earRings/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/earRings/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/earRings/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/earRings/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/earRings/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/earRings/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/earRings/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/earRings/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/earRings/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/earRings/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/001.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/001.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/002.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/002.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/003.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/003.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/004.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/004.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/005.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/005.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/006.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/006.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/007.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/007.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/008.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/008.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/009.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/009.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/010.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/010.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/011.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/011.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/012.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/012.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/013.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/013.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/014.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/014.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/015.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/015.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/016.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/016.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/017.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/017.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/018.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/018.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/hair/019.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/hair/019.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/009.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/009.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/010.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/010.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/011.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/011.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/012.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/012.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/013.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/013.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/lashes/014.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/lashes/014.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/001.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/001.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/002.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/002.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/003.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/003.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/004.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/004.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/005.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/005.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/006.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/006.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/007.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/007.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/008.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/008.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/009.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/009.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/010.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/010.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/011.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/011.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/012.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/012.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/013.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/013.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/015.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/015.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/016.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/016.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/017.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/017.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/main/018.webp",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/main/018.webp"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/009.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/009.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/010.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/010.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/011.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/011.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/012.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/012.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/013.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/013.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/neck/014.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/neck/014.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/glitter.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/glitter.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/overlayToRemove.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/overlayToRemove.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/pickBack.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/pickBack.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/stageIcon0.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/stageIcon0.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/stageIcon1.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/stageIcon1.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/stageIconEffect.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/stageIconEffect.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/other/stageOk0.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/other/stageOk0.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/pircing/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/pircing/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/shadows/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/shadows/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/shadows/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/shadows/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/shadows/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/shadows/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/shadows/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/shadows/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/shadows/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/shadows/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/009.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/009.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/010.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/010.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/011.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/011.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/012.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/012.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/013.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/013.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/014.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/014.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/015.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/015.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/016.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/016.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/017.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/017.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/018.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/018.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/019.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/019.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/020.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/020.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/021.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/021.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/022.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/022.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/023.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/023.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/024.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/024.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/025.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/025.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/026.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/026.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/027.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/027.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/028.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/028.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/stickers/029.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/stickers/029.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/000.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/000.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/001.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/001.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/002.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/002.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/003.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/003.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/004.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/004.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/005.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/005.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/006.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/006.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/007.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/007.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/008.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/008.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/009.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/009.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/010.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/010.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/011.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/011.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/012.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/012.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/013.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/013.png"
+    },
+    {
+      "path": "r_game/dev/lips-diy-master/ToLoad/textures/014.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/dev/lips-diy-master/ToLoad/textures/014.png"
     }
   ]
 }

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="poki-sdk-stub.js"></script>
+    <meta charset="UTF-8">
+	<title>Lips</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	
+	<!-- Made with Construct, the game and app creator :: https://www.construct.net -->
+	<meta name="generator" content="Scirra Construct">
+
+
+
+	<link rel="manifest" href="appmanifest.json">
+
+
+	<link rel="stylesheet" href="style.css">
+
+
+<style>
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #8750c5;
+  }
+
+  img {
+    pointer-events: none;
+    user-select: none;
+  }
+
+  #background-low {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.5s;
+    opacity: 1;
+    background-image: url("Loader/bgimg_low.webp");
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+    background-position: center, center;
+  }
+
+  #root {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1000;
+    transition: opacity 0.5s;
+  }
+
+  #background-high {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    background-image: url("Loader/bgimg_high.webp");
+    scale: 1.025;
+    transform-origin: center center;
+    background-size: auto 100%, auto 100%;
+    background-repeat: repeat, repeat;
+    background-position: 50%, 0%;
+  }
+
+  .progress-bar-container {
+    position: absolute;
+    left: calc((100% - 30%) / 2);
+    width: 30%;
+    height: 42px;
+    bottom: calc(110px - 42px);
+    border: solid 0.2em #ffffff;
+    border-radius: 999px;
+    background: #ff52c0;
+    user-select: none;
+    overflow: hidden;
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    width: 0%;
+    outline-offset: -3px;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: #ff8e00;
+    background: url("Loader/progress_pattern.webp");
+    background-repeat: repeat, repeat;
+    background-size: auto 100%, auto 100%;
+    border-radius: 50px;
+    animation: move-gradient 2s linear infinite;
+    transition: width 0.1s ease-in-out;
+    user-select: none;
+  }
+
+  @font-face  {
+    font-family: Lilita;
+    src: url("data:application/octet-stream;base64,d09GMgABAAAAAAUwAA8AAAAACIgAAATdAAEAgwAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbEBwaBmAAPBEICogQhl8BNgIkAzALGgAEIAWDJAcgDAcbtwbIrgpsY2nQB9pkPOPmLAaNoME8FsQ3gud5Pd5z7/si2k4yJilpnZQYKazgBueoLqtOPLOBjBVfEXgSv/D8r/M8ONppTkyLSgLqfpqcykq9t7ZcANbOf/vCJCl5/vtTNQ8TC+Z8kkU8Imn365z0qWvh2qADtAKlbltDqFSrcAvqPZYX9Rt4NaEKAUIgVSuCEIwAGCSdYdI4XBiHImj0gNpyoJJ2q2yTZfiCnlYHWFR9KG+o4g8oSSmc1L5HdAx4UONkBrwAs5HXZU5+a5kM+CCCwRhpF8kKUAB+MUF3Ew9gyjLhvfbwjmZBPITD/3YkAMQC0gxIdpGcKdjp+3e7VKDEoAHUGiG/LTy9UJFfOx6XjhAVjQ14+cS6x3pAfBhns8DawV58PXy79F7cLT1ZsuUuzCk72wrk09kP2fdJ9148tu6zHxIf5FgsZDo7yN6Eh7pbIDTE6TpCVPjJZifrku7ZrLut8HiGA6zHsd3GO9cSiA9X8TvB4BZxxx9zDiI7X8u+hTZBTvMH9kP2fbA6W+tjU/a0xu3EOrdF9qsCB+0sRBRivbocenRGnUexpUZ8we4zrwjuIT7EQSzp3kSboM6rFpCxg4edxJzOF0sInHmA9sWquHYnnmDpHq3hY9wd1MWSP0uvoDdXDHLNbomtL9sTnnDdvfYn7mdax+yTyO56qZu9gDkZ6y4nE+67N3UuB62wPzyVxrbep6f9LxpsDv6/2mXAcWwWLS79dKf+NSe90r00Ros++8qBeU106EG5j8/KWJ9Mrf9oOU/uRtWA04HvY9mjW/83HioeWZsUr9F1zDoSZR03ZhuFXITU1cgvo5D017oeESUVjnOgtY6Yz2D9uJdvO6Vcrfcudezb+qmhTRSz4Ktr3SduRXhd9g+0/U50A1UV/wG+FfUNJZzuqSokOMVi7bzK3gRDiKOdaWRKu9mpUe38mgo826ybM6i1bRFEU0i7COsNasAyuENgmp3Nbr223iikl/xktkNXeIYvy/bCg3H32XlKJqws4h9yieaZJYUt15Z2vvGY5iCRGyaNmqqGiGS0j4+DXQ2ek5E6LPwZXzONMLGuS156YUo5vfMTeW5oZ+oepcfNtL46ylIjPsyNoDmWkNwEnCERN49bYzMfrqYN0Loe0Qd07hE/4D8cuKjl67z60/1b+jjP2CVXJg2G67/FNZKOFmratnxqtXy1zUtexX2JrpY08zWQg6Y9weKt7zVMVS+qqn04i/qONDp0lnWLueAkUcjk5Rh60jzd/IYgGoBwjwzW0wSClulpir1l/SKAMPveRGBShkTtbwHMe4BbpYFX2GbP8Zh9sxEIQIHVEcxGSgDztUA9ASFdG8I1MGnoaAdK6SFcQylWSWQ1HpqGdOgBbfhGgjqjonYYgthR2QYC4A6QZ6A+EADgT09QxCcQOA2UF2I44pUw7vOG+vxHfcq8L0mi/gp+RIkjPrRoM6FLhRJl+sgwJAc9mlhjiRVWaBLMgAxNZITRokmfFl0KU3trtbO4aPdA2BDyOhlylK+1kE2FKXpM0aSBCn3KyIimQI8CxaGsyCPDn5MJMsKFvVEqkqFNKNRe3wOZGSJoUgAM58VLDG52dd/cXUx3o7l71P1re/zL4j0qe1E2QXNw3BLrXUbhR0lq3hGqKD8uXvsFFgM=");
+  }
+
+  .progress-text-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+  }
+
+  #progress-percentage {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Lilita, sans-serif;
+    user-select: none;
+  }
+
+  .progress-text-outline {
+    stroke: #aa0667;
+    stroke-width: 8px;
+    stroke-linejoin: round;
+    fill: none;
+  }
+
+  .progress-text-fill {
+    fill: white;
+    stroke: none;
+  }
+
+  @media (min-aspect-ratio: 1/2) {
+    .progress-bar-container {
+      left: calc((100% - 35%) / 2);
+      width: 35%;
+    }
+  }
+
+  @media (min-aspect-ratio: 1/1.25) {
+    .progress-bar-container {
+      left: calc((100% - 50%) / 2);
+      width: 50%;
+    }
+  }
+
+  #visuals-container {
+    position: relative;
+    transform-origin: top left;
+  }
+
+  .animation-sparkle {
+    position: absolute;
+    animation: sparkle 0.75s ease-in-out infinite alternate;
+    filter: drop-shadow(0px 0px 5px #ffffffff);
+  }
+
+  @keyframes sparkle {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  #spinner {
+    position: absolute;
+    z-index: 1002;
+    left: calc(50% - 50px / 2);
+    bottom: 135px;
+    scale: 1.25;
+    width: 50px;
+    height: 49px;
+    animation: spin 2.5s linear infinite;
+    user-select: none;
+  }
+
+  @keyframes spin {
+    0% {
+      rotate: -360deg;
+    }
+    100% {
+      rotate: 0deg;
+    }
+  }
+
+  #animation-girl-container {
+    position: absolute;
+    scale: 1.115;
+    transform-origin: center bottom;
+    animation: girl-wave 8s linear infinite alternate;
+    bottom: -5px;
+    left: calc(50% - 505px/2);
+  }
+
+  @keyframes girl-wave {
+    0% {
+      rotate: 1deg;
+    }
+    100% {
+      rotate: -1deg;
+    }
+  }
+
+  #animation-hand {
+    position: absolute;
+    transform-origin: 50% 95%;
+    top: 49%;
+    animation: hand-wave 7s linear infinite alternate;
+    left: 5.8%;
+  }
+
+  @keyframes hand-wave {
+    0% {
+      rotate: -15deg;
+    }
+    100% {
+      rotate: 15deg;
+    }
+  }
+
+  #animation-eye-closed {    
+    position: absolute;
+    transform-origin: 50% 95%;
+    top: 27%;
+    left: 62%;
+
+    -webkit-mask-image: linear-gradient(
+      20deg,
+      transparent 0%,
+      transparent 50%,
+      black 65%,
+      black 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 200% 200%;
+    -webkit-mask-position: 0 0;
+
+    mask-image: linear-gradient(
+      20deg,
+      transparent 0%,
+      transparent 50%,
+      black 65%,
+      black 100%
+    );
+    mask-repeat: no-repeat;
+    mask-size: 200% 200%;
+    mask-position: 0 0;
+
+    animation: mask-fade 4s cubic-bezier(0.6, 0, 0.4, 1) infinite;
+  }
+
+  @keyframes mask-fade {
+    0% {
+      -webkit-mask-position: 0 100%;
+      mask-position: 0 100%;
+    }
+    20% {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+    }
+    40% {
+      -webkit-mask-position: 0 100%;
+      mask-position: 0 100%;
+    }
+    100% {
+      -webkit-mask-position: 0 100%;
+      mask-position: 0 100%;
+    }
+  }
+
+  #animation-logo {
+    position: absolute;
+    top: 2.5%;
+    left: calc(50% - 315px/2);
+    animation: logo-scale 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes logo-scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+</style>
+
+<body>
+  <div id="background-low"></div>
+
+  <div id="root">
+    <div id="background-high"></div>
+
+    <div id="visuals-container">
+      <div id="animations"></div>
+
+      <div class="progress-bar-container">
+        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        <div class="progress-text-wrapper">
+          <svg id="progress-percentage">
+            <text class="progress-text-outline" x="50%" y="51.5%" text-anchor="middle" dominant-baseline="middle">0%</text>
+            <text class="progress-text-fill" x="50%" y="51.5%" text-anchor="middle" dominant-baseline="middle">0%</text>
+          </svg>
+        </div>
+      </div>
+
+      <img src="Loader/loading.webp" id="spinner" />
+    </div>
+  </div>
+
+  <script>
+    var backgroundLow = document.getElementById("background-low");
+    var root = document.getElementById("root");
+    var backgroundHigh = document.getElementById("background-high");
+    var visualsContainer = document.getElementById("visuals-container");
+    var animations = document.getElementById("animations");
+
+    var rand = (min, max) => (max - min) * Math.random() + min;
+
+    {
+      const img = new Image();
+      img.src = "Loader/bgimg_high.webp";
+      img.onload = () => {
+        animations.innerHTML = [
+          '<div id="animation-girl-container">',
+            '<img id="animation-girl" src="Loader/girl.webp" />',
+            '<img id="animation-hand" src="Loader/hand.webp" />',
+            '<img id="animation-eye-closed" src="Loader/eye_closed.webp" />',
+          '</div>',
+          '<img id="animation-logo" src="Loader/logo.webp" />',
+        ].join("\n");
+        var sideSparkles = 20;
+        var setupSideSparkle = (sparkleImage, right) => {
+          if (right) {
+            sparkleImage.style.left = `calc(50% + ${rand(-500, -200)}px)`;
+          } else {
+            sparkleImage.style.left = `calc(50% + ${rand(200, 500)}px)`;
+          }
+          sparkleImage.style.top = `calc(50% + ${rand(-440, 270)}px)`;
+        };
+        for (var i = 0; i < sideSparkles; i++) {
+          const right = i % 2 === 0;
+          timeouts.push(
+            setTimeout(
+              () => {
+                var sparkleImage = new Image();
+                sparkleImage.src = "Loader/sparkle.png";
+                sparkleImage.className = "animation-sparkle";
+                sparkleImage.style.scale = (1 + Math.random() * 0.5).toString();
+                sparkleImage.style.rotate = `${360 * Math.random()}deg`;
+                setupSideSparkle(sparkleImage, right);
+                intervals.push(setInterval(() => setupSideSparkle(sparkleImage, right), 1500));
+                animations.appendChild(sparkleImage);
+              },
+              i * (1500 / sideSparkles),
+            ),
+          );
+        }
+
+        var logoSparkles = 6;
+        var setupLogoSparkle = (sparkleImage) => {
+          sparkleImage.style.left = `calc(50% + ${rand(-150, 150)}px)`;
+          sparkleImage.style.top = `calc(50% + ${rand(-430, -270)}px)`;
+        };
+        for (var i = 0; i < logoSparkles; i++) {
+          timeouts.push(
+            setTimeout(
+              () => {
+                var sparkleImage = new Image();
+                sparkleImage.src = "Loader/sparkle.png";
+                sparkleImage.className = "animation-sparkle";
+                sparkleImage.style.scale = (1 + Math.random() * 0.5).toString();
+                sparkleImage.style.rotate = `${360 * Math.random()}deg`;
+                setupLogoSparkle(sparkleImage);
+                intervals.push(setInterval(() => setupLogoSparkle(sparkleImage), 1500));
+                animations.appendChild(sparkleImage);
+              },
+              i * (1500 / logoSparkles),
+            ),
+          );
+        }
+      };
+    }
+
+    var intervals = [];
+    var timeouts = [];
+
+    var animationsWidth = 1120;
+    var animationsHeight = 900;
+    var animationsAspect = animationsWidth / animationsHeight;
+    var resize = () => {
+      var tWidth = innerHeight * animationsAspect;
+      visualsContainer.style.left = `${(innerWidth - tWidth) / 2}px`;
+      visualsContainer.style.top = "0px";
+      visualsContainer.style.width = `${animationsWidth}px`;
+      visualsContainer.style.height = `${animationsHeight}px`;
+      visualsContainer.style.transform = `scaleX(${tWidth / animationsWidth}) scaleY(${innerHeight / animationsHeight})`;
+    };
+    resize();
+    window.addEventListener("resize", resize);
+
+    var blurredOut = false;
+    window.addEventListener("focus", () => (blurredOut = false));
+    window.addEventListener("blur", () => (blurredOut = true));
+
+    var fakeLoadingPercentage = 0;
+    var engineProgress = 0;
+    var displayedPercentage = 0;
+    var preloadPercentage = 0;
+
+    var progressUpdateInterval = setInterval(() => {
+      if (fakeLoadingPercentage < 6) {
+        fakeLoadingPercentage += 1;
+        updateProgressBar();
+      } else {
+        clearInterval(progressUpdateInterval);
+      }
+    }, 2000);
+    intervals.push(progressUpdateInterval);
+
+    var progressBarFill = document.getElementById("progress-bar-fill");
+    var progressTextOutline = document.querySelector(".progress-text-outline");
+    var progressTextFill = document.querySelector(".progress-text-fill");
+    function updateProgressBar() {
+      var enginePortion = 100 - preloadPercentage - fakeLoadingPercentage;
+      displayedPercentage = Math.max(displayedPercentage, Math.floor(engineProgress * enginePortion) + preloadPercentage + fakeLoadingPercentage);
+      var text = `${displayedPercentage}%`;
+      progressTextOutline.textContent = text;
+      progressTextFill.textContent = text;
+      progressBarFill.style.width = `${displayedPercentage}%`;
+    }
+
+    window.addEventListener("set-loader-progress", (event) => {
+      engineProgress = event.detail.progress;
+      updateProgressBar();
+    });
+
+    window.addEventListener("hide-loader", () => {
+      for (var i = 0; i < intervals.length; i++) clearInterval(intervals[i]);
+      for (var i = 0; i < timeouts.length; i++) clearTimeout(timeouts[i]);
+
+      backgroundLow.remove();
+
+      root.style.opacity = "0";
+
+      setTimeout(() => {
+        root.remove();
+      }, 500);
+    });
+
+    function preloadGameAssets() {
+      var gameAssets = [
+        ["data.json", 2],
+        ["scripts/main.js", 3],
+        ["scripts/c3main.js", 4],
+      ];
+
+      Promise.all(
+        gameAssets.map(([url, percentage]) => {
+          var handle = (response) => {
+            if (!response.ok) return;
+            preloadPercentage += percentage;
+            updateProgressBar();
+          };
+
+          return fetch(url).then(handle, handle);
+        }),
+      );
+    }
+
+    preloadGameAssets();
+  </script>
+</body>
+
+</head> 
+ 
+<body>
+
+	
+	<script src="load-sdk.js"></script>
+<script>
+if (location.protocol.substr(0, 4) === "file")
+{
+	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+}
+</script>
+	
+	<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+	<script src="scripts/modernjscheck.js"></script>
+	<script src="scripts/supportcheck.js"></script>
+	<script src="scripts/main.js" type="module"></script>
+
+
+</body> 
+</html>
