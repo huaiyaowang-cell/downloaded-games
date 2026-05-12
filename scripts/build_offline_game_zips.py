@@ -5,13 +5,13 @@
 
 功能：
 1) 读取现有配置，识别要处理的游戏目录（与上传脚本一致）
-2) 为每个游戏构建离线包目录结构：与 GCS 直传对象键一致：<BUCKET_TARGET>/<game_name>/...；
-   --dev 时为 <BUCKET_TARGET>/dev/<game_name>/...（与 upload_root_folders_to_bucket.py --dev 的桶内前缀一致）
+2) 为每个游戏构建离线包目录结构：zip 内以 rabigame.fun/ 为根，即 rabigame.fun/<BUCKET_TARGET>/<game_name>/...；
+   --dev 时为 rabigame.fun/<BUCKET_TARGET>/dev/<game_name>/...（dev 为单独一级）
 3) 生成 zip，命名为：<game_name>-<fingerprint>.zip
 4) 保存到：a-offline-game-zip/<game_name>/（--dev 时为 a-offline-game-zip-dev/<game_name>/）
 5) 可上传到 CDN 对应 bucket，并打印 CDN 地址 + Storage 源地址
-   --dev 与 upload --dev 一致：zip 内路径为 <BUCKET_TARGET>/dev/<game>/...（不含域名段；CDN 为 https://rabigame.fun/该路径）
-   对象键前缀仍为 a-offline-game-zip/dev/
+   浏览器入口仍为 https://rabigame.fun/<BUCKET_TARGET>/(dev/)<game>/（与直传一致；zip 内多一层 rabigame.fun 目录名便于本地解压对齐）
+   对象键前缀：a-offline-game-zip/ 或 a-offline-game-zip/dev/
 """
 
 from __future__ import annotations
@@ -74,8 +74,8 @@ def _build_one_zip(
 
     with tempfile.TemporaryDirectory(prefix=f"offline-{game_name}-") as tmp:
         temp_root = Path(tmp)
-        # 与 upload 脚本 remote 路径一致：r_game/... 或 r_game/dev/...（不含 rabigame.fun 域名段）
-        staged_game_dir = temp_root / bucket_target_base
+        # zip 内路径以 rabigame.fun/ 为根，与 CDN 主机名对应；其下与桶内前缀一致（含 dev 一级）
+        staged_game_dir = temp_root / "rabigame.fun" / bucket_target_base
         if dev_target:
             staged_game_dir = staged_game_dir / "dev"
         staged_game_dir = staged_game_dir / game_name
@@ -187,7 +187,7 @@ def main(build: bool, upload: bool, dev_target: bool = False) -> None:
     print(f"📋 游戏目录: {[p.name for p in roots]}")
     print(f"📋 离线包输出目录: {offline_zip_dir}")
     print(f"📋 离线包 zip 对象键前缀: {remote_prefix}/")
-    print(f"📋 zip 内路径前缀（与桶内直传一致）: {bucket_target}/<game_name>/")
+    print(f"📋 zip 内路径前缀: rabigame.fun/{bucket_target}/<game_name>/")
     print(f"📋 对应 CDN 入口: {CDN_BASE_URL.rstrip('/')}/{bucket_target}/<game_name>/index.html")
     if offline_include_folders:
         print("📋 游戏来源: OFFLINE_INCLUDE_FOLDERS")
@@ -299,7 +299,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--dev",
         action="store_true",
-        help="Align with upload --dev: BUCKET_TARGET/dev in zip layout; output under a-offline-game-zip-dev; GCS prefix a-offline-game-zip/dev/",
+        help="Dev zip layout: rabigame.fun/<BUCKET_TARGET>/dev/<game>/...; output under a-offline-game-zip-dev; GCS key prefix a-offline-game-zip/dev/",
     )
     args = parser.parse_args()
 
