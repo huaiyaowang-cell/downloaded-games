@@ -1,0 +1,148 @@
+{
+  "gameName": "count-control-legends",
+  "pageUrl": "https://poki.com/zh/g/count-control-legends",
+  "gameUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/index.html",
+  "engine": "unity",
+  "startedAt": "2026-03-31T07:00:28.096Z",
+  "stoppedAt": "2026-03-31T07:05:28.305Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 855,
+    "downloaded": 17,
+    "failed": 0,
+    "skipped": 148
+  },
+  "files": [
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/Build/180b03074745078a7fe292b2c22f6060.data.unityweb",
+      "localPath": "Build/180b03074745078a7fe292b2c22f6060.data.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/Build/c7cea366ea8eaab59722a8d24073643f.loader.js",
+      "localPath": "Build/c7cea366ea8eaab59722a8d24073643f.loader.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/Build/180b03074745078a7fe292b2c22f6060.data.unityweb",
+      "localPath": "Build/180b03074745078a7fe292b2c22f6060.data.unityweb",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/Build/f1c87ec2ef0c4ed9b3c34bb439b0c5de.wasm.unityweb",
+      "localPath": "Build/f1c87ec2ef0c4ed9b3c34bb439b0c5de.wasm.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/StreamingAssets/aa/catalog.json",
+      "localPath": "StreamingAssets/aa/catalog.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/Build/2320a17ab13f3e61f4a62a2cc0382528.framework.js.unityweb",
+      "localPath": "Build/2320a17ab13f3e61f4a62a2cc0382528.framework.js.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/StreamingAssets/aa/catalog.json",
+      "localPath": "StreamingAssets/aa/catalog.json",
+      "status": "ok",
+      "requestType": "xmlhttprequest"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c.gdn.poki.com/8ddc40b5-de13-4132-9c3b-976cde6a4b9e/index.html?country=US&ccpaApplies=1&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-340ffc543c580ac8f9b0445177e3c6821907348f&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcount-control-legends&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=4%2C7%2C9%2C93%2C96%2C903%2C927%2C933%2C1190&experiment=test-959a0db8&game_id=b548f9a6-31d8-4d28-a6b0-c0ea9ef3587c&game_version_id=8ddc40b5-de13-4132-9c3b-976cde6a4b9e&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "poki-sdk-stub.js",
+      "status": "ok"
+    }
+  ]
+}

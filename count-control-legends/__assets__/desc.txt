@@ -1,0 +1,9 @@
+One Line Description (English)
+Grow your stickman army with math gates, crush enemies!
+
+
+HOW TO PLAY (English)
+Swipe left/right to move your stickman army 
+Choose math gates (+, -, ×, ÷) to grow your numbers
+Avoid obstacles that reduce your army size
+Crush enemy squads and defeat the final boss
