@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fallback Ad 300x100</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 320px;
+      height: 100px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+    }
+    .ad {
+      width: 320px;
+      height: 100px;
+      padding: 6px;
+      background: #ffffff;
+      border: 1px solid #e8e8ee;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 6px;
+      align-items: start;
+    }
+    .card {
+      flex: 0 0 92px;
+      text-decoration: none;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 0;
+    }
+    .thumb {
+      position: relative;
+      width: 68px;
+      height: 68px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #dde1ec;
+    }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .hot {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      padding: 1px 6px;
+      border-radius: 8px;
+      font-size: 10px;
+      color: #fff;
+      background: #ff4d67;
+      font-weight: 700;
+    }
+    .name {
+      margin-top: 3px;
+      text-align: center;
+      font-size: 11px;
+      line-height: 1.1;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+<body>
+  <div class="ad">
+    <a class="card" href="https://rabigame.fun/r_game/blumgi-slime/index.html?gameChannel=fallback" aria-label="Traffic Run">
+      <div class="thumb">
+        <span class="hot">Hot</span>
+        <img src="images/blumgi-slime.png" alt="Traffic Run" />
+      </div>
+      <div class="name">blumgi-slime</div>
+    </a>
+    <a class="card" href="https://rabigame.fun/r_game/screw_jam/index.html?gameChannel=fallback" aria-label="Puffy Cat">
+      <div class="thumb">
+        <span class="hot">Hot</span>
+        <img src="images/screw_jam.png" alt="Puffy Cat" />
+      </div>
+      <div class="name">screw_jam</div>
+    </a>
+    <a class="card" href="https://rabigame.fun/r_game/Candy-Sort-Story/index.html?gameChannel=fallback" aria-label="Blocky Puzzle">
+      <div class="thumb">
+        <span class="hot">Hot</span>
+        <img src="images/Candy-Sort-Story.png" alt="Blocky Puzzle" />
+      </div>
+      <div class="name">Candy-Sort-Story</div>
+    </a>
+  </div>
+  <script>
+    (function () {
+      function onAdClick(event) {
+        event.preventDefault();
+        var href = event.currentTarget && event.currentTarget.getAttribute("href");
+        if (!href || href === "#" || href.indexOf("javascript:") === 0) return;
+        try {
+          window.parent.postMessage({ type: "fallback_ad_navigate", href: href }, "*");
+        } catch (e) {
+          window.top.location.href = href;
+        }
+      }
+      var links = document.querySelectorAll("a.card[href]");
+      for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", onAdClick);
+      }
+    })();
+  </script>
+</body>
+</html>
+

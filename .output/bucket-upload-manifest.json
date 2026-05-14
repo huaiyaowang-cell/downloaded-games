@@ -1,169 +1,77 @@
 {
   "bucket": "rabigame",
-  "bucket_target": "r_game/dev",
-  "upload_time": "2026-05-11T17:20:32.101114",
-  "success": 40,
+  "bucket_target": "r_game",
+  "upload_time": "2026-05-12T20:02:51.489419",
+  "success": 17,
   "failed": 0,
   "files": [
     {
-      "path": "r_game/dev/car-stunts-adventure/__loading__.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/__loading__.js"
+      "path": "r_game/admob_ads/banner_admob/poki-sdk-stub.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/poki-sdk-stub.js"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/poki-sdk-stub.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/poki-sdk-stub.js"
+      "path": "r_game/admob_ads/banner_admob/index.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/index.html"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/unity-2020.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/unity-2020.js"
+      "path": "r_game/admob_ads/banner_admob/game.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/game.html"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/index.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/index.html"
+      "path": "r_game/admob_ads/banner_admob/request-guard.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/request-guard.js"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/__game-scripts.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/__game-scripts.js"
+      "path": "r_game/admob_ads/banner_admob/assets-manifest.json",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/assets-manifest.json"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/playcanvas-stable.min.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/playcanvas-stable.min.js"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/300x250.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/300x250.html"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/styles.css",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/styles.css"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/320x50.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/320x50.html"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/2212433.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/2212433.json"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/300.100.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/300.100.html"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/config.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/config.json"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/Blocky_Puzzle.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/Blocky_Puzzle.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/__settings__.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/__settings__.js"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/parkour-race.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/parkour-race.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/2214438.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/2214438.json"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-dragon.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-dragon.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/manifest.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/manifest.json"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/puffy_cat.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/puffy_cat.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/__start__.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/__start__.js"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/shape-fold-html5.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/shape-fold-html5.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/master-loader.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/master-loader.js"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/screw_jam.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/screw_jam.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/__modules__.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/__modules__.js"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/hotel-manager.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/hotel-manager.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/assets-manifest.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/assets-manifest.json"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/Candy-Sort-Story.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/Candy-Sort-Story.png"
     },
     {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223634119/1/pallet_002.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223634119/1/pallet_002.glb"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/224116461/1/car-crash-01.mp3",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/224116461/1/car-crash-01.mp3"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/248100418/1/CarStunts.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/248100418/1/CarStunts.glb"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/245836269/1/plane.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/245836269/1/plane.json"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/224723591/1/car-stunts-tex.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/224723591/1/car-stunts-tex.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/222488141/1/PlatformConfig.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/222488141/1/PlatformConfig.js"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/206167811/1/ammo.wasm.wasm",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/206167811/1/ammo.wasm.wasm"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/245836271/1/white.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/245836271/1/white.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/222387964/1/Sport_20Car_36.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/222387964/1/Sport_20Car_36.glb"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/222387964/1/Sport Car_36.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/222387964/1/Sport%20Car_36.glb"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/206167810/1/ammo.wasm.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/206167810/1/ammo.wasm.js"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/240333011/1/round-gradient.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/240333011/1/round-gradient.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/222736866/1/car-stunts-ui.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/222736866/1/car-stunts-ui.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/222388041/1/Color.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/222388041/1/Color.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223634109/1/box_016.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223634109/1/box_016.glb"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/246164316/1/Car_20Stunts_20-_20Sun_20Rise.mp3",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/246164316/1/Car_20Stunts_20-_20Sun_20Rise.mp3"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/246164316/1/Car Stunts - Sun Rise.mp3",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/246164316/1/Car%20Stunts%20-%20Sun%20Rise.mp3"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/224897105/1/splash-of-water.mp3",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/224897105/1/splash-of-water.mp3"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223908547/1/tada-fanfare-g-cut_to75.mp3",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223908547/1/tada-fanfare-g-cut_to75.mp3"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223907959/1/car-engine.mp3",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223907959/1/car-engine.mp3"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/248125156/1/Textures_256.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/248125156/1/Textures_256.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223634108/1/box_019.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223634108/1/box_019.glb"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223907489/1/OpenSans-Medium.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223907489/1/OpenSans-Medium.png"
-    },
-    {
-      "path": "r_game/dev/car-stunts-adventure/files/assets/223634088/1/barrier_001.glb",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dev/car-stunts-adventure/files/assets/223634088/1/barrier_001.glb"
+      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-slime.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-slime.png"
     }
   ]
 }

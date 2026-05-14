@@ -1,0 +1,490 @@
+:root {
+  --page-bg: #eceef2;
+  --surface: #ffffff;
+  --text-main: #111827;
+  --text-sub: #6b7280;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+  --quest-hero: #1e2a5e;
+  --quest-cta: #7c3aed;
+  --quest-star: #fbbf24;
+  --quest-hero-flex: 46%;
+  --quest-icon-size: 96px;
+  --quest-bottom-ad-h: 100px;
+  /* Tallest bottom slot (300×250); promo padding uses this so layout does not reflow when bar height switches */
+  --quest-bottom-ad-max-h: 250px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+@supports (height: 100dvh) {
+  html {
+    height: 100dvh;
+  }
+}
+
+body {
+  margin: 0;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: var(--page-bg);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.main-content {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.bottom-ad-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  height: var(--quest-bottom-ad-h);
+  margin: 0 auto;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.bottom-ad-content--strip {
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+  box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.06);
+}
+
+.bottom-ad-pane {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-ad-content ins.adsbygoogle {
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ad-fallback-rect img {
+  object-fit: contain;
+  background: #fff;
+}
+
+.ad-fallback {
+  position: absolute;
+  inset: 0;
+  display: none;
+  z-index: 2;
+}
+
+.ad-fallback img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ad-fallback.is-visible {
+  display: block;
+}
+
+.ad-fallback-bottom img {
+  object-fit: contain;
+  background: #fff;
+}
+
+.ad-placeholder {
+  width: 100%;
+  min-height: 66px;
+  border-radius: 8px;
+  border: 1px dashed #9ca3af;
+  color: #6b7280;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+}
+
+.featured-card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.featured-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  background: #1f2330;
+}
+
+.featured-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #22b8cf;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.featured-cover.is-hidden {
+  opacity: 0;
+}
+
+.featured-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.featured-video.is-ready {
+  opacity: 1;
+}
+
+.featured-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 72px;
+  height: 72px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.featured-play-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.featured-play-btn.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.featured-popular-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 78px;
+  height: 28px;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.volume-toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.volume-toggle-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.featured-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featured-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: #1e3a5f;
+}
+
+.featured-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 17px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.play-now-btn {
+  border: 0;
+  background: #ffffff;
+  color: #222;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.mobile-ad-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mobile-ad-overlay.open { display: flex; }
+
+.mobile-ad-overlay-content {
+  width: 100%;
+  max-width: 360px;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  position: relative;
+}
+
+.mobile-ad-overlay-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mobile-ad-overlay-ad {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Blocky-style promo card — fullscreen, no page scroll */
+.promo-card.quest-promo {
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
+  background: var(--surface);
+  /* Fixed reserve for largest bottom ad; do not tie to --quest-bottom-ad-h so 100↔250 bar never squeezes hero/lower */
+  padding-bottom: calc(var(--quest-bottom-ad-max-h) + env(safe-area-inset-bottom, 0px));
+}
+
+.quest-hero {
+  position: relative;
+  flex: 0 0 var(--quest-hero-flex);
+  width: 100%;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  background-color: var(--quest-hero);
+  background-image: url("images/game-cover-Blocky_Puzzle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.quest-close {
+  position: absolute;
+  top: calc(10px + env(safe-area-inset-top, 0px));
+  right: calc(10px + env(safe-area-inset-right, 0px));
+  z-index: 6;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.quest-lower {
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 0;
+  background: #fff;
+  border-radius: 0;
+  padding: 0 24px 20px;
+  margin-top: 0;
+  z-index: 3;
+}
+
+.quest-icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: calc(var(--quest-icon-size) * -0.5);
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 4;
+  width: 100%;
+}
+
+.quest-app-icon {
+  width: var(--quest-icon-size);
+  height: var(--quest-icon-size);
+  border-radius: 22px;
+  object-fit: cover;
+  background: #0f172a;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.22);
+}
+
+.quest-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.quest-title {
+  margin: 0 0 12px;
+  font-size: clamp(1.25rem, 4.2vw, 1.45rem);
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.quest-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 48px;
+}
+
+.quest-star {
+  width: 24px;
+  height: 24px;
+  background: var(--quest-star);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.quest-cta {
+  width: 78%;
+  max-width: 320px;
+  min-width: 0;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+  border-radius: 9999px;
+  background: var(--quest-cta);
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 800;
+  padding: 15px 28px;
+  cursor: pointer;
+  box-shadow: 0 6px 22px rgba(124, 58, 237, 0.38);
+}
+
+.quest-cta:active {
+  transform: scale(0.98);
+}

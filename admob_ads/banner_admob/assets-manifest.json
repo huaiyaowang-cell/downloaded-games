@@ -1,0 +1,37 @@
+{
+  "gameName": "draw-to-smash-logic-puzzle",
+  "pageUrl": "https://poki.com/zh/g/draw-to-smash-logic-puzzle#fullscreen",
+  "gameUrl": "https://cddc772e-0863-4e85-9363-f25b7c7b6507.gdn.poki.com/f9ee3579-b4b0-4ba0-8b9b-4be1a4e00a4b/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-6e80dcdd0bacc1c664a3825bc8c4474148583b3c&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdraw-to-smash-logic-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=7%2C34%2C72%2C96%2C400%2C1126%2C1190&experiment=test-959a0db8&special_condition=landing&game_id=cddc772e-0863-4e85-9363-f25b7c7b6507&game_version_id=f9ee3579-b4b0-4ba0-8b9b-4be1a4e00a4b&inspector=0&csp=1",
+  "engine": "unknown",
+  "startedAt": "2026-03-19T02:02:03.850Z",
+  "stoppedAt": "2026-03-19T02:03:56.599Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 450,
+    "downloaded": 2,
+    "failed": 0,
+    "skipped": 0
+  },
+  "files": [
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://cddc772e-0863-4e85-9363-f25b7c7b6507.gdn.poki.com/f9ee3579-b4b0-4ba0-8b9b-4be1a4e00a4b/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-6e80dcdd0bacc1c664a3825bc8c4474148583b3c&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdraw-to-smash-logic-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=7%2C34%2C72%2C96%2C400%2C1126%2C1190&experiment=test-959a0db8&special_condition=landing&game_id=cddc772e-0863-4e85-9363-f25b7c7b6507&game_version_id=f9ee3579-b4b0-4ba0-8b9b-4be1a4e00a4b&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://cddc772e-0863-4e85-9363-f25b7c7b6507.gdn.poki.com/f9ee3579-b4b0-4ba0-8b9b-4be1a4e00a4b/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-6e80dcdd0bacc1c664a3825bc8c4474148583b3c&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdraw-to-smash-logic-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&categories=7%2C34%2C72%2C96%2C400%2C1126%2C1190&experiment=test-959a0db8&special_condition=landing&game_id=cddc772e-0863-4e85-9363-f25b7c7b6507&game_version_id=f9ee3579-b4b0-4ba0-8b9b-4be1a4e00a4b&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "poki-sdk-stub.js",
+      "status": "ok"
+    }
+  ]
+}
