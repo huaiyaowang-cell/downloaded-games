@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Blocky Puzzle - Mobile</title>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      sdkScript.addEventListener("load", function () { window.__googleAdsReady = true; });
+      sdkScript.addEventListener("error", function () { window.__googleAdsReady = false; });
+    })();
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+    adConfig({
+        preloadAdBreaks: 'on',
+        onReady: function() {
+          console.log("adBreak onReady");
+          if(window.location.search.indexOf('adType=browse') !== -1) {
+          adBreak({
+                type: 'start',
+                name: 'openad',
+                beforeAd: function() {
+                    console.log("openad beforeAd");
+                  },
+                afterAd: function(info) {
+                    console.log("openad afterAd info", info);
+                },
+            });
+          }
+        },
+    });
+  </script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div id="app" class="main-content">
+    <div class="container">
+      <section class="promo-card quest-promo" aria-label="Game promotion">
+        <div class="quest-hero">
+          <img class="quest-hero-cover" src="images/game-cover-bullet-bros-h5.png" alt="Blocky Puzzle cover" sizes="100vw">
+        </div>
+        <div class="quest-lower">
+          <div class="quest-icon-wrap">
+            <img id="featuredIcon" src="images/game-icon/game-icon-bullet-bros-h5.png" class="quest-app-icon" width="96" height="96" alt="Blocky Puzzle icon">
+          </div>
+          <div class="quest-panel">
+            <h1 id="featuredName" class="quest-title">Bullet-Bros_h5</h1>
+            <div class="quest-stars" role="img" aria-label="Rated 5 out of 5 stars">
+              <span class="quest-star"></span><span class="quest-star"></span><span class="quest-star"></span><span class="quest-star"></span><span class="quest-star"></span>
+            </div>
+            <button id="playNowBtn" class="quest-cta" type="button">Play Now</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="bottomAdRoot" class="bottom-ad-content bottom-ad-content--strip"></div>
+    </div>
+  </div>
+
+  <script>
+    (function setupPromoActions() {
+      var playNowBtn = document.getElementById("playNowBtn");
+      var featuredGameUrl = "https://rabigame.fun/r_game/bullet-bros-h5/index.html";
+
+      function goFeaturedGame() {
+        window.location.href = featuredGameUrl;
+      }
+
+      if (playNowBtn) playNowBtn.addEventListener("click", goFeaturedGame);
+    })();
+
+    (function setupBottomAdByPlayButtonDistance() {
+      var DIST_THRESHOLD = 250;
+      var AD_CLIENT = "ca-pub-4202034217897578";
+      var SLOT_BANNER = "6213940195";
+      var SLOT_RECT = "7253713217";
+      var SPONSOR_HREF = "https://rabigame.fun?from=Mob";
+      var fallbackBound = false;
+
+      function getViewportHeight() {
+        return window.innerHeight || document.documentElement.clientHeight || 0;
+      }
+
+      function buildBannerHtml() {
+        return (
+          '<div class="bottom-ad-pane bottom-ad-pane--banner">' +
+          '<ins id="bottomAdSlot" class="adsbygoogle" ' +
+          'style="display:inline-block;width:320px;height:100px" ' +
+          'data-ad-client="' + AD_CLIENT + '" data-ad-slot="' + SLOT_BANNER + '"></ins>' +
+          '<a id="bottomAdFallback" class="ad-fallback ad-fallback-bottom" href="' + SPONSOR_HREF + '" ' +
+          'target="_blank" rel="noopener noreferrer" aria-label="Open sponsor game">' +
+          '<img src="images/fall-back-ads-banner.png" alt="Fallback ad">' +
+          "</a></div>"
+        );
+      }
+
+      function buildRectHtml() {
+        return (
+          '<div class="bottom-ad-pane bottom-ad-pane--rect">' +
+          '<ins id="bottomAdSlot" class="adsbygoogle" ' +
+          'style="display:block;width:300px;height:250px" ' +
+          'data-ad-client="' + AD_CLIENT + '" data-ad-slot="' + SLOT_RECT + '"></ins>' +
+          '<a id="bottomAdFallback" class="ad-fallback ad-fallback-bottom ad-fallback-rect" href="' + SPONSOR_HREF + '" ' +
+          'target="_blank" rel="noopener noreferrer" aria-label="Open sponsor game">' +
+          '<img src="images/fall-back-ads.png" alt="Fallback ad">' +
+          "</a></div>"
+        );
+      }
+
+      function bindFallback(adSlotId, fallbackId, checkIntervalMs) {
+        var adSlot = document.getElementById(adSlotId);
+        var fallback = document.getElementById(fallbackId);
+        if (!adSlot || !fallback) return;
+
+        function showFallback() {
+          fallback.classList.add("is-visible");
+        }
+
+        function hideFallback() {
+          fallback.classList.remove("is-visible");
+        }
+
+        setInterval(function () {
+          var sdkDone = adSlot.getAttribute("data-adsbygoogle-status") === "done";
+          if (!sdkDone) {
+            return;
+          }
+
+          var adStatus = adSlot.getAttribute("data-ad-status");
+
+          if (adStatus === "filled") {
+            hideFallback();
+            return;
+          }
+
+          if (adStatus === "unfilled" || adStatus === "unfill-optimized") {
+            showFallback();
+            return;
+          }
+        }, checkIntervalMs);
+      }
+
+      function apply() {
+        var playNowBtn = document.getElementById("playNowBtn");
+        var bottomAdRoot = document.getElementById("bottomAdRoot");
+        var root = document.documentElement;
+        if (!playNowBtn || !bottomAdRoot) return;
+
+        var btnRect = playNowBtn.getBoundingClientRect();
+        var vh = getViewportHeight();
+        var distToBottom = vh - btnRect.bottom;
+        var useRect = distToBottom > DIST_THRESHOLD;
+
+        root.style.setProperty("--quest-bottom-ad-h", useRect ? "250px" : "100px");
+
+        bottomAdRoot.innerHTML = useRect ? buildRectHtml() : buildBannerHtml();
+
+        bottomAdRoot.classList.add("bottom-ad-content--ready");
+
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {}
+
+        if (!fallbackBound) {
+          fallbackBound = true;
+          bindFallback("bottomAdSlot", "bottomAdFallback", 500);
+        }
+      }
+
+      window.addEventListener("load", function () {
+        requestAnimationFrame(function () {
+          requestAnimationFrame(apply);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

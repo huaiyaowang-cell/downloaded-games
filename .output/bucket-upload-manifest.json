@@ -1,77 +1,25 @@
 {
   "bucket": "rabigame",
   "bucket_target": "r_game",
-  "upload_time": "2026-05-12T20:02:51.489419",
-  "success": 17,
+  "upload_time": "2026-05-14T17:34:33.351500",
+  "success": 4,
   "failed": 0,
   "files": [
     {
-      "path": "r_game/admob_ads/banner_admob/poki-sdk-stub.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/poki-sdk-stub.js"
+      "path": "r_game/admob_ads/admob-zips/Mob_draw-to-smash-logic-puzzle.zip",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/admob-zips/Mob_draw-to-smash-logic-puzzle.zip"
     },
     {
-      "path": "r_game/admob_ads/banner_admob/index.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/index.html"
+      "path": "r_game/admob_ads/admob-zips/Mob_bullet-bros-h5.zip",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/admob-zips/Mob_bullet-bros-h5.zip"
     },
     {
-      "path": "r_game/admob_ads/banner_admob/game.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/game.html"
+      "path": "r_game/admob_ads/admob-zips/Mob_temple-run-2.zip",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/admob-zips/Mob_temple-run-2.zip"
     },
     {
-      "path": "r_game/admob_ads/banner_admob/request-guard.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/request-guard.js"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/assets-manifest.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/assets-manifest.json"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/300x250.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/300x250.html"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/320x50.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/320x50.html"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/300.100.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/300.100.html"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/Blocky_Puzzle.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/Blocky_Puzzle.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/parkour-race.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/parkour-race.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-dragon.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-dragon.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/puffy_cat.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/puffy_cat.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/shape-fold-html5.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/shape-fold-html5.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/screw_jam.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/screw_jam.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/hotel-manager.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/hotel-manager.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/Candy-Sort-Story.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/Candy-Sort-Story.png"
-    },
-    {
-      "path": "r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-slime.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/banner_admob/fallback-ads/images/blumgi-slime.png"
+      "path": "r_game/admob_ads/admob-zips/Mob_Blocky_Puzzle.zip",
+      "url": "https://storage.googleapis.com/rabigame/r_game/admob_ads/admob-zips/Mob_Blocky_Puzzle.zip"
     }
   ]
 }

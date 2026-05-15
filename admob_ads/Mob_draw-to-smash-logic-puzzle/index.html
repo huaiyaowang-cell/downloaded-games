@@ -45,14 +45,14 @@
     <div class="container">
       <section class="promo-card quest-promo" aria-label="Game promotion">
         <div class="quest-hero">
-          <button type="button" class="quest-close" id="questCloseBtn" aria-label="Close">×</button>
+          <img class="quest-hero-cover" src="images/game-cover-draw-to-smash-logic-puzzle.png" alt="Blocky Puzzle cover" sizes="100vw">
         </div>
         <div class="quest-lower">
           <div class="quest-icon-wrap">
-            <img id="featuredIcon" src="images/game-icon/game-icon-Blocky_Puzzle.png" class="quest-app-icon" width="96" height="96" alt="Blocky Puzzle icon">
+            <img id="featuredIcon" src="images/game-icon/game-icon-draw-to-smash-logic-puzzle.png" class="quest-app-icon" width="96" height="96" alt="Blocky Puzzle icon">
           </div>
           <div class="quest-panel">
-            <h1 id="featuredName" class="quest-title">Blocky Puzzle</h1>
+            <h1 id="featuredName" class="quest-title">Draw To Smash: The Game</h1>
             <div class="quest-stars" role="img" aria-label="Rated 5 out of 5 stars">
               <span class="quest-star"></span><span class="quest-star"></span><span class="quest-star"></span><span class="quest-star"></span><span class="quest-star"></span>
             </div>
@@ -68,32 +68,21 @@
   <script>
     (function setupPromoActions() {
       var playNowBtn = document.getElementById("playNowBtn");
-      var questCloseBtn = document.getElementById("questCloseBtn");
-      var featuredGameUrl = "https://rabigame.fun/r_game/Blocky_Puzzle/index.html";
+      var featuredGameUrl = "https://rabigame.fun/r_game/draw-to-smash-logic-puzzle/index.html";
 
       function goFeaturedGame() {
         window.location.href = featuredGameUrl;
       }
 
       if (playNowBtn) playNowBtn.addEventListener("click", goFeaturedGame);
-
-      if (questCloseBtn) {
-        questCloseBtn.addEventListener("click", function () {
-          if (window.history.length > 1) {
-            window.history.back();
-            return;
-          }
-          window.close();
-        });
-      }
     })();
 
     (function setupBottomAdByPlayButtonDistance() {
       var DIST_THRESHOLD = 250;
       var AD_CLIENT = "ca-pub-4202034217897578";
       var SLOT_BANNER = "6213940195";
-      var SLOT_RECT = "2645396124";
-      var SPONSOR_HREF = "https://rabigame.fun";
+      var SLOT_RECT = "7253713217";
+      var SPONSOR_HREF = "https://rabigame.fun?from=Mob";
       var fallbackBound = false;
 
       function getViewportHeight() {
@@ -174,6 +163,8 @@
 
         bottomAdRoot.innerHTML = useRect ? buildRectHtml() : buildBannerHtml();
 
+        bottomAdRoot.classList.add("bottom-ad-content--ready");
+
         try {
           (window.adsbygoogle = window.adsbygoogle || []).push({});
         } catch (e) {}
@@ -186,9 +177,7 @@
 
       window.addEventListener("load", function () {
         requestAnimationFrame(function () {
-          setTimeout(() => {
-            requestAnimationFrame(apply);
-          }, 0)
+          requestAnimationFrame(apply);
         });
       });
     })();
