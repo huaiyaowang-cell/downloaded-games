@@ -1,8 +1,8 @@
 {
   "bucket": "rabigame",
   "bucket_target": "r_game",
-  "upload_time": "2026-05-18T12:21:33.231257",
-  "success": 21,
+  "upload_time": "2026-05-18T13:22:42.099987",
+  "success": 24,
   "failed": 0,
   "files": [
     {
@@ -88,6 +88,18 @@
     {
       "path": "r_game/count-war/screenshots/4-small.jpg",
       "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/4-small.jpg"
+    },
+    {
+      "path": "r_game/count-war/_assets_/desc.txt",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/_assets_/desc.txt"
+    },
+    {
+      "path": "r_game/count-war/_assets_/icon.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/_assets_/icon.png"
+    },
+    {
+      "path": "r_game/count-war/_assets_/preview.png",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/_assets_/preview.png"
     }
   ]
 }

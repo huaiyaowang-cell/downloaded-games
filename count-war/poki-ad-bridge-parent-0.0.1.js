@@ -1,5 +1,5 @@
 /**
- * Count War — 父页面广告桥接（AdSense / adBreak，与 happy-glass 同款方案）
+ * Count War — 父页面广告桥接（AdSense / adBreak，与 dino-fighter 同款；iframe id 为 cwGameFrame）
  */
 (function () {
   "use strict";

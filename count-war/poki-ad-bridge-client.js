@@ -1,13 +1,8 @@
 /**
- * Count War — iframe 内游戏侧广告桥接（与 happy-glass 同款）
+ * Count War — iframe 内广告桥接（postMessage 到父页；PokiSDK 代理，兼容 Unity 晚注入 PokiSDK）
  */
 (function () {
   "use strict";
-
-  if (!window.PokiSDK) {
-    console.warn("[poki-ad-client] PokiSDK 未定义，跳过桥接");
-    return;
-  }
 
   var parentWin;
   try {
@@ -31,6 +26,9 @@
     return new Promise(function (resolve, reject) {
       pending[requestId] = { resolve: resolve, reject: reject };
       try {
+        try {
+          if (parentWin && typeof parentWin.focus === "function") parentWin.focus();
+        } catch (eFocus) {}
         parentWin.postMessage(
           { type: "poki_ad_request", requestId: requestId, payload: payload || {} },
           "*"
@@ -52,44 +50,86 @@
     else p.reject(new Error(data.error || "poki_ad_request_failed"));
   });
 
-  var origCommercial =
-    typeof PokiSDK.commercialBreak === "function"
-      ? PokiSDK.commercialBreak.bind(PokiSDK)
-      : null;
+  function patchSdk(sdk) {
+    if (!sdk || typeof sdk !== "object") return;
 
-  var origRewarded =
-    typeof PokiSDK.rewardedBreak === "function"
-      ? PokiSDK.rewardedBreak.bind(PokiSDK)
-      : null;
-
-  PokiSDK.commercialBreak = function () {
-    return postRequest({ kind: "commercialBreak" }).catch(function (err) {
-      console.warn("[poki-ad-client] commercialBreak 失败，回退本地:", err);
-      return origCommercial ? origCommercial() : Promise.resolve();
-    });
-  };
-
-  PokiSDK.rewardedBreak = function (arg) {
-    if (arg && typeof arg === "object" && typeof arg.onStart === "function") {
-      try { arg.onStart(); } catch (e0) {}
+    if (!sdk.__pokiOrigAds) {
+      try {
+        Object.defineProperty(sdk, "__pokiOrigAds", {
+          value: {
+            commercialBreak:
+              typeof sdk.commercialBreak === "function"
+                ? sdk.commercialBreak.bind(sdk)
+                : null,
+            rewardedBreak:
+              typeof sdk.rewardedBreak === "function"
+                ? sdk.rewardedBreak.bind(sdk)
+                : null,
+          },
+          enumerable: false,
+          configurable: true,
+        });
+      } catch (eMeta) {
+        return;
+      }
     }
-    return postRequest({ kind: "rewardedBreak" })
-      .then(function (result) {
-        var granted = !!(result && result.rewardGranted);
-        if (typeof arg === "function") {
-          try { arg(granted); } catch (e) {}
-        } else if (arg && typeof arg === "object") {
-          if (typeof arg.onComplete === "function") {
-            try { arg.onComplete(granted); } catch (e2) {}
-          } else if (typeof arg.finished === "function") {
-            try { arg.finished(granted); } catch (e3) {}
-          }
-        }
-        return granted;
-      })
-      .catch(function (err) {
-        console.warn("[poki-ad-client] rewardedBreak 失败，回退本地:", err);
-        return origRewarded ? origRewarded(arg) : Promise.resolve(false);
+    var orig = sdk.__pokiOrigAds;
+
+    sdk.commercialBreak = function () {
+      return postRequest({ kind: "commercialBreak" }).catch(function (err) {
+        console.warn("[poki-ad-client] commercialBreak 失败，回退本地:", err);
+        return orig.commercialBreak ? orig.commercialBreak() : Promise.resolve();
       });
-  };
+    };
+
+    sdk.rewardedBreak = function (arg) {
+      if (arg && typeof arg === "object" && typeof arg.onStart === "function") {
+        try { arg.onStart(); } catch (e0) {}
+      }
+      return postRequest({ kind: "rewardedBreak" })
+        .then(function (result) {
+          var granted = !!(result && result.rewardGranted);
+          if (typeof arg === "function") {
+            try { arg(granted); } catch (e) {}
+          } else if (arg && typeof arg === "object") {
+            if (typeof arg.onComplete === "function") {
+              try { arg.onComplete(granted); } catch (e2) {}
+            } else if (typeof arg.finished === "function") {
+              try { arg.finished(granted); } catch (e3) {}
+            }
+          }
+          return granted;
+        })
+        .catch(function (err) {
+          console.warn("[poki-ad-client] rewardedBreak 失败，回退本地:", err);
+          return orig.rewardedBreak ? orig.rewardedBreak(arg) : Promise.resolve(false);
+        });
+    };
+  }
+
+  var holder = { sdk: window.PokiSDK };
+  if (!holder.sdk) {
+    console.warn("[poki-ad-client] PokiSDK 未定义，跳过桥接（请保证 poki-sdk-stub.js 在桥接脚本之前）");
+    return;
+  }
+
+  try {
+    Object.defineProperty(window, "PokiSDK", {
+      configurable: true,
+      enumerable: true,
+      get: function () {
+        return holder.sdk;
+      },
+      set: function (v) {
+        holder.sdk = v;
+        patchSdk(holder.sdk);
+      },
+    });
+  } catch (e) {
+    patchSdk(holder.sdk);
+    return;
+  }
+
+  patchSdk(holder.sdk);
+  console.log("[poki-ad-client] 已桥接父页广告（commercialBreak / rewardedBreak → postMessage）");
 })();
