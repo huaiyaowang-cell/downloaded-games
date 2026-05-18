@@ -26,17 +26,12 @@
     (function trackGoogleAdsSdkReady() {
       var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
       if (!sdkScript) return;
-      function markReady() {
+      sdkScript.addEventListener("load", function () {
         window.__googleAdsReady = true;
-      }
-      function markFailed() {
+      });
+      sdkScript.addEventListener("error", function () {
         window.__googleAdsReady = false;
-      }
-      sdkScript.addEventListener("load", markReady);
-      sdkScript.addEventListener("error", markFailed);
-      if (sdkScript.complete || sdkScript.readyState === "complete" || sdkScript.readyState === "loaded") {
-        markReady();
-      }
+      });
     })();
 
     
