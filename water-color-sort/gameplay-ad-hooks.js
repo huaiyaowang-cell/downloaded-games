@@ -1,5 +1,5 @@
 /**
- * 游玩过程中定时触发插屏（PokiSDK.commercialBreak → 父页 adBreak / 演示层）
+ * 游玩过程中定时触发插屏（PokiSDK.commercialBreak → 父页 adBreak）
  *
  * 配置（在引入本脚本之前设置）：
  *   window.__WCS_GAMEPLAY_ADS__ = {

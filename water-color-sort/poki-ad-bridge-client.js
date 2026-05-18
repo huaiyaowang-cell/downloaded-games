@@ -1,5 +1,5 @@
 /**
- * iframe 内游戏侧广告桥接（母页 AdSense / adBreak）
+ * Water Color Sort — iframe 内游戏侧广告桥接（对齐 happy-glass）
  */
 (function () {
   "use strict";
@@ -21,9 +21,6 @@
   }
 
   var pending = Object.create(null);
-  /** 插屏父页一般较快；激励需等用户看完，过短会先收到 rewardGranted:false */
-  var PARENT_REPLY_MS_COMMERCIAL = 30000;
-  var PARENT_REPLY_MS_REWARD = 130000;
 
   function genRequestId() {
     return Date.now().toString(36) + "_" + Math.random().toString(36).slice(2);
@@ -31,36 +28,16 @@
 
   function postRequest(payload) {
     var requestId = genRequestId();
-    var kind = (payload && payload.kind) || "";
     return new Promise(function (resolve, reject) {
-      var entry = {
-        _done: false,
-        timer: null,
-        finish: function (v, isErr) {
-          if (entry._done) return;
-          entry._done = true;
-          try {
-            clearTimeout(entry.timer);
-          } catch (e) {}
-          delete pending[requestId];
-          if (isErr) reject(v);
-          else resolve(v);
-        },
-      };
-      var replyMs = kind === "rewardedBreak" ? PARENT_REPLY_MS_REWARD : PARENT_REPLY_MS_COMMERCIAL;
-      entry.timer = setTimeout(function () {
-        console.warn("[poki-ad-client] 父页 " + replyMs + "ms 无回复，结束等待");
-        if (kind === "rewardedBreak") entry.finish({ rewardGranted: false }, false);
-        else entry.finish({}, false);
-      }, replyMs);
-      pending[requestId] = entry;
+      pending[requestId] = { resolve: resolve, reject: reject };
       try {
         parentWin.postMessage(
           { type: "poki_ad_request", requestId: requestId, payload: payload || {} },
           "*"
         );
       } catch (e) {
-        entry.finish(e, true);
+        delete pending[requestId];
+        reject(e);
       }
     });
   }
@@ -68,10 +45,11 @@
   window.addEventListener("message", function (event) {
     var data = event && event.data;
     if (!data || data.type !== "poki_ad_response") return;
-    var entry = pending[data.requestId];
-    if (!entry || typeof entry.finish !== "function") return;
-    if (data.ok) entry.finish(data.result || {}, false);
-    else entry.finish(new Error(data.error || "poki_ad_request_failed"), true);
+    var p = pending[data.requestId];
+    if (!p) return;
+    delete pending[data.requestId];
+    if (data.ok) p.resolve(data.result || {});
+    else p.reject(new Error(data.error || "poki_ad_request_failed"));
   });
 
   var origCommercial =
