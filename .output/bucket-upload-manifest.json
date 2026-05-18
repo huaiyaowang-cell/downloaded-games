@@ -1,97 +1,93 @@
 {
   "bucket": "rabigame",
   "bucket_target": "r_game",
-  "upload_time": "2026-05-18T12:13:03.456774",
-  "success": 22,
+  "upload_time": "2026-05-18T12:21:33.231257",
+  "success": 21,
   "failed": 0,
   "files": [
     {
-      "path": "r_game/dino-fighter/assets-manifest.json",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/assets-manifest.json"
+      "path": "r_game/count-war/assets-manifest.json",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/assets-manifest.json"
     },
     {
-      "path": "r_game/dino-fighter/game.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/game.html"
+      "path": "r_game/count-war/game.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/game.html"
     },
     {
-      "path": "r_game/dino-fighter/index.html",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/index.html"
+      "path": "r_game/count-war/index.html",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/index.html"
     },
     {
-      "path": "r_game/dino-fighter/master-loader.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/master-loader.js"
+      "path": "r_game/count-war/master-loader.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/master-loader.js"
     },
     {
-      "path": "r_game/dino-fighter/poki-ad-bridge-client.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/poki-ad-bridge-client.js"
+      "path": "r_game/count-war/poki-ad-bridge-client.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/poki-ad-bridge-client.js"
     },
     {
-      "path": "r_game/dino-fighter/poki-ad-bridge-parent-0.0.1.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/poki-ad-bridge-parent-0.0.1.js"
+      "path": "r_game/count-war/poki-ad-bridge-parent-0.0.1.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/poki-ad-bridge-parent-0.0.1.js"
     },
     {
-      "path": "r_game/dino-fighter/poki-sdk-stub.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/poki-sdk-stub.js"
+      "path": "r_game/count-war/poki-sdk-stub.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/poki-sdk-stub.js"
     },
     {
-      "path": "r_game/dino-fighter/request-guard.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/request-guard.js"
+      "path": "r_game/count-war/request-guard.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/request-guard.js"
     },
     {
-      "path": "r_game/dino-fighter/unity-2020.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/unity-2020.js"
+      "path": "r_game/count-war/unity-2020.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/unity-2020.js"
     },
     {
-      "path": "r_game/dino-fighter/_friday_last_client.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/_friday_last_client.js"
+      "path": "r_game/count-war/.output/bucket-upload-failed-manifest.json",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/.output/bucket-upload-failed-manifest.json"
     },
     {
-      "path": "r_game/dino-fighter/_friday_recovered_client.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/_friday_recovered_client.js"
+      "path": "r_game/count-war/Build/3c29c9bbd1eb934e9fa2d7bb59921309.wasm",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/Build/3c29c9bbd1eb934e9fa2d7bb59921309.wasm"
     },
     {
-      "path": "r_game/dino-fighter/Build/Build.data",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/Build/Build.data"
+      "path": "r_game/count-war/Build/68c85b6609a9789c8ac70522b812be45.framework.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/Build/68c85b6609a9789c8ac70522b812be45.framework.js"
     },
     {
-      "path": "r_game/dino-fighter/Build/Build.framework.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/Build/Build.framework.js"
+      "path": "r_game/count-war/Build/7943b1736380558df407533a08415f43.loader.js",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/Build/7943b1736380558df407533a08415f43.loader.js"
     },
     {
-      "path": "r_game/dino-fighter/Build/Build.loader.js",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/Build/Build.loader.js"
+      "path": "r_game/count-war/Build/b24fedab7b0e5a88a5bcbe49ae403c3c.data",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/Build/b24fedab7b0e5a88a5bcbe49ae403c3c.data"
     },
     {
-      "path": "r_game/dino-fighter/Build/Build.wasm",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/Build/Build.wasm"
+      "path": "r_game/count-war/screenshots/1-small.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/1-small.jpg"
     },
     {
-      "path": "r_game/dino-fighter/screenshots/1-small.jpg",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/screenshots/1-small.jpg"
+      "path": "r_game/count-war/screenshots/1.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/1.jpg"
     },
     {
-      "path": "r_game/dino-fighter/screenshots/1-small.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/screenshots/1-small.png"
+      "path": "r_game/count-war/screenshots/2-small.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/2-small.jpg"
     },
     {
-      "path": "r_game/dino-fighter/screenshots/1.jpg",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/screenshots/1.jpg"
+      "path": "r_game/count-war/screenshots/2.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/2.jpg"
     },
     {
-      "path": "r_game/dino-fighter/screenshots/1.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/screenshots/1.png"
+      "path": "r_game/count-war/screenshots/3-small.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/3-small.jpg"
     },
     {
-      "path": "r_game/dino-fighter/_assets_/desc.txt",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/_assets_/desc.txt"
+      "path": "r_game/count-war/screenshots/3.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/3.jpg"
     },
     {
-      "path": "r_game/dino-fighter/_assets_/icon.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/_assets_/icon.png"
-    },
-    {
-      "path": "r_game/dino-fighter/_assets_/preview.png",
-      "url": "https://storage.googleapis.com/rabigame/r_game/dino-fighter/_assets_/preview.png"
+      "path": "r_game/count-war/screenshots/4-small.jpg",
+      "url": "https://storage.googleapis.com/rabigame/r_game/count-war/screenshots/4-small.jpg"
     }
   ]
 }
