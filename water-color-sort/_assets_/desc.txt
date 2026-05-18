@@ -1,0 +1,9 @@
+One Line Description (English)
+sorting · puzzle · casual · WebGL
+
+
+HOW TO PLAY (English)
+*Tap one tube, then another to pour its top layer
+*Pour when the target is empty or top colors match
+*Win when every tube holds one solid color only
+*Plan ahead so you never strand colors you need

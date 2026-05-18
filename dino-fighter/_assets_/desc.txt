@@ -1,0 +1,9 @@
+One Line Description (English)
+Fight dinos, sell bones for gear, repair your helicopter.
+
+
+HOW TO PLAY (English)
+*Tap or click to pick choices in the game.
+*Move with WASD keys or the on-screen joystick.
+*Fight dinosaurs; collect bones to earn money.
+*Buy upgrades and find parts to fix the helicopter.

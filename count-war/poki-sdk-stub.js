@@ -62,9 +62,17 @@
         console.log('commercialBreak')
         return Promise.resolve(true);
       },
-    rewardedBreak: () => {
-      console.log('rewardedBreak')
-      return Promise.resolve(true);
+    /** 与 happy-glass 对齐：支持回调 / onStart，避免与 PokiUnitySDK 调用约定不一致 */
+    rewardedBreak: function (arg) {
+      if (typeof arg === "function") {
+        try { arg(); } catch (e) {}
+      } else if (arg && typeof arg === "object" && typeof arg.onStart === "function") {
+        try { arg.onStart(); } catch (e) {}
+      }
+      console.log('rewardedBreak', arg);
+      return new Promise(function (resolve) {
+        setTimeout(function () { resolve(true); }, 0);
+      });
     },
     displayAd: () => {
       console.log('displayAd')
@@ -92,13 +100,15 @@
     measure: _pn,
     measureTime: _pn,
   };
-  try { Object.freeze(_pokiStub); } catch (e) {}
+  
+  window.PokiSDK = _pokiStub;
+  // try { Object.freeze(_pokiStub); } catch (e) {}
   try {
-    Object.defineProperty(window, "PokiSDK", {
-      value: _pokiStub,
-      writable: false,
-      configurable: false
-    });
+    // Object.defineProperty(window, "PokiSDK", {
+    //   value: _pokiStub,
+    //   writable: false,
+    //   configurable: false
+    // });
   } catch (e) {
     window.PokiSDK = _pokiStub;
   }

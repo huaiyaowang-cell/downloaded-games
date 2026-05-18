@@ -1,40 +1,73 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<script src="poki-sdk-stub.js"></script>
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Dino Fighter - Poki</title>
-	<script>
-	window.config = {
-		loader: 'unity-2020',
-		debug: false,
-		maxRatio: 24 / 9,
-		minRatio: 9 / 24,
+  <script src="request-guard.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <title>Dino Fighter</title>
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; background: #000; font-family: Arial, sans-serif; }
+    #dfLayout { width: 100%; height: 100%; display: flex; flex-direction: column; }
+    #dfTopAdSlot, #dfBottomAdSlot { width: 100%; overflow: hidden; flex-shrink: 0; display: flex; justify-content: center; background: #000; }
+    #dfGameFrame { width: 100%; border: 0; flex: 1; min-height: 0; background: #000; }
+  </style>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    window.alert = function() {
+      console.log("alert", arguments);
+    };
 
-		title: 'Dino Fighter',
-		thumbnail: 'https:\/\/img.poki-cdn.com\/48093d951b2c9a80777c7cc81b9bc817.png',
-		numScreenshots:  0 ,
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      sdkScript.addEventListener("load", function () {
+        window.__googleAdsReady = true;
+      });
+      sdkScript.addEventListener("error", function () {
+        window.__googleAdsReady = false;
+      });
+    })();
 
-		unityVersion: '2022.3.62f3',
-		unityWebglBuildUrl: '',
-
-		fileSize:  28 ,
-		cachedDecompressedFileSizes: {
-			'Build.data':  20291773 ,
-			'Build.framework.js':  78494 ,
-			'Build.loader.js':  6412 ,
-			'Build.wasm':  8381458 ,
-		},
-		"metadata": {"poki_template_version":1,"background_color":"#231F20","code_filename":"Build.wasm","company_name":"Beetleplay","data_filename":"Build.data","development_player":"false","framework_filename":"Build.framework.js","height":"600","loader_filename":"Build.loader.js","product_name":"Dino Fighter Jurassic Escape","product_version":"0.01","splash_screen_style":"Dark","unity_version":"2022.3.62f3","use_data_caching":"true","use_threads":"false","use_wasm":"true","use_webgl_1_0":"false","use_webgl_2_0":"true","width":"960"}
-	};
-	</script>
-<!-- will be copied to the resulting head //-->
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+    adConfig({ preloadAdBreaks: "on" });
+  </script>
 </head>
 <body>
-	<script src="./master-loader.js"></script>
-
-
+  <div id="dfLayout">
+    <div id="dfTopAdSlot">
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="9174285658"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <iframe
+      src="game.html"
+      id="dfGameFrame"
+      name="dfGameFrame"
+      scrolling="no"
+      allow="autoplay; fullscreen"
+      title="Dino Fighter"
+    ></iframe>
+    <div id="dfBottomAdSlot">
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:100px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="4864961822"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+  <script>
+    document.getElementById("dfTopAdSlot").style.height = "50px";
+    document.getElementById("dfBottomAdSlot").style.height = "100px";
+  </script>
+  <script src="poki-ad-bridge-parent-0.0.1.js"></script>
 </body>
 </html>

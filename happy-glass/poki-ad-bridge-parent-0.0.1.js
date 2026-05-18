@@ -26,7 +26,7 @@
 
   function showCommercialBreak() {
     return new Promise(function (resolve) {
-      if (!window.__googleAdsReady) return resolve({});
+      if (isOfflineEnvironment() || !window.__googleAdsReady) return resolve({});
       if (typeof window.adBreak !== "function") return resolve({});
       window.adBreak({
         type: "browse",
@@ -43,22 +43,75 @@
 
   function showRewardedBreak() {
     return new Promise(function (resolve) {
-      if (!window.__googleAdsReady) return resolve({ rewardGranted: false });
+      if (isOfflineEnvironment() || !window.__googleAdsReady) return resolve({ rewardGranted: false });
       if (typeof window.adBreak !== "function") return resolve({ rewardGranted: false });
+
+      var settled = false;
+      var rewardEarnedByViewCallback = false;
+      var pendingFalseTimer = null;
+
+      function finish(granted) {
+        if (settled) return;
+        settled = true;
+        try {
+          if (pendingFalseTimer) clearTimeout(pendingFalseTimer);
+        } catch (e) {}
+        pendingFalseTimer = null;
+        try { history.pushState(null, null, location.href); } catch (e2) {}
+        resolve({ rewardGranted: !!granted });
+      }
+
+      function tryFinishAfterDone(placementInfo) {
+        if (settled) return;
+        var st = placementInfo && placementInfo.breakStatus;
+        var viewedByStatus = st != null && String(st).toLowerCase() === "viewed";
+        if (viewedByStatus || rewardEarnedByViewCallback) {
+          finish(true);
+          return;
+        }
+        try {
+          if (pendingFalseTimer) clearTimeout(pendingFalseTimer);
+        } catch (e) {}
+        pendingFalseTimer = setTimeout(function () {
+          pendingFalseTimer = null;
+          if (settled) return;
+          finish(rewardEarnedByViewCallback);
+        }, 150);
+      }
+
       window.adBreak({
         type: "reward",
         name: "happy-glass-reward",
         beforeAd: function () {},
         afterAd: function () {},
         beforeReward: function (showAdFn) {
-          showAdFn && showAdFn();
+          if (showAdFn) {
+            try {
+              showAdFn();
+            } catch (eShow) {}
+          }
         },
-        adDismissed: function () {},
-        adViewed: function () {},
+        adDismissed: function () {
+          try {
+            if (pendingFalseTimer) {
+              clearTimeout(pendingFalseTimer);
+              pendingFalseTimer = null;
+            }
+          } catch (e) {}
+          if (!settled) finish(false);
+        },
+        adViewed: function () {
+          rewardEarnedByViewCallback = true;
+          try {
+            if (pendingFalseTimer) {
+              clearTimeout(pendingFalseTimer);
+              pendingFalseTimer = null;
+            }
+          } catch (e) {}
+          if (!settled) finish(true);
+        },
         adBreakDone: function (placementInfo) {
-          var viewed = placementInfo && placementInfo.breakStatus === "viewed";
-          if (viewed) resolve({ rewardGranted: true });
-          else resolve({ rewardGranted: false });
+          tryFinishAfterDone(placementInfo);
         },
       });
     });
@@ -84,4 +137,3 @@
       });
   });
 })();
-
