@@ -1,10 +1,18 @@
 /**
- * Count War — 父页面广告桥接（AdSense / adBreak，与 happy-glass 同款方案；iframe id 为 cwGameFrame）
+ * Count War — 父页面广告桥接（AdSense / adBreak，与 happy-glass 同款方案）
  */
 (function () {
   "use strict";
 
   var gameFrame = document.getElementById("cwGameFrame");
+
+  function isOfflineEnvironment() {
+    var isFileProtocol = false;
+    try {
+      isFileProtocol = window.location && window.location.protocol === "file:";
+    } catch (e) {}
+    return isFileProtocol || (typeof navigator !== "undefined" && navigator.onLine === false);
+  }
 
   function sendResponse(event, requestId, ok, result, error) {
     try {
@@ -18,6 +26,7 @@
 
   function showCommercialBreak() {
     return new Promise(function (resolve) {
+      if (isOfflineEnvironment() || !window.__googleAdsReady) return resolve({});
       if (typeof window.adBreak !== "function") return resolve({});
       window.adBreak({
         type: "browse",
@@ -34,10 +43,11 @@
 
   function showRewardedBreak() {
     return new Promise(function (resolve) {
+      if (isOfflineEnvironment() || !window.__googleAdsReady) return resolve({ rewardGranted: false });
       if (typeof window.adBreak !== "function") return resolve({ rewardGranted: false });
+
       var settled = false;
       var rewardEarnedByViewCallback = false;
-      /** adBreakDone 有时早于 adViewed；若立刻 finish(false) 会锁死，后续 adViewed 无法再发奖 */
       var pendingFalseTimer = null;
 
       function finish(granted) {
@@ -71,13 +81,25 @@
 
       window.adBreak({
         type: "reward",
-        name: "count-war-reward-" + Date.now().toString(36),
+        name: "count-war-reward",
         beforeAd: function () {},
         afterAd: function () {},
         beforeReward: function (showAdFn) {
-          showAdFn && showAdFn();
+          if (showAdFn) {
+            try {
+              showAdFn();
+            } catch (eShow) {}
+          }
         },
-        adDismissed: function () {},
+        adDismissed: function () {
+          try {
+            if (pendingFalseTimer) {
+              clearTimeout(pendingFalseTimer);
+              pendingFalseTimer = null;
+            }
+          } catch (e) {}
+          if (!settled) finish(false);
+        },
         adViewed: function () {
           rewardEarnedByViewCallback = true;
           try {

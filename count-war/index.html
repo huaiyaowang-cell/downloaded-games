@@ -15,9 +15,7 @@
   </style>
   <script async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
-    crossorigin="anonymous"
-    onload="window.__googleAdsReady=true"
-    onerror="window.__googleAdsReady=false">
+    crossorigin="anonymous">
   </script>
   <script>
     window.alert = function() {
@@ -28,15 +26,15 @@
     (function trackGoogleAdsSdkReady() {
       var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
       if (!sdkScript) return;
-      function markReady() { window.__googleAdsReady = true; }
-      function markError() { window.__googleAdsReady = false; }
-      sdkScript.addEventListener("load", markReady);
-      sdkScript.addEventListener("error", markError);
-      try {
-        if (sdkScript.readyState === "complete" || sdkScript.readyState === "loaded") markReady();
-      } catch (e) {}
+      sdkScript.addEventListener("load", function () {
+        window.__googleAdsReady = true;
+      });
+      sdkScript.addEventListener("error", function () {
+        window.__googleAdsReady = false;
+      });
     })();
 
+    
     window.adsbygoogle = window.adsbygoogle || [];
     var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
     adConfig({ preloadAdBreaks: "on" });

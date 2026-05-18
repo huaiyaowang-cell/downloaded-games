@@ -30,7 +30,7 @@
       if (typeof window.adBreak !== "function") return resolve({});
       window.adBreak({
         type: "browse",
-        name: "happy-glass-commercial",
+        name: "dino-fighter-commercial",
         beforeAd: function () {},
         afterAd: function () {},
         adBreakDone: function () {
@@ -76,12 +76,12 @@
           pendingFalseTimer = null;
           if (settled) return;
           finish(rewardEarnedByViewCallback);
-        }, 350);
+        }, 150);
       }
 
       window.adBreak({
         type: "reward",
-        name: "happy-glass-reward",
+        name: "dino-fighter-reward",
         beforeAd: function () {},
         afterAd: function () {},
         beforeReward: function (showAdFn) {
@@ -92,14 +92,13 @@
           }
         },
         adDismissed: function () {
-          if (rewardEarnedByViewCallback || settled) return;
           try {
             if (pendingFalseTimer) {
               clearTimeout(pendingFalseTimer);
               pendingFalseTimer = null;
             }
           } catch (e) {}
-          finish(false);
+          if (!settled) finish(false);
         },
         adViewed: function () {
           rewardEarnedByViewCallback = true;

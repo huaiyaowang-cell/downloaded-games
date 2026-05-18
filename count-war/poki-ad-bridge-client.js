@@ -1,5 +1,5 @@
 /**
- * iframe 内游戏侧广告桥接（母页 AdSense / adBreak）
+ * Count War — iframe 内游戏侧广告桥接（与 happy-glass 同款）
  */
 (function () {
   "use strict";
@@ -8,19 +8,6 @@
     console.warn("[poki-ad-client] PokiSDK 未定义，跳过桥接");
     return;
   }
-  function sealPokiSDK() {
-    var sdk = window.PokiSDK;
-    if (!sdk) return;
-    try { Object.freeze(sdk); } catch (e) {}
-    try {
-      Object.defineProperty(window, "PokiSDK", {
-        value: sdk,
-        writable: false,
-        configurable: false
-      });
-    } catch (e) {}
-  }
-
 
   var parentWin;
   try {
@@ -78,11 +65,10 @@
   PokiSDK.commercialBreak = function () {
     return postRequest({ kind: "commercialBreak" }).catch(function (err) {
       console.warn("[poki-ad-client] commercialBreak 失败，回退本地:", err);
-      return origCommercial ? origCommercial.apply(PokiSDK, arguments) : Promise.resolve();
+      return origCommercial ? origCommercial() : Promise.resolve();
     });
   };
 
-  /** 与 happy-glass stub 一致：支持首参；对象可在开始时调 onStart，结束时按结果调回调 */
   PokiSDK.rewardedBreak = function (arg) {
     if (arg && typeof arg === "object" && typeof arg.onStart === "function") {
       try { arg.onStart(); } catch (e0) {}
@@ -106,5 +92,4 @@
         return origRewarded ? origRewarded(arg) : Promise.resolve(false);
       });
   };
-  sealPokiSDK();
 })();
