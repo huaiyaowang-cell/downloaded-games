@@ -1,65 +1,93 @@
 {
   "bucket": "rabigame-puzzlegame",
-  "bucket_target": "r_game/dev",
-  "upload_time": "2026-05-19T14:13:57.058554",
-  "success": 14,
+  "bucket_target": "r_game",
+  "upload_time": "2026-05-19T15:11:04.527898",
+  "success": 21,
   "failed": 0,
   "files": [
     {
-      "path": "r_game/dev/gobble/poki-sdk-stub.js",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/poki-sdk-stub.js"
+      "path": "r_game/__game_center_back__dd2/index.html",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/index.html"
     },
     {
-      "path": "r_game/dev/gobble/unity-2020.js",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/unity-2020.js"
+      "path": "r_game/__game_center_back__dd2/style.css",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/style.css"
     },
     {
-      "path": "r_game/dev/gobble/index.html",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/index.html"
+      "path": "r_game/__game_center_back__dd2/images/fall-back-ads.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/fall-back-ads.png"
     },
     {
-      "path": "r_game/dev/gobble/master-loader.js",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/master-loader.js"
+      "path": "r_game/__game_center_back__dd2/images/game-cover-draw-to-smash.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-cover-draw-to-smash.png"
     },
     {
-      "path": "r_game/dev/gobble/assets-manifest.json",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/assets-manifest.json"
+      "path": "r_game/__game_center_back__dd2/images/.DS_Store",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/.DS_Store"
     },
     {
-      "path": "r_game/dev/gobble/__info_assets__/icon.png",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/__info_assets__/icon.png"
+      "path": "r_game/__game_center_back__dd2/images/volum-on.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/volum-on.png"
     },
     {
-      "path": "r_game/dev/gobble/__info_assets__/article.html",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/__info_assets__/article.html"
+      "path": "r_game/__game_center_back__dd2/images/game-cover-temple-run-2.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-cover-temple-run-2.png"
     },
     {
-      "path": "r_game/dev/gobble/__info_assets__/meta.json",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/__info_assets__/meta.json"
+      "path": "r_game/__game_center_back__dd2/images/game-cover-bullet-bros.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-cover-bullet-bros.png"
     },
     {
-      "path": "r_game/dev/gobble/webapp/source_min.js",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/webapp/source_min.js"
+      "path": "r_game/__game_center_back__dd2/images/game-cover-Blocky_Puzzle.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-cover-Blocky_Puzzle.png"
     },
     {
-      "path": "r_game/dev/gobble/webapp/index.wasm",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/webapp/index.wasm"
+      "path": "r_game/__game_center_back__dd2/images/volum-off.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/volum-off.png"
     },
     {
-      "path": "r_game/dev/gobble/webapp/index.js",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/webapp/index.js"
+      "path": "r_game/__game_center_back__dd2/images/fall-back-ads-banner.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/fall-back-ads-banner.png"
     },
     {
-      "path": "r_game/dev/gobble/webapp/index.data",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/webapp/index.data"
+      "path": "r_game/__game_center_back__dd2/images/play-button.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/play-button.png"
     },
     {
-      "path": "r_game/dev/gobble/webapp/cover.jpg",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/webapp/cover.jpg"
+      "path": "r_game/__game_center_back__dd2/images/game-icon/.DS_Store",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/.DS_Store"
     },
     {
-      "path": "r_game/dev/gobble/webapp/fancade.css",
-      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/dev/gobble/webapp/fancade.css"
+      "path": "r_game/__game_center_back__dd2/images/game-icon/game-icon-bullet-bros.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/game-icon-bullet-bros.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/hot-icon.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/hot-icon.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/game-icon-temple-run-2.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/game-icon-temple-run-2.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/icon-popular.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/icon-popular.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/icon-blumgi-slime.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/icon-blumgi-slime.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/game-icon-Blocky_Puzzle.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/game-icon-Blocky_Puzzle.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/icon-tail-wing-h5.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/icon-tail-wing-h5.png"
+    },
+    {
+      "path": "r_game/__game_center_back__dd2/images/game-icon/game-icon-draw-to-smash.png",
+      "url": "https://storage.googleapis.com/rabigame-puzzlegame/r_game/__game_center_back__dd2/images/game-icon/game-icon-draw-to-smash.png"
     }
   ]
 }
