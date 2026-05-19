@@ -51,27 +51,27 @@
   }, 2000);
   setTimeout(function() { clearInterval(_hlTimer); }, 30000);
 
-  var _pokiStub = {
-    init: function() {
-      window.PokiSDK_OK = true;
-      return Promise.resolve();
-    },
+  window.PokiSDK = {
+    init: _pp,
     gameplayStart: _pn,
     gameplayStop: _pn,
-      commercialBreak: () => {
-        console.log('commercialBreak')
-        return Promise.resolve(true);
-      },
-    rewardedBreak: () => {
-      console.log('rewardedBreak')
+    commercialBreak: function() {
+      console.log('commercialBreak');
       return Promise.resolve(true);
     },
-    displayAd: () => {
-      console.log('displayAd')
+    rewardedBreak: function(arg) {
+      if (typeof arg === "function") {
+        try { arg(); } catch (e) {}
+      } else if (arg && typeof arg === "object" && typeof arg.onStart === "function") {
+        try { arg.onStart(); } catch (e) {}
+      }
+      console.log('rewardedBreak', arg);
+      return new Promise(function(resolve) {
+        setTimeout(function() { resolve(true); }, 5000);
+      });
     },
-    destroyAd: () => {
-      console.log('destroyAd')
-    },
+    displayAd: _pn,
+    destroyAd: _pn,
     setDebug: _pn,
     getURLParam: function() { return ""; },
     shareableURL: function() { return Promise.resolve(""); },
@@ -88,21 +88,9 @@
     muteAd: _pn,
     sendHighscore: _pn,
     togglePlayerAdvertisingConsent: _pn,
-    disableDOMChangeObservation: _pn,
-    measure: _pn,
-    measureTime: _pn,
+    disableDOMChangeObservation: _pn
   };
-  try { Object.freeze(_pokiStub); } catch (e) {}
-  try {
-    Object.defineProperty(window, "PokiSDK", {
-      value: _pokiStub,
-      writable: false,
-      configurable: false
-    });
-  } catch (e) {
-    window.PokiSDK = _pokiStub;
-  }
-  console.log("[poki-dl] PokiSDK stub active (sealed)");
+  console.log("[poki-dl] PokiSDK stub active");
 
   var _origGBI = Document.prototype.getElementById;
   Document.prototype.getElementById = function(id) {
