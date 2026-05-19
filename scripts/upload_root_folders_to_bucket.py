@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-上传当前项目根目录下的一级文件夹到 GCS bucket。
+上传 UPLOAD_PRE_PATH 目录下的游戏文件夹到 GCS bucket（默认 games/）。
 
 配置优先级:
 1) 环境变量
@@ -13,16 +13,18 @@
 
 可选配置:
 - BUCKET_TARGET: 桶内前缀路径，默认 r_game
-- UPLOAD_INCLUDE_FOLDERS: 仅上传这些一级文件夹（列表）
+- UPLOAD_PRE_PATH: 游戏根目录名（相对项目根），默认 games；设为 games-test 时 include 列表相对 games-test/
+- UPLOAD_INCLUDE_FOLDERS: 仅上传这些游戏目录（列表，相对 UPLOAD_PRE_PATH）
   - 支持两种写法：
-    1) 写一级文件夹“名字”（相对 PROJECT_ROOT）
+    1) 写目录名或相对路径（如 happy-glass、admob_ads/Mob_Blocky_Puzzle）
     2) 写“配置文件路径/文件夹路径”
-       - 配置文件：每行一个一级文件夹名（也支持 JSON 数组形式）
-       - 文件夹：如果以“路径形式”提供（例如 `./some_dir` 或绝对路径），会枚举该目录下的子目录作为要上传的根目录；否则按 root 自身处理
-- UPLOAD_EXCLUDE_FOLDERS: 排除这些一级文件夹（列表）
+       - 配置文件：每行一个目录名（也支持 JSON 数组形式）
+       - 文件夹：若以 ./、../、~ 或绝对路径提供，会枚举其下子目录；否则按 UPLOAD_PRE_PATH 下具体目录处理
+- UPLOAD_EXCLUDE_FOLDERS: 排除 UPLOAD_PRE_PATH 下的目录名（列表）
 - UPLOAD_INCLUDE_FILES: 仅上传匹配文件名（glob 列表）
 - UPLOAD_EXCLUDE_FILES: 排除匹配文件名（glob 列表）
-- OFFLINE_INCLUDE_FOLDERS: 离线包专用游戏目录列表（列表，默认空；为空时离线包脚本回退到 UPLOAD_INCLUDE_FOLDERS）
+- OFFLINE_INCLUDE_FOLDERS: 离线包专用游戏目录（列表，相对 UPLOAD_PRE_PATH；为空时回退 UPLOAD_INCLUDE_FOLDERS）
+- BUCKET_CDN_MAP: bucket 名称 → CDN 域名（如 rabigame-puzzlegame: puzzle.rabigame.fun），用于游戏入口与离线包路径
 """
 
 from __future__ import annotations
@@ -46,7 +48,27 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 CONF_PATH = PROJECT_ROOT / "conf.rabigame.yaml"
 
 FAILED_LOG_FILENAME = "bucket-upload-failed-manifest.json"
-CDN_BASE_URL = "https://rabigame.fun"
+DEFAULT_CDN_HOST = "rabigame.fun"
+DEFAULT_UPLOAD_PRE_PATH = "games"
+
+# 由 apply_upload_pre_path() 根据 conf 中的 UPLOAD_PRE_PATH 更新
+GAMES_ROOT = PROJECT_ROOT / DEFAULT_UPLOAD_PRE_PATH
+
+
+def normalize_upload_pre_path(raw: Any) -> str:
+    pre = str(raw or DEFAULT_UPLOAD_PRE_PATH).strip().replace("\\", "/").strip("/")
+    return pre or DEFAULT_UPLOAD_PRE_PATH
+
+
+def resolve_games_root(upload_pre_path: str | None = None) -> Path:
+    return (PROJECT_ROOT / normalize_upload_pre_path(upload_pre_path)).resolve()
+
+
+def apply_upload_pre_path(upload_pre_path: str | None = None) -> Path:
+    """根据 UPLOAD_PRE_PATH 设置模块级 GAMES_ROOT（上传/离线包脚本共用）。"""
+    global GAMES_ROOT
+    GAMES_ROOT = resolve_games_root(upload_pre_path)
+    return GAMES_ROOT
 
 
 def _load_yaml_config() -> dict[str, Any]:
@@ -74,6 +96,66 @@ def _parse_gc_key(raw: Any) -> dict[str, Any]:
                 return json.load(f)
 
     raise ValueError("GC_KEY 格式不正确，需为 JSON 对象、JSON 字符串或 JSON 文件路径")
+
+
+def _parse_bucket_cdn_map(raw: Any) -> dict[str, str]:
+    if raw is None:
+        return {}
+    if isinstance(raw, dict):
+        return {str(k).strip(): str(v).strip() for k, v in raw.items() if str(k).strip()}
+    if isinstance(raw, str):
+        text = raw.strip()
+        if not text:
+            return {}
+        try:
+            parsed = json.loads(text)
+        except json.JSONDecodeError:
+            try:
+                import ast
+
+                parsed = ast.literal_eval(text)
+            except (SyntaxError, ValueError):
+                return {}
+        if isinstance(parsed, dict):
+            return {str(k).strip(): str(v).strip() for k, v in parsed.items() if str(k).strip()}
+    return {}
+
+
+def _normalize_cdn_host(host: str) -> str:
+    h = (host or "").strip().rstrip("/")
+    if h.startswith("https://"):
+        h = h[len("https://") :]
+    elif h.startswith("http://"):
+        h = h[len("http://") :]
+    return h or DEFAULT_CDN_HOST
+
+
+def resolve_cdn_host(
+    bucket_name: str,
+    bucket_cdn_map: dict[str, str] | None = None,
+    *,
+    default_host: str = DEFAULT_CDN_HOST,
+) -> str:
+    key = (bucket_name or "").strip()
+    mapping = bucket_cdn_map or {}
+    host = mapping.get(key) or default_host
+    return _normalize_cdn_host(host)
+
+
+def resolve_cdn_base_url(
+    bucket_name: str,
+    bucket_cdn_map: dict[str, str] | None = None,
+    *,
+    default_host: str = DEFAULT_CDN_HOST,
+) -> str:
+    return f"https://{resolve_cdn_host(bucket_name, bucket_cdn_map, default_host=default_host)}"
+
+
+def resolve_storage_base_url(bucket_name: str) -> str:
+    name = (bucket_name or "").strip()
+    if not name:
+        return "https://storage.googleapis.com"
+    return f"https://storage.googleapis.com/{name}"
 
 
 def _config_value(key: str, file_cfg: dict[str, Any], default: Any = None) -> Any:
@@ -134,7 +216,7 @@ def _normalize_to_project_root_path(raw: str) -> Path:
     """
     把配置里的路径解析成 PROJECT_ROOT 内的 Path。
     - 相对路径：视为相对 PROJECT_ROOT
-    - 绝对路径/~/：解析出来后要求必须在 PROJECT_ROOT 内，否则由调用者跳过
+    - 绝对路径/~/：解析为绝对路径
     """
     raw = (raw or "").strip()
     raw = os.path.expanduser(raw)
@@ -142,6 +224,59 @@ def _normalize_to_project_root_path(raw: str) -> Path:
     if not p.is_absolute():
         p = PROJECT_ROOT / p
     return p
+
+
+def _resolve_games_path(raw: str) -> Path:
+    """
+    将配置项解析为 UPLOAD_PRE_PATH 下的路径。
+    - 默认：相对 UPLOAD_PRE_PATH（如 happy-glass、admob_ads/Mob_Blocky_Puzzle）
+    - 显式 {UPLOAD_PRE_PATH}/ 前缀：相对项目根
+    - ./ ../ ~ 或绝对路径：按路径字面解析（须在 UPLOAD_PRE_PATH 内才参与上传）
+    """
+    raw_item = (raw or "").strip()
+    if not raw_item:
+        return GAMES_ROOT
+
+    expanded = os.path.expanduser(raw_item)
+    normalized = raw_item.replace("\\", "/")
+    pre_name = GAMES_ROOT.name
+
+    if normalized == pre_name or normalized.startswith(pre_name + "/"):
+        return _normalize_to_project_root_path(normalized)
+
+    # 兼容仍写 games/ 或 games-test/ 等完整前缀
+    if "/" in normalized and not normalized.startswith(("./", "../")):
+        first_seg = normalized.split("/", 1)[0]
+        candidate = PROJECT_ROOT / first_seg
+        if candidate.is_dir() and first_seg != pre_name:
+            try:
+                candidate.resolve().relative_to(PROJECT_ROOT.resolve())
+                return _normalize_to_project_root_path(normalized)
+            except ValueError:
+                pass
+
+    is_container_path = (
+        raw_item.startswith("./")
+        or raw_item.startswith("../")
+        or raw_item.startswith("~")
+        or Path(expanded).is_absolute()
+    )
+    if is_container_path:
+        return Path(expanded).resolve()
+
+    return (GAMES_ROOT / normalized).resolve()
+
+
+def _is_under_games(path: Path) -> bool:
+    try:
+        path.resolve().relative_to(GAMES_ROOT.resolve())
+        return True
+    except ValueError:
+        return False
+
+
+def _games_relative_key(path: Path) -> str:
+    return path.resolve().relative_to(GAMES_ROOT.resolve()).as_posix()
 
 
 def _read_folder_names_from_file(list_file: Path) -> list[str]:
@@ -177,71 +312,70 @@ def _read_folder_names_from_file(list_file: Path) -> list[str]:
 
 def _expand_include_item_to_root_paths(item: str) -> list[Path]:
     """
-    将 UPLOAD_INCLUDE_FOLDERS 的单个元素展开为 root 目录集合。
+    将 UPLOAD_INCLUDE_FOLDERS / OFFLINE_INCLUDE_FOLDERS 的单个元素展开为游戏根目录集合。
     item 可以是：
-    - root 名字（相对 PROJECT_ROOT）
-    - 配置文件路径：文件中列出 root 名字
-    - 文件夹路径：
-      - 普通相对路径（如 admob_ads/Blocky_Puzzle）：当作 root 自身
-      - 容器路径（如 ./some_dir、../some_dir、~/some_dir、绝对路径）：枚举其下子目录作为要上传的根目录
+    - games 下的目录名或相对路径（如 happy-glass、admob_ads/Mob_Blocky_Puzzle）
+    - 配置文件路径：文件中列出 games 下的目录名
+    - 容器路径（./、../、~、绝对路径）：枚举其下子目录
     """
     raw_item = (item or "").strip()
-    p = _normalize_to_project_root_path(item)
+    p = _resolve_games_path(item)
 
-    # 规则：
-    # - admob_ads/Blocky_Puzzle 这类普通相对路径应当作“具体 root 目录”
-    # - ./、../、~、绝对路径 这类路径当作“容器目录”，枚举其下子目录
-    is_container_path = raw_item.startswith("./") or raw_item.startswith("../") or raw_item.startswith("~") or Path(os.path.expanduser(raw_item)).is_absolute()
+    is_container_path = (
+        raw_item.startswith("./")
+        or raw_item.startswith("../")
+        or raw_item.startswith("~")
+        or Path(os.path.expanduser(raw_item)).is_absolute()
+    )
     if p.exists() and p.is_dir():
         if not is_container_path:
-            return [p]
+            return [p] if _is_under_games(p) else []
 
         out: list[Path] = []
         for child in sorted(p.iterdir(), key=lambda x: x.name.lower()):
-            if child.is_dir() and not child.name.startswith("."):
+            if child.is_dir() and not child.name.startswith(".") and _is_under_games(child):
                 out.append(child)
         return out
 
-    # 配置文件：读取里面的 root 名字
     if p.exists() and p.is_file():
         names = _read_folder_names_from_file(p)
         out: list[Path] = []
         for name in names:
-            rp = _normalize_to_project_root_path(name)
-            if rp.exists() and rp.is_dir():
+            rp = _resolve_games_path(name)
+            if rp.exists() and rp.is_dir() and _is_under_games(rp):
                 out.append(rp)
             else:
-                print(f"⚠️ 跳过不存在目录: {name}")
+                print(f"⚠️ 跳过不存在目录（{GAMES_ROOT.name}/）: {name}")
         return out
 
-    # 兜底：当作 root 名字处理（旧行为兼容）
-    rp = _normalize_to_project_root_path(item)
-    if rp.exists() and rp.is_dir():
-        return [rp]
-    print(f"⚠️ 跳过不存在目录/文件: {item}")
+    if p.exists() and p.is_dir() and _is_under_games(p):
+        return [p]
+    print(f"⚠️ 跳过不存在目录/文件（{GAMES_ROOT.name}/）: {item}")
     return []
 
 
 def _discover_root_folders(include_folders: list[str], exclude_folders: list[str]) -> list[Path]:
+    if not GAMES_ROOT.is_dir():
+        print(f"⚠️ 游戏目录不存在: {GAMES_ROOT}")
+        return []
+
     if include_folders:
-        folders = []
         out_set: dict[str, Path] = {}
         for item in include_folders:
             for p in _expand_include_item_to_root_paths(item):
-                # 必须在 PROJECT_ROOT 内，才能保证后续相对路径计算正确
-                try:
-                    rel = p.relative_to(PROJECT_ROOT)
-                except Exception:
-                    print(f"⚠️ 跳过不在项目根目录内的路径: {p}")
+                if not _is_under_games(p):
+                    print(f"⚠️ 跳过不在 {GAMES_ROOT.name}/ 内的路径: {p}")
                     continue
-                if p.name in exclude_folders:
+                rel_key = _games_relative_key(p)
+                top_name = rel_key.split("/", 1)[0]
+                if top_name in exclude_folders or p.name in exclude_folders:
                     continue
                 if p.is_dir() and not p.name.startswith("."):
-                    out_set[rel.as_posix()] = p
+                    out_set[rel_key] = p
         return [out_set[k] for k in sorted(out_set.keys(), key=lambda x: x.lower())]
 
-    folders = []
-    for item in sorted(PROJECT_ROOT.iterdir(), key=lambda p: p.name.lower()):
+    folders: list[Path] = []
+    for item in sorted(GAMES_ROOT.iterdir(), key=lambda p: p.name.lower()):
         if not item.is_dir():
             continue
         if item.name.startswith("."):
@@ -257,14 +391,14 @@ def _collect_files(
 ) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for root in roots:
-        root_key = root.relative_to(PROJECT_ROOT).as_posix()
+        root_key = _games_relative_key(root)
         for cur_dir, _subdirs, files in os.walk(root):
             cur = Path(cur_dir)
             for fn in files:
                 if not _match_file(fn, include_files, exclude_files):
                     continue
                 local_path = cur / fn
-                rel = local_path.relative_to(PROJECT_ROOT)
+                rel = local_path.relative_to(GAMES_ROOT)
                 remote = f"{bucket_target.rstrip('/')}/{rel.as_posix()}"
                 out.append(
                     {
@@ -336,25 +470,30 @@ def _load_config() -> dict[str, Any]:
     if gc_key_raw is None:
         raise ValueError("缺少 GC_KEY（环境变量或 conf.rabigame.yaml）")
 
+    upload_pre_path = normalize_upload_pre_path(
+        _config_value("UPLOAD_PRE_PATH", file_cfg, DEFAULT_UPLOAD_PRE_PATH)
+    )
+    apply_upload_pre_path(upload_pre_path)
+
     cfg = {
+        "UPLOAD_PRE_PATH": upload_pre_path,
+        "GAMES_ROOT": str(GAMES_ROOT),
         "BUCKET_TARGET": _config_value("BUCKET_TARGET", file_cfg, "r_game"),
         "UPLOAD_INCLUDE_FOLDERS": _config_value("UPLOAD_INCLUDE_FOLDERS", file_cfg, []),
         "UPLOAD_EXCLUDE_FOLDERS": _config_value(
             "UPLOAD_EXCLUDE_FOLDERS",
             file_cfg,
             [
-                ".git",
-                ".cursor",
-                ".output",
-                "node_modules",
-                "scripts",
-                "__pycache__",
-                "conf.rabigame.yaml",
+                "a-offline-game-zip",
+                "a-offline-game-zip-dev",
             ],
         ),
         "UPLOAD_INCLUDE_FILES": _config_value("UPLOAD_INCLUDE_FILES", file_cfg, []),
         "UPLOAD_EXCLUDE_FILES": _config_value("UPLOAD_EXCLUDE_FILES", file_cfg, []),
         "OFFLINE_INCLUDE_FOLDERS": _config_value("OFFLINE_INCLUDE_FOLDERS", file_cfg, []),
+        "BUCKET_CDN_MAP": _parse_bucket_cdn_map(
+            _config_value("BUCKET_CDN_MAP", file_cfg, {})
+        ),
     }
     cfg["BUCKET"] = bucket
     cfg["GC_KEY"] = _parse_gc_key(gc_key_raw)
@@ -363,7 +502,7 @@ def _load_config() -> dict[str, Any]:
 
 def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = False) -> None:
     print("=" * 56)
-    header = "上传项目根目录一级文件夹到 GCS Bucket"
+    header = "上传游戏目录到 GCS Bucket"
     tags: list[str] = []
     if dry_run:
         tags.append("dry-run")
@@ -376,6 +515,9 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
 
     cfg = _load_config()
     bucket_name = cfg["BUCKET"]
+    bucket_cdn_map = cfg.get("BUCKET_CDN_MAP") or {}
+    cdn_base_url = resolve_cdn_base_url(bucket_name, bucket_cdn_map)
+    cdn_host = resolve_cdn_host(bucket_name, bucket_cdn_map)
     bucket_target = (cfg["BUCKET_TARGET"] or "r_game").strip().strip("/") or "r_game"
     if dev_target:
         bucket_target = f"{bucket_target}/dev"
@@ -390,9 +532,12 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
         return
 
     print(f"📋 项目目录: {PROJECT_ROOT}")
+    print(f"📋 UPLOAD_PRE_PATH: {cfg.get('UPLOAD_PRE_PATH', DEFAULT_UPLOAD_PRE_PATH)}")
+    print(f"📋 游戏目录: {GAMES_ROOT}")
     print(f"📋 Bucket: {bucket_name}")
+    print(f"📋 CDN 域名: {cdn_host} ({cdn_base_url})")
     print(f"📋 桶内目标前缀: {bucket_target}/")
-    print(f"📋 本次上传目录: {[p.name for p in roots]}")
+    print(f"📋 本次上传目录: {[_games_relative_key(p) for p in roots]}")
     if include_files:
         print(f"📋 文件白名单: {include_files}")
     if exclude_files:
@@ -416,17 +561,21 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
             manifest = _load_failed_manifest_for_root(root)
             if not manifest:
                 continue
-            root_key = root.relative_to(PROJECT_ROOT).as_posix()
+            root_key = _games_relative_key(root)
             roots_with_existing_logs.add(root_key)
             for item in manifest.get("files", []) or []:
                 rel_path = item.get("relative_path")
                 remote_path = item.get("remote_path")
                 if not rel_path or not remote_path:
                     continue
-                local_path = PROJECT_ROOT / rel_path
+                local_path = GAMES_ROOT / rel_path
                 if not local_path.exists():
-                    print(f"⚠️ 跳过不存在文件（来自失败日志）: {rel_path}")
-                    continue
+                    legacy_path = PROJECT_ROOT / rel_path
+                    if legacy_path.exists():
+                        local_path = legacy_path
+                    else:
+                        print(f"⚠️ 跳过不存在文件（来自失败日志）: {rel_path}")
+                        continue
                 files.append(
                     {
                         "local_path": local_path,
@@ -469,16 +618,25 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
             success += 1
             uploaded.append({"path": rp, "url": url})
             if rp.endswith("/index.html"):
-                entry_urls.add(f"{CDN_BASE_URL.rstrip('/')}/{rp.lstrip('/')}")
+                entry_urls.add(f"{cdn_base_url.rstrip('/')}/{rp.lstrip('/')}")
         else:
             print("❌")
             failed += 1
             if not root_key:
-                rel_path = item.get("relative_path") or lp.relative_to(PROJECT_ROOT).as_posix()
+                rel_path = item.get("relative_path") or (
+                    lp.relative_to(GAMES_ROOT).as_posix()
+                    if _is_under_games(lp)
+                    else lp.relative_to(PROJECT_ROOT).as_posix()
+                )
                 root_key = rel_path.split("/", 1)[0]
             failed_by_root[root_key].append(
                 {
-                    "relative_path": item.get("relative_path") or lp.relative_to(PROJECT_ROOT).as_posix(),
+                    "relative_path": item.get("relative_path")
+                    or (
+                        lp.relative_to(GAMES_ROOT).as_posix()
+                        if _is_under_games(lp)
+                        else lp.relative_to(PROJECT_ROOT).as_posix()
+                    ),
                     "remote_path": rp,
                 }
             )
@@ -503,7 +661,7 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
     # 每个一级目录单独写入失败日志（覆盖写）
     if retry_failed:
         for root in roots:
-            root_key = root.relative_to(PROJECT_ROOT).as_posix()
+            root_key = _games_relative_key(root)
             if root_key not in roots_with_existing_logs:
                 continue
             failed_files = failed_by_root.get(root_key, [])
@@ -511,7 +669,7 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
     else:
         for root_dir in roots:
             log_path = root_dir / ".output" / FAILED_LOG_FILENAME
-            root_key = root_dir.relative_to(PROJECT_ROOT).as_posix()
+            root_key = _games_relative_key(root_dir)
             failed_files = failed_by_root.get(root_key, [])
             # 如果本次有失败则写入；如果上次有失败日志但这次全成功则覆盖清空
             if failed_files or log_path.exists():

@@ -14,7 +14,8 @@
     "offline:build-upload": "python3 scripts/build_offline_game_zips.py --build-upload",
     "offline:build-upload-dev": "python3 scripts/build_offline_game_zips.py --build-upload --dev",
     "upload:bucket:deps": "python3 -m pip install google-cloud-storage pyyaml",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "python3 -m http.server 8089"
   },
   "author": "",
   "license": "ISC"

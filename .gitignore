@@ -1,5 +1,5 @@
 conf.rabigame.yaml
 node_modules
 .output
-a-offline-game-zip
-a-offline-game-zip-dev
+games/a-offline-game-zip
+games/a-offline-game-zip-dev

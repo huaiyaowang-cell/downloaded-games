@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fallback Ad 320x100</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 320px;
+      height: 100px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background: transparent;
+    }
+    .ad {
+      display: none;
+      width: 320px;
+      height: 100px;
+      padding: 6px;
+      background: #ffffff;
+      border: 1px solid #e8e8ee;
+      border-radius: 10px;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 4px;
+      align-items: center;
+    }
+    .ad.has-data {
+      display: flex;
+    }
+    .card {
+      flex: 0 0 72px;
+      text-decoration: none;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .thumb {
+      position: relative;
+      width: 68px;
+      height: 68px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: transparent;
+    }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .hot {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      padding: 1px 6px;
+      border-radius: 8px;
+      font-size: 10px;
+      color: #fff;
+      background: #ff4d67;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="ad" id="adRoot"></div>
+  <script>
+    (function () {
+      var FALLBACK_API_URL = (function () {
+        var host = window.location.hostname;
+        return "https://api.rabigame.fun/api/v1/banner/banner_320_100";
+      })();
+      var CARD_COUNT = 4;
+      var CDN_PREFIX = "https://cdn.puzzlegame.online";
+      var adRoot = document.getElementById("adRoot");
+
+      function resolveUrl(url) {
+        if (!url || typeof url !== "string") return "";
+        var trimmed = url.trim();
+        if (!trimmed) return "";
+        if (/^https?:\/\//i.test(trimmed) || trimmed.indexOf("//") === 0) {
+          return trimmed;
+        }
+        return CDN_PREFIX + (trimmed.charAt(0) === "/" ? trimmed : "/" + trimmed);
+      }
+
+      function onAdClick(event) {
+        event.preventDefault();
+        var href = event.currentTarget && event.currentTarget.getAttribute("href");
+        if (!href || href === "#" || href.indexOf("javascript:") === 0) return;
+        try {
+          window.parent.postMessage({ type: "fallback_ad_navigate", href: href }, "*");
+        } catch (e) {
+          window.top.location.href = href;
+        }
+      }
+
+      function bindCardClicks() {
+        var links = adRoot.querySelectorAll("a.card[href]");
+        for (var i = 0; i < links.length; i++) {
+          links[i].removeEventListener("click", onAdClick);
+          links[i].addEventListener("click", onAdClick);
+        }
+      }
+
+      function createCard(game, index) {
+        var card = document.createElement("a");
+        card.className = "card";
+        card.setAttribute("aria-label", "game " + (index + 1));
+        card.href = resolveUrl(game && game.gameUrl) || "#";
+
+        var thumb = document.createElement("div");
+        thumb.className = "thumb";
+
+        var badge = document.createElement("span");
+        badge.className = "hot";
+        badge.textContent = "Hot";
+
+        var img = document.createElement("img");
+        img.alt = "";
+        img.src = resolveUrl(game && game.iconUrl);
+        img.loading = "lazy";
+
+        thumb.appendChild(badge);
+        thumb.appendChild(img);
+        card.appendChild(thumb);
+        return card;
+      }
+
+      function getValidGames(games) {
+        var list = [];
+        for (var i = 0; i < games.length && list.length < CARD_COUNT; i++) {
+          var game = games[i];
+          if (game && game.iconUrl && game.gameUrl) {
+            list.push(game);
+          }
+        }
+        return list;
+      }
+
+      function clearAd() {
+        adRoot.innerHTML = "";
+        adRoot.classList.remove("has-data");
+      }
+
+      function renderCards(games) {
+        var validGames = getValidGames(games);
+        adRoot.innerHTML = "";
+        if (!validGames.length) {
+          adRoot.classList.remove("has-data");
+          return;
+        }
+        for (var i = 0; i < validGames.length; i++) {
+          adRoot.appendChild(createCard(validGames[i], i));
+        }
+        adRoot.classList.add("has-data");
+        bindCardClicks();
+      }
+
+      fetch(FALLBACK_API_URL, { method: "GET" })
+        .then(function (response) {
+          if (!response.ok) throw new Error("fallback banner request failed");
+          return response.json();
+        })
+        .then(function (payload) {
+          var status = payload && payload.status;
+          if (!status || status.code !== 0) throw new Error("fallback banner status error");
+
+          var games = payload.data && Array.isArray(payload.data.games)
+            ? payload.data.games
+            : [];
+          renderCards(games);
+        })
+        .catch(function () {
+          clearAd();
+        });
+    })();
+  </script>
+</body>
+</html>
