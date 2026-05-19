@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Blocky Puzzle - Mobile</title>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      sdkScript.addEventListener("load", function () { window.__googleAdsReady = true; });
+      sdkScript.addEventListener("error", function () { window.__googleAdsReady = false; });
+    })();
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+    adConfig({
+        preloadAdBreaks: 'on',
+        onReady: function() {
+          console.log("adBreak onReady");
+          if(window.location.search.indexOf('adType=browse') !== -1) {
+          adBreak({
+                type: 'start',
+                name: 'openad',
+                beforeAd: function() {
+                    console.log("openad beforeAd");
+                  },
+                afterAd: function(info) {
+                    console.log("openad afterAd info", info);
+                },
+            });
+          }
+        },
+    });
+    window.showOpenAd = function() {
+      window.adBreak({
+        type: 'start',
+        name: 'openad',
+        beforeAd: function() {
+          console.log("openad beforeAd");
+        },
+        afterAd: function(info) {
+          console.log("openad afterAd info", info);
+        },
+      });
+    };
+    window.showInterstitialAd = function() {
+      window.adBreak({
+        type: "browse",
+        name: "game-center-back-commercial",
+        beforeAd: function () {},
+        afterAd: function () {},
+        adBreakDone: function () {
+          try { history.pushState(null, null, location.href); } catch (e) {}
+        },
+      });
+    };
+
+
+    window.domMoveToPosition = function (x, y) {
+      var el = document.getElementById('mobileAdContainerBig');
+      if (!el) return;
+      el.style.left = x + "px";
+      el.style.top = y + "px";
+      el.style.transform = "translate(-50%, -50%)";
+    };
+    
+  </script>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    body {
+      min-height: 100vh;
+      background: linear-gradient(180deg, #6446C0 0%, #2A2B39 25%, #2A2B39 100%);
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="app" class="main-content">
+    <div class="container">
+      <div class="mobile-ad-container" id="mobileAdContainerBig">
+        <div class="ad-side-mark">ADVERTISEMENT</div>
+        <div class="ad-center" style="background: red;">
+          <!-- ad-mob-detail-top  rectangle -->
+          <ins id="topAdSlot" class="adsbygoogle"
+          style="display:block;width:300px;height:250px"
+          data-ad-client="ca-pub-4202034217897578"
+          data-ad-slot="2645396124"
+          data-full-width-responsive="true"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        <div class="ad-side-mark">ADVERTISEMENT</div>
+      </div>
+
+      <section class="featured-card">
+        <div class="featured-media">
+          <img id="featuredCover" src="images/game-cover-Blocky_Puzzle.png" class="featured-cover" alt="game cover">
+          <img class="featured-popular-badge" src="images/game-icon/icon-popular.png" alt="Popular">
+        </div>
+        <div class="featured-info">
+          <img id="featuredIcon" src="images/game-icon/game-icon-Blocky_Puzzle.png" class="featured-icon" alt="game icon">
+          <div id="featuredName" class="featured-name">Blocky Puzzle</div>
+          <button id="playNowBtn" class="play-now-btn" type="button">Play Now</button>
+        </div>
+      </section>
+
+      <section class="hot-games">
+        <div class="hot-header">Hot Game</div>
+        <div id="hotGamesList" class="hot-games-list">
+          <a class="hot-game-item" href="javascript:void(0)">
+            <div class="hot-thumb-wrap">
+              <img class="hot-badge" src="images/game-icon/hot-icon.png" alt="Hot">
+              <img class="hot-game-thumb" src="images/game-icon/icon-tail-wing-h5.png" alt="Tail-Swing_h5">
+            </div>
+            <div class="hot-name">Tail-Swing_h5</div>
+          </a>
+
+          <a class="hot-game-item" href="javascript:void(0)">
+            <div class="hot-thumb-wrap">
+              <img class="hot-badge" src="images/game-icon/hot-icon.png" alt="Hot">
+              <img class="hot-game-thumb" src="images/game-icon/icon-blumgi-slime.png" alt="Blumgi-Slime">
+            </div>
+            <div class="hot-name">Blumgi-Slime</div>
+          </a>
+
+          <a class="hot-game-item" href="javascript:void(0)">
+            <div class="hot-thumb-wrap">
+              <img class="hot-badge" src="images/game-icon/hot-icon.png" alt="Hot">
+              <img class="hot-game-thumb" src="images/game-icon/game-icon-bullet-bros.png" alt="Bullet-Bros">
+            </div>
+            <div class="hot-name">Bullet-Bros...</div>
+          </a>
+        </div>
+        <div style="height: 100px;"></div>
+      </section>
+
+      <div class="bottom-ad-content" id="bottomAdContainer" style="background: red;">
+        <ins id="bottomAdSlot" class="adsbygoogle"
+        style="display:inline-block;width:320px;height:100px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="6213940195"></ins>
+        <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function setupFeaturedGameEntry() {
+      var featuredCover = document.getElementById("featuredCover");
+      var playNowBtn = document.getElementById("playNowBtn");
+      if (!featuredCover || !playNowBtn) return;
+      var featuredGameUrl = "https://rabigame.fun/r_game/Blocky_Puzzle/index.html";
+
+      function goFeaturedGame() {
+        window.location.href = featuredGameUrl;
+      }
+
+      // featuredCover.addEventListener("click", goFeaturedGame);
+      // playNowBtn.addEventListener("click", goFeaturedGame);
+    })();
+
+    (function setupHotGamesList() {
+      var hotGamesList = document.getElementById("hotGamesList");
+      if (!hotGamesList) return;
+
+      var HOT_API_URL = "https://rabigame.fun/api/v1/game/hot?limit=21&skip=0";
+      var CDN_PREFIX = "https://cdn.puzzlegame.online/";
+      var DETAIL_BASE_URL = "https://rabigame.fun/detail";
+      var currentSearchParams = new URLSearchParams(window.location.search || "");
+      if (currentSearchParams.get("adType") === "browse") {
+        currentSearchParams.delete("adType");
+      }
+      var filteredSearch = currentSearchParams.toString();
+      var currentSearch = filteredSearch ? "?" + filteredSearch : "";
+
+      
+      var hotBadgeSrc = "images/game-icon/hot-icon.png";
+
+      function buildCdnUrl(iconUrl) {
+        if (!iconUrl) return "";
+        if (/^https?:\/\//i.test(iconUrl)) return iconUrl;
+        return CDN_PREFIX + String(iconUrl).replace(/^\/+/, "");
+      }
+
+      function buildDetailUrl(gameMd5) {
+        return DETAIL_BASE_URL + "/" + encodeURIComponent(gameMd5 || "") + currentSearch;
+      }
+
+      function createHotGameItem(game) {
+        var link = document.createElement("a");
+        link.className = "hot-game-item";
+        link.href = buildDetailUrl(game.gameMd5);
+
+        var thumbWrap = document.createElement("div");
+        thumbWrap.className = "hot-thumb-wrap";
+
+        var badge = document.createElement("img");
+        badge.className = "hot-badge";
+        badge.src = hotBadgeSrc;
+        badge.alt = "Hot";
+
+        var thumb = document.createElement("img");
+        thumb.className = "hot-game-thumb";
+        thumb.src = buildCdnUrl(game.iconUrl);
+        thumb.alt = game.title || "Hot game";
+        thumb.loading = "lazy";
+
+        var name = document.createElement("div");
+        name.className = "hot-name";
+        name.textContent = game.title || "";
+
+        thumbWrap.appendChild(badge);
+        thumbWrap.appendChild(thumb);
+        link.appendChild(thumbWrap);
+        link.appendChild(name);
+        return link;
+      }
+
+      fetch(HOT_API_URL, { method: "GET" })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Hot games request failed");
+          }
+          return response.json();
+        })
+        .then(function (payload) {
+          var gameList = payload && payload.data && Array.isArray(payload.data.gameList)
+            ? payload.data.gameList
+            : [];
+          if (!gameList.length) return;
+
+          hotGamesList.innerHTML = "";
+          gameList.forEach(function (game) {
+            if (!game || !game.gameMd5) return;
+            hotGamesList.appendChild(createHotGameItem(game));
+          });
+        })
+        .catch(function () {
+          // Keep static fallback items when API fails.
+        });
+    })();
+  </script>
+</body>
+</html>

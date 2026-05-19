@@ -1,0 +1,3822 @@
+{
+  "gameName": "minefun-io",
+  "pageUrl": "https://poki.com/en/g/minefun-io",
+  "gameUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-9a2ec3bfffa333eca77baf7a31e371aa051e6d17&site_id=3&iso_lang=en&poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fminefun-io&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=6%2C13%2C48%2C58%2C76%2C77%2C88%2C93%2C96%2C183%2C744%2C885%2C1120%2C1140%2C1177%2C1185%2C1190%2C1193&game_id=c89f4abe-5041-497b-8705-986b6f3b748c&game_version_id=9bacadcc-80f8-43e7-9f8c-9bde8e7780b3&inspector=0&csp=1",
+  "engine": "unknown",
+  "startedAt": "2026-05-18T03:56:33.718Z",
+  "stoppedAt": "2026-05-18T05:57:09.451Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 1979,
+    "downloaded": 602,
+    "failed": 1,
+    "skipped": 20
+  },
+  "files": [
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/_plugin-vue_export-helper-HL7Uwra9.js",
+      "localPath": "assets/_plugin-vue_export-helper-HL7Uwra9.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Home-DAh8IOSI.js",
+      "localPath": "assets/Home-DAh8IOSI.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/bedWarsState-BSuTim2i.js",
+      "localPath": "assets/bedWarsState-BSuTim2i.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/creativeState-DjmnL_aF.js",
+      "localPath": "assets/creativeState-DjmnL_aF.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/parkourState-BGLzFrkL.js",
+      "localPath": "assets/parkourState-BGLzFrkL.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/oneBlockState-BOu3OsKc.js",
+      "localPath": "assets/oneBlockState-BOu3OsKc.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/notify-__bk2LZj.js",
+      "localPath": "assets/notify-__bk2LZj.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/customState-CroYj1j_.js",
+      "localPath": "assets/customState-CroYj1j_.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Block-DZt7cUpR.js",
+      "localPath": "assets/Block-DZt7cUpR.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/roomManager-BqPA0LMD.js",
+      "localPath": "assets/roomManager-BqPA0LMD.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/mobsData-CRCrP3DU.js",
+      "localPath": "assets/mobsData-CRCrP3DU.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sandboxState-D5aAkElx.js",
+      "localPath": "assets/sandboxState-D5aAkElx.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Profile-CoZ9u9WY.js",
+      "localPath": "assets/Profile-CoZ9u9WY.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ShopSkins-D1vx5Rja.js",
+      "localPath": "assets/ShopSkins-D1vx5Rja.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Profile-jyBkmAib.css",
+      "localPath": "assets/Profile-jyBkmAib.css",
+      "status": "ok",
+      "requestType": "Stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/SkinsScene-CAIHmFFN.js",
+      "localPath": "assets/SkinsScene-CAIHmFFN.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ShopSkins-DyD9gUYc.css",
+      "localPath": "assets/ShopSkins-DyD9gUYc.css",
+      "status": "ok",
+      "requestType": "Stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/en-US-B3wkCAb8.js",
+      "localPath": "assets/en-US-B3wkCAb8.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/blocksData-DOFORIuX.js",
+      "localPath": "assets/blocksData-DOFORIuX.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/LilitaOne-Regular-Doc3sa1H.ttf",
+      "localPath": "assets/LilitaOne-Regular-Doc3sa1H.ttf",
+      "status": "ok",
+      "requestType": "Font"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/RichText-DBLw1kVw.js",
+      "localPath": "assets/RichText-DBLw1kVw.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/badgeStore-G-l5VVKR.js",
+      "localPath": "assets/badgeStore-G-l5VVKR.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/RichText-DZc6HGW0.css",
+      "localPath": "assets/RichText-DZc6HGW0.css",
+      "status": "ok",
+      "requestType": "Stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Home-NGmJdcyg.css",
+      "localPath": "assets/Home-NGmJdcyg.css",
+      "status": "ok",
+      "requestType": "Stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/libs/draco/draco_wasm_wrapper.js",
+      "localPath": "libs/draco/draco_wasm_wrapper.js",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Sky_Toon3-CZC_8PGQ.ktx2",
+      "localPath": "assets/Sky_Toon3-CZC_8PGQ.ktx2",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/libs/draco/draco_decoder.wasm",
+      "localPath": "libs/draco/draco_decoder.wasm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/1-DvrAlMi8.webp",
+      "localPath": "assets/1-DvrAlMi8.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/homeAmbience-CMJ7nBl0.mp3",
+      "localPath": "assets/homeAmbience-CMJ7nBl0.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Parkour-wSP8JkpL.webp",
+      "localPath": "assets/Parkour-wSP8JkpL.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infection-CJ3Pjf3U.webp",
+      "localPath": "assets/Infection-CJ3Pjf3U.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Creative-BAzaOq2N.webp",
+      "localPath": "assets/Creative-BAzaOq2N.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/HideAndSeek-DvkR_Zxi.webp",
+      "localPath": "assets/HideAndSeek-DvkR_Zxi.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/SkyWars-0fSSjCj8.webp",
+      "localPath": "assets/SkyWars-0fSSjCj8.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/OneBlock-DzlA0geD.webp",
+      "localPath": "assets/OneBlock-DzlA0geD.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/TheWar-Cd_CKyo7.webp",
+      "localPath": "assets/TheWar-Cd_CKyo7.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BedWars-DIFiBIjp.webp",
+      "localPath": "assets/BedWars-DIFiBIjp.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/3-B_770YhV.webp",
+      "localPath": "assets/3-B_770YhV.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Survival-BnWlujfn.webp",
+      "localPath": "assets/Survival-BnWlujfn.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/1-CNE5C0IQ.webp",
+      "localPath": "assets/1-CNE5C0IQ.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apocalypse%20Soon-EUYeHcOq.webp",
+      "localPath": "assets/Apocalypse_20Soon-EUYeHcOq.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/2-Bqg6alFF.webp",
+      "localPath": "assets/2-Bqg6alFF.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/4-rQ5kl-IE.webp",
+      "localPath": "assets/4-rQ5kl-IE.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/0.31-BSe2XJUt.webp",
+      "localPath": "assets/0.31-BSe2XJUt.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/0.29-DMDPWkhy.jpg",
+      "localPath": "assets/0.29-DMDPWkhy.jpg",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/0.28-JKVs-9gR.webp",
+      "localPath": "assets/0.28-JKVs-9gR.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/tg-icon-CfGMOFi-.webp",
+      "localPath": "assets/tg-icon-CfGMOFi-.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/open-nVDDWEKZ.mp3",
+      "localPath": "assets/open-nVDDWEKZ.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/x-icon-BgdY3w3q.webp",
+      "localPath": "assets/x-icon-BgdY3w3q.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Roboto-Bold-CM98DFac.ttf",
+      "localPath": "assets/Roboto-Bold-CM98DFac.ttf",
+      "status": "ok",
+      "requestType": "Font"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/LobbyAnim-C_sVqWCj.glb",
+      "localPath": "assets/LobbyAnim-C_sVqWCj.glb",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/libs/basis/basis_transcoder.js",
+      "localPath": "libs/basis/basis_transcoder.js",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/libs/basis/basis_transcoder.wasm",
+      "localPath": "libs/basis/basis_transcoder.wasm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/LobbyIslandDefault-W8hlli0d.glb",
+      "localPath": "assets/LobbyIslandDefault-W8hlli0d.glb",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/chest_150x150-YERCE99h.webp",
+      "localPath": "assets/chest_150x150-YERCE99h.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/mainBody-DMQ2XBE5.glb",
+      "localPath": "assets/mainBody-DMQ2XBE5.glb",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fire-BDXumTce.webp",
+      "localPath": "assets/fire-BDXumTce.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/blocksData-CQ8vppCS.js",
+      "localPath": "assets/blocksData-CQ8vppCS.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/2-BXBK-iZQ.webp",
+      "localPath": "assets/2-BXBK-iZQ.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/reward-video-CNh913Nx.png",
+      "localPath": "assets/reward-video-CNh913Nx.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/lootbox-bg-DWF2NVEz.webp",
+      "localPath": "assets/lootbox-bg-DWF2NVEz.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/CuttedSkybox-ZQbDWy7N.glb",
+      "localPath": "assets/CuttedSkybox-ZQbDWy7N.glb",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/4-bCXS9cQC.webp",
+      "localPath": "assets/4-bCXS9cQC.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/5-DyvM6w9d.webp",
+      "localPath": "assets/5-DyvM6w9d.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/6-B5svfqRT.webp",
+      "localPath": "assets/6-B5svfqRT.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-9a2ec3bfffa333eca77baf7a31e371aa051e6d17&site_id=3&iso_lang=en&poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fminefun-io&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=6%2C13%2C48%2C58%2C76%2C77%2C88%2C93%2C96%2C183%2C744%2C885%2C1120%2C1140%2C1177%2C1185%2C1190%2C1193&game_id=c89f4abe-5041-497b-8705-986b6f3b748c&game_version_id=9bacadcc-80f8-43e7-9f8c-9bde8e7780b3&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/3-Cwc4z6RP.webp",
+      "localPath": "assets/3-Cwc4z6RP.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/preload-helper-Cr3t5EmN.js",
+      "localPath": "assets/preload-helper-Cr3t5EmN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "",
+      "localPath": "assets-manifest.json",
+      "status": "ok",
+      "requestType": "text"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/LocalStorageHelper-BQRo59NZ.js",
+      "localPath": "assets/LocalStorageHelper-BQRo59NZ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/chunk-DuZBl320.js",
+      "localPath": "assets/chunk-DuZBl320.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/index-KfPtypK-.js",
+      "localPath": "assets/index-KfPtypK-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/vue.runtime.esm-bundler-B6M-rxXZ.js",
+      "localPath": "assets/vue.runtime.esm-bundler-B6M-rxXZ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/i18n-CPRTO1sg.js",
+      "localPath": "assets/i18n-CPRTO1sg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/index.es-DkYwxCeM.js",
+      "localPath": "assets/index.es-DkYwxCeM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/service-BsgShupu.js",
+      "localPath": "assets/service-BsgShupu.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/pinia-Dyu7zXKl.js",
+      "localPath": "assets/pinia-Dyu7zXKl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/lodash-urwBENXq.js",
+      "localPath": "assets/lodash-urwBENXq.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/user-BFOXMcAM.js",
+      "localPath": "assets/user-BFOXMcAM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/math-D6dSHU3x.js",
+      "localPath": "assets/math-D6dSHU3x.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/dist-zJ7dUkjd.js",
+      "localPath": "assets/dist-zJ7dUkjd.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/vue-router-DSHQdltE.js",
+      "localPath": "assets/vue-router-DSHQdltE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/globals-BBp0vTRt.js",
+      "localPath": "assets/globals-BBp0vTRt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/startOfDay-D3ajJUR7.js",
+      "localPath": "assets/startOfDay-D3ajJUR7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/particlesManifest-CU9FAN7i.js",
+      "localPath": "assets/particlesManifest-CU9FAN7i.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/zombie-B7LSrKhj.js",
+      "localPath": "assets/zombie-B7LSrKhj.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fist-BhCp6H5-.js",
+      "localPath": "assets/fist-BhCp6H5-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/lootbox-bg-Chlgkjk7.js",
+      "localPath": "assets/lootbox-bg-Chlgkjk7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/lootbox-Cg9nRyqv.js",
+      "localPath": "assets/lootbox-Cg9nRyqv.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/players-DucxOeEM.js",
+      "localPath": "assets/players-DucxOeEM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sniper-scope-QQWwKxM6.js",
+      "localPath": "assets/sniper-scope-QQWwKxM6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Amethyst%20Check-CNjzQiWg.js",
+      "localPath": "assets/Amethyst_20Check-CNjzQiWg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apple%20Bark-Cxdwn10t.js",
+      "localPath": "assets/Apple_20Bark-Cxdwn10t.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apple%20Fruit%20Leaves-a4kBcMpn.js",
+      "localPath": "assets/Apple_20Fruit_20Leaves-a4kBcMpn.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apple%20Leaves-DWIgqQpN.js",
+      "localPath": "assets/Apple_20Leaves-DWIgqQpN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apple%20Planks-MRbQ2nd5.js",
+      "localPath": "assets/Apple_20Planks-MRbQ2nd5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apple%20Sprout-C9LhCFuq.js",
+      "localPath": "assets/Apple_20Sprout-C9LhCFuq.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Apple%20Top%20Bark-yeTndZRH.js",
+      "localPath": "assets/Apple_20Top_20Bark-yeTndZRH.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Arrow-CO3eULUH.js",
+      "localPath": "assets/Arrow-CO3eULUH.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Balsam%20Fir%20Folliage-Cs4knjBY.js",
+      "localPath": "assets/Balsam_20Fir_20Folliage-Cs4knjBY.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Balsam%20Fir%20Log%20Top-B_rTNc2G.js",
+      "localPath": "assets/Balsam_20Fir_20Log_20Top-B_rTNc2G.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Balsam%20Fir%20Log-B0hYWWQi.js",
+      "localPath": "assets/Balsam_20Fir_20Log-B0hYWWQi.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Balsam%20Fir%20Planks-DR8bDq7O.js",
+      "localPath": "assets/Balsam_20Fir_20Planks-DR8bDq7O.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BalsamFir-D6iEhvqG.js",
+      "localPath": "assets/BalsamFir-D6iEhvqG.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Baobab%20Bark-DnQEGnGr.js",
+      "localPath": "assets/Baobab_20Bark-DnQEGnGr.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Baobab%20Foliage-Df8xruaE.js",
+      "localPath": "assets/Baobab_20Foliage-Df8xruaE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Baobab%20Fruit%20Foliage-CqWdaCfe.js",
+      "localPath": "assets/Baobab_20Fruit_20Foliage-CqWdaCfe.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Baobab%20Planks-BUeNbU6n.js",
+      "localPath": "assets/Baobab_20Planks-BUeNbU6n.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Baobab%20Sprout-C1Ohzo7c.js",
+      "localPath": "assets/Baobab_20Sprout-C1Ohzo7c.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Baobab%20Top-DC9cr2oQ.js",
+      "localPath": "assets/Baobab_20Top-DC9cr2oQ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Basalt%20Bricks-B8lrSwNF.js",
+      "localPath": "assets/Basalt_20Bricks-B8lrSwNF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Basalt%20Column-CZcFo_RL.js",
+      "localPath": "assets/Basalt_20Column-CZcFo_RL.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Basalt%20Tile-C2fithdi.js",
+      "localPath": "assets/Basalt_20Tile-C2fithdi.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Basalt%20Top%20Column-jIPOTtMb.js",
+      "localPath": "assets/Basalt_20Top_20Column-jIPOTtMb.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Basalt-BYIuNl05.js",
+      "localPath": "assets/Basalt-BYIuNl05.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Bedrock-6--Br7lU.js",
+      "localPath": "assets/Bedrock-6--Br7lU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Wool-CT6tRGAg.js",
+      "localPath": "assets/Blue_20Wool-CT6tRGAg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Birch%20Bark-Cua2MEa3.js",
+      "localPath": "assets/Birch_20Bark-Cua2MEa3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Birch%20Bark%20Top%20Bottom-B8uX0y9C.js",
+      "localPath": "assets/Birch_20Bark_20Top_20Bottom-B8uX0y9C.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Birch%20Folliage-EGP3XqoC.js",
+      "localPath": "assets/Birch_20Folliage-EGP3XqoC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Birch%20Planks-BqDduJ7h.js",
+      "localPath": "assets/Birch_20Planks-BqDduJ7h.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Black%20Clay-fVt-kEyd.js",
+      "localPath": "assets/Black_20Clay-fVt-kEyd.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Black%20Bricks-KUyWOBF-.js",
+      "localPath": "assets/Black_20Bricks-KUyWOBF-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Birch%20Sprout-CfMCSW2O.js",
+      "localPath": "assets/Birch_20Sprout-CfMCSW2O.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Black%20Tile%20Top-CbvdHYqO.js",
+      "localPath": "assets/Black_20Tile_20Top-CbvdHYqO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Black%20Planks-CgL8maIE.js",
+      "localPath": "assets/Black_20Planks-CgL8maIE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Bricks-CJ2ZGN4E.js",
+      "localPath": "assets/Blue_20Bricks-CJ2ZGN4E.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Black%20Wool-DO_XaLTW.js",
+      "localPath": "assets/Black_20Wool-DO_XaLTW.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Clay-Cre9YzXW.js",
+      "localPath": "assets/Blue_20Clay-Cre9YzXW.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Oak%20Planks-DY9A0iOB.js",
+      "localPath": "assets/Blue_20Oak_20Planks-DY9A0iOB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Team-RD1bZgW8.js",
+      "localPath": "assets/Blue_20Team-RD1bZgW8.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Stone-CI8QCLi9.js",
+      "localPath": "assets/Blue_20Stone-CI8QCLi9.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Blue%20Tile%20Top-CXkky_3B.js",
+      "localPath": "assets/Blue_20Tile_20Top-CXkky_3B.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Breccia%20Bricks-C-4N2-78.js",
+      "localPath": "assets/Breccia_20Bricks-C-4N2-78.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Breccia%20Tile-DTBcBMAP.js",
+      "localPath": "assets/Breccia_20Tile-DTBcBMAP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Breccia-BdFPDaxB.js",
+      "localPath": "assets/Breccia-BdFPDaxB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Bricks-CtE3Q6to.js",
+      "localPath": "assets/Bricks-CtE3Q6to.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Bronze%20Lattice-D07wubLU.js",
+      "localPath": "assets/Bronze_20Lattice-D07wubLU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Brown%20Bricks-DigKPqiy.js",
+      "localPath": "assets/Brown_20Bricks-DigKPqiy.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Bookshelf-CwakSguu.js",
+      "localPath": "assets/Bookshelf-CwakSguu.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Box-DBPGjV3H.js",
+      "localPath": "assets/Box-DBPGjV3H.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BlueCopperLamp-BeTwkCSz.js",
+      "localPath": "assets/BlueCopperLamp-BeTwkCSz.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Bounce-BOC06c6r.js",
+      "localPath": "assets/Bounce-BOC06c6r.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Brick%20Turquoise-DUMNiaPw.js",
+      "localPath": "assets/Brick_20Turquoise-DUMNiaPw.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Bricks%202-C_kRoza7.js",
+      "localPath": "assets/Bricks_202-C_kRoza7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Brown%20Tile%20Top-DHljvilf.js",
+      "localPath": "assets/Brown_20Tile_20Top-DHljvilf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Brown%20Planks-oSdAa2rj.js",
+      "localPath": "assets/Brown_20Planks-oSdAa2rj.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Brown%20Wool-CVkZ9mkq.js",
+      "localPath": "assets/Brown_20Wool-CVkZ9mkq.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Brown%20Clay-CM3il-sU.js",
+      "localPath": "assets/Brown_20Clay-CM3il-sU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cake%20Block%20YP-DOLjh2ot.js",
+      "localPath": "assets/Cake_20Block_20YP-DOLjh2ot.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cake%20Block%20other-DcNQ-lA2.js",
+      "localPath": "assets/Cake_20Block_20other-DcNQ-lA2.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cake%20Block%20YN-Cu6UNRLJ.js",
+      "localPath": "assets/Cake_20Block_20YN-Cu6UNRLJ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Candy%20Block-DTLr6f1y.js",
+      "localPath": "assets/Candy_20Block-DTLr6f1y.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cannot%20Build-CMobd1Ra.js",
+      "localPath": "assets/Cannot_20Build-CMobd1Ra.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cinderwood%20Leaves-BWRJYjyb.js",
+      "localPath": "assets/Cinderwood_20Leaves-BWRJYjyb.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Carved%20Brick-DZjuEzJX.js",
+      "localPath": "assets/Carved_20Brick-DZjuEzJX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cinderwood%20Planks-Cmc9yY0n.js",
+      "localPath": "assets/Cinderwood_20Planks-Cmc9yY0n.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cinderwood%20Top-BD3ad2Zn.js",
+      "localPath": "assets/Cinderwood_20Top-BD3ad2Zn.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Coal%20Block-B6sYOUAp.js",
+      "localPath": "assets/Coal_20Block-B6sYOUAp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Clay-DEltDpHJ.js",
+      "localPath": "assets/Clay-DEltDpHJ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cinderwood-Bu3Zn7zE.js",
+      "localPath": "assets/Cinderwood-Bu3Zn7zE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Coal%20Ore-D0BdqgR4.js",
+      "localPath": "assets/Coal_20Ore-D0BdqgR4.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Coin-BKHIgviA.js",
+      "localPath": "assets/Coin-BKHIgviA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Command%20UpDown-2iaHZyXB.js",
+      "localPath": "assets/Command_20UpDown-2iaHZyXB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Compres%20Fossil%201-fBKY2myd.js",
+      "localPath": "assets/Compres_20Fossil_201-fBKY2myd.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Command-CRVDPV88.js",
+      "localPath": "assets/Command-CRVDPV88.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Compres%20Fossil%202-CrxqNTdP.js",
+      "localPath": "assets/Compres_20Fossil_202-CrxqNTdP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fire-CxHL1bBR.css",
+      "localPath": "assets/fire-CxHL1bBR.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Verify-C1WbobUx.css",
+      "localPath": "assets/Verify-C1WbobUx.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BaseBtn-wuYnCL0Z.css",
+      "localPath": "assets/BaseBtn-wuYnCL0Z.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/CloseIcon-DpFJotgd.css",
+      "localPath": "assets/CloseIcon-DpFJotgd.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BaseInput-D-S05zW0.css",
+      "localPath": "assets/BaseInput-D-S05zW0.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/index-DNODfAjJ.css",
+      "localPath": "assets/index-DNODfAjJ.css",
+      "status": "ok",
+      "requestType": "stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Gray%20Bricks-BJtBngoI.js",
+      "localPath": "assets/Dark_20Gray_20Bricks-BJtBngoI.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Green%20Bricks-HbxMs6UE.js",
+      "localPath": "assets/Dark_20Green_20Bricks-HbxMs6UE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Red%20Bricks-CEUQlNwT.js",
+      "localPath": "assets/Dark_20Red_20Bricks-CEUQlNwT.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Green%20Clay-B6BvpuDG.js",
+      "localPath": "assets/Dark_20Green_20Clay-B6BvpuDG.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Diagonal%20Golden%20Grid-C5GL9s1F.js",
+      "localPath": "assets/Diagonal_20Golden_20Grid-C5GL9s1F.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Death%20Zone-c7ZibwVO.js",
+      "localPath": "assets/Death_20Zone-c7ZibwVO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Diagonal%20Iron%20Grid-BrwPS0uO.js",
+      "localPath": "assets/Diagonal_20Iron_20Grid-BrwPS0uO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Diamond%20Block-BTDfqVPP.js",
+      "localPath": "assets/Diamond_20Block-BTDfqVPP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Diamond%20Ore-Dszn8CrF.js",
+      "localPath": "assets/Diamond_20Ore-Dszn8CrF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dirt-B56rhHC0.js",
+      "localPath": "assets/Dirt-B56rhHC0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%205-CTsvQAL1.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_205-CTsvQAL1.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%206-CvimS7dE.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_206-CvimS7dE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%207-CnYVGqo6.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_207-CnYVGqo6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%206-DTAc0oRs.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_206-DTAc0oRs.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%205-DtcsclAz.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_205-DtcsclAz.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%204-hlOMbRw_.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_204-hlOMbRw_.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%207-DyFyX1MA.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_207-DyFyX1MA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%201-uZuETFyk.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_201-uZuETFyk.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%202-BqW6_Bwl.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_202-BqW6_Bwl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%204-BK4RvnYU.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_204-BK4RvnYU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%203-C_jxlxff.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_203-C_jxlxff.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%206-D1ZseW0i.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_206-D1ZseW0i.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Finish-DrJQmruC.js",
+      "localPath": "assets/Finish-DrJQmruC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%207-DkZmaQmf.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_207-DkZmaQmf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Iron%20Block%205-BH10_w_N.js",
+      "localPath": "assets/Fabricated_20Iron_20Block_205-BH10_w_N.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gem-B98oeVsQ.js",
+      "localPath": "assets/Gem-B98oeVsQ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Flag-Cc-7TyH2.js",
+      "localPath": "assets/Flag-Cc-7TyH2.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Forest%20Grasses%20Top-nwusNQbo.js",
+      "localPath": "assets/Forest_20Grasses_20Top-nwusNQbo.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Forest%20Grasses-DoMGlBbV.js",
+      "localPath": "assets/Forest_20Grasses-DoMGlBbV.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Glass%201-DHNJjnNu.js",
+      "localPath": "assets/Glass_201-DHNJjnNu.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Glass%202-BCU7NW6S.js",
+      "localPath": "assets/Glass_202-BCU7NW6S.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Green%20Arrow-BvfnAY7P.js",
+      "localPath": "assets/Rubber_20Green_20Arrow-BvfnAY7P.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Green-CKhrxNyT.js",
+      "localPath": "assets/Rubber_20Green-CKhrxNyT.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Purple%20Arrow-vq0pw-ja.js",
+      "localPath": "assets/Rubber_20Purple_20Arrow-vq0pw-ja.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Purple-DL4ZP4zX.js",
+      "localPath": "assets/Rubber_20Purple-DL4ZP4zX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Red%20Arrow-2Zr3A8Cu.js",
+      "localPath": "assets/Rubber_20Red_20Arrow-2Zr3A8Cu.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Red-Csdypr3a.js",
+      "localPath": "assets/Rubber_20Red-Csdypr3a.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Turquoise%20Arrow-CANbEkBC.js",
+      "localPath": "assets/Rubber_20Turquoise_20Arrow-CANbEkBC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Turquoise-DBjHM9-R.js",
+      "localPath": "assets/Rubber_20Turquoise-DBjHM9-R.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Yellow%20Arrow-Bn4OXTAv.js",
+      "localPath": "assets/Rubber_20Yellow_20Arrow-Bn4OXTAv.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Yellow-LM7FNSkt.js",
+      "localPath": "assets/Rubber_20Yellow-LM7FNSkt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Salt%20Bricks-Da1WKJdO.js",
+      "localPath": "assets/Salt_20Bricks-Da1WKJdO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Salt%20Flats-D-QqookT.js",
+      "localPath": "assets/Salt_20Flats-D-QqookT.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Salt%20Tile-Dl5GdbNc.js",
+      "localPath": "assets/Salt_20Tile-Dl5GdbNc.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Sand%20Brick-UMQTrjnN.js",
+      "localPath": "assets/Sand_20Brick-UMQTrjnN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Sand%20Tile-CdD7hWR_.js",
+      "localPath": "assets/Sand_20Tile-CdD7hWR_.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Sand-wn2vz_xM.js",
+      "localPath": "assets/Sand-wn2vz_xM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Sandstone%202-COxrzZny.js",
+      "localPath": "assets/Sandstone_202-COxrzZny.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Sandstone-CM-gHV0B.js",
+      "localPath": "assets/Sandstone-CM-gHV0B.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Schist%20Bricks-CUgP67kx.js",
+      "localPath": "assets/Schist_20Bricks-CUgP67kx.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Schist%20Tile-D5-K64LO.js",
+      "localPath": "assets/Schist_20Tile-D5-K64LO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Schist-d7jdmw-y.js",
+      "localPath": "assets/Schist-d7jdmw-y.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Screaming%20Obsidian-CqD_8TXA.js",
+      "localPath": "assets/Screaming_20Obsidian-CqD_8TXA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Side%20Seedbed-BhAqiWCD.js",
+      "localPath": "assets/Side_20Seedbed-BhAqiWCD.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Seedbed-D6I4P5HL.js",
+      "localPath": "assets/Seedbed-D6I4P5HL.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Slow-DooO8M7p.js",
+      "localPath": "assets/Slow-DooO8M7p.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Silt-DIxcTS1Q.js",
+      "localPath": "assets/Silt-DIxcTS1Q.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Skull-uRwVnLb5.js",
+      "localPath": "assets/Skull-uRwVnLb5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Snow%20Stone-DM_nK13d.js",
+      "localPath": "assets/Snow_20Stone-DM_nK13d.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Snow%20YP-DOqGc1kc.js",
+      "localPath": "assets/Snow_20YP-DOqGc1kc.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Snow%20YN-BJj6stRa.js",
+      "localPath": "assets/Snow_20YN-BJj6stRa.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Snow%20other-CBGyjWwb.js",
+      "localPath": "assets/Snow_20other-CBGyjWwb.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Speckled%20Alder%20Planks-R0Qig3Me.js",
+      "localPath": "assets/Speckled_20Alder_20Planks-R0Qig3Me.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Speckled%20Alder%20Folliage-DkMMu5UQ.js",
+      "localPath": "assets/Speckled_20Alder_20Folliage-DkMMu5UQ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Speckled%20Alder%20Log-CF4LdZY-.js",
+      "localPath": "assets/Speckled_20Alder_20Log-CF4LdZY-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Speckled%20Alder%20Log%20Top-2UgBO5Co.js",
+      "localPath": "assets/Speckled_20Alder_20Log_20Top-2UgBO5Co.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/SpeckledAdler-Da9x2BDf.js",
+      "localPath": "assets/SpeckledAdler-Da9x2BDf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Speed-CBMpnVVl.js",
+      "localPath": "assets/Speed-CBMpnVVl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Spruce%20Foliage-BlCoqA_C.js",
+      "localPath": "assets/Spruce_20Foliage-BlCoqA_C.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Spruce%20Bark-CwY2jAVY.js",
+      "localPath": "assets/Spruce_20Bark-CwY2jAVY.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Star-BynjlbO5.js",
+      "localPath": "assets/Star-BynjlbO5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Stone%202%20Bricks-BkA5hG1g.js",
+      "localPath": "assets/Stone_202_20Bricks-BkA5hG1g.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Spruce%20Sprout-CBzW1a7O.js",
+      "localPath": "assets/Spruce_20Sprout-CBzW1a7O.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Spruce%20Planks-Fhdj_nAn.js",
+      "localPath": "assets/Spruce_20Planks-Fhdj_nAn.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Spruce%20Top%20Bottom-CNCC7FVz.js",
+      "localPath": "assets/Spruce_20Top_20Bottom-CNCC7FVz.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Stone%202-DTxus4E_.js",
+      "localPath": "assets/Stone_202-DTxus4E_.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Stone%202%20Tile-Dsxtpj6d.js",
+      "localPath": "assets/Stone_202_20Tile-Dsxtpj6d.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Stone-Tq20uyxx.js",
+      "localPath": "assets/Stone-Tq20uyxx.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/TNT%20Bottom-PSlaDeXF.js",
+      "localPath": "assets/TNT_20Bottom-PSlaDeXF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Stop-CTWNSLWj.js",
+      "localPath": "assets/Stop-CTWNSLWj.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/TNT%20Top-DeM6ergU.js",
+      "localPath": "assets/TNT_20Top-DeM6ergU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/TNT-Dr3XMxfB.js",
+      "localPath": "assets/TNT-Dr3XMxfB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Target-2kW1XGNA.js",
+      "localPath": "assets/Target-2kW1XGNA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/VioletCopperLamp-BazWpKkl.js",
+      "localPath": "assets/VioletCopperLamp-BazWpKkl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Visible%20Coin-rWYutuBf.js",
+      "localPath": "assets/Visible_20Coin-rWYutuBf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Water-Cp0IQQiK.js",
+      "localPath": "assets/Water-Cp0IQQiK.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Clay-CyHnfv5R.js",
+      "localPath": "assets/White_20Clay-CyHnfv5R.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Column-DVcfGVC7.js",
+      "localPath": "assets/White_20Column-DVcfGVC7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Bricks-B5VICYsp.js",
+      "localPath": "assets/White_20Bricks-B5VICYsp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Time-U0cwCsCJ.js",
+      "localPath": "assets/Time-U0cwCsCJ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Planks-B4TA0KZv.js",
+      "localPath": "assets/White_20Planks-B4TA0KZv.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Stone%20Tile-DazmVcIj.js",
+      "localPath": "assets/White_20Stone_20Tile-DazmVcIj.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Stone%20Bricks-ymluBLha.js",
+      "localPath": "assets/White_20Stone_20Bricks-ymluBLha.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Team-CY9N2jVR.js",
+      "localPath": "assets/White_20Team-CY9N2jVR.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Top%20Column-C53ThGPp.js",
+      "localPath": "assets/White_20Top_20Column-C53ThGPp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Tile%20Top-xRGO6VOC.js",
+      "localPath": "assets/White_20Tile_20Top-xRGO6VOC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Wood%20Glass%201-Cpjbj0ln.js",
+      "localPath": "assets/Wood_20Glass_201-Cpjbj0ln.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/WhiteCopperLamp-B4ufuGjl.js",
+      "localPath": "assets/WhiteCopperLamp-B4ufuGjl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/White%20Wool-CbJtuE_x.js",
+      "localPath": "assets/White_20Wool-CbJtuE_x.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Wood%20Glass%202-C3LSl6eC.js",
+      "localPath": "assets/Wood_20Glass_202-C3LSl6eC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Wooden%20Lamp-w5b4NPDC.js",
+      "localPath": "assets/Wooden_20Lamp-w5b4NPDC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Yellow%20Bricks-Bff79rrP.js",
+      "localPath": "assets/Yellow_20Bricks-Bff79rrP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Yellow%20Clay-jYrf3fjg.js",
+      "localPath": "assets/Yellow_20Clay-jYrf3fjg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Yellow%20Oak%20Planks-qcV4m5cL.js",
+      "localPath": "assets/Yellow_20Oak_20Planks-qcV4m5cL.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Yellow%20Team-BpoXOzAb.js",
+      "localPath": "assets/Yellow_20Team-BpoXOzAb.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Yellow%20Tile%20Top-BQpD_eiP.js",
+      "localPath": "assets/Yellow_20Tile_20Top-BQpD_eiP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Yellow%20Wool-I_uTbfjN.js",
+      "localPath": "assets/Yellow_20Wool-I_uTbfjN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/YellowCopperLamp-BAPKTMCv.js",
+      "localPath": "assets/YellowCopperLamp-BAPKTMCv.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/light-6V-jfhk3.js",
+      "localPath": "assets/light-6V-jfhk3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/bg-hands-item-6vwQMnvg.js",
+      "localPath": "assets/bg-hands-item-6vwQMnvg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/spawn-D73RvxvB.js",
+      "localPath": "assets/spawn-D73RvxvB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/pause--QgqEh-j.js",
+      "localPath": "assets/pause--QgqEh-j.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Verify-C9BTP5ZA.js",
+      "localPath": "assets/Verify-C9BTP5ZA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/spinner-DrLk3Nom.js",
+      "localPath": "assets/spinner-DrLk3Nom.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/af-BFeQci3_.js",
+      "localPath": "assets/af-BFeQci3_.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ar-Dii6PIxh.js",
+      "localPath": "assets/ar-Dii6PIxh.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/bg-14QKRP04.js",
+      "localPath": "assets/bg-14QKRP04.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/bn-Ohnn-xBv.js",
+      "localPath": "assets/bn-Ohnn-xBv.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ca-BhoJ4gQ6.js",
+      "localPath": "assets/ca-BhoJ4gQ6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/cs-B8H3xAqV.js",
+      "localPath": "assets/cs-B8H3xAqV.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/da-CMaOO7rt.js",
+      "localPath": "assets/da-CMaOO7rt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/de-CC-RIYkB.js",
+      "localPath": "assets/de-CC-RIYkB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/el-BS_UTfko.js",
+      "localPath": "assets/el-BS_UTfko.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/en-BZhDAObF.js",
+      "localPath": "assets/en-BZhDAObF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/es-DDIKKHJx.js",
+      "localPath": "assets/es-DDIKKHJx.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/et-CuFsWSD3.js",
+      "localPath": "assets/et-CuFsWSD3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fa-CFkdjD5_.js",
+      "localPath": "assets/fa-CFkdjD5_.js",
+      "status": "failed",
+      "requestType": "script",
+      "error": "fetch failed"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/hu-BLNt3B7g.js",
+      "localPath": "assets/hu-BLNt3B7g.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fi-5rqOqHFQ.js",
+      "localPath": "assets/fi-5rqOqHFQ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fr-CeLpsy9T.js",
+      "localPath": "assets/fr-CeLpsy9T.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/hi-CeeNMBE5.js",
+      "localPath": "assets/hi-CeeNMBE5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/he-D28oOAfK.js",
+      "localPath": "assets/he-D28oOAfK.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Purple%20Wool-WOyMHAcQ.js",
+      "localPath": "assets/Purple_20Wool-WOyMHAcQ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Quartz-BbtZv9mK.js",
+      "localPath": "assets/Quartz-BbtZv9mK.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Question-OwF2YiB9.js",
+      "localPath": "assets/Question-OwF2YiB9.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rainbow%20Lucky%20Block-REj4a36s.js",
+      "localPath": "assets/Rainbow_20Lucky_20Block-REj4a36s.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Red%20Clay-DY25J4lf.js",
+      "localPath": "assets/Red_20Clay-DY25J4lf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Red%20Oak%20Planks-BK3RNEkI.js",
+      "localPath": "assets/Red_20Oak_20Planks-BK3RNEkI.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Red%20Team-CR1-g8E9.js",
+      "localPath": "assets/Red_20Team-CR1-g8E9.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Red%20Tile%20Top-DlbR1GD7.js",
+      "localPath": "assets/Red_20Tile_20Top-DlbR1GD7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Red%20Wool-CgWH_NVX.js",
+      "localPath": "assets/Red_20Wool-CgWH_NVX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/RedCopperLamp-BYWXaFiM.js",
+      "localPath": "assets/RedCopperLamp-BYWXaFiM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Dirt-O_wf2miR.js",
+      "localPath": "assets/Rubber_20Dirt-O_wf2miR.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Respawn-NZz2wDWs.js",
+      "localPath": "assets/Respawn-NZz2wDWs.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Blue-D9iSNqL3.js",
+      "localPath": "assets/Rubber_20Blue-D9iSNqL3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Blue%20Arrow-CSOWyflN.js",
+      "localPath": "assets/Rubber_20Blue_20Arrow-CSOWyflN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Rubber%20Grass-vIo6dFnf.js",
+      "localPath": "assets/Rubber_20Grass-vIo6dFnf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/run-awy52XVf.js",
+      "localPath": "assets/run-awy52XVf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/fire-C5xSFE6W.js",
+      "localPath": "assets/fire-C5xSFE6W.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/star-uefZtuVB.js",
+      "localPath": "assets/star-uefZtuVB.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/hr-D0doNzNO.js",
+      "localPath": "assets/hr-D0doNzNO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sword-BPJcv_Nw.js",
+      "localPath": "assets/sword-BPJcv_Nw.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/seek-OkkDCpCg.js",
+      "localPath": "assets/seek-OkkDCpCg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/id-E9PXNDgX.js",
+      "localPath": "assets/id-E9PXNDgX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ja-Bsicpb-4.js",
+      "localPath": "assets/ja-Bsicpb-4.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/it-0uUy3_62.js",
+      "localPath": "assets/it-0uUy3_62.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/home-C8aUhMI9.js",
+      "localPath": "assets/home-C8aUhMI9.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ko-CFKyxHSh.js",
+      "localPath": "assets/ko-CFKyxHSh.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/lt-BgBKEfT8.js",
+      "localPath": "assets/lt-BgBKEfT8.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/lv-K2gtHlgE.js",
+      "localPath": "assets/lv-K2gtHlgE.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ms-DoVD1czx.js",
+      "localPath": "assets/ms-DoVD1czx.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sq-DahqtDz_.js",
+      "localPath": "assets/sq-DahqtDz_.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/nl-A-TlPO65.js",
+      "localPath": "assets/nl-A-TlPO65.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/no-BggQXXmn.js",
+      "localPath": "assets/no-BggQXXmn.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sr-gz3pgyns.js",
+      "localPath": "assets/sr-gz3pgyns.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/pa-DFl1I9yq.js",
+      "localPath": "assets/pa-DFl1I9yq.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/pt-CDY735hF.js",
+      "localPath": "assets/pt-CDY735hF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/pl-CzVdFRkP.js",
+      "localPath": "assets/pl-CzVdFRkP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sw-BO2cuoSt.js",
+      "localPath": "assets/sw-BO2cuoSt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ru-B8eDBECx.js",
+      "localPath": "assets/ru-B8eDBECx.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/th-DDw61uo6.js",
+      "localPath": "assets/th-DDw61uo6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ro-MEMUl4W0.js",
+      "localPath": "assets/ro-MEMUl4W0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/sk-H2kqSX6B.js",
+      "localPath": "assets/sk-H2kqSX6B.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/tl-BYdwVnoi.js",
+      "localPath": "assets/tl-BYdwVnoi.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/tr-9dUjBjkU.js",
+      "localPath": "assets/tr-9dUjBjkU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/uk-DWgEl-i1.js",
+      "localPath": "assets/uk-DWgEl-i1.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/ur-Bfqv15UG.js",
+      "localPath": "assets/ur-Bfqv15UG.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/vi-DwMlrIed.js",
+      "localPath": "assets/vi-DwMlrIed.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/zh-CN-B911XtJX.js",
+      "localPath": "assets/zh-CN-B911XtJX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/zh-TW-CfZSfoRN.js",
+      "localPath": "assets/zh-TW-CfZSfoRN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BaseBtn-Duj4QKDk.js",
+      "localPath": "assets/BaseBtn-Duj4QKDk.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/BaseInput-BXwAIh4s.js",
+      "localPath": "assets/BaseInput-BXwAIh4s.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/CloseIcon-HzA9jKF2.js",
+      "localPath": "assets/CloseIcon-HzA9jKF2.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/MineBucks-BJJ2QAnD.js",
+      "localPath": "assets/MineBucks-BJJ2QAnD.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Compres%20Fossil%203-C45ZGlzr.js",
+      "localPath": "assets/Compres_20Fossil_203-C45ZGlzr.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Copper%20Block-CFeulzxp.js",
+      "localPath": "assets/Copper_20Block-CFeulzxp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Copper%20Ore-COCxuxQd.js",
+      "localPath": "assets/Copper_20Ore-COCxuxQd.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Crimson%20Crest-UjiymoQ5.js",
+      "localPath": "assets/Crimson_20Crest-UjiymoQ5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cross%20Glass-Cv6F9DwX.js",
+      "localPath": "assets/Cross_20Glass-Cv6F9DwX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dangerous-C_VUotZo.js",
+      "localPath": "assets/Dangerous-C_VUotZo.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Cup-lbZD6lwm.js",
+      "localPath": "assets/Cup-lbZD6lwm.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Forest%20Grasses%20Top-Cj4qQccU.js",
+      "localPath": "assets/Dark_20Forest_20Grasses_20Top-Cj4qQccU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Forest%20Grasses-_ljGfPdM.js",
+      "localPath": "assets/Dark_20Forest_20Grasses-_ljGfPdM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Green%20Planks-BIvoc8Px.js",
+      "localPath": "assets/Dark_20Green_20Planks-BIvoc8Px.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Green%20Tile%20Top-C5HWRo5N.js",
+      "localPath": "assets/Dark_20Green_20Tile_20Top-C5HWRo5N.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Diagonal%20Bronze%20Grid-BWXATQs6.js",
+      "localPath": "assets/Diagonal_20Bronze_20Grid-BWXATQs6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Dark%20Green%20Yellow-C1XcntIC.js",
+      "localPath": "assets/Dark_20Green_20Yellow-C1XcntIC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%201-B4heKQkf.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_201-B4heKQkf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Exclamation-CR9yWyWu.js",
+      "localPath": "assets/Exclamation-CR9yWyWu.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Clay-D8FssxYq.js",
+      "localPath": "assets/Light_20Clay-D8FssxYq.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%202-BpYncQRX.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_202-BpYncQRX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Energy-BAlP5DJd.js",
+      "localPath": "assets/Energy-BAlP5DJd.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Green%20Bricks-DVdddO_I.js",
+      "localPath": "assets/Light_20Green_20Bricks-DVdddO_I.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Magic%20Block%20YN-uvy9yBDm.js",
+      "localPath": "assets/Magic_20Block_20YN-uvy9yBDm.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Pink%20Clay-w7Xx_M5B.js",
+      "localPath": "assets/Light_20Pink_20Clay-w7Xx_M5B.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Pink%20Bricks-P-dhIpAr.js",
+      "localPath": "assets/Light_20Pink_20Bricks-P-dhIpAr.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Magic%20Block%20YP-pDpCdtly.js",
+      "localPath": "assets/Magic_20Block_20YP-pDpCdtly.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Mountain%20Grass%20Top-BNrA53My.js",
+      "localPath": "assets/Mountain_20Grass_20Top-BNrA53My.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Magic%20Block%20other-B354HC1j.js",
+      "localPath": "assets/Magic_20Block_20other-B354HC1j.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N0-f0TyCkL7.js",
+      "localPath": "assets/N0-f0TyCkL7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Mountain%20Grass%20Side-TdvcGJjV.js",
+      "localPath": "assets/Mountain_20Grass_20Side-TdvcGJjV.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Mud-BJWf0gof.js",
+      "localPath": "assets/Mud-BJWf0gof.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Oak%20Sprout-CeJDCtMq.js",
+      "localPath": "assets/Oak_20Sprout-CeJDCtMq.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Oak%20Top%20Bottom-BDpwEScp.js",
+      "localPath": "assets/Oak_20Top_20Bottom-BDpwEScp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Onyx%20Block-Cb9TRO73.js",
+      "localPath": "assets/Onyx_20Block-Cb9TRO73.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Onyx%20Bricks-_FebOV8P.js",
+      "localPath": "assets/Onyx_20Bricks-_FebOV8P.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Onyx%20Column-C4sKUMlz.js",
+      "localPath": "assets/Onyx_20Column-C4sKUMlz.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Orange%20Bricks-CCgc4Ty2.js",
+      "localPath": "assets/Orange_20Bricks-CCgc4Ty2.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Onyx%20Tile-DUCK-Jgc.js",
+      "localPath": "assets/Onyx_20Tile-DUCK-Jgc.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Onyx-CxjiwZ7f.js",
+      "localPath": "assets/Onyx-CxjiwZ7f.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Orange%20Oak%20Planks-B2FH_OW6.js",
+      "localPath": "assets/Orange_20Oak_20Planks-B2FH_OW6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Orange%20Team-D8hN3Cm1.js",
+      "localPath": "assets/Orange_20Team-D8hN3Cm1.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Orange%20Tile%20Top-B3LwimOx.js",
+      "localPath": "assets/Orange_20Tile_20Top-B3LwimOx.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Orange%20Wool-79ipZYed.js",
+      "localPath": "assets/Orange_20Wool-79ipZYed.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/OrangeCopperLamp-ChNTeWFN.js",
+      "localPath": "assets/OrangeCopperLamp-ChNTeWFN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Phyllite%20Tile-D8y2pal6.js",
+      "localPath": "assets/Phyllite_20Tile-D8y2pal6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Phyllite-Bopwsf-L.js",
+      "localPath": "assets/Phyllite-Bopwsf-L.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pine%20Bark-dYXxuUoC.js",
+      "localPath": "assets/Pine_20Bark-dYXxuUoC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pine%20Foliage-BqjLYBZ8.js",
+      "localPath": "assets/Pine_20Foliage-BqjLYBZ8.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pine%20Sprout-BDBSyQrw.js",
+      "localPath": "assets/Pine_20Sprout-BDBSyQrw.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pine%20Top%20Bot-DJQgaWFi.js",
+      "localPath": "assets/Pine_20Top_20Bot-DJQgaWFi.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pink%20Column-BmiayD2B.js",
+      "localPath": "assets/Pink_20Column-BmiayD2B.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pink%20Planks-B8oJNurZ.js",
+      "localPath": "assets/Pink_20Planks-B8oJNurZ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pink%20Tile%20Top-D0jLIFy9.js",
+      "localPath": "assets/Pink_20Tile_20Top-D0jLIFy9.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pink%20Top%20Column-Bgxw8ZAW.js",
+      "localPath": "assets/Pink_20Top_20Column-Bgxw8ZAW.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pink%20Yellow-KpuG8rfP.js",
+      "localPath": "assets/Pink_20Yellow-KpuG8rfP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Plain%20Grass%20Side-ClWPn_Lt.js",
+      "localPath": "assets/Plain_20Grass_20Side-ClWPn_Lt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Plain%20Grass%20Top-CfNP431j.js",
+      "localPath": "assets/Plain_20Grass_20Top-CfNP431j.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Blue%202-B7LHtk0X.js",
+      "localPath": "assets/Polished_20Blue_202-B7LHtk0X.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Blue-DEGWXnqC.js",
+      "localPath": "assets/Polished_20Blue-DEGWXnqC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Green%202-DGNs8NRe.js",
+      "localPath": "assets/Polished_20Green_202-DGNs8NRe.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Blue-White%202-BlaZ2rjX.js",
+      "localPath": "assets/Polished_20Blue-White_202-BlaZ2rjX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Green-White%202-D8sHRAJM.js",
+      "localPath": "assets/Polished_20Green-White_202-D8sHRAJM.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Orange%202-DFRAFtpA.js",
+      "localPath": "assets/Polished_20Orange_202-DFRAFtpA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Green-CEQ3Ci-Z.js",
+      "localPath": "assets/Polished_20Green-CEQ3Ci-Z.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Orange-Dsrz2nnr.js",
+      "localPath": "assets/Polished_20Orange-Dsrz2nnr.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Purple-White%202-BJ63k-Hm.js",
+      "localPath": "assets/Polished_20Purple-White_202-BJ63k-Hm.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Orange-White%202-CohzDqpo.js",
+      "localPath": "assets/Polished_20Orange-White_202-CohzDqpo.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Purple-BbxhLFrJ.js",
+      "localPath": "assets/Polished_20Purple-BbxhLFrJ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Purple%202-CHCexHsG.js",
+      "localPath": "assets/Polished_20Purple_202-CHCexHsG.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Red%202-DWWc6tAo.js",
+      "localPath": "assets/Polished_20Red_202-DWWc6tAo.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Red-White%202-DIeXMAlA.js",
+      "localPath": "assets/Polished_20Red-White_202-DIeXMAlA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Red-cAddEty8.js",
+      "localPath": "assets/Polished_20Red-cAddEty8.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Turquoise-White%202-D8adQka3.js",
+      "localPath": "assets/Polished_20Turquoise-White_202-D8adQka3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Protective%20Zone-CpBDke5h.js",
+      "localPath": "assets/Protective_20Zone-CpBDke5h.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Turquoise%202-CyvGjhVa.js",
+      "localPath": "assets/Polished_20Turquoise_202-CyvGjhVa.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Purple%20Bricks-DmwScs4T.js",
+      "localPath": "assets/Purple_20Bricks-DmwScs4T.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Purple%20Oak%20Planks-CU18gr--.js",
+      "localPath": "assets/Purple_20Oak_20Planks-CU18gr--.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Purple%20Team-D5w6z8f-.js",
+      "localPath": "assets/Purple_20Team-D5w6z8f-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Purple%20Tile%20Top-Cj2zobcw.js",
+      "localPath": "assets/Purple_20Tile_20Top-Cj2zobcw.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%203-BLevUBD3.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_203-BLevUBD3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Copper%20Block%204-BHg3GIXP.js",
+      "localPath": "assets/Fabricated_20Copper_20Block_204-BHg3GIXP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%201-Dxash-EF.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_201-Dxash-EF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%202-Bcc1Ldjt.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_202-Bcc1Ldjt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Fabricated%20Gold%20Block%203-Bbcu2Sdu.js",
+      "localPath": "assets/Fabricated_20Gold_20Block_203-Bbcu2Sdu.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Glass%203-w9IajMNp.js",
+      "localPath": "assets/Glass_203-w9IajMNp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gold%20Block-C__3SSGp.js",
+      "localPath": "assets/Gold_20Block-C__3SSGp.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gold%20Lattice-CuawrEi6.js",
+      "localPath": "assets/Gold_20Lattice-CuawrEi6.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gold%20Ore-DdURsN2M.js",
+      "localPath": "assets/Gold_20Ore-DdURsN2M.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Golden%20Waves-DZmkzz0B.js",
+      "localPath": "assets/Golden_20Waves-DZmkzz0B.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Granite%20Bricks-B5gfBIQt.js",
+      "localPath": "assets/Granite_20Bricks-B5gfBIQt.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Granite%20Tile-DG6LwzJ5.js",
+      "localPath": "assets/Granite_20Tile-DG6LwzJ5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Granite-D-IxzrrQ.js",
+      "localPath": "assets/Granite-D-IxzrrQ.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Grass%20Block-D5OknVnl.js",
+      "localPath": "assets/Grass_20Block-D5OknVnl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Grassy%20Dirt-DN2wP1_4.js",
+      "localPath": "assets/Grassy_20Dirt-DN2wP1_4.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gravel-Dg78dW_l.js",
+      "localPath": "assets/Gravel-Dg78dW_l.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Bricks-C7Gczo7G.js",
+      "localPath": "assets/Gray_20Bricks-C7Gczo7G.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Clay-CGqE901K.js",
+      "localPath": "assets/Gray_20Clay-CGqE901K.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Column-CJ-wh5ON.js",
+      "localPath": "assets/Gray_20Column-CJ-wh5ON.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Planks-skEvlYWI.js",
+      "localPath": "assets/Gray_20Planks-skEvlYWI.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Wool-DCMlrs8G.js",
+      "localPath": "assets/Gray_20Wool-DCMlrs8G.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Blossom-CeR0mgfO.js",
+      "localPath": "assets/Green_20Blossom-CeR0mgfO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Column-5gpFb0vb.js",
+      "localPath": "assets/Green_20Column-5gpFb0vb.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Oak%20Planks-B9xvuAIl.js",
+      "localPath": "assets/Green_20Oak_20Planks-B9xvuAIl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Team-xzpyPxX0.js",
+      "localPath": "assets/Green_20Team-xzpyPxX0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Tile%20Top-h_6yLjNU.js",
+      "localPath": "assets/Green_20Tile_20Top-h_6yLjNU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Top%20Column-CpsXIs8c.js",
+      "localPath": "assets/Green_20Top_20Column-CpsXIs8c.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Green%20Wool-slx5d1Ut.js",
+      "localPath": "assets/Green_20Wool-slx5d1Ut.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/GreenCopperLamp-BtvvpNvH.js",
+      "localPath": "assets/GreenCopperLamp-BtvvpNvH.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Harvest%20Tiles-Df3NCgiv.js",
+      "localPath": "assets/Harvest_20Tiles-Df3NCgiv.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Hay%20Block-D4vGNcML.js",
+      "localPath": "assets/Hay_20Block-D4vGNcML.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Hay%20Top-DQ45usoz.js",
+      "localPath": "assets/Hay_20Top-DQ45usoz.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Heal-CKW9-gaa.js",
+      "localPath": "assets/Heal-CKW9-gaa.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Ice-Bm_IPzE5.js",
+      "localPath": "assets/Ice-Bm_IPzE5.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infection-CNsxEQZ-.js",
+      "localPath": "assets/Infection-CNsxEQZ-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infernite%20Bricks-5jKUetlP.js",
+      "localPath": "assets/Infernite_20Bricks-5jKUetlP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infernite%20Grass%20Side-BXM78vki.js",
+      "localPath": "assets/Infernite_20Grass_20Side-BXM78vki.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infernite%20Grass%20Top-MlAF6hcK.js",
+      "localPath": "assets/Infernite_20Grass_20Top-MlAF6hcK.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infernite%20Stone-BYWVonQS.js",
+      "localPath": "assets/Infernite_20Stone-BYWVonQS.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infernite%20Tile-CsUveuH7.js",
+      "localPath": "assets/Infernite_20Tile-CsUveuH7.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Infernite-BqurJriH.js",
+      "localPath": "assets/Infernite-BqurJriH.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Iron%20Block-Bb13gsq4.js",
+      "localPath": "assets/Iron_20Block-Bb13gsq4.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Iron%20Lamp-BDn48D9N.js",
+      "localPath": "assets/Iron_20Lamp-BDn48D9N.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Iron%20Lattice-CoqS5wJf.js",
+      "localPath": "assets/Iron_20Lattice-CoqS5wJf.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Iron%20Ore-BojrU9g0.js",
+      "localPath": "assets/Iron_20Ore-BojrU9g0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Lava%202-BCUrJwRU.js",
+      "localPath": "assets/Lava_202-BCUrJwRU.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Lava-DKcUtWvl.js",
+      "localPath": "assets/Lava-DKcUtWvl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Blue%20Bricks-BIdEdQNg.js",
+      "localPath": "assets/Light_20Blue_20Bricks-BIdEdQNg.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Blue%20Clay-B69A0Lpe.js",
+      "localPath": "assets/Light_20Blue_20Clay-B69A0Lpe.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Blue%20Planks-CSmL5kYd.js",
+      "localPath": "assets/Light_20Blue_20Planks-CSmL5kYd.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Blue%20Tile%20Top-qc3boNrO.js",
+      "localPath": "assets/Light_20Blue_20Tile_20Top-qc3boNrO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Blue%20Wool-nEJRF5Jh.js",
+      "localPath": "assets/Light_20Blue_20Wool-nEJRF5Jh.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Light%20Team-DYZ8JtFO.js",
+      "localPath": "assets/Light_20Team-DYZ8JtFO.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/LightBlueCopperLamp-CNHYHiK2.js",
+      "localPath": "assets/LightBlueCopperLamp-CNHYHiK2.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Limestone%20Bricks-DY7FgJeX.js",
+      "localPath": "assets/Limestone_20Bricks-DY7FgJeX.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Limestone%20Tile-CBet8ZQm.js",
+      "localPath": "assets/Limestone_20Tile-CBet8ZQm.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Limestone-AdnRV6oR.js",
+      "localPath": "assets/Limestone-AdnRV6oR.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Lucky%20Block-B0mei3e3.js",
+      "localPath": "assets/Lucky_20Block-B0mei3e3.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N1-7_TJaZcP.js",
+      "localPath": "assets/N1-7_TJaZcP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N2-eXEIKT7q.js",
+      "localPath": "assets/N2-eXEIKT7q.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N3-COJAsfeH.js",
+      "localPath": "assets/N3-COJAsfeH.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N4-h3j94EI0.js",
+      "localPath": "assets/N4-h3j94EI0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N5-CKXdr_vC.js",
+      "localPath": "assets/N5-CKXdr_vC.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N6-DPROAWe0.js",
+      "localPath": "assets/N6-DPROAWe0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/cursor-CLFdmAWw.png",
+      "localPath": "assets/cursor-CLFdmAWw.png",
+      "status": "ok",
+      "requestType": "image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Nuclear-DrD2esku.js",
+      "localPath": "assets/Nuclear-DrD2esku.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/No%20PVP-sj6j3UJN.js",
+      "localPath": "assets/No_20PVP-sj6j3UJN.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Oak%20Planks-BJjUbiJ0.js",
+      "localPath": "assets/Oak_20Planks-BJjUbiJ0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N9-BUP6Jutc.js",
+      "localPath": "assets/N9-BUP6Jutc.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Oak%20Bark-9kBy9GHF.js",
+      "localPath": "assets/Oak_20Bark-9kBy9GHF.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Oak%20Folliage-DnEQwTBe.js",
+      "localPath": "assets/Oak_20Folliage-DnEQwTBe.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Oak%20Planks%20Decor-Bmwbs07J.js",
+      "localPath": "assets/Oak_20Planks_20Decor-Bmwbs07J.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N8-BIIe9pDr.js",
+      "localPath": "assets/N8-BIIe9pDr.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Obsidian-DUd4wRm_.js",
+      "localPath": "assets/Obsidian-DUd4wRm_.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Orange%20Clay-WfAnFZi-.js",
+      "localPath": "assets/Orange_20Clay-WfAnFZi-.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Pine%20Planks-BI3eIufi.js",
+      "localPath": "assets/Pine_20Planks-BI3eIufi.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Phyllite%20Bricks-CUX9D92A.js",
+      "localPath": "assets/Phyllite_20Bricks-CUX9D92A.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Purple%20Clay-Df2VYpaP.js",
+      "localPath": "assets/Purple_20Clay-Df2VYpaP.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/N7-BKnCeo_p.js",
+      "localPath": "assets/N7-BKnCeo_p.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20Turquoise-BghKH5y0.js",
+      "localPath": "assets/Polished_20Turquoise-BghKH5y0.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Private-eBWBVwnT.js",
+      "localPath": "assets/Private-eBWBVwnT.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Polished%20White%202-rq96sQfA.js",
+      "localPath": "assets/Polished_20White_202-rq96sQfA.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Tile%20Top-C665cxwl.js",
+      "localPath": "assets/Gray_20Tile_20Top-C665cxwl.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Tile-Hf06Jg5D.js",
+      "localPath": "assets/Gray_20Tile-Hf06Jg5D.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/Gray%20Top%20Column-BXddXjer.js",
+      "localPath": "assets/Gray_20Top_20Column-BXddXjer.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/en-ihksasEn.js",
+      "localPath": "assets/en-ihksasEn.js",
+      "status": "ok",
+      "requestType": "script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/click-CLarhmaT.mp3",
+      "localPath": "assets/click-CLarhmaT.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://c89f4abe-5041-497b-8705-986b6f3b748c.gdn.poki.com/9bacadcc-80f8-43e7-9f8c-9bde8e7780b3/assets/close-BPc48y25.mp3",
+      "localPath": "assets/close-BPc48y25.mp3",
+      "status": "ok",
+      "requestType": "XHR"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/style.css",
+      "localPath": "style.css",
+      "status": "ok",
+      "requestType": "Stylesheet"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/Loader/loading.png",
+      "localPath": "Loader/loading.png",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/scripts/supportcheck.js",
+      "localPath": "scripts/supportcheck.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/scripts/main.js",
+      "localPath": "scripts/main.js",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/scripts/modernjscheck.js",
+      "localPath": "scripts/modernjscheck.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/load-sdk.js",
+      "localPath": "load-sdk.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/data.json",
+      "localPath": "data.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/Loader/bgimg_high.webp",
+      "localPath": "Loader/bgimg_high.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/Loader/particle.webp",
+      "localPath": "Loader/particle.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/Loader/bgimg_low.webp",
+      "localPath": "Loader/bgimg_low.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/Loader/progress_pattern.webp",
+      "localPath": "Loader/progress_pattern.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/scripts/c3main.js",
+      "localPath": "scripts/c3main.js",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/Loader/sparkle.webp",
+      "localPath": "Loader/sparkle.webp",
+      "status": "ok",
+      "requestType": "Image"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/spine-webgl.min.js",
+      "localPath": "spine-webgl.min.js",
+      "status": "ok",
+      "requestType": "Script"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/girl/girl.txt",
+      "localPath": "girl/girl.txt",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/hand/hand.txt",
+      "localPath": "hand/hand.txt",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/girl/girl.json",
+      "localPath": "girl/girl.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/hand/hand.json",
+      "localPath": "hand/hand.json",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/media/lobby.webm",
+      "localPath": "media/lobby.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/images/shared-0-sheet8.png",
+      "localPath": "images/shared-0-sheet8.png",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/girl/[girl]_1.webp",
+      "localPath": "girl/[girl]_1.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://e3419e7f-e2eb-4de6-8b7a-01c846e2210d.gdn.poki.com/2b25f0a1-c12d-4c91-a853-9fdcf74d7548/girl/[girl]%7Bdefault2%7D_0.webp",
+      "localPath": "girl/[girl]_7Bdefault2_7D_0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true
+    }
+  ]
+}

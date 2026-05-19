@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    #banner-container {
+        width: 320px;
+        height: 100px;
+        overflow: hidden;
+        margin: auto;
+    }
+    #side_container {
+      position: fixed;
+      width: 1px;
+      height: 1px;
+      top: -10px;
+      left: -10px;
+      overflow: hidden;
+    }
+  </style>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      sdkScript.addEventListener("load", function () { window.__googleAdsReady = true; });
+      sdkScript.addEventListener("error", function () { window.__googleAdsReady = false; });
+    })();
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+    adConfig({
+        preloadAdBreaks: 'on',
+        onReady: function() {
+            console.log("AdSense onReady");
+        },
+    });
+  </script>
+</head>
+<body>
+    <div id="banner-container">
+        <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:100px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="1072206413"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <script>
+      (function () {
+        var bannerContainer = document.getElementById("banner-container");
+        var adFillCheckTimer = null;
+        var adFillTimeoutTimer = null;
+        var adRefreshTimer = null;
+        var adClient = "ca-pub-4202034217897578";
+        var adSlot = "1072206413";
+
+        var watchingFullSuccess = true;
+
+        // 
+        var adRefreshTime = 60;
+        var params = new URLSearchParams(window.location.search || "");
+        var adRefreshTime = parseInt(params.get("adRefreshTime"), 10) || 60;
+
+        var startAdRefreshTime = Date.now();
+
+
+        function showFallbackBanner() {
+          var iframe = document.createElement("iframe");
+          iframe.src = "fallback-ads/320x100.html";
+          iframe.width = "320";
+          iframe.height = "100";
+          iframe.style.width = "320px";
+          iframe.style.height = "100px";
+          iframe.style.border = "0";
+          iframe.style.display = "block";
+          iframe.setAttribute("scrolling", "no");
+          iframe.setAttribute("title", "fallback-ad-320x100");
+          bannerContainer.innerHTML = "";
+          bannerContainer.appendChild(iframe);
+        }
+
+       
+        
+        function checkIfAdFailed() {
+          if (!bannerContainer) return true;
+          var adElement = bannerContainer.querySelector("ins.adsbygoogle");
+          if (!adElement) return true;
+          var status = adElement.getAttribute("data-ad-status");
+          return status === "unfilled" || status === "unfill-optimized";
+        }
+
+        function checkIfAdFullSuccess() {
+          if (!bannerContainer) return false;
+          var adElement = bannerContainer.querySelector("ins.adsbygoogle");
+          if (!adElement) return false;
+          var status = adElement.getAttribute("data-ad-status");
+          return status === "filled" && adElement.getAttribute("data-adsbygoogle-status") === "done";
+        }
+
+        function rebuildBannerAd() {
+          if (!bannerContainer) return;
+          bannerContainer.innerHTML = "";
+          
+
+          var adElement = document.createElement("ins");
+          adElement.className = "adsbygoogle";
+          adElement.style.display = "inline-block";
+          adElement.style.width = "320px";
+          adElement.style.height = "100px";
+          adElement.setAttribute("data-ad-client", adClient);
+          adElement.setAttribute("data-ad-slot", adSlot);
+          bannerContainer.appendChild(adElement);
+          
+
+          try {
+            window.adsbygoogle = window.adsbygoogle || [];
+            window.adsbygoogle.push({});
+          } catch (e) {}
+        }
+
+        function startAdRefreshLoop() {
+
+          let isInFallbackAds = false;
+          
+          adRefreshTimer = setInterval(function () {
+            var currentTime = Date.now();
+            var elapsedTime = currentTime - startAdRefreshTime;
+            if(elapsedTime >= adRefreshTime * 1000) {
+              rebuildBannerAd();
+              watchingFullSuccess = true;
+              window.LogFirebaseEvent && window.LogFirebaseEvent("banner_320_50_ad_rebuild");
+              startAdRefreshTime = currentTime;
+              isInFallbackAds = false;
+            }
+            setTimeout(function () {
+              if(checkIfAdFullSuccess()) {
+                if(watchingFullSuccess) {
+                  watchingFullSuccess = false;
+                  window.LogFirebaseEvent && window.LogFirebaseEvent("banner_320_50_ad_full_success");
+                }
+              }
+              if(checkIfAdFailed() && !isInFallbackAds) {
+                showFallbackBanner();
+                isInFallbackAds = true;
+                startAdRefreshTime =  Date.now();
+                window.LogFirebaseEvent && window.LogFirebaseEvent("banner_320_50_fallback_ad_show");
+              }
+            }, 0);
+          }, 100);
+        }
+
+        if(window.location.search.indexOf('useFallback=true') !== -1) {
+          showFallbackBanner();
+        } else {  
+          startAdRefreshLoop();
+        }
+
+
+
+        window.addEventListener("message", function (event) {
+          var data = event && event.data;
+          if (!data || data.type !== "fallback_ad_navigate") return;
+          var href = typeof data.href === "string" ? data.href.trim() : "";
+          if (!href || href === "#" || href.indexOf("javascript:") === 0) return;
+          if (!/^https?:\/\//i.test(href) && href.charAt(0) !== "/") return;
+          window.open(href, "_blank");
+        });
+      })();
+    </script>
+       
+  <script>
+    window.__back_locked__ = true;
+    history.pushState(null, null, location.href);
+    window.addEventListener("popstate", function () {
+      if (__back_locked__) {
+        history.pushState(null, null, location.href);
+        __back_locked__ = false;
+      }
+    });
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+    import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBCNYAJyG-U0RW4d30EDzlRvio89HnnSxc",
+      authDomain: "banner-69a6e.firebaseapp.com",
+      projectId: "banner-69a6e",
+      storageBucket: "banner-69a6e.firebasestorage.app",
+      messagingSenderId: "875077904694",
+      appId: "1:875077904694:web:43fbe98319dd7f3888eb97",
+      measurementId: "G-PSXHN01W3Y"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    window.LogFirebaseEvent = function (eventName, eventParams = {}) {
+      try {
+        logEvent(analytics, eventName, eventParams);
+        console.log("Event logged: " + eventName, eventParams);
+      } catch (error) {
+        console.error("Error logging event:", error);
+      }
+    };
+
+    window.LogFirebaseEvent && window.LogFirebaseEvent("banner_320_100_page_view");
+  </script>
+</body>
+</html>

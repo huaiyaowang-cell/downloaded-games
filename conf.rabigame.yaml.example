@@ -8,27 +8,31 @@ GC_KEY: /absolute/path/to/service-account.json
 # 桶内前缀，默认 r_game
 BUCKET_TARGET: r_game
 
-# 为空表示自动上传项目根目录下所有一级文件夹（会排除 .git/scripts/node_modules 等）
+# bucket 名称 → CDN 域名（游戏入口、离线包 zip 内顶层目录均使用对应域名）
+BUCKET_CDN_MAP:
+  rabigame: rabigame.fun
+  rabigame-puzzlegame: puzzle.rabigame.fun
+
+# 游戏根目录（相对项目根），默认 games；设为 games-test 时 include 列表在 games-test/ 下
+UPLOAD_PRE_PATH: games
+
+# 为空表示自动上传 UPLOAD_PRE_PATH 下所有一级目录
 # UPLOAD_INCLUDE_FOLDERS 也支持“配置文件/文件夹”：
-# - 直接填一级文件夹名字（相对项目根目录）
-# - 填配置文件路径：每行一个一级文件夹名（也支持 JSON 数组）
-# - 填文件夹路径（例如 `./some_dir` 或绝对路径）：枚举该目录下的子目录作为要上传的根目录
+# - 直接填目录名或相对路径（如 happy-glass、admob_ads/Mob_Blocky_Puzzle）
+# - 填配置文件路径：每行一个目录名（也支持 JSON 数组）
+# - 填容器路径（例如 `./games-test/admob_ads` 或绝对路径）：枚举其下子目录
 UPLOAD_INCLUDE_FOLDERS: []
 
-# 当 UPLOAD_INCLUDE_FOLDERS 为空时，这些一级文件夹会被排除
+# 当 UPLOAD_INCLUDE_FOLDERS 为空时，这些 UPLOAD_PRE_PATH 下的目录会被排除
 UPLOAD_EXCLUDE_FOLDERS:
-  - .git
-  - .cursor
-  - .output
-  - node_modules
-  - scripts
-  - __pycache__
+  - a-offline-game-zip
+  - a-offline-game-zip-dev
 
 # 文件名过滤（基于文件名 glob）
 UPLOAD_INCLUDE_FILES: []
 UPLOAD_EXCLUDE_FILES: []
 
-# 离线包专用游戏列表（优先于 UPLOAD_INCLUDE_FOLDERS）
+# 离线包专用游戏列表（优先于 UPLOAD_INCLUDE_FOLDERS；路径相对 UPLOAD_PRE_PATH）
 # 留空时，离线包脚本会回退使用 UPLOAD_INCLUDE_FOLDERS
 OFFLINE_INCLUDE_FOLDERS: []
 
