@@ -1,0 +1,611 @@
+{
+  "gameName": "capyloop-stones",
+  "pageUrl": "https://poki.com/zh/g/capyloop-stones",
+  "gameUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-9a2ec3bfffa333eca77baf7a31e371aa051e6d17&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcapyloop-stones&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=desktop&categories=64%2C72%2C909%2C1155%2C1186%2C1190&game_id=06105aca-add7-46b3-920f-45ae8d0cbe81&game_version_id=9dd3c587-ecb5-408d-ac2e-36687a324b78&inspector=0&csp=1",
+  "engine": "construct",
+  "startedAt": "2026-05-18T09:12:10.144Z",
+  "stoppedAt": "2026-05-18T11:29:41.636Z",
+  "status": "stopped",
+  "stats": {
+    "downloaded": 84,
+    "failed": 0,
+    "skipped": 12,
+    "totalSeen": 1166
+  },
+  "files": [
+    {
+      "localPath": "index.html",
+      "requestType": "Document",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/index.html?country=HK&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-9a2ec3bfffa333eca77baf7a31e371aa051e6d17&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcapyloop-stones&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=desktop&categories=64%2C72%2C909%2C1155%2C1186%2C1190&game_id=06105aca-add7-46b3-920f-45ae8d0cbe81&game_version_id=9dd3c587-ecb5-408d-ac2e-36687a324b78&inspector=0&csp=1",
+      "status": "ok",
+      "type": "entry-html"
+    },
+    {
+      "localPath": "style.css",
+      "requestType": "Stylesheet",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/style.css",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/modernjscheck.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/modernjscheck.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/supportcheck.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/supportcheck.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/offlineclient.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/offlineclient.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/register-sw.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/register-sw.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/main.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/main.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/c3main.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/c3main.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "box2d.wasm.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/box2d.wasm.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/project/main.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/project/main.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/objRefTable.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/objRefTable.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "scripts/c3runtime.js",
+      "requestType": "Script",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/scripts/c3runtime.js",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "data.json",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/data.json",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-2-sheet2.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-2-sheet2.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "box2d.wasm",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/box2d.wasm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-2-sheet3.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-2-sheet3.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/tiledbackground-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/tiledbackground-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet7.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet7.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet5.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet5.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet4.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet4.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet3.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet3.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-2-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-2-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet6.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet6.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/pedraexemplo-sheet2.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/pedraexemplo-sheet2.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/pedraexemplo-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/pedraexemplo-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/pedraexemplo-sheet3.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/pedraexemplo-sheet3.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/pedraexemplo-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/pedraexemplo-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet5.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet5.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-2-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-2-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-0-sheet2.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-0-sheet2.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/hominho2-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/hominho2-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/poeira-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/poeira-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet2.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet2.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/poeira-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/poeira-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/iconeconquistagrande-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/iconeconquistagrande-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/iconeconquistagrande-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/iconeconquistagrande-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet8.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet8.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet7.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet7.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-2-sheet4.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-2-sheet4.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet3.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet3.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet6.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet6.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-1-sheet4.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-1-sheet4.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-2-sheet5.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-2-sheet5.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-3-sheet1.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-3-sheet1.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "images/shared-3-sheet0.webp",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/images/shared-3-sheet0.webp",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "media/musica2.webm",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/musica2.webm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "media/Drop.webm",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Drop.webm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "media/Porcoespinho.webm",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Porcoespinho.webm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "media/Barulhinho.webm",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Barulhinho.webm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "media/sfx_conquista.webm",
+      "requestType": "Media",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/sfx_conquista.webm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "localPath": "media/sfx_2.webm",
+      "requestType": "Fetch",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/sfx_2.webm",
+      "status": "ok",
+      "type": "asset"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Pavio.webm",
+      "localPath": "media/Pavio.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bomba2.webm",
+      "localPath": "media/Bomba2.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Tick.webm",
+      "localPath": "media/Tick.webm",
+      "status": "ok",
+      "requestType": "Media"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Rinoceronte.webm",
+      "localPath": "media/Rinoceronte.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Mamute.webm",
+      "localPath": "media/Mamute.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bufalo.webm",
+      "localPath": "media/Bufalo.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bomba5.webm",
+      "localPath": "media/Bomba5.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bomba4.webm",
+      "localPath": "media/Bomba4.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Capivara.webm",
+      "localPath": "media/Capivara.webm",
+      "status": "ok",
+      "requestType": "Media"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Wow.webm",
+      "localPath": "media/Wow.webm",
+      "status": "ok",
+      "requestType": "Media"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Peixe.webm",
+      "localPath": "media/Peixe.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Estrela.webm",
+      "localPath": "media/Estrela.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/AguaViva.webm",
+      "localPath": "media/AguaViva.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Raia.webm",
+      "localPath": "media/Raia.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Golfinho.webm",
+      "localPath": "media/Golfinho.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Tubarao.webm",
+      "localPath": "media/Tubarao.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Lula.webm",
+      "localPath": "media/Lula.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Espada.webm",
+      "localPath": "media/Espada.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Orca.webm",
+      "localPath": "media/Orca.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bomba3.webm",
+      "localPath": "media/Bomba3.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bomba1.webm",
+      "localPath": "media/Bomba1.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Tartaruga.webm",
+      "localPath": "media/Tartaruga.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/sfx_1.webm",
+      "localPath": "media/sfx_1.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Crocodilo.webm",
+      "localPath": "media/Crocodilo.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/sfx_4.webm",
+      "localPath": "media/sfx_4.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Bode.webm",
+      "localPath": "media/Bode.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Fogo3.webm",
+      "localPath": "media/Fogo3.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Ave.webm",
+      "localPath": "media/Ave.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://06105aca-add7-46b3-920f-45ae8d0cbe81.gdn.poki.com/9dd3c587-ecb5-408d-ac2e-36687a324b78/media/Lagarto.webm",
+      "localPath": "media/Lagarto.webm",
+      "status": "ok",
+      "requestType": "Fetch"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok"
+    }
+  ]
+}
