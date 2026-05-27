@@ -49,36 +49,8 @@
   }
 
   function showRewardedBreak() {
-    return new Promise(function (resolve, reject) {
-      if (typeof window.adBreak !== "function") {
-        console.warn("[poki-ad-parent] adBreak 不可用，跳过 rewardedBreak（视为已发奖）");
-        resolve({ rewardGranted: true });
-        return;
-      }
-      window.adBreak({
-        type: "reward",
-        name: "my-perfect-hotel-reward",
-        beforeAd: function () {},
-        afterAd: function () {},
-        beforeReward: function (showAdFn) {
-          showAdFn && showAdFn();
-        },
-        adDismissed: function () {},
-        adViewed: function () {},
-        adBreakDone: function (placementInfo) {
-          var viewed = placementInfo && placementInfo.breakStatus === "viewed";
-          if (viewed) {
-            history.pushState(null, null, location.href);
-            resolve({ rewardGranted: true });
-          } else if (placementInfo && placementInfo.breakStatus === "dismissed") {
-            history.pushState(null, null, location.href);
-            reject({ rewardGranted: false });
-          } else {
-            reject({ rewardGranted: false });
-          }
-        },
-      });
-    });
+    console.log("[poki-ad-parent] rewardedBreak → 即时发奖（不播广告）");
+    return Promise.resolve({ rewardGranted: true });
   }
 
   function handlePokiAdRequest(payload) {

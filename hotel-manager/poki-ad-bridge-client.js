@@ -1,6 +1,6 @@
 /**
  * My Perfect Hotel — iframe 内游戏侧广告桥接
- * 将 PokiSDK.commercialBreak / rewardedBreak 通过 postMessage 交给父页面执行。
+ * commercialBreak 在 iframe 内时经 postMessage 交给父页面；rewardedBreak 本地即时发奖。
  * 需在 poki-sdk-stub.js 之后、Unity loader 之前加载。
  */
 (function () {
@@ -11,6 +11,12 @@
     return;
   }
 
+  // 激励广告：不播广告，直接成功回调（game.html 直开与 index.html iframe 均生效）
+  PokiSDK.rewardedBreak = function () {
+    return Promise.resolve(true);
+  };
+  console.log("[poki-ad-client] rewardedBreak → 即时发奖（不播广告）");
+
   var parentWin;
   try {
     parentWin = window.parent;
@@ -18,7 +24,7 @@
     parentWin = null;
   }
   if (!parentWin || parentWin === window) {
-    console.log("[poki-ad-client] 非 iframe 环境，使用本地 stub 广告逻辑");
+    console.log("[poki-ad-client] 非 iframe 环境，commercialBreak 使用 stub");
     return;
   }
 
@@ -72,17 +78,6 @@
     });
   };
 
-  PokiSDK.rewardedBreak = function () {
-    return postRequest({ kind: "rewardedBreak" })
-      .then(function (result) {
-        return !!(result && result.rewardGranted);
-      })
-      .catch(function (err) {
-        console.warn("[poki-ad-client] rewardedBreak 失败，回退本地:", err);
-        return Promise.resolve(false);
-      });
-  };
-
-  console.log("[poki-ad-client] 已启用父页面广告代理（commercialBreak / rewardedBreak）");
+  console.log("[poki-ad-client] 已启用父页面广告代理（commercialBreak）");
 })();
 
