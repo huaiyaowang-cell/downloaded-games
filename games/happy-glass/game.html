@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <script src="./sw-register.js" data-label="game"></script>
   <script src="request-guard.js"></script>
   <script src="poki-sdk-stub.js"></script>
   <script src="poki-ad-bridge-client.js"></script>
@@ -33,7 +34,7 @@
 	</script>
 </head>
 <body>
-	<script src="master-loader.js"></script>
+	<script src="./sw-game-boot.js" data-entry="master-loader.js"></script>
 </body>
 </html>
 

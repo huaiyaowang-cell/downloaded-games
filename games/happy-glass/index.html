@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="./sw-register.js" data-label="index"></script>
   <script src="request-guard.js"></script>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -50,7 +51,7 @@
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
     <iframe
-      src="game.html"
+      data-src="game.html"
       id="hgGameFrame"
       name="hgGameFrame"
       scrolling="no"
@@ -69,6 +70,7 @@
     document.getElementById("hgTopAdSlot").style.height = "50px";
     document.getElementById("hgBottomAdSlot").style.height = "100px";
   </script>
+  <script src="./sw-shell-boot.js" data-iframe="hgGameFrame"></script>
   <script src="poki-ad-bridge-parent-0.0.1.js"></script>
 </body>
 </html>

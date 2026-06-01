@@ -223,6 +223,9 @@
         console.error("Error logging event:", error);
       }
     };
+    if(window.location.href.includes('placement=')) {
+      window.LogFirebaseEvent && window.LogFirebaseEvent("page_view_with_placement");
+    }
 
     window.LogFirebaseEvent && window.LogFirebaseEvent("banner_320_50_page_view");
   </script>
