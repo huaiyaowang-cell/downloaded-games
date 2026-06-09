@@ -1,0 +1,110 @@
+{
+  "manifestVersion": 1,
+  "gameName": "world-of-yarn",
+  "pageUrl": "https://poki.com/zh/g/world-of-yarn#fullscreen",
+  "gameUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2Fb1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com%2F41701bd2-385b-45aa-a29c-0064c29e5f95%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fworld-of-yarn%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D7%252C72%252C93%26special_condition%3Dlanding%26game_id%3Db1dd51d2-0a6a-4bc0-a319-bd63fea07fa2%26game_version_id%3D41701bd2-385b-45aa-a29c-0064c29e5f95%26inspector%3D0%26csp%3D1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩World of Yarn！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "world-of-yarn",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/world-of-yarn",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T06:21:00.008Z",
+    "tables": [],
+    "tags": [],
+    "title": "World of Yarn"
+  },
+  "engine": "unknown",
+  "startedAt": "2026-06-09T06:20:54.992Z",
+  "stoppedAt": "",
+  "status": "listening",
+  "stats": {
+    "totalSeen": 8,
+    "downloaded": 7,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/world-of-yarn",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "image",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "image",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "image",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "image",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2Fb1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com%2F41701bd2-385b-45aa-a29c-0064c29e5f95%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fworld-of-yarn%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D7%252C72%252C93%26special_condition%3Dlanding%26game_id%3Db1dd51d2-0a6a-4bc0-a319-bd63fea07fa2%26game_version_id%3D41701bd2-385b-45aa-a29c-0064c29e5f95%26inspector%3D0%26csp%3D1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "Document",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:21:03.547Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T06:21:03.547Z"
+}

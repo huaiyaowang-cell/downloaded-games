@@ -1,0 +1,260 @@
+{
+  "manifestVersion": 1,
+  "gameName": "bobble",
+  "pageUrl": "https://poki.com/zh/g/bobble#fullscreen",
+  "gameUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2F6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com%2F30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fbobble%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D9%252C103%252C775%252C1190%26special_condition%3Dlanding%26game_id%3D6cda082d-430d-4197-a2e2-11ec7286da07%26game_version_id%3D30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1%26inspector%3D0%26csp%3D1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Bobble！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "bobble",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f5480febefc5ce7f01a096d1431f9862/bobble-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f5480febefc5ce7f01a096d1431f9862/bobble-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/bobble",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T06:17:23.341Z",
+    "tables": [],
+    "tags": [],
+    "title": "Bobble"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T06:08:08.567Z",
+  "stoppedAt": "2026-06-09T06:18:55.941Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 26,
+    "downloaded": 22,
+    "failed": 0,
+    "skipped": 4
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/bobble",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/785fa7b33886c56fd25d165ffd05a151/line-connect-logo.jfif",
+      "localPath": "__info_assets__/icon.jfif",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T06:08:16.619Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/1cf8e9d2-339d-48ba-b5e6-71b588c69036/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T06:08:16.619Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2F6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com%2F30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fbobble%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D9%252C103%252C775%252C1190%26special_condition%3Dlanding%26game_id%3D6cda082d-430d-4197-a2e2-11ec7286da07%26game_version_id%3D30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1%26inspector%3D0%26csp%3D1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:08:16.619Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f5480febefc5ce7f01a096d1431f9862/bobble-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T06:17:18.174Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/Build/76f034cff49013ce85bd6945ebf32347.loader.js",
+      "localPath": "Build/76f034cff49013ce85bd6945ebf32347.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/Build/709625a67e9c0cdb27164e3f1c690569.framework.js",
+      "localPath": "Build/709625a67e9c0cdb27164e3f1c690569.framework.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/Build/ed6c6fa173895df38915dae695e203a4.data",
+      "localPath": "Build/ed6c6fa173895df38915dae695e203a4.data",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/5-small.jpg",
+      "localPath": "screenshots/5-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6d3fd655-b19c-483c-a033-47e6d8158e98.gdn.poki.com/43a7ee87-442c-47fa-bff8-07044d814370/Build/646789ab5e3cc7f30952af012fdd2369.wasm",
+      "localPath": "Build/646789ab5e3cc7f30952af012fdd2369.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/winterpixelads.js",
+      "localPath": "winterpixelads.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/screenfull.js",
+      "localPath": "screenfull.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/logo.png",
+      "localPath": "logo.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/winterpixel_discord.js",
+      "localPath": "winterpixel_discord.js",
+      "status": "ok",
+      "requestType": "script",
+      "error": "HTTP 404 for https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/winterpixel_discord.js",
+      "updatedAt": "2026-06-09T06:17:18.174Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/paystation.js",
+      "localPath": "paystation.js",
+      "status": "ok",
+      "requestType": "script",
+      "error": "HTTP 404 for https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/paystation.js",
+      "updatedAt": "2026-06-09T06:17:18.174Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/index-nothreads.js",
+      "localPath": "index-nothreads.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/index-nothreads.pck",
+      "localPath": "index-nothreads.pck",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/index-nothreads.wasm",
+      "localPath": "index-nothreads.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "error": "read ECONNRESET",
+      "updatedAt": "2026-06-09T06:17:18.174Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com/30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2F6cda082d-430d-4197-a2e2-11ec7286da07.gdn.poki.com%2F30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fbobble%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D9%252C103%252C775%252C1190%26special_condition%3Dlanding%26game_id%3D6cda082d-430d-4197-a2e2-11ec7286da07%26game_version_id%3D30b5c7dc-b2d7-42cf-a35c-20b3aa9f40e1%26inspector%3D0%26csp%3D1",
+      "localPath": "poki-savegame-cloudsavegame.html",
+      "status": "ok",
+      "requestType": "Document",
+      "updatedAt": "2026-06-09T06:18:55.951Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T06:18:55.951Z"
+}

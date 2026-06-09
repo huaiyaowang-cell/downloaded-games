@@ -1,0 +1,1 @@
+(function SiteLock(){console.log("SiteLock not setup!");})();

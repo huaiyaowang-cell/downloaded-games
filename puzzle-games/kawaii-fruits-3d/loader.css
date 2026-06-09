@@ -1,0 +1,61 @@
+/* Reset default styles */
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+/* Loader styles */
+.loader {
+	background-image: url("./splash.png"), linear-gradient(to top, #ae782c, #eab336);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+
+	/* Ajout pour placer le loader au-dessus de tous les autres éléments */
+	position: fixed;
+	/* ou 'absolute' selon le besoin */
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	/* Une valeur élevée pour s'assurer qu'il est au-dessus des autres éléments */
+}
+
+.loader .spinner {
+	position: absolute;
+	width: 40px;
+	/* Taille du spinner */
+	height: 40px;
+	/* Taille du spinner */
+	border: 8px solid transparent;
+	/* Rend les bordures initialement transparentes */
+	border-top-color: #ffffff;
+	/* Couleur du segment supérieur */
+	border-right-color: #bc8131;
+	/* Couleur du segment droit */
+	border-bottom-color: #ffffff;
+	/* Couleur du segment inférieur */
+	border-left-color: #bc8131;
+	/* Couleur du segment gauche */
+	border-radius: 50%;
+	/* Rend le spinner circulaire */
+	animation: spin 1s linear infinite;
+	/* Animation de rotation */
+	z-index: 9999;
+	/* Assure que le spinner est au-dessus du fond */
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
