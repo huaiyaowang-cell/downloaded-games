@@ -1,0 +1,28 @@
+{
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "在最受欢迎的免费在线小游戏网站上玩Save Dogogo！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+  },
+  "developer": "Numbers",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "save-dogogo",
+  "locale": "zh",
+  "media": {
+    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3b8721730a2d3a765e84eef56f1317f7/save-dogogo-logo.png",
+    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3b8721730a2d3a765e84eef56f1317f7/save-dogogo-logo.png",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://poki.com/zh/g/save-dogogo",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-06-09T07:11:41.578Z",
+  "tables": [],
+  "tags": [],
+  "title": "Save Dogogo",
+  "category": "Strategy",
+  "categoryUpdatedAt": "2026-06-09T07:16:47.199Z"
+}

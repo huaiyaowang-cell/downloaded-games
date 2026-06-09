@@ -1,0 +1,167 @@
+{
+  "manifestVersion": 1,
+  "gameName": "critters-quest",
+  "pageUrl": "https://poki.com/zh/g/critters-quest#fullscreen",
+  "gameUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/critters-quest&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,6,64,1014&game_id=5662a63c-ed87-401a-af55-a076e3a821b8&game_version_id=19d67aa2-2877-4afa-bf68-bfaaa83268ed&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Critters Quest！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "critters-quest",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/0f2b5fbc498a9de1495ef747e55b3a49/critters-quest-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/0f2b5fbc498a9de1495ef747e55b3a49/critters-quest-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/critters-quest",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:08:39.298Z",
+    "tables": [],
+    "tags": [],
+    "title": "Critters Quest"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T07:08:33.677Z",
+  "stoppedAt": "2026-06-09T07:09:48.789Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 15,
+    "downloaded": 13,
+    "failed": 0,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/critters-quest",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/0f2b5fbc498a9de1495ef747e55b3a49/critters-quest-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:09:48.802Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/bfe96050-87a0-4354-a3ab-f7440fa99983/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/Build/f46e0e78df8cc89e8973adb8ca46caa5.loader.js",
+      "localPath": "Build/f46e0e78df8cc89e8973adb8ca46caa5.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/Build/cf3f30f578ee3ce25928264a87b79eb0.data",
+      "localPath": "Build/cf3f30f578ee3ce25928264a87b79eb0.data",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/Build/475f221ba7e11388f95a8cfc4ad4bd85.framework.js",
+      "localPath": "Build/475f221ba7e11388f95a8cfc4ad4bd85.framework.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/Build/a68cd8a48811e4a1eb661bff905b2829.wasm",
+      "localPath": "Build/a68cd8a48811e4a1eb661bff905b2829.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://5662a63c-ed87-401a-af55-a076e3a821b8.gdn.poki.com/19d67aa2-2877-4afa-bf68-bfaaa83268ed/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/critters-quest&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,6,64,1014&game_id=5662a63c-ed87-401a-af55-a076e3a821b8&game_version_id=19d67aa2-2877-4afa-bf68-bfaaa83268ed&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:09:48.802Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:09:48.802Z"
+}

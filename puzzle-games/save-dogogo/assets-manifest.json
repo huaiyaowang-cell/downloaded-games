@@ -1,0 +1,190 @@
+{
+  "manifestVersion": 1,
+  "gameName": "save-dogogo",
+  "pageUrl": "https://poki.com/zh/g/save-dogogo#fullscreen",
+  "gameUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/save-dogogo&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=34,64,72,400,1190&game_id=3f097c83-3fbf-41bd-a947-ed32ddb63c1b&game_version_id=3ba585d0-4628-4974-88db-ce19fffe0601&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Save Dogogo！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "Numbers",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "save-dogogo",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3b8721730a2d3a765e84eef56f1317f7/save-dogogo-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3b8721730a2d3a765e84eef56f1317f7/save-dogogo-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/save-dogogo",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:11:41.578Z",
+    "tables": [],
+    "tags": [],
+    "title": "Save Dogogo"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T07:09:48.804Z",
+  "stoppedAt": "2026-06-09T07:13:06.426Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 18,
+    "downloaded": 17,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/save-dogogo",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:09:53.801Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3b8721730a2d3a765e84eef56f1317f7/save-dogogo-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:09:53.801Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/115b1bb8-19b8-4720-b504-1cc16518b3c1/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:09:53.801Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/Build/93caac99b2da67bc4ca05b856c581864.loader.js",
+      "localPath": "Build/93caac99b2da67bc4ca05b856c581864.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/Build/17d7f83166df40102307d806c019cbdc.data",
+      "localPath": "Build/17d7f83166df40102307d806c019cbdc.data",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/Build/08662a921a5fb696a3f2ba361b082ba0.framework.js",
+      "localPath": "Build/08662a921a5fb696a3f2ba361b082ba0.framework.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/Build/4c422cf61b67e09ad42f32c23b86c014.wasm",
+      "localPath": "Build/4c422cf61b67e09ad42f32c23b86c014.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/StreamingAssets/Master.strings.bank",
+      "localPath": "StreamingAssets/Master.strings.bank",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/StreamingAssets/Master.bank",
+      "localPath": "StreamingAssets/Master.bank",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://3f097c83-3fbf-41bd-a947-ed32ddb63c1b.gdn.poki.com/3ba585d0-4628-4974-88db-ce19fffe0601/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/save-dogogo&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=34,64,72,400,1190&game_id=3f097c83-3fbf-41bd-a947-ed32ddb63c1b&game_version_id=3ba585d0-4628-4974-88db-ce19fffe0601&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "poki-sdk-stub.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:11:31.071Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:13:06.447Z"
+}

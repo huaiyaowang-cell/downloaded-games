@@ -1,0 +1,28 @@
+{
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "在最受欢迎的免费在线小游戏网站上玩Eggsplosion！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+  },
+  "developer": "",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "eggsplosion",
+  "locale": "zh",
+  "media": {
+    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/7a97f078b983a7f61e6a5595c64ac873/eggsplosion-logo.png",
+    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/7a97f078b983a7f61e6a5595c64ac873/eggsplosion-logo.png",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://poki.com/zh/g/eggsplosion",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-06-09T07:07:44.501Z",
+  "tables": [],
+  "tags": [],
+  "title": "Eggsplosion",
+  "category": "Casual",
+  "categoryUpdatedAt": "2026-06-09T07:16:37.995Z"
+}

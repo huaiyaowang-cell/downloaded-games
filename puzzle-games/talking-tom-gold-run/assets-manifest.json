@@ -1,0 +1,360 @@
+{
+  "manifestVersion": 1,
+  "gameName": "talking-tom-gold-run",
+  "pageUrl": "https://poki.com/zh/g/talking-tom-gold-run#fullscreen",
+  "gameUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/talking-tom-gold-run&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=6,9,93,903,1190&game_id=8c68f477-6c9a-4245-a0c0-f4000563c1f7&game_version_id=861deeab-2990-4532-a55e-d00191d8e55f&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Talking Tom Gold Run！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "talking-tom-gold-run",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/643674f9752ef044320a39facdbe37ac/talking-tom-gold-run-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/643674f9752ef044320a39facdbe37ac/talking-tom-gold-run-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/talking-tom-gold-run",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:17:57.158Z",
+    "tables": [],
+    "tags": [],
+    "title": "Talking Tom Gold Run"
+  },
+  "engine": "unknown",
+  "startedAt": "2026-06-09T07:17:52.142Z",
+  "stoppedAt": "2026-06-09T07:20:23.139Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 39,
+    "downloaded": 37,
+    "failed": 0,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/talking-tom-gold-run",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/643674f9752ef044320a39facdbe37ac/talking-tom-gold-run-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:20:23.153Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/styles.css",
+      "localPath": "styles.css",
+      "status": "ok",
+      "requestType": "Stylesheet",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/js/index.mjs",
+      "localPath": "js/index.mjs",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/glslang.js",
+      "localPath": "glslang.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/twgsl.js",
+      "localPath": "twgsl.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/glslang.wasm",
+      "localPath": "glslang.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/twgsl.wasm",
+      "localPath": "twgsl.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292093402/1/draco.wasm.js",
+      "localPath": "files/assets/292093402/1/draco.wasm.js",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292093490/1/ammo.wasm.js",
+      "localPath": "files/assets/292093490/1/ammo.wasm.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292093403/1/draco.wasm.wasm",
+      "localPath": "files/assets/292093403/1/draco.wasm.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292093491/1/ammo.wasm.wasm",
+      "localPath": "files/assets/292093491/1/ammo.wasm.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/config.json",
+      "localPath": "config.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/js/esm.mjs",
+      "localPath": "js/esm.mjs",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099022/1/preloadBundle.tar",
+      "localPath": "files/assets/292099022/1/preloadBundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099074/1/preloadMaterialbundle.tar",
+      "localPath": "files/assets/292099074/1/preloadMaterialbundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292094883/1/Tom1World.json?t=ede660017d02836314292c3b6081b75e",
+      "localPath": "files/assets/292094883/1/Tom1World.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099038/1/char_skin_0-bundle.tar",
+      "localPath": "files/assets/292099038/1/char_skin_0-bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099073/1/2combined-bundle.tar",
+      "localPath": "files/assets/292099073/1/2combined-bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099005/1/Yard1_BuilderData(Tom).json?t=aa919390cef72ca08ccbf1fe3bcbc6b1",
+      "localPath": "files/assets/292099005/1/Yard1_BuilderData(Tom).json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292098964/1/Yard1(Tom).json?t=1e28bfd071b9a72a6882badec3695945",
+      "localPath": "files/assets/292098964/1/Yard1(Tom).json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292096647/1/Enviroment_Flattened.glb?t=2a02899e841327b9907f3fdfc6b332e3",
+      "localPath": "files/assets/292096647/1/Enviroment_Flattened.glb",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292098970/1/Yard1(Tom)-bundle.tar",
+      "localPath": "files/assets/292098970/1/Yard1(Tom)-bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099024/1/Core_LevelData-bundle.tar",
+      "localPath": "files/assets/292099024/1/Core_LevelData-bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/2508945.json",
+      "localPath": "2508945.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097934/1/builder_tom_bundle.tar",
+      "localPath": "files/assets/292097934/1/builder_tom_bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097925/1/runner_tom_bundle.tar",
+      "localPath": "files/assets/292097925/1/runner_tom_bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292099055/1/char_skin_17-bundle.tar",
+      "localPath": "files/assets/292099055/1/char_skin_17-bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097942/1/builder_common_bundle.tar",
+      "localPath": "files/assets/292097942/1/builder_common_bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097924/1/global_common_bundle.tar",
+      "localPath": "files/assets/292097924/1/global_common_bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292096483/1/Play_3.avif?t=4b46579860dcbd44dcb661789b1b8da3",
+      "localPath": "files/assets/292096483/1/Play_3.avif",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097933/1/runner_common_bundle.tar",
+      "localPath": "files/assets/292097933/1/runner_common_bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292096680/1/Home.opus?t=6bd3864c1140fb73979f788ec30ee243",
+      "localPath": "files/assets/292096680/1/Home.opus",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097116/1/earlyLoadBundle.tar",
+      "localPath": "files/assets/292097116/1/earlyLoadBundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292097117/1/lateLoadBundle.tar",
+      "localPath": "files/assets/292097117/1/lateLoadBundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/files/assets/292098355/1/VaultUI-bundle.tar",
+      "localPath": "files/assets/292098355/1/VaultUI-bundle.tar",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/talking-tom-gold-run&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=6,9,93,903,1190&game_id=8c68f477-6c9a-4245-a0c0-f4000563c1f7&game_version_id=861deeab-2990-4532-a55e-d00191d8e55f&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:20:23.153Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://8c68f477-6c9a-4245-a0c0-f4000563c1f7.gdn.poki.com/861deeab-2990-4532-a55e-d00191d8e55f/manifest.json",
+      "localPath": "manifest.json",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:18:30.384Z",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:18:30.398Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:20:23.153Z"
+}

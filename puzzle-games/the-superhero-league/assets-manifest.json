@@ -1,0 +1,128 @@
+{
+  "manifestVersion": 1,
+  "gameName": "the-superhero-league",
+  "pageUrl": "https://poki.com/zh/g/the-superhero-league#fullscreen",
+  "gameUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/the-superhero-league&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=3,7,400,1013,1190&game_id=ab3d633b-325e-4da3-8136-b0386a8acb30&game_version_id=27fd47a7-c629-48eb-98fb-4a42578e4a45&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩The Superhero League！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "the-superhero-league",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/12e6734dd1a38ff6f99f17615234bb0d/the-superhero-league-logo.jfif",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/12e6734dd1a38ff6f99f17615234bb0d/the-superhero-league-logo.jfif",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/the-superhero-league",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T08:51:42.301Z",
+    "tables": [],
+    "tags": [],
+    "title": "The Superhero League"
+  },
+  "engine": "unknown",
+  "startedAt": "2026-06-09T08:51:37.294Z",
+  "stoppedAt": "2026-06-09T08:53:27.576Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 10,
+    "downloaded": 9,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/the-superhero-league",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/12e6734dd1a38ff6f99f17615234bb0d/the-superhero-league-logo.jfif",
+      "localPath": "__info_assets__/icon.jfif",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T08:53:27.583Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/howler.core.min.js",
+      "localPath": "howler.core.min.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/icon.png",
+      "localPath": "icon.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/browser_detector.js",
+      "localPath": "browser_detector.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/MrSuper.js",
+      "localPath": "MrSuper.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/MrSuper.wasm",
+      "localPath": "MrSuper.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/the-superhero-league&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=3,7,400,1013,1190&game_id=ab3d633b-325e-4da3-8136-b0386a8acb30&game_version_id=27fd47a7-c629-48eb-98fb-4a42578e4a45&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T08:53:27.583Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://ab3d633b-325e-4da3-8136-b0386a8acb30.gdn.poki.com/27fd47a7-c629-48eb-98fb-4a42578e4a45/MrSuper.data",
+      "localPath": "MrSuper.data",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T08:53:05.027Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T08:53:05.034Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T08:53:27.583Z"
+}

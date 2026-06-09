@@ -1,0 +1,204 @@
+{
+  "manifestVersion": 1,
+  "gameName": "supercar-legends",
+  "pageUrl": "https://poki.com/zh/g/supercar-legends#fullscreen",
+  "gameUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/supercar-legends&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=78,93,933&game_id=79bd041a-c68d-4987-8884-702425c1cc3f&game_version_id=9ae86e2d-d431-4d2f-b661-4b1f236767d4&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Supercar Legends！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "supercar-legends",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/c33fa755c4598986fa327a593b47cab4/supercar-legends-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/c33fa755c4598986fa327a593b47cab4/supercar-legends-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/supercar-legends",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T06:45:34.554Z",
+    "tables": [],
+    "tags": [],
+    "title": "Supercar Legends"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T06:45:29.473Z",
+  "stoppedAt": "2026-06-09T06:49:31.242Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 19,
+    "downloaded": 16,
+    "failed": 1,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/supercar-legends",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:49:31.250Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/c33fa755c4598986fa327a593b47cab4/supercar-legends-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/supercar-legends&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=78,93,933&game_id=79bd041a-c68d-4987-8884-702425c1cc3f&game_version_id=9ae86e2d-d431-4d2f-b661-4b1f236767d4&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.loader.js",
+      "localPath": "Build/supercar-legends.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.data.br",
+      "localPath": "Build/supercar-legends.data.br",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.framework.js.br",
+      "localPath": "Build/supercar-legends.framework.js.br",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/Build/supercar-legends.wasm.br",
+      "localPath": "Build/supercar-legends.wasm.br",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/catalog.json",
+      "localPath": "StreamingAssets/aa/catalog.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2F79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com%2F9ae86e2d-d431-4d2f-b661-4b1f236767d4%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fsupercar-legends%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D78%252C93%252C933%26special_condition%3Dlanding%26game_id%3D79bd041a-c68d-4987-8884-702425c1cc3f%26game_version_id%3D9ae86e2d-d431-4d2f-b661-4b1f236767d4%26inspector%3D0%26csp%3D1",
+      "localPath": "index.html/poki-savegame-cloudsavegame.html",
+      "status": "failed",
+      "requestType": "Document",
+      "error": "EEXIST: file already exists, mkdir '/Users/neptune/Downloads/downloaded-games/puzzle-games/supercar-legends/index.html'",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1341370e6c238f779d570a7faa60d274.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1341370e6c238f779d570a7faa60d274.bundle",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T06:46:23.270Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T06:46:23.275Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://79bd041a-c68d-4987-8884-702425c1cc3f.gdn.poki.com/9ae86e2d-d431-4d2f-b661-4b1f236767d4/StreamingAssets/aa/WebGL/f042a147dbf6df165f756a011215d366_unitybuiltinshaders_c585ee74dda74171159b538901e41674.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/f042a147dbf6df165f756a011215d366_unitybuiltinshaders_c585ee74dda74171159b538901e41674.bundle",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T06:46:23.540Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T06:46:23.543Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T06:49:31.251Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T06:49:31.251Z"
+}

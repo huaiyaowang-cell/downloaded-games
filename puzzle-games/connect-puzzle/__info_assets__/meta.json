@@ -1,0 +1,28 @@
+{
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "在最受欢迎的免费在线小游戏网站上玩Connect Puzzle！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+  },
+  "developer": "",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "connect-puzzle",
+  "locale": "zh",
+  "media": {
+    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/78b6206c8f73603029a073ca2fea09e1/connect-puzzle-logo.jfif",
+    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/78b6206c8f73603029a073ca2fea09e1/connect-puzzle-logo.jfif",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://poki.com/zh/g/connect-puzzle",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-06-09T07:57:36.088Z",
+  "tables": [],
+  "tags": [],
+  "title": "Connect Puzzle",
+  "category": "Casual",
+  "categoryUpdatedAt": "2026-06-09T08:55:05.743Z"
+}

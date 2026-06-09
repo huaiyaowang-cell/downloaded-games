@@ -1,0 +1,144 @@
+{
+  "manifestVersion": 1,
+  "gameName": "snek-left",
+  "pageUrl": "https://poki.com/zh/g/snek-left#fullscreen",
+  "gameUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/snek-left&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=9,1193&game_id=d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e&game_version_id=67f8d756-1914-4a26-acd5-ab37572eaed0&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Snek Left！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "snek-left",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/8e97230963cb82b13558a235f000d572/snek-left-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/8e97230963cb82b13558a235f000d572/snek-left-logo.png",
+      "thumbnailVideoUrl": "https://v.poki-cdn.com/66d8508e-af30-4f90-8c62-496168672a90/thumbnail.3x3.vp9.mp4"
+    },
+    "portalUrl": "https://poki.com/zh/g/snek-left",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:14:47.487Z",
+    "tables": [],
+    "tags": [],
+    "title": "Snek Left"
+  },
+  "engine": "unknown",
+  "startedAt": "2026-06-09T07:14:42.479Z",
+  "stoppedAt": "2026-06-09T07:15:29.180Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 12,
+    "downloaded": 10,
+    "failed": 0,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/snek-left",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/8e97230963cb82b13558a235f000d572/snek-left-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:15:29.187Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/66d8508e-af30-4f90-8c62-496168672a90/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/fancade.css",
+      "localPath": "webapp/fancade.css",
+      "status": "ok",
+      "requestType": "Stylesheet",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/cover.jpg",
+      "localPath": "webapp/cover.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/source_min.js",
+      "localPath": "webapp/source_min.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/index.js",
+      "localPath": "webapp/index.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/baloo2.woff",
+      "localPath": "webapp/baloo2.woff",
+      "status": "ok",
+      "requestType": "Font",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/snek-left&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=9,1193&game_id=d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e&game_version_id=67f8d756-1914-4a26-acd5-ab37572eaed0&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/index.data",
+      "localPath": "webapp/index.data",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d3c072b7-a0ed-48a4-b6c0-8553c5b62d3e.gdn.poki.com/67f8d756-1914-4a26-acd5-ab37572eaed0/webapp/index.wasm",
+      "localPath": "webapp/index.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "fixedAt": "2026-06-09T07:15:00.459Z",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:15:29.187Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:15:29.187Z"
+}

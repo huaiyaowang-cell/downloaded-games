@@ -1,0 +1,134 @@
+{
+  "manifestVersion": 1,
+  "gameName": "blumgi-splash",
+  "pageUrl": "https://poki.com/zh/g/blumgi-splash#fullscreen",
+  "gameUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/blumgi-splash&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=9,48,103,1013,1131&game_id=9b7896dc-b417-41ee-b682-2c29f4782242&game_version_id=2021a659-3027-4d01-830b-c6b223944e5d&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Blumgi Splash！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "blumgi-splash",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/447c3ddd1015c92f7fd56074c0a0b2ec/blumgi-splash-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/447c3ddd1015c92f7fd56074c0a0b2ec/blumgi-splash-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/blumgi-splash",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:15:59.812Z",
+    "tables": [],
+    "tags": [],
+    "title": "Blumgi Splash"
+  },
+  "engine": "unknown",
+  "startedAt": "2026-06-09T07:15:54.802Z",
+  "stoppedAt": "2026-06-09T07:17:52.133Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 11,
+    "downloaded": 10,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/blumgi-splash",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/447c3ddd1015c92f7fd56074c0a0b2ec/blumgi-splash-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:17:52.140Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/poly-decomp.min.js",
+      "localPath": "poly-decomp.min.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/matter.min.js",
+      "localPath": "matter.min.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/ploptheblob-sfx.js",
+      "localPath": "ploptheblob-sfx.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/RCHIPL.js",
+      "localPath": "RCHIPL.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/fonts/Nunito-Black.woff2",
+      "localPath": "fonts/Nunito-Black.woff2",
+      "status": "ok",
+      "requestType": "Font",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/library.json",
+      "localPath": "library.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/BlumgiSplashCompo1-test.webm",
+      "localPath": "BlumgiSplashCompo1-test.webm",
+      "status": "ok",
+      "requestType": "Media",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://9b7896dc-b417-41ee-b682-2c29f4782242.gdn.poki.com/2021a659-3027-4d01-830b-c6b223944e5d/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/blumgi-splash&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=9,48,103,1013,1131&game_id=9b7896dc-b417-41ee-b682-2c29f4782242&game_version_id=2021a659-3027-4d01-830b-c6b223944e5d&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:17:52.140Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:17:52.140Z"
+}

@@ -1,0 +1,28 @@
+{
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "在最受欢迎的免费在线小游戏网站上玩Stickman Fury！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+  },
+  "developer": "",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "stickman-fury",
+  "locale": "zh",
+  "media": {
+    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/e423cd1c909817b0046dbd71ec9c0bff/stickman-fury-logo.png",
+    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/e423cd1c909817b0046dbd71ec9c0bff/stickman-fury-logo.png",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://poki.com/zh/g/stickman-fury",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-06-09T07:59:42.245Z",
+  "tables": [],
+  "tags": [],
+  "title": "Stickman Fury",
+  "category": "Adventure",
+  "categoryUpdatedAt": "2026-06-09T08:56:25.796Z"
+}

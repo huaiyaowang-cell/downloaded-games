@@ -1,0 +1,28 @@
+{
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "在最受欢迎的免费在线小游戏网站上玩Duck Merge！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+  },
+  "developer": "",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "duck-merge",
+  "locale": "zh",
+  "media": {
+    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a98f0d2198211b2e9958cd00c658a4a8/duck-merge-logo.png",
+    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a98f0d2198211b2e9958cd00c658a4a8/duck-merge-logo.png",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://poki.com/zh/g/duck-merge",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-06-09T07:07:09.758Z",
+  "tables": [],
+  "tags": [],
+  "title": "Duck Merge",
+  "category": "Casual",
+  "categoryUpdatedAt": "2026-06-09T07:17:19.343Z"
+}

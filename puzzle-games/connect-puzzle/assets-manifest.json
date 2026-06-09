@@ -1,0 +1,195 @@
+{
+  "manifestVersion": 1,
+  "gameName": "connect-puzzle",
+  "pageUrl": "https://poki.com/zh/g/connect-puzzle#fullscreen",
+  "gameUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/connect-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,7,67,72,400,909,1190&special_condition=landing&game_id=69f93db3-809b-4dd8-873d-59a2514eed0d&game_version_id=3ca7edde-9f8d-4287-98ad-fa823f7bbc47&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Connect Puzzle！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "connect-puzzle",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/78b6206c8f73603029a073ca2fea09e1/connect-puzzle-logo.jfif",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/78b6206c8f73603029a073ca2fea09e1/connect-puzzle-logo.jfif",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/connect-puzzle",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:57:36.088Z",
+    "tables": [],
+    "tags": [],
+    "title": "Connect Puzzle"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T07:41:54.832Z",
+  "stoppedAt": "2026-06-09T07:59:00.400Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 17,
+    "downloaded": 9,
+    "failed": 0,
+    "skipped": 8
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/connect-puzzle",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/78b6206c8f73603029a073ca2fea09e1/connect-puzzle-logo.jfif",
+      "localPath": "__info_assets__/icon.jfif",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/Build/CP.loader.js",
+      "localPath": "Build/CP.loader.js",
+      "status": "ok",
+      "requestType": "script",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "error": "HTTP 404 for https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/1-small.jpg",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/Build/2b1e29f88a4f8d478068b4e3bc5e43ab.data.br",
+      "localPath": "Build/2b1e29f88a4f8d478068b4e3bc5e43ab.data.br",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/1-small.png",
+      "localPath": "screenshots/1-small.png",
+      "status": "ok",
+      "requestType": "Image",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/Build/27da6b721f8f1218300f12837407b74c.js.br",
+      "localPath": "Build/27da6b721f8f1218300f12837407b74c.js.br",
+      "status": "ok",
+      "requestType": "Script",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "error": "HTTP 404 for https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/1.jpg",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/connect-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,7,67,72,400,909,1190&special_condition=landing&game_id=69f93db3-809b-4dd8-873d-59a2514eed0d&game_version_id=3ca7edde-9f8d-4287-98ad-fa823f7bbc47&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/1.png",
+      "localPath": "screenshots/1.png",
+      "status": "ok",
+      "requestType": "Image",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/Build/d6ea4309ea7290be848f68c546657b32.wasm.br",
+      "localPath": "Build/d6ea4309ea7290be848f68c546657b32.wasm.br",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "error": "HTTP 404 for https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/2-small.jpg",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "error": "HTTP 404 for https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/3-small.jpg",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "error": "HTTP 404 for https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/4-small.jpg",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "error": "HTTP 404 for https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/2.jpg",
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://69f93db3-809b-4dd8-873d-59a2514eed0d.gdn.poki.com/3ca7edde-9f8d-4287-98ad-fa823f7bbc47/screenshots/2.png",
+      "localPath": "screenshots/2.png",
+      "status": "ok",
+      "requestType": "Image",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:59:00.412Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:59:00.412Z"
+}

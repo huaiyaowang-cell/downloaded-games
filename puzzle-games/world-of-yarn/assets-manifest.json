@@ -1,110 +1,351 @@
 {
   "manifestVersion": 1,
   "gameName": "world-of-yarn",
-  "pageUrl": "https://poki.com/zh/g/world-of-yarn#fullscreen",
-  "gameUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2Fb1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com%2F41701bd2-385b-45aa-a29c-0064c29e5f95%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fworld-of-yarn%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D7%252C72%252C93%26special_condition%3Dlanding%26game_id%3Db1dd51d2-0a6a-4bc0-a319-bd63fea07fa2%26game_version_id%3D41701bd2-385b-45aa-a29c-0064c29e5f95%26inspector%3D0%26csp%3D1",
-  "portalInfo": {
-    "description": {
-      "faq": [],
-      "sections": [],
-      "summary": "在最受欢迎的免费在线小游戏网站上玩World of Yarn！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
-    },
-    "developer": "",
-    "engagement": {
-      "dislikes": "",
-      "likes": ""
-    },
-    "gameSlug": "world-of-yarn",
-    "locale": "zh",
-    "media": {
-      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
-      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
-      "thumbnailVideoUrl": null
-    },
-    "portalUrl": "https://poki.com/zh/g/world-of-yarn",
-    "rating": null,
-    "relatedGames": [],
-    "scrapedAt": "2026-06-09T06:21:00.008Z",
-    "tables": [],
-    "tags": [],
-    "title": "World of Yarn"
-  },
-  "engine": "unknown",
-  "startedAt": "2026-06-09T06:20:54.992Z",
-  "stoppedAt": "",
-  "status": "listening",
+  "pageUrl": "http://localhost:8090/world-of-yarn/",
+  "gameUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95",
+  "portalInfo": null,
+  "engine": "unity",
+  "startedAt": "2026-06-09T06:40:57.981Z",
+  "stoppedAt": "2026-06-09T06:45:29.253Z",
+  "status": "fixing",
   "stats": {
-    "totalSeen": 8,
-    "downloaded": 7,
+    "totalSeen": 40,
+    "downloaded": 33,
     "failed": 0,
-    "skipped": 1
+    "skipped": 7
   },
   "files": [
     {
-      "type": "portal-info",
-      "sourceUrl": "https://poki.com/zh/g/world-of-yarn",
       "localPath": "__info_assets__/meta.json",
-      "status": "ok",
       "requestType": "text",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "sourceUrl": "https://poki.com/zh/g/world-of-yarn",
+      "status": "ok",
+      "type": "portal-info",
+      "updatedAt": "2026-06-09T06:41:03.078Z"
     },
     {
-      "type": "asset",
-      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
       "localPath": "__info_assets__/icon.png",
-      "status": "ok",
       "requestType": "portal-asset",
       "skipped": true,
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-06-09T06:41:03.078Z"
+    },
+    {
+      "localPath": "index.html/poki-savegame-cloudsavegame.html",
+      "requestType": "Document",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2Fb1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com%2F41701bd2-385b-45aa-a29c-0064c29e5f95%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fworld-of-yarn%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D7%252C72%252C93%26special_condition%3Dlanding%26game_id%3Db1dd51d2-0a6a-4bc0-a319-bd63fea07fa2%26game_version_id%3D41701bd2-385b-45aa-a29c-0064c29e5f95%26inspector%3D0%26csp%3D1",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "localPath": "unity-2020.js",
+      "requestType": "text",
+      "sourceUrl": "",
+      "status": "ok",
+      "type": "compat-script",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
     },
     {
       "type": "asset",
-      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/2-small.jpg",
-      "localPath": "screenshots/2-small.jpg",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
       "status": "ok",
-      "requestType": "image",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/Build/f5ae2e27480b0a31c329e122f4fac99c.loader.js",
+      "localPath": "Build/f5ae2e27480b0a31c329e122f4fac99c.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
     },
     {
       "type": "asset",
       "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/1.jpg",
       "localPath": "screenshots/1.jpg",
       "status": "ok",
-      "requestType": "image",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
     },
     {
       "type": "asset",
-      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/4-small.jpg",
-      "localPath": "screenshots/4-small.jpg",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/Build/cfe9bcc305832ec67c3f09889bec6725.data",
+      "localPath": "Build/cfe9bcc305832ec67c3f09889bec6725.data",
       "status": "ok",
-      "requestType": "image",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/Build/0176fe3d2b1fd9a1f1c6ee4c08f3a160.framework.js",
+      "localPath": "Build/0176fe3d2b1fd9a1f1c6ee4c08f3a160.framework.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
     },
     {
       "type": "asset",
       "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/3-small.jpg",
       "localPath": "screenshots/3-small.jpg",
       "status": "ok",
-      "requestType": "image",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
     },
     {
-      "type": "entry-html",
-      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html/poki-savegame-cloudsavegame.html?next=https%3A%2F%2Fb1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com%2F41701bd2-385b-45aa-a29c-0064c29e5f95%2Findex.html%3Fcountry%3DHK%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-478c80d8ca6442ce59095f9ad5a23c05f993f47a%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fworld-of-yarn%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dy%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D7%252C72%252C93%26special_condition%3Dlanding%26game_id%3Db1dd51d2-0a6a-4bc0-a319-bd63fea07fa2%26game_version_id%3D41701bd2-385b-45aa-a29c-0064c29e5f95%26inspector%3D0%26csp%3D1",
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
       "localPath": "index.html",
+      "requestType": "text",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/world-of-yarn&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,72,93&special_condition=landing&game_id=b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2&game_version_id=41701bd2-385b-45aa-a29c-0064c29e5f95&inspector=0&csp=1",
       "status": "ok",
-      "requestType": "Document",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "type": "entry-html",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
     },
     {
-      "type": "compat-script",
-      "sourceUrl": "",
-      "localPath": "unity-2020.js",
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/Build/a8f5b3f4a466a79d76ba15c7f4169c4a.wasm",
+      "localPath": "Build/a8f5b3f4a466a79d76ba15c7f4169c4a.wasm",
       "status": "ok",
-      "requestType": "text",
-      "updatedAt": "2026-06-09T06:21:03.547Z"
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/catalog.bin",
+      "localPath": "StreamingAssets/aa/catalog.bin",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/b3d20698fb48cf74156de2ef53f412c2.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/b3d20698fb48cf74156de2ef53f412c2.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/59c0e48570ccde1cbedc36d79a7104eb.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/59c0e48570ccde1cbedc36d79a7104eb.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/4fdcd8afcbdce3c1896f957d1c18dd63.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/4fdcd8afcbdce3c1896f957d1c18dd63.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/a885f8eeb7a3eb0617dc9713312b869c.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/a885f8eeb7a3eb0617dc9713312b869c.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/b6bf0507c0501d423f4167c697f645a6.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/b6bf0507c0501d423f4167c697f645a6.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/c261441e0e8761c8f6b8418ff1feb2b6.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/c261441e0e8761c8f6b8418ff1feb2b6.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/27a7440d737673bdc698800955f014dd.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/27a7440d737673bdc698800955f014dd.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/4aab56f0e3d6c9884ccc3c3c981ed52a.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/4aab56f0e3d6c9884ccc3c3c981ed52a.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/caca0ef1aedda0d76a7dc28475f5a0a6.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/caca0ef1aedda0d76a7dc28475f5a0a6.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/e8a6d217382169d1861abb5a2808e9e7.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/e8a6d217382169d1861abb5a2808e9e7.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/696ef8dc01c8f68df9e41e055efeb2f3.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/696ef8dc01c8f68df9e41e055efeb2f3.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/0ca8c0490716363c279112e0cf7d1a65.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/0ca8c0490716363c279112e0cf7d1a65.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/8852411a8492132504f1e322bc0206aa.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/8852411a8492132504f1e322bc0206aa.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/13e5af1aeddb269afc0584b5c0ed6d87.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/13e5af1aeddb269afc0584b5c0ed6d87.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/e26fb287be2cc45cc732aa42decb7733.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/e26fb287be2cc45cc732aa42decb7733.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/17b417db714fbf7f609b8f4ab450a3ca.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/17b417db714fbf7f609b8f4ab450a3ca.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/4bf5509f2993c8d145561806bf472f1e.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/4bf5509f2993c8d145561806bf472f1e.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/d94ac8aae62509b7362d3a25fc960de6.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/d94ac8aae62509b7362d3a25fc960de6.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/b52bc9a2b8af73c1d9e934492e4ab434.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/b52bc9a2b8af73c1d9e934492e4ab434.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/6f8487a2ef5469f54d2dbc4eea46859c.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/6f8487a2ef5469f54d2dbc4eea46859c.bundle",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "skipped": true,
+      "updatedAt": "2026-06-09T06:45:29.463Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/index.html/poki-savegame-cloudsavegame.html/3a10ca6fce0176ed44b6d56e30e8f47d.jfif",
+      "localPath": "3a10ca6fce0176ed44b6d56e30e8f47d.jfif",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T06:44:22.974Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T06:44:22.980Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b1dd51d2-0a6a-4bc0-a319-bd63fea07fa2.gdn.poki.com/41701bd2-385b-45aa-a29c-0064c29e5f95/StreamingAssets/aa/WebGL/6eab26f44c41d7e4a5ec63821b155cdc.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/6eab26f44c41d7e4a5ec63821b155cdc.bundle",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T06:47:56.657Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T06:47:56.659Z"
     }
   ],
-  "updatedAt": "2026-06-09T06:21:03.547Z"
+  "updatedAt": "2026-06-09T06:47:56.659Z"
 }

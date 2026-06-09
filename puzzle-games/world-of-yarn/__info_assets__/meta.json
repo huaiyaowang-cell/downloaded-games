@@ -1,26 +1,4 @@
 {
-  "description": {
-    "faq": [],
-    "sections": [],
-    "summary": "在最受欢迎的免费在线小游戏网站上玩World of Yarn！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
-  },
-  "developer": "",
-  "engagement": {
-    "dislikes": "",
-    "likes": ""
-  },
-  "gameSlug": "world-of-yarn",
-  "locale": "zh",
-  "media": {
-    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
-    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/693baf6fca4700ab8945fdf9515fdd0a/world-of-yarn-logo.png",
-    "thumbnailVideoUrl": null
-  },
-  "portalUrl": "https://poki.com/zh/g/world-of-yarn",
-  "rating": null,
-  "relatedGames": [],
-  "scrapedAt": "2026-06-09T06:21:00.008Z",
-  "tables": [],
-  "tags": [],
-  "title": "World of Yarn"
+  "category": "Casual",
+  "categoryUpdatedAt": "2026-06-09T07:17:12.141Z"
 }

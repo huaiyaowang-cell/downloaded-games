@@ -1,0 +1,195 @@
+{
+  "manifestVersion": 1,
+  "gameName": "fashion-legends",
+  "pageUrl": "https://poki.com/zh/g/fashion-legends#fullscreen",
+  "gameUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/fashion-legends&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,44,93,94,281,1126,1190&game_id=b110db02-e22d-473c-9907-9f87dd65666c&game_version_id=3dfd382d-1590-4c7b-9cd2-7476a6581942&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Fashion Legends！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "fashion-legends",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/6803abc7c49e2c74157cc16e5f9e324c/fashion-legends-logo.jfif",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/6803abc7c49e2c74157cc16e5f9e324c/fashion-legends-logo.jfif",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/fashion-legends",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:20:54.765Z",
+    "tables": [],
+    "tags": [],
+    "title": "Fashion Legends"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T07:20:49.754Z",
+  "stoppedAt": "2026-06-09T07:21:56.670Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 18,
+    "downloaded": 16,
+    "failed": 0,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/fashion-legends",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/6803abc7c49e2c74157cc16e5f9e324c/fashion-legends-logo.jfif",
+      "localPath": "__info_assets__/icon.jfif",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/fashion-legends&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,44,93,94,281,1126,1190&game_id=b110db02-e22d-473c-9907-9f87dd65666c&game_version_id=3dfd382d-1590-4c7b-9cd2-7476a6581942&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/Build/c7cea366ea8eaab59722a8d24073643f.loader.js",
+      "localPath": "Build/c7cea366ea8eaab59722a8d24073643f.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/Build/5c937832836b032506d5b7924962904d.framework.js.unityweb",
+      "localPath": "Build/5c937832836b032506d5b7924962904d.framework.js.unityweb",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/Build/36772cf3262e269fcf98c625d6a34bf4.data.unityweb",
+      "localPath": "Build/36772cf3262e269fcf98c625d6a34bf4.data.unityweb",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/Build/fcbadb1c29291dc3bf6ef3fc10b8e249.wasm.unityweb",
+      "localPath": "Build/fcbadb1c29291dc3bf6ef3fc10b8e249.wasm.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/StreamingAssets/aa/settings.json",
+      "localPath": "StreamingAssets/aa/settings.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/StreamingAssets/aa/catalog.json",
+      "localPath": "StreamingAssets/aa/catalog.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:21:56.687Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1295fa86d9f20136123ee9871998665b.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/defaultlocalgroup_assets_all_1295fa86d9f20136123ee9871998665b.bundle",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:21:25.814Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T07:21:26.292Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://b110db02-e22d-473c-9907-9f87dd65666c.gdn.poki.com/3dfd382d-1590-4c7b-9cd2-7476a6581942/StreamingAssets/aa/WebGL/665b6f08182b448a616542c8f50b1c8b_unitybuiltinshaders_57fd4a4496e70b49ba6a22df3dc28b24.bundle",
+      "localPath": "StreamingAssets/aa/WebGL/665b6f08182b448a616542c8f50b1c8b_unitybuiltinshaders_57fd4a4496e70b49ba6a22df3dc28b24.bundle",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:21:26.606Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T07:21:26.617Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:21:56.687Z"
+}

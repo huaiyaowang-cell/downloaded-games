@@ -1,0 +1,146 @@
+{
+  "manifestVersion": 1,
+  "gameName": "light-the-lamp",
+  "pageUrl": "https://poki.com/zh/g/light-the-lamp#fullscreen",
+  "gameUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/light-the-lamp&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,72,400&game_id=3f8076aa-66f1-4d90-b89f-b9520772ef52&game_version_id=958d1eb7-32c2-437b-8d2a-99986750efcc&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Light the Lamp！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "Sam",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "light-the-lamp",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a418d20177f426a8badda5a46fe3fae4/light-the-lamp-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a418d20177f426a8badda5a46fe3fae4/light-the-lamp-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/light-the-lamp",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:13:11.471Z",
+    "tables": [],
+    "tags": [],
+    "title": "Light the Lamp"
+  },
+  "engine": "godot",
+  "startedAt": "2026-06-09T07:13:06.453Z",
+  "stoppedAt": "2026-06-09T07:14:17.816Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 12,
+    "downloaded": 11,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/light-the-lamp",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a418d20177f426a8badda5a46fe3fae4/light-the-lamp-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/4a766986-71c5-4c2e-88f8-acf25ce001c0/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/Loading%20Animation.gif",
+      "localPath": "Loading_20Animation.gif",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.js",
+      "localPath": "index.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/loading_screen_bg.png",
+      "localPath": "loading_screen_bg.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.wasm",
+      "localPath": "index.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.pck",
+      "localPath": "index.pck",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/light-the-lamp&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,72,400&game_id=3f8076aa-66f1-4d90-b89f-b9520772ef52&game_version_id=958d1eb7-32c2-437b-8d2a-99986750efcc&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:14:17.832Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.manifest.json",
+      "localPath": "index.manifest.json",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:14:03.681Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T07:14:03.684Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3f8076aa-66f1-4d90-b89f-b9520772ef52.gdn.poki.com/958d1eb7-32c2-437b-8d2a-99986750efcc/index.icon.png",
+      "localPath": "index.icon.png",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:14:03.891Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T07:14:03.894Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:14:17.832Z"
+}

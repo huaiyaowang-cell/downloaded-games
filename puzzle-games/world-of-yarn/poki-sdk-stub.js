@@ -72,14 +72,21 @@
     setDebug: _pn,
     setLogging: _pn,
     gameLoadingStart: _pn,
-    gameLoadingFinished: _hideLoading,
+    gameLoadingFinished: function() {
+      _pn("gameLoadingFinished");
+      _hideLoading();
+      return Promise.resolve();
+    },
     gameLoadingProgress: _pn,
-    gameInteractive: _hideLoading,
-    gameplayStart: () => {
+    gameInteractive: function() {
+      _hideLoading();
+      return Promise.resolve();
+    },
+    gameplayStart: function() {
       console.log("[poki-dl] gameplayStart");
       return Promise.resolve();
     },
-    gameplayStop: () => {
+    gameplayStop: function() {
       console.log("[poki-dl] gameplayStop");
       return Promise.resolve();
     },
@@ -89,16 +96,27 @@
     captureError: _pn,
     logError: _pn,
     customEvent: _pn,
+    trackEvent: _pn,
+    logEvent: _pn,
     happyTime: _pn,
     roundStart: _pn,
     roundEnd: _pn,
     displayAd: _pn,
     destroyAd: _pn,
     muteAd: _pn,
+    requestAd: _pp,
+    cancelAd: _pn,
     getURLParam: function() { return ""; },
     shareableURL: function() { return Promise.resolve(""); },
     isAdBlocked: function() { return false; },
+    isPlayingOnPoki: function() { return false; },
+    getLanguage: function() { return "en"; },
+    getDevice: function() { return "desktop"; },
     sendHighscore: _pn,
+    submitScore: _pn,
+    setPlayerAge: _pn,
+    setConsentString: _pn,
+    setVolume: _pn,
     togglePlayerAdvertisingConsent: _pn,
     disableDOMChangeObservation: _pn,
     movePill: _pn,

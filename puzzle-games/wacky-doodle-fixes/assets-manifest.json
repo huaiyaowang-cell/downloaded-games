@@ -1,0 +1,543 @@
+{
+  "manifestVersion": 1,
+  "gameName": "wacky-doodle-fixes",
+  "pageUrl": "https://poki.com/zh/g/wacky-doodle-fixes#fullscreen",
+  "gameUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/wacky-doodle-fixes&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,34,72,96,400,1190,1210&game_id=05460243-0b68-4613-8eb0-ddcac761a3b4&game_version_id=248fc795-8434-4702-9ffc-1f05e90b8a91&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Wacky Doodle Fixes！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "Numbers",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "wacky-doodle-fixes",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/6ece67073032b8a9ed4bbe71598df7a3/wacky-doodle-fixes-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/6ece67073032b8a9ed4bbe71598df7a3/wacky-doodle-fixes-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/wacky-doodle-fixes",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:40:43.834Z",
+    "tables": [],
+    "tags": [],
+    "title": "Wacky Doodle Fixes"
+  },
+  "engine": "construct",
+  "startedAt": "2026-06-09T07:26:37.260Z",
+  "stoppedAt": "2026-06-09T07:41:54.766Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 58,
+    "downloaded": 28,
+    "failed": 0,
+    "skipped": 30
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/wacky-doodle-fixes",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/6ece67073032b8a9ed4bbe71598df7a3/wacky-doodle-fixes-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/46c4c5c8-1c25-4c17-b75a-edd83a267a6a/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/style.css",
+      "localPath": "style.css",
+      "status": "ok",
+      "requestType": "Stylesheet",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/select.css",
+      "localPath": "select.css",
+      "status": "ok",
+      "requestType": "Stylesheet",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/supportcheck.js",
+      "localPath": "scripts/supportcheck.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/modernjscheck.js",
+      "localPath": "scripts/modernjscheck.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/offlineclient.js",
+      "localPath": "scripts/offlineclient.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/register-sw.js",
+      "localPath": "scripts/register-sw.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/main.js",
+      "localPath": "scripts/main.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/pozadina_menija/coralReefBackground.png",
+      "localPath": "pozadina_menija/coralReefBackground.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/dispatchworker.js",
+      "localPath": "scripts/dispatchworker.js",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/jobworker.js",
+      "localPath": "scripts/jobworker.js",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/c3main.js",
+      "localPath": "scripts/c3main.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/plugins/skymen_pokiSDK/c3runtime/main.js",
+      "localPath": "scripts/plugins/skymen_pokiSDK/c3runtime/main.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/objRefTable.js",
+      "localPath": "scripts/objRefTable.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/project/javaScriptInEvents.js",
+      "localPath": "scripts/project/javaScriptInEvents.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/scripts/c3runtime.js",
+      "localPath": "scripts/c3runtime.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/data.json",
+      "localPath": "data.json",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/fonts/BebasNeue-Regular.woff",
+      "localPath": "fonts/BebasNeue-Regular.woff",
+      "status": "ok",
+      "requestType": "Font",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/shared-0-sheet0.webp",
+      "localPath": "images/shared-0-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/shared-0-sheet2.webp",
+      "localPath": "images/shared-0-sheet2.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/shared-0-sheet3.webp",
+      "localPath": "images/shared-0-sheet3.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/button-sheet0.webp",
+      "localPath": "images/button-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/unibutton-sheet2.webp",
+      "localPath": "images/unibutton-sheet2.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/unibutton-sheet1.webp",
+      "localPath": "images/unibutton-sheet1.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/unibutton-sheet0.webp",
+      "localPath": "images/unibutton-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/shared-0-sheet5.webp",
+      "localPath": "images/shared-0-sheet5.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/neprijatelj-sheet1.webp",
+      "localPath": "images/neprijatelj-sheet1.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/shared-0-sheet1.webp",
+      "localPath": "images/shared-0-sheet1.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/neprijatelj-sheet0.webp",
+      "localPath": "images/neprijatelj-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet13.webp",
+      "localPath": "images/slika-sheet13.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet4.webp",
+      "localPath": "images/slika-sheet4.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet5.webp",
+      "localPath": "images/slika-sheet5.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet10.webp",
+      "localPath": "images/slika-sheet10.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet12.webp",
+      "localPath": "images/slika-sheet12.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet11.webp",
+      "localPath": "images/slika-sheet11.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet9.webp",
+      "localPath": "images/slika-sheet9.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet0.webp",
+      "localPath": "images/slika-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet14.webp",
+      "localPath": "images/slika-sheet14.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet8.webp",
+      "localPath": "images/slika-sheet8.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet7.webp",
+      "localPath": "images/slika-sheet7.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet6.webp",
+      "localPath": "images/slika-sheet6.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/shared-0-sheet4.webp",
+      "localPath": "images/shared-0-sheet4.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/tiledbackground-sheet0.webp",
+      "localPath": "images/tiledbackground-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/tiledsplash-sheet0.webp",
+      "localPath": "images/tiledsplash-sheet0.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet3.webp",
+      "localPath": "images/slika-sheet3.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet2.webp",
+      "localPath": "images/slika-sheet2.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/images/slika-sheet1.webp",
+      "localPath": "images/slika-sheet1.webp",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/JSON/gameText.json",
+      "localPath": "JSON/gameText.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/JSON/nivoi.json",
+      "localPath": "JSON/nivoi.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/media/soundtrack.webm",
+      "localPath": "media/soundtrack.webm",
+      "status": "ok",
+      "requestType": "Media",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/media/zvrlj.webm",
+      "localPath": "media/zvrlj.webm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/media/mytada_obr.webm",
+      "localPath": "media/mytada_obr.webm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/wacky-doodle-fixes&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,34,72,96,400,1190,1210&game_id=05460243-0b68-4613-8eb0-ddcac761a3b4&game_version_id=248fc795-8434-4702-9ffc-1f05e90b8a91&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:30:15.905Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/appmanifest.json",
+      "localPath": "appmanifest.json",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:28:41.820Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T07:28:41.824Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://05460243-0b68-4613-8eb0-ddcac761a3b4.gdn.poki.com/248fc795-8434-4702-9ffc-1f05e90b8a91/icons/icon-256.png",
+      "localPath": "icons/icon-256.png",
+      "status": "ok",
+      "requestType": "404-fix",
+      "fixedAt": "2026-06-09T07:28:43.771Z",
+      "skipped": false,
+      "updatedAt": "2026-06-09T07:28:43.774Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:41:54.822Z"
+}

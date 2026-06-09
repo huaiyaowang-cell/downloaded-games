@@ -1,0 +1,158 @@
+{
+  "manifestVersion": 1,
+  "gameName": "draft-wars",
+  "pageUrl": "https://poki.com/zh/g/draft-wars#fullscreen",
+  "gameUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/draft-wars&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=65,66,103,257&game_id=73eedbff-e622-464a-bbd9-3311ffd343a9&game_version_id=c22b777e-621d-40cf-9400-1999b6e9737d&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Draft Wars！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "draft-wars",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/ee32224790d1c4d9e61033e12db294d9/draft-wars-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/ee32224790d1c4d9e61033e12db294d9/draft-wars-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/draft-wars",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:15:34.207Z",
+    "tables": [],
+    "tags": [],
+    "title": "Draft Wars"
+  },
+  "engine": "defold",
+  "startedAt": "2026-06-09T07:15:29.189Z",
+  "stoppedAt": "2026-06-09T07:15:54.793Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 14,
+    "downloaded": 13,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/draft-wars",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/ee32224790d1c4d9e61033e12db294d9/draft-wars-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:15:54.800Z",
+      "skipped": true
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/draft-wars&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=65,66,103,257&game_id=73eedbff-e622-464a-bbd9-3311ffd343a9&game_version_id=c22b777e-621d-40cf-9400-1999b6e9737d&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/dmloader.js",
+      "localPath": "dmloader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/html5_splash_image.png",
+      "localPath": "html5_splash_image.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/archive/archive_files.json",
+      "localPath": "archive/archive_files.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/DraftWars_wasm.js",
+      "localPath": "DraftWars_wasm.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/archive/game0.projectc",
+      "localPath": "archive/game0.projectc",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/archive/game0.arci",
+      "localPath": "archive/game0.arci",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/archive/game0.arcd",
+      "localPath": "archive/game0.arcd",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/archive/game1.arcd",
+      "localPath": "archive/game1.arcd",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/DraftWars.wasm",
+      "localPath": "DraftWars.wasm",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://73eedbff-e622-464a-bbd9-3311ffd343a9.gdn.poki.com/c22b777e-621d-40cf-9400-1999b6e9737d/archive/game0.dmanifest",
+      "localPath": "archive/game0.dmanifest",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:15:54.800Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:15:54.800Z"
+}

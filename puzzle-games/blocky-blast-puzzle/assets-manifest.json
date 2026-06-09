@@ -1,0 +1,174 @@
+{
+  "manifestVersion": 1,
+  "gameName": "blocky-blast-puzzle",
+  "pageUrl": "https://poki.com/zh/g/blocky-blast-puzzle#fullscreen",
+  "gameUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/blocky-blast-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,7,9,72,103,400,852,1126,1147,1187,1190,1193&game_id=68808795-016c-435b-a275-06b86a4c9353&game_version_id=ef6cb1bf-51ef-4ec4-89fc-693b895e231e&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Blocky Blast Puzzle！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "blocky-blast-puzzle",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/291aaf2dcf5c1322558a9c038b3c5251/blocky-blast-puzzle-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/291aaf2dcf5c1322558a9c038b3c5251/blocky-blast-puzzle-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/blocky-blast-puzzle",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T07:20:28.165Z",
+    "tables": [],
+    "tags": [],
+    "title": "Blocky Blast Puzzle"
+  },
+  "engine": "defold",
+  "startedAt": "2026-06-09T07:20:23.155Z",
+  "stoppedAt": "2026-06-09T07:20:49.745Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 16,
+    "downloaded": 15,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/blocky-blast-puzzle",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/291aaf2dcf5c1322558a9c038b3c5251/blocky-blast-puzzle-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T07:20:49.753Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/GameAnalytics.js",
+      "localPath": "GameAnalytics.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/dmloader.js",
+      "localPath": "dmloader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/blocky-blast-puzzle&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=4,7,9,72,103,400,852,1126,1147,1187,1190,1193&game_id=68808795-016c-435b-a275-06b86a4c9353&game_version_id=ef6cb1bf-51ef-4ec4-89fc-693b895e231e&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/archive/archive_files.json",
+      "localPath": "archive/archive_files.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/game_logo.png",
+      "localPath": "game_logo.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/blockypuzzle_wasm.js",
+      "localPath": "blockypuzzle_wasm.js",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/archive/game0.projectc",
+      "localPath": "archive/game0.projectc",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/oplay_logo.png",
+      "localPath": "oplay_logo.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/archive/game0.arci",
+      "localPath": "archive/game0.arci",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/blockypuzzle.wasm",
+      "localPath": "blockypuzzle.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/archive/game0.arcd",
+      "localPath": "archive/game0.arcd",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/archive/game0.dmanifest",
+      "localPath": "archive/game0.dmanifest",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://68808795-016c-435b-a275-06b86a4c9353.gdn.poki.com/ef6cb1bf-51ef-4ec4-89fc-693b895e231e/archive/game0.public.der",
+      "localPath": "archive/game0.public.der",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T07:20:49.753Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T07:20:49.753Z"
+}

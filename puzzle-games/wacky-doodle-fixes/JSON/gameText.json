@@ -1,0 +1,514 @@
+{
+    "c2array": true,
+    "size": [
+        63,
+        2,
+        1
+    ],
+    "data": [
+        [
+            [
+                "LVL: "
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "/nPAUSED/n/n/n"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "/n/nQUIT THIS GAME AND START A NEW ONE./nARE YOU SURE?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                " WELCOME TO 'HOTFOOT BASEBALL'/n/nThis is a simpler version of baseball.\n/n\nWHEN HITTING:/nTap anywhere/nto swing./n/n\nWHEN ON A BASE (OPTIONAL):/nTap your player's symbol/nto make them run/nto the next base."
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "PRESS ANYWHERE/nTO START"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "SCORE ## ***/n BEFORE $$ OUTS!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "ROUND #"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "AT THE RIGHT MOMENT,/nPRESS ANYWHERE/nTO SWING"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "PRESS ANYWHERE/nTO START THE NEW CUP"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "CONGRATULATIONS!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "OUT OF THE CUP"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "RUN"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "RUNS"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "GET READY!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "YOU GOT IT!/nNOW, ENJOY!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                " FOR LOW KICK/n/n"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                " TO AVOID HIT/n/n"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "THIS IS YOUR HEALTH"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "THIS IS YOUR PUNCH POWER"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "UPGRADE YOUR HERO IN THE SHOP ANYTIME"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "UPGRADE YOUR POWER, SPEED AND HEALTH"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "WATCH AN AD TO RETRY THIS FIGHT?"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "OR, GO BACK TO THE FLOOR ##:"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "YOU'RE ON THE TOP! ENJOY YOUR VIEW!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "/nAFTER EACH FIGHT YOU WILL GET SOME COINS $ ./n/nIN THE SHOP YOU CAN UPGRADE YOUR FIGHTER'S HIT POWER ~, SPEED °,  HEALTH € AND DAMAGE RESISTANCE £ ."
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "HEAD STYLES: Power up, move fast/n/n~ - Punch power\n° - Movement speed"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "BODY STYLES: Boost endurance/n/n€ -  Health level\n£ - Damage resistance %"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "SKIN CARE (Free):/n/nNo influence on the battle, but makes you look cool :)"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "FACE & SKIN CARE:/n/nNo influence on the battle, but makes you feel good :)"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "WATCH AN AD FOR x2 COINS!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "REWARD: $ %"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "REWARD FOR YOUR /nEFFORT: $ %"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "TRY HIGH ATTACK"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "TRY MID ATTACK"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "TRY LOW ATTACK"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "NOW, DODGE"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "YOU'RE READY!/nFINISH HIM!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "GOOD WORK!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "ENJOY THE VIEW, YOU'VE DESERVED IT!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "ACTUALLY..."
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "THE WAY YOU ATTACK IS NOT IMPORTANT."
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "JUST HIT ~HARD~ AND AVOID GETTING HIT!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "HIT STRONGER /n(WATCH THE ~HIT~ BAR)!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "GAME SAVED"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "GAME LOADING..."
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "NOW, PICK UP SOME BONUS TEETH!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "TIME'S UP!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "DESTROY THOSE BRICKS!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "° NEXT LEVEL STARTS IN: XX °"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "START"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "BALL"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "STRIKE!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "FOUL BALL!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "RUN SCORED!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "HOME RUN!!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "SAFE!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "OUT!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "STRIKEOUT!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "YOU LOSE"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "YOU WON"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                "CUP WINNER!!"
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}

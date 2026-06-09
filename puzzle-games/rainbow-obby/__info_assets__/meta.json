@@ -1,0 +1,28 @@
+{
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "在最受欢迎的免费在线小游戏网站上玩Rainbow Obby！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+  },
+  "developer": "",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "rainbow-obby",
+  "locale": "zh",
+  "media": {
+    "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/bdee3f7dc2892379c2b923560e9a8be4/rainbow-obby-logo.png",
+    "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/bdee3f7dc2892379c2b923560e9a8be4/rainbow-obby-logo.png",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://poki.com/zh/g/rainbow-obby",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-06-09T08:02:45.633Z",
+  "tables": [],
+  "tags": [],
+  "title": "Rainbow Obby",
+  "category": "Adventure",
+  "categoryUpdatedAt": "2026-06-09T08:55:25.006Z"
+}

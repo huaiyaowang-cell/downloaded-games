@@ -1,0 +1,174 @@
+{
+  "manifestVersion": 1,
+  "gameName": "hexellent",
+  "pageUrl": "https://poki.com/zh/g/hexellent#fullscreen",
+  "gameUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/hexellent&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,72,909,1155,1190&special_condition=landing&game_id=17927ff4-1a28-4dfc-9bee-f4eaaf44563e&game_version_id=644a3baa-e4f5-42f7-8df8-c6deefb19db4&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Hexellent！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "Sam",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "hexellent",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/62533211110f778fe551b19ef1739b13/hexellent-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/62533211110f778fe551b19ef1739b13/hexellent-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/hexellent",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T09:09:32.003Z",
+    "tables": [],
+    "tags": [],
+    "title": "Hexellent"
+  },
+  "engine": "defold",
+  "startedAt": "2026-06-09T09:03:54.568Z",
+  "stoppedAt": "2026-06-09T09:10:03.588Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 16,
+    "downloaded": 15,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/hexellent",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T09:08:55.334Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/62533211110f778fe551b19ef1739b13/hexellent-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T09:08:55.334Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/GameAnalytics.js",
+      "localPath": "GameAnalytics.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/dmloader.js",
+      "localPath": "dmloader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/archive_files.json",
+      "localPath": "archive/archive_files.json",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/splashscreen.png",
+      "localPath": "splashscreen.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/Hexellent_wasm.js",
+      "localPath": "Hexellent_wasm.js",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/game0.projectc",
+      "localPath": "archive/game0.projectc",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/game0.arci",
+      "localPath": "archive/game0.arci",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/Hexellent.wasm",
+      "localPath": "Hexellent.wasm",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/game1.arcd",
+      "localPath": "archive/game1.arcd",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/game0.arcd",
+      "localPath": "archive/game0.arcd",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/game0.dmanifest",
+      "localPath": "archive/game0.dmanifest",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/archive/game0.public.der",
+      "localPath": "archive/game0.public.der",
+      "status": "ok",
+      "requestType": "XHR",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://17927ff4-1a28-4dfc-9bee-f4eaaf44563e.gdn.poki.com/644a3baa-e4f5-42f7-8df8-c6deefb19db4/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/hexellent&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=7,72,909,1155,1190&special_condition=landing&game_id=17927ff4-1a28-4dfc-9bee-f4eaaf44563e&game_version_id=644a3baa-e4f5-42f7-8df8-c6deefb19db4&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T09:09:23.493Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T09:10:03.600Z"
+}

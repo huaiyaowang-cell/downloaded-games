@@ -1,0 +1,182 @@
+{
+  "manifestVersion": 1,
+  "gameName": "punchy-guy",
+  "pageUrl": "https://poki.com/zh/g/punchy-guy#fullscreen",
+  "gameUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/punchy-guy&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=3,80&game_id=3a60940f-8357-445f-b10b-30a9819b058a&game_version_id=56b13e80-fbb8-4cbe-9474-fa0b5200d8cb&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Punchy Guy！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "punchy-guy",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3e426aa44bb5dba78219fe1bde61293c/punchy-guy-logo.jfif",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3e426aa44bb5dba78219fe1bde61293c/punchy-guy-logo.jfif",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/punchy-guy",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-06-09T08:00:48.922Z",
+    "tables": [],
+    "tags": [],
+    "title": "Punchy Guy"
+  },
+  "engine": "unity",
+  "startedAt": "2026-06-09T08:00:43.906Z",
+  "stoppedAt": "2026-06-09T08:01:49.770Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 17,
+    "downloaded": 16,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/punchy-guy",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/3e426aa44bb5dba78219fe1bde61293c/punchy-guy-logo.jfif",
+      "localPath": "__info_assets__/icon.jfif",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T08:01:49.776Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/7f12f541-3121-4f14-9a9c-edc29f2654fe/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/index.html?country=HK&ccpaApplies=0&url_referrer=https://poki.com/&tag=pg-478c80d8ca6442ce59095f9ad5a23c05f993f47a&site_id=73&iso_lang=zh&poki_url=https://poki.com/zh/g/punchy-guy&hoist=yes&nonPersonalized=n&cloudsavegames=y&familyFriendly=n&device=mobile&categories=3,80&game_id=3a60940f-8357-445f-b10b-30a9819b058a&game_version_id=56b13e80-fbb8-4cbe-9474-fa0b5200d8cb&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/Build/06617c5e755358c9972d70bd050e92f2.loader.js",
+      "localPath": "Build/06617c5e755358c9972d70bd050e92f2.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/Build/f06d05e8028eaa731605ec07f4a430d3.data.unityweb",
+      "localPath": "Build/f06d05e8028eaa731605ec07f4a430d3.data.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/Build/d2af3056c2df775651f940a8c0f92598.framework.js.unityweb",
+      "localPath": "Build/d2af3056c2df775651f940a8c0f92598.framework.js.unityweb",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/screenshots/4.jpg",
+      "localPath": "screenshots/4.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://3a60940f-8357-445f-b10b-30a9819b058a.gdn.poki.com/56b13e80-fbb8-4cbe-9474-fa0b5200d8cb/Build/a49d21d79deaf53313234f7b6729e56f.wasm.unityweb",
+      "localPath": "Build/a49d21d79deaf53313234f7b6729e56f.wasm.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-06-09T08:01:49.776Z"
+    }
+  ],
+  "updatedAt": "2026-06-09T08:01:49.776Z"
+}
