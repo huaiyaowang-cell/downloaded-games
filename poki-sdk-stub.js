@@ -1,98 +1,134 @@
-(function() {
-  var _oeSetter = null;
-  Object.defineProperty(window, "onerror", {
-    configurable: true,
-    set: function(fn) { _oeSetter = fn; },
-    get: function() {
-      return function(msg, url, line, col, err) {
-        console.error("[poki-dl] onerror:", msg, url, line);
-        return true;
-      };
-    }
-  });
-
-  var _pn = function() {};
-  var _pp = function() { return Promise.resolve(); };
+(function () {
+  var _pn = function () {};
+  var _pp = function () {
+    return Promise.resolve();
+  };
 
   var _loadingGone = false;
   var _loadingIds = [
-    "loading-screen-container", "loader", "loading", "progress-container",
-    "splash", "defold-progress", "unity-loading-bar", "application-splash-wrapper"
+    "loading-screen-container",
+    "unity-loading-bar",
+    "application-splash-wrapper"
   ];
 
   function _hideLoading() {
     if (_loadingGone) return;
     var found = false;
     for (var i = 0; i < _loadingIds.length; i++) {
-      var el = document.querySelector("#" + CSS.escape(_loadingIds[i]) + ":not([data-poki-placeholder])");
+      var el = document.querySelector(
+        "#" + CSS.escape(_loadingIds[i]) + ":not([data-poki-placeholder])"
+      );
       if (el && el.parentElement) {
         el.parentElement.removeChild(el);
         found = true;
       }
     }
-    try {
-      if (typeof ProgressView !== "undefined"
-          && ProgressView.progress
-          && ProgressView.progress.parentElement
-          && !ProgressView.progress.dataset.pokiPlaceholder) {
-        ProgressView.progress.parentElement.removeChild(ProgressView.progress);
-        found = true;
-      }
-    } catch (e) {}
     if (found) {
       _loadingGone = true;
       console.log("[poki-dl] loading overlay removed");
     }
   }
 
-  var _hlTimer = setInterval(function() {
-    _hideLoading();
-    if (_loadingGone) clearInterval(_hlTimer);
-  }, 2000);
-  setTimeout(function() { clearInterval(_hlTimer); }, 30000);
+  function _breakWithCb(cb) {
+    if (typeof cb === "function") {
+      try {
+        cb();
+      } catch (e) {}
+    }
+    return Promise.resolve();
+  }
+  function _rewardedWithCb(cb) {
+    if (typeof cb === "function") {
+      try {
+        cb();
+      } catch (e) {}
+    }
+    return Promise.resolve(true);
+  }
 
-  var _pokiStub = {
-    init: function() {
+  var _pokiBase = {
+    init: function () {
       window.PokiSDK_OK = true;
       return Promise.resolve();
     },
-    gameplayStart: _pn,
-    gameplayStop: _pn,
-      commercialBreak: () => {
-        console.log('commercialBreak')
-        return Promise.resolve(true);
-      },
-    rewardedBreak: () => {
-      console.log('rewardedBreak')
-      return Promise.resolve(true);
-    },
-    displayAd: () => {
-      console.log('displayAd')
-    },
-    destroyAd: () => {
-      console.log('destroyAd')
-    },
     setDebug: _pn,
-    getURLParam: function() { return ""; },
-    shareableURL: function() { return Promise.resolve(""); },
-    isAdBlocked: function() { return false; },
+    setLogging: _pn,
     gameLoadingStart: _pn,
-    gameLoadingFinished: _hideLoading,
+    gameLoadingFinished: function () {
+      _hideLoading();
+      return Promise.resolve();
+    },
     gameLoadingProgress: _pn,
-    gameInteractive: _hideLoading,
-    customEvent: _pn,
-    happyTime: _pn,
+    gameInteractive: function () {
+      _hideLoading();
+      return Promise.resolve();
+    },
+    gameplayStart: function () {
+      console.log("[poki-dl] gameplayStart");
+      return Promise.resolve();
+    },
+    gameplayStop: function () {
+      console.log("[poki-dl] gameplayStop");
+      return Promise.resolve();
+    },
+    commercialBreak: _breakWithCb,
+    rewardedBreak: _rewardedWithCb,
+    measure: _pn,
+    captureError: _pn,
     logError: _pn,
+    customEvent: _pn,
+    trackEvent: _pn,
+    logEvent: _pn,
+    happyTime: _pn,
     roundStart: _pn,
     roundEnd: _pn,
+    displayAd: _pn,
+    destroyAd: _pn,
     muteAd: _pn,
+    requestAd: _pp,
+    cancelAd: _pn,
+    getURLParam: function () {
+      return "";
+    },
+    shareableURL: function () {
+      return Promise.resolve("");
+    },
+    isAdBlocked: function () {
+      return false;
+    },
+    isPlayingOnPoki: function () {
+      return false;
+    },
+    getLanguage: function () {
+      return "en";
+    },
+    getDevice: function () {
+      return "desktop";
+    },
     sendHighscore: _pn,
+    submitScore: _pn,
+    setPlayerAge: _pn,
+    setConsentString: _pn,
+    setVolume: _pn,
     togglePlayerAdvertisingConsent: _pn,
     disableDOMChangeObservation: _pn,
-    measure: _pn,
-    measureTime: _pn,
+    movePill: _pn,
+    openExternalLink: _pn,
+    playtestSetCanvas: _pn,
+    playtestCaptureHtmlOnce: _pn,
+    playtestCaptureHtmlForce: _pn,
+    playtestCaptureHtmlOn: _pn,
+    playtestCaptureHtmlOff: _pn
   };
-  try { Object.freeze(_pokiStub); } catch (e) {}
+
+  var _pokiStub = new Proxy(_pokiBase, {
+    get: function (target, prop) {
+      if (prop in target) return target[prop];
+      if (prop === "then" || typeof prop === "symbol") return undefined;
+      return _pn;
+    }
+  });
+
   try {
     Object.defineProperty(window, "PokiSDK", {
       value: _pokiStub,
@@ -102,23 +138,56 @@
   } catch (e) {
     window.PokiSDK = _pokiStub;
   }
-  console.log("[poki-dl] PokiSDK stub active (sealed)");
+  console.log("[poki-dl] PokiSDK stub active (proxy)");
+
+  var _pokiBooted = false;
+  function _bootPokiSdkLoaded() {
+    if (_pokiBooted) return true;
+    if (typeof window.poki_sdk_loaded !== "function") return false;
+    _pokiBooted = true;
+    try {
+      window.poki_sdk_loaded();
+      console.log("[poki-dl] poki_sdk_loaded() called");
+    } catch (e) {
+      console.warn("[poki-dl] poki_sdk_loaded failed:", e);
+    }
+    return true;
+  }
+  function _scheduleBoot() {
+    if (_bootPokiSdkLoaded()) return;
+    var n = 0;
+    var t = setInterval(function () {
+      n += 1;
+      if (_bootPokiSdkLoaded() || n > 80) clearInterval(t);
+    }, 100);
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", _scheduleBoot);
+  } else {
+    _scheduleBoot();
+  }
 
   var _origGBI = Document.prototype.getElementById;
-  Document.prototype.getElementById = function(id) {
+  Document.prototype.getElementById = function (id) {
     var el = _origGBI.call(this, id);
-    if (!el) {
-      var sid = (id || "").toLowerCase();
-      var isCanvasLike = sid.indexOf("canvas") >= 0 || sid === "gl" || sid === "webgl"
-        || sid === "renderer" || sid === "three" || sid === "gl-canvas"
-        || sid === "webgl-canvas";
-      el = document.createElement(isCanvasLike ? "canvas" : "div");
-      el.id = id;
-      if (!isCanvasLike) el.style.display = "none";
-      if (isCanvasLike) { el.width = 800; el.height = 600; el.style.display = "block"; }
-      el.dataset.pokiPlaceholder = "1";
-      if (document.body) document.body.appendChild(el);
-    }
+    if (el || !document.body) return el;
+    var sid = (id || "").toLowerCase();
+    var isCanvasLike =
+      sid.indexOf("canvas") >= 0 ||
+      sid === "gl" ||
+      sid === "webgl" ||
+      sid === "renderer" ||
+      sid === "three" ||
+      sid === "gl-canvas" ||
+      sid === "webgl-canvas";
+    if (!isCanvasLike) return el;
+    el = document.createElement("canvas");
+    el.id = id;
+    el.width = 800;
+    el.height = 600;
+    el.style.display = "block";
+    el.dataset.pokiPlaceholder = "1";
+    document.body.appendChild(el);
     return el;
   };
 })();
