@@ -1,0 +1,216 @@
+{
+  "manifestVersion": 1,
+  "gameName": "cat-simulator",
+  "pageUrl": "https://poki.com/zh/g/cat-simulator#fullscreen",
+  "gameUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/index.html?country=CN&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-4bf61a10726db3b7d640affd48d3d38d688bb196&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcat-simulator&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=64%2C91%2C1187&game_id=75df52e6-36fa-4677-ae3d-3ba0d33a9a7b&game_version_id=ac44622f-685f-4a03-b960-fc5ecfdf7cda&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Cat Simulator！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "cat-simulator",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/2b901e3aaa075cdfd5e05f6c8150d1e8/cat-simulator-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/2b901e3aaa075cdfd5e05f6c8150d1e8/cat-simulator-logo.png",
+      "thumbnailVideoUrl": "https://v.poki-cdn.com/1a2a168d-4132-47ce-842d-01529d8a1736/thumbnail.3x3.vp9.mp4"
+    },
+    "portalUrl": "https://poki.com/zh/g/cat-simulator",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-08-05T02:32:54.978Z",
+    "tables": [],
+    "tags": [],
+    "title": "Cat Simulator"
+  },
+  "engine": "unity",
+  "startedAt": "2026-08-04T11:09:43.513Z",
+  "stoppedAt": "2026-08-05T03:58:24.175Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 21,
+    "downloaded": 18,
+    "failed": 0,
+    "skipped": 3
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/cat-simulator",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-04T11:09:51.664Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/2b901e3aaa075cdfd5e05f6c8150d1e8/cat-simulator-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-04T11:09:51.664Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/1a2a168d-4132-47ce-842d-01529d8a1736/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-04T11:09:51.665Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://game-cdn.poki.com/scripts/v2/poki-sdk.js",
+      "localPath": "v2/poki-sdk.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://game-cdn.poki.com/loaders/v3/master-loader.js",
+      "localPath": "v3/master-loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://game-cdn.poki.com/loaders/v3/unity-2020.js",
+      "localPath": "v3/unity-2020.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://game-cdn.poki.com/scripts/fe263d795a97c51b69f898ac6e9b334c41680151/poki-sdk-hoist-fe263d795a97c51b69f898ac6e9b334c41680151.js",
+      "localPath": "fe263d795a97c51b69f898ac6e9b334c41680151/poki-sdk-hoist-fe263d795a97c51b69f898ac6e9b334c41680151.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/Build/f46e0e78df8cc89e8973adb8ca46caa5.loader.js",
+      "localPath": "Build/f46e0e78df8cc89e8973adb8ca46caa5.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://devs-api.poki.com/gameinfo/@sdk?href=https%3A%2F%2F75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com%2Fac44622f-685f-4a03-b960-fc5ecfdf7cda%2Findex.html%3Fcountry%3DCN%26ccpaApplies%3D0%26url_referrer%3Dhttps%253A%252F%252Fpoki.com%252F%26tag%3Dpg-1ec344e66561d7992fb46cdb6f8683f3b4f8482b%26site_id%3D73%26iso_lang%3Dzh%26poki_url%3Dhttps%253A%252F%252Fpoki.com%252Fzh%252Fg%252Fcat-simulator%26hoist%3Dyes%26nonPersonalized%3Dn%26cloudsavegames%3Dn%26familyFriendly%3Dn%26device%3Dmobile%26categories%3D64%252C91%252C1187%26game_id%3D75df52e6-36fa-4677-ae3d-3ba0d33a9a7b%26game_version_id%3Dac44622f-685f-4a03-b960-fc5ecfdf7cda%26inspector%3D0%26csp%3D1&referrer=https%3A%2F%2Fgames.poki.com%2F",
+      "localPath": "@sdk",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/Build/fc930027959e7139690a6fadabefed46.data",
+      "localPath": "Build/fc930027959e7139690a6fadabefed46.data",
+      "status": "ok",
+      "requestType": "Fetch",
+      "skipped": true,
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/Build/6a93c72621dfc453de4216385af603db.framework.js",
+      "localPath": "Build/6a93c72621dfc453de4216385af603db.framework.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/Build/854edc27b1796b6c6a2041bffc8594b0.wasm",
+      "localPath": "Build/854edc27b1796b6c6a2041bffc8594b0.wasm",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-04T11:11:15.290Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/index.html?country=CN&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-4bf61a10726db3b7d640affd48d3d38d688bb196&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fcat-simulator&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=64%2C91%2C1187&game_id=75df52e6-36fa-4677-ae3d-3ba0d33a9a7b&game_version_id=ac44622f-685f-4a03-b960-fc5ecfdf7cda&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-05T03:58:24.193Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-05T03:58:24.193Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://75df52e6-36fa-4677-ae3d-3ba0d33a9a7b.gdn.poki.com/ac44622f-685f-4a03-b960-fc5ecfdf7cda/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T03:58:24.193Z"
+    }
+  ],
+  "updatedAt": "2026-08-05T03:58:24.193Z"
+}
