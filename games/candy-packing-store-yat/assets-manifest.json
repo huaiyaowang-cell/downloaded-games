@@ -1,0 +1,104 @@
+{
+  "manifestVersion": 1,
+  "gameName": "candy-packing-store-yat",
+  "pageUrl": "https://www.crazygames.com/game/candy-packing-store-yat",
+  "gameUrl": "https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.loader.js",
+  "portalInfo": {
+    "categories": [],
+    "category": "",
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "Welcome to your very own Candy-Store Empire!Step into the sugar-coated shoes of a budding confectionery mogul."
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "candy-packing-store-yat",
+    "locale": "en",
+    "media": {
+      "iconUrl": "https://imgs.crazygames.com/candy-packing-store-yat_16x9/20260417045257/candy-packing-store-yat_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "ogImageUrl": "https://imgs.crazygames.com/candy-packing-store-yat_16x9/20260417045257/candy-packing-store-yat_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://www.crazygames.com/game/candy-packing-store-yat",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-08-13T07:07:52.588Z",
+    "tables": [],
+    "tags": [],
+    "title": "Candy Packing Store"
+  },
+  "engine": "unity",
+  "startedAt": "2026-08-13T07:07:47.564Z",
+  "stoppedAt": "2026-08-13T07:46:17.906Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 7,
+    "downloaded": 6,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://www.crazygames.com/game/candy-packing-store-yat",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-13T07:46:17.913Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://imgs.crazygames.com/candy-packing-store-yat_16x9/20260417045257/candy-packing-store-yat_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "localPath": "__info_assets__/icon.webp",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-13T07:46:17.913Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.wasm.br",
+      "localPath": "CandyStoreBuild.wasm",
+      "status": "ok",
+      "requestType": "unity-build",
+      "updatedAt": "2026-08-13T07:46:17.913Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.data.br",
+      "localPath": "CandyStoreBuild.data",
+      "status": "ok",
+      "requestType": "unity-build",
+      "updatedAt": "2026-08-13T07:46:17.913Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.loader.js",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-08-13T07:46:17.913Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.framework.js.br",
+      "localPath": "CandyStoreBuild.framework.js",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-08-13T07:46:17.913Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-13T07:46:17.913Z"
+    }
+  ],
+  "updatedAt": "2026-08-13T07:46:17.913Z"
+}

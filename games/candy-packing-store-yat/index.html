@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="request-guard.js?v=5"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <title>candy-packing-store-yat</title>
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; background: #000; font-family: Arial, sans-serif; }
+    #hgLayout { width: 100%; height: 100%; display: flex; flex-direction: column; }
+    #hgTopAdSlot, #hgBottomAdSlot { width: 100%; overflow: hidden; flex-shrink: 0; display: flex; justify-content: center; background: #000; }
+    #hgGameFrame { width: 100%; border: 0; flex: 1; min-height: 0; background: #000; }
+  </style>
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578"
+    crossorigin="anonymous">
+  </script>
+  <script>
+    // 避免游戏内 alert 打断体验
+    window.alert = function() {
+      console.log("alert", arguments);
+    };
+
+    window.__googleAdsReady = false;
+    (function trackGoogleAdsSdkReady() {
+      var sdkScript = document.querySelector('script[src*="googlesyndication.com/pagead/js/adsbygoogle.js"]');
+      if (!sdkScript) return;
+      // 竞态保护：若脚本已加载完成(通常来自缓存)则 load 事件不会再触发，直接置位。
+      if (sdkScript.readyState === "complete" || sdkScript.readyState === "loaded") {
+        window.__googleAdsReady = true;
+      }
+      sdkScript.addEventListener("load", function () {
+        window.__googleAdsReady = true;
+      });
+      sdkScript.addEventListener("error", function () {
+        window.__googleAdsReady = false;
+      });
+    })();
+
+    window.adsbygoogle = window.adsbygoogle || [];
+    // 占位实现：真实 AdSense adBreak 就绪后会覆盖本函数。
+    // 兜底：若真实 adBreak 尚未就绪（如广告域名未审核/网络问题），直接触发回调，
+    // 避免子页通过桥接请求的广告永远等不到 adBreakDone，导致游戏卡在广告等待（点不动）。
+    var adBreak = adConfig = function (o) {
+      window.adsbygoogle.push(o);
+      if (o && typeof o.adBreakDone === "function") {
+        setTimeout(function () {
+          try { if (typeof o.beforeAd === "function") o.beforeAd(); } catch (e) {}
+          try { if (typeof o.afterAd === "function") o.afterAd(); } catch (e) {}
+          try { o.adBreakDone({ breakStatus: "viewed" }); } catch (e) {}
+        }, 0);
+      }
+    };
+    adConfig({ preloadAdBreaks: "on" });
+  </script>
+</head>
+<body>
+  <div id="hgLayout">
+    <div id="hgTopAdSlot">
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="9174285658"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <iframe
+      src="game.html?v=5"
+      id="hgGameFrame"
+      name="hgGameFrame"
+      scrolling="no"
+      allow="autoplay; fullscreen"
+      title="candy-packing-store-yat"
+    ></iframe>
+    <div id="hgBottomAdSlot">
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:100px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="4864961822"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+  <script>
+    document.getElementById("hgTopAdSlot").style.height = "50px";
+    document.getElementById("hgBottomAdSlot").style.height = "100px";
+  </script>
+  <script src="crazygames-ad-bridge-parent-0.0.1.js?v=5"></script>
+  <script>
+    // 横幅自动刷新：仅用 AdSense 真实广告，按 refreshSequence 定时重建刷新（不显示静态兜底）
+    // 与 donut-place 保持一致，确保广告单元在 SDK 就绪后被可靠(重新)初始化。
+    window.AD_FALLBACK_CONFIG = {
+      checkIntervalMs: 500,
+      refreshDelayMs: 2 * 60 * 1000,
+      refreshSequence: ["adsense", "adsense", "adsense", "adsense", "adsense"],
+      containerIds: ["hgTopAdSlot", "hgBottomAdSlot"],
+      slots: [
+        { containerId: "hgTopAdSlot",    fallbackUrl: "", width: 320, height: 50 },
+        { containerId: "hgBottomAdSlot", fallbackUrl: "", width: 320, height: 100 }
+      ]
+    };
+  </script>
+  <script src="ad-fallback-monitor-0.2.js?v=6"></script>
+  <script>
+  /**
+   * [cg-diag-parent] 父页诊断（临时）：确认广告桥接收到子页请求、adBreak 是否被调用与回包。
+   * 确认问题后可删除。
+   */
+  (function () {
+    "use strict";
+    var tag = "[cg-diag-parent]";
+    function log() { console.log(tag, Array.prototype.slice.call(arguments).join(" ")); }
+    log("父页诊断已加载");
+
+    // 监控 adBreak 就绪 + 包裹 adBreak 以记录“被调用 / adBreakDone 是否触发”
+    var wrapped = false, n = 0;
+    var iv = setInterval(function () {
+      n++;
+      log("adBreak 类型=" + typeof window.adBreak + " __googleAdsReady=" + window.__googleAdsReady);
+      if (!wrapped && typeof window.adBreak === "function") {
+        var orig = window.adBreak;
+        window.adBreak = function (o) {
+          log("adBreak 被调用 name=" + (o && o.name) + " type=" + (o && o.type) +
+              " 有adBreakDone=" + !!(o && o.adBreakDone));
+          var od = o && o.adBreakDone;
+          if (o && od) {
+            o.adBreakDone = function (res) {
+              log("adBreakDone 触发 name=" + o.name + " res=" + JSON.stringify(res));
+              try { return od(res); } catch (e) {}
+            };
+          }
+          return orig(o);
+        };
+        wrapped = true;
+        log("adBreak 已包裹用于日志");
+      }
+      if ((wrapped && n > 20) || n > 30) clearInterval(iv);
+    }, 1000);
+
+    window.addEventListener("message", function (e) {
+      var d = e.data;
+      if (!d || d.type !== "poki_ad_request") return;
+      log("收到子页 poki_ad_request kind=" + (d.payload && d.payload.kind) + " requestId=" + d.requestId);
+    });
+  })();
+  </script>
+</body>
+</html>

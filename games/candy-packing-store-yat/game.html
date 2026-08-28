@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="request-guard.js?v=5"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>candy-packing-store-yat</title>
+<script src="crazygames-sdk-stub.js?v=5"></script>
+<script>
+  window.__CG_UNITY_CONFIG__ = {"codeUrl":"https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.wasm.br","dataUrl":"https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.data.br","frameworkUrl":"https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.framework.js.br","loaderUrl":"https://files.crazygames.com/candy-packing-store-yat/10/CandyStoreBuild/Build/CandyStoreBuild.loader.js"};
+</script>
+<style>
+  html,body{margin:0;height:100%;background:#000;overflow:hidden}
+  #gameContainer{width:100%;height:100%}
+  #gameContainer canvas{width:100%;height:100%}
+</style>
+</head>
+<body>
+<div id="gameContainer"></div>
+<script src="crazygames-ad-bridge-client.js?v=5"></script>
+<script src="unity-2020.js?v=5"></script>
+<script>
+/**
+ * [cg-diag] 诊断脚本（临时）：用于定位“点不动/页面无响应”
+ *  - 监控 canvas 是否出现、尺寸、pointer-events、z-index
+ *  - 捕获 document/window 的 pointerdown/click/touch/keydown，确认事件是否到达页面
+ *  - 监听来自父页的 poki_ad_response，确认广告桥接是否回包
+ *  - hook SDK.ad.requestAd / sitelock.check / CrazySDK.requestAd|showAd，记录调用时机
+ * 确认问题后此段可删除。
+ */
+(function () {
+  "use strict";
+  var tag = "[cg-diag-child]";
+  function log() { console.log(tag, Array.prototype.slice.call(arguments).join(" ")); }
+  log("诊断脚本已加载；readyState=", document.readyState);
+
+  function wrap(label, obj, fn) {
+    try {
+      if (obj && obj[fn] && typeof obj[fn] === "function") {
+        var orig = obj[fn].bind(obj);
+        obj[fn] = function () {
+          log("SDK." + label + "." + fn + " 调用 args=" + Array.prototype.slice.call(arguments).map(function (a) { return String(a); }).join(","));
+          return orig.apply(null, arguments);
+        };
+        log("已 hook SDK." + label + "." + fn);
+      }
+    } catch (e) { log("hook 失败 " + label + "." + fn + ":", e && e.message); }
+  }
+
+  // 1) canvas 监控
+  var tries = 0;
+  var canvasTimer = setInterval(function () {
+    tries++;
+    var c = document.querySelector("#gameContainer canvas") || document.querySelector("canvas");
+    if (c) {
+      var r = c.getBoundingClientRect();
+      var s = getComputedStyle(c);
+      log("canvas 已出现 #" + tries + " rect=" + Math.round(r.width) + "x" + Math.round(r.height) +
+          " pe=" + s.pointerEvents + " disp=" + s.display + " vis=" + s.visibility +
+          " z=" + s.zIndex + " op=" + s.opacity);
+      clearInterval(canvasTimer);
+    } else if (tries > 15) {
+      clearInterval(canvasTimer);
+      log("15s 内未找到 canvas");
+    }
+  }, 1000);
+
+  // 2) 全局事件捕获（捕获阶段，最优先看到）
+  ["pointerdown", "mousedown", "touchstart", "click", "keydown"].forEach(function (ev) {
+    document.addEventListener(ev, function (e) {
+      var t = e.target;
+      log("DOC " + ev +
+          " target=" + ((t && t.tagName) || "?") + "#" + ((t && t.id) || "") + "." + ((t && t.className) || "") +
+          " x=" + (e.clientX || 0) + " y=" + (e.clientY || 0));
+    }, true);
+  });
+
+  // 3) 来自父页的广告回包
+  window.addEventListener("message", function (e) {
+    var d = e.data;
+    if (!d) return;
+    if (d.type === "poki_ad_response") log("收到父页 poki_ad_response requestId=" + d.requestId + " ok=" + d.ok);
+  });
+  window.addEventListener("error", function (e) { log("window.onerror:", e.message, e.filename, e.lineno); });
+
+  // 4) hook SDK 广告/锁域接口
+  setTimeout(function () {
+    var cg = (window.CrazyGames && window.CrazyGames.SDK) || null;
+    if (cg) {
+      wrap("ad", cg.ad, "requestAd");
+      wrap("sitelock", cg.sitelock, "check");
+    }
+    wrap("CrazySDK", window.CrazySDK, "requestAd");
+    wrap("CrazySDK", window.CrazySDK, "showAd");
+    log("SDK hook 阶段完成；CrazyGames 存在=" + (!!window.CrazyGames) + " CrazySDK 存在=" + (!!window.CrazySDK));
+  }, 1500);
+})();
+</script>
+</body>
+</html>
