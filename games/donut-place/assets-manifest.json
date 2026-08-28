@@ -1,0 +1,138 @@
+{
+  "manifestVersion": 1,
+  "gameName": "donut-place",
+  "pageUrl": "https://www.crazygames.com/game/donut-place",
+  "gameUrl": "https://files.crazygames.com/donut-place/2/Build/70d6bea140c53a19adf55f7b99629a63.loader.js",
+  "portalInfo": {
+    "categories": [],
+    "category": "",
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "Donut Place is a fun simulation game where you take on the role of an owner and head baker tasked with building a sweet shop.You start with a small donut stand and work to expand it into a top destination by serving customers, managing staff, and upgrading your kitchen."
+    },
+    "developer": "serving customers, managing staff, and upgrading your kitchen.",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "donut-place",
+    "locale": "en",
+    "media": {
+      "iconUrl": "https://imgs.crazygames.com/donut-place_16x9/20260521063756/donut-place_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "ogImageUrl": "https://imgs.crazygames.com/donut-place_16x9/20260521063756/donut-place_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://www.crazygames.com/game/donut-place",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-08-07T08:40:00.933Z",
+    "tables": [],
+    "tags": [],
+    "title": "Donut Place"
+  },
+  "engine": "unity",
+  "startedAt": "2026-08-07T07:38:29.215Z",
+  "stoppedAt": "2026-08-07T08:51:23.333Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 11,
+    "downloaded": 9,
+    "failed": 0,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "localPath": "__info_assets__/meta.json",
+      "requestType": "text",
+      "sourceUrl": "https://www.crazygames.com/game/donut-place",
+      "status": "ok",
+      "type": "portal-info",
+      "updatedAt": "2026-08-07T05:51:06.116Z"
+    },
+    {
+      "localPath": "__info_assets__/icon.webp",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "sourceUrl": "https://imgs.crazygames.com/donut-place_16x9/20260521063756/donut-place_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-08-07T05:51:06.116Z"
+    },
+    {
+      "localPath": "__info_assets__/preview.mp4",
+      "requestType": "portal-asset",
+      "skipped": true,
+      "sourceUrl": "https://videos.crazygames.com/donut-place/1/donut-place-landscape-1920x1080_30fps.mp4",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-08-07T05:51:06.116Z"
+    },
+    {
+      "localPath": "d/ccm/form-data/312835820",
+      "requestType": "xmlhttprequest",
+      "sourceUrl": "https://www.crazygames.com/metrics/d/ccm/form-data/312835820?gtm=45892e6852phv9100436285za200zb882979294zd882979294xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~119527019~119896802&rcb=17&gdid=dNzQzZD&npa=0&frm=0&pscdl=noapi&auid=1495092584.1786072662&uaa=arm&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.189%7CGoogle%2520Chrome%3B150.0.7871.189&uamb=0&uam=&uap=macOS&uapv=15.1.0&uaw=0&ec_mode=a&gap.gtb=2&_uip=%3A%3A&emd=tvd.1&eme=tv.1~",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-08-07T07:54:08.572Z"
+    },
+    {
+      "localPath": "ag/g/c",
+      "requestType": "xmlhttprequest",
+      "sourceUrl": "https://www.crazygames.com/metrics/ag/g/c?v=2&tid=G-BB20KEMLCJ&gtm=45g92e6852v882979294za200zd882979294&_p=1786088315093&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dNzQzZD&ecid=563338986&_eu=AAAAAGQC&_uip=%3A%3A&are=1&cid=961173950.1786072662&fp=1&frm=0&ni=0&pscdl=noapi&rcb=11&sr=1470x956&uaa=arm&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.189%7CGoogle%2520Chrome%3B150.0.7871.189&uam=&uamb=0&uap=macOS&uapv=15.1.0&uaw=0&ul=zh-cn&ur=HK&_gsid=pJONhQ09V2QS17D8JPQb_u2eisshlYoOQA&gaf=2&_s=3&tag_exp=115938466~115938469~118395335~118897920~118897930~119367803~119367811~119527020~119896803~120385422&dl=https%3A%2F%2Fwww.crazygames.com%2Fgame%2Fdonut-place&sid=1786087637&sct=3&seg=1&dt=Donut%20Place%20%F0%9F%95%B9%EF%B8%8F%20Play%20on%20CrazyGames&en=min5&_ee=1&gap.gtb=2&ep.pwa=false&ep.event_category=playtimePerSession&ep.event_label=83601&epn.value=1&ep.loader_type=none&_et=975&tfd=317353",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-08-07T07:54:08.572Z"
+    },
+    {
+      "localPath": "_next/static/chunks/pages/leaderboards-0a75cee67da45634.js",
+      "requestType": "Script",
+      "sourceUrl": "https://builds.crazygames.com/portal-web/_next/static/chunks/pages/leaderboards-0a75cee67da45634.js",
+      "status": "ok",
+      "type": "asset",
+      "updatedAt": "2026-08-07T07:54:08.572Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://files.crazygames.com/donut-place/2/Build/max_1024mb_1e90a3dc58af539159d3fee0409878ee.wasm.br",
+      "localPath": "max_1024mb_1e90a3dc58af539159d3fee0409878ee.wasm.br",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "error": "connect ETIMEDOUT 92.223.84.84:443",
+      "updatedAt": "2026-08-07T07:56:53.341Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://files.crazygames.com/donut-place/2/Build/70d6bea140c53a19adf55f7b99629a63.loader.js",
+      "localPath": "70d6bea140c53a19adf55f7b99629a63.loader.js",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-08-07T08:09:53.599Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://files.crazygames.com/donut-place/2/Build/44d4f5aea322d4a81339f0331b9f2c44.framework.js.br",
+      "localPath": "44d4f5aea322d4a81339f0331b9f2c44.framework.js.br",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-08-07T08:29:44.890Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://files.crazygames.com/donut-place/2/Build/70d6bea140c53a19adf55f7b99629a63.loader.js",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "script",
+      "updatedAt": "2026-08-07T08:29:44.890Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-07T08:29:44.890Z"
+    }
+  ],
+  "updatedAt": "2026-08-07T08:51:23.347Z"
+}

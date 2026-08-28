@@ -1,0 +1,28 @@
+{
+  "categories": [],
+  "category": "",
+  "description": {
+    "faq": [],
+    "sections": [],
+    "summary": "Donut Place is a fun simulation game where you take on the role of an owner and head baker tasked with building a sweet shop.You start with a small donut stand and work to expand it into a top destination by serving customers, managing staff, and upgrading your kitchen."
+  },
+  "developer": "serving customers, managing staff, and upgrading your kitchen.",
+  "engagement": {
+    "dislikes": "",
+    "likes": ""
+  },
+  "gameSlug": "donut-place",
+  "locale": "en",
+  "media": {
+    "iconUrl": "https://imgs.crazygames.com/donut-place_16x9/20260521063756/donut-place_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+    "ogImageUrl": "https://imgs.crazygames.com/donut-place_16x9/20260521063756/donut-place_16x9-cover?metadata=none&quality=100&width=1200&height=630&fit=crop",
+    "thumbnailVideoUrl": null
+  },
+  "portalUrl": "https://www.crazygames.com/game/donut-place",
+  "rating": null,
+  "relatedGames": [],
+  "scrapedAt": "2026-08-07T08:40:00.933Z",
+  "tables": [],
+  "tags": [],
+  "title": "Donut Place"
+}
