@@ -1,0 +1,192 @@
+{
+  "manifestVersion": 1,
+  "gameName": "dogs-life",
+  "pageUrl": "https://poki.com/zh/g/dogs-life#utm_source=redirect-en-zh",
+  "gameUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/index.html?country=JP&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-60cf9f7d3a2af91247fa212a5f98e4bb8dce371b&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdogs-life&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=desktop&categories=64%2C76%2C91%2C93&special_condition=landing&game_id=d260cb39-ef9c-453d-926d-25ff54c345d9&game_version_id=3d8dced6-2755-420c-86f8-b1805a13aab0&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Dog's Life！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "dogs-life",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/9dd8c1d84bbcc7aa40b71509f2ca9e0f/dogs-life-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/9dd8c1d84bbcc7aa40b71509f2ca9e0f/dogs-life-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/dogs-life",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-08-25T08:02:41.884Z",
+    "tables": [],
+    "tags": [],
+    "title": "Dog's Life"
+  },
+  "engine": "unity",
+  "startedAt": "2026-08-25T06:30:04.304Z",
+  "stoppedAt": "2026-08-25T08:10:31.838Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 18,
+    "downloaded": 15,
+    "failed": 0,
+    "skipped": 3
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/dogs-life",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-25T06:32:53.323Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/9dd8c1d84bbcc7aa40b71509f2ca9e0f/dogs-life-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-25T06:32:53.323Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/1b9dd5e3-879b-4c32-9da7-3fa86cfb0f0c/thumbnail.1x1.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-25T06:32:53.323Z",
+      "skipped": true
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/index.html?country=JP&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-60cf9f7d3a2af91247fa212a5f98e4bb8dce371b&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fdogs-life&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=desktop&categories=64%2C76%2C91%2C93&special_condition=landing&game_id=d260cb39-ef9c-453d-926d-25ff54c345d9&game_version_id=3d8dced6-2755-420c-86f8-b1805a13aab0&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/9dd8c1d84bbcc7aa40b71509f2ca9e0f/dogs-life-logo.png",
+      "localPath": "9dd8c1d84bbcc7aa40b71509f2ca9e0f.png",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T08:14:00.000Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/Build/f46e0e78df8cc89e8973adb8ca46caa5.loader.js",
+      "localPath": "Build/f46e0e78df8cc89e8973adb8ca46caa5.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/Build/746a631e4e67c994dc34a998032a87c9.framework.js",
+      "localPath": "Build/746a631e4e67c994dc34a998032a87c9.framework.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-25T08:11:00.000Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/Build/c08b427455e36cafb55659af4dd2248f.wasm",
+      "localPath": "Build/c08b427455e36cafb55659af4dd2248f.wasm",
+      "status": "ok",
+      "requestType": "Other",
+      "updatedAt": "2026-08-25T08:11:00.000Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/Build/5c25cec49dc42ca50a85f1cef3b0835e.data",
+      "localPath": "Build/5c25cec49dc42ca50a85f1cef3b0835e.data",
+      "status": "ok",
+      "requestType": "Other",
+      "updatedAt": "2026-08-25T08:11:00.000Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://d260cb39-ef9c-453d-926d-25ff54c345d9.gdn.poki.com/3d8dced6-2755-420c-86f8-b1805a13aab0/screenshots/4.jpg",
+      "localPath": "screenshots/4.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-25T06:32:53.323Z"
+    }
+  ],
+  "updatedAt": "2026-08-25T08:10:31.850Z"
+}
