@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="request-guard.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
+  <title>Clean House</title>
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; background: #1F1F20; font-family: Arial, sans-serif; }
+    #chLayout { width: 100%; height: 100%; display: flex; flex-direction: column; }
+    #chTopAdSlot, #chBottomAdSlot { width: 100%; overflow: hidden; flex-shrink: 0; display: flex; justify-content: center; background: #000; }
+    #chGameFrame { width: 100%; border: 0; flex: 1; min-height: 0; background: #1F1F20; }
+  </style>
+  <script>
+    window.alert = function() {
+      console.log("alert", arguments);
+    };
+
+    window.__googleAdsReady = false;
+
+    // 离线包规范：启动时先判断网络，无网则不做任何广告动作（不加载 SDK、
+    // 不预加载广告、不请求 banner），直接进入游戏。
+    window.__isOffline = (function () {
+      try {
+        // 仅当通过本地文件协议（file://）打开离线包时视为无网，跳过广告。
+        // 不要依赖 navigator.onLine：测试机 H5-TOOL 等 WebView 常误报
+        // onLine===false，会让「有网」环境被误判为离线，导致广告全被抑制
+        // （顶部/底部 banner 不显示、领取奖励无反应）。happy-glass 无此守卫，
+        // 因此在同一 H5-TOOL 下正常展示广告。
+        if (window.location && window.location.protocol === "file:") return true;
+      } catch (e) {}
+      return false;
+    })();
+
+    window.adsbygoogle = window.adsbygoogle || [];
+    var adBreak = adConfig = function (o) { window.adsbygoogle.push(o); };
+
+    if (window.__isOffline) {
+      console.log("[ads] 无网环境，跳过全部广告加载，直接开始游戏");
+    } else {
+      // 关键：preloadAdBreaks 必须在 SDK 加载【前】入队。SDK 初始化后才会预拉取广告
+      // 库存；若等 onload 之后再调用，SDK 已初始化、不会预载，激励广告将无素材可播
+      // （与 happy-glass 一致，这是「点击领取奖励无反应」的根因）。
+      try { adConfig({ preloadAdBreaks: "on" }); } catch (e) {}
+      (function loadGoogleAdsSdk() {
+        var s = document.createElement("script");
+        s.async = true;
+        s.crossOrigin = "anonymous";
+        s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4202034217897578";
+        s.onload = function () {
+          window.__googleAdsReady = true;
+        };
+        s.onerror = function () {
+          window.__googleAdsReady = false;
+          console.warn("[ads] AdSense SDK 加载失败，游戏继续，不展示广告");
+        };
+        document.head.appendChild(s);
+      })();
+    }
+  </script>
+</head>
+<body>
+  <div id="chLayout">
+    <div id="chTopAdSlot">
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="9174285658"></ins>
+      <script>if (!window.__isOffline) (adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <iframe
+      src="game.html"
+      id="chGameFrame"
+      name="chGameFrame"
+      scrolling="no"
+      allow="autoplay; fullscreen"
+      title="Clean House"
+    ></iframe>
+    <div id="chBottomAdSlot">
+      <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:100px"
+        data-ad-client="ca-pub-4202034217897578"
+        data-ad-slot="4864961822"></ins>
+      <script>if (!window.__isOffline) (adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </div>
+  <script>
+    (function layoutAdSlots() {
+      var top = document.getElementById("chTopAdSlot");
+      var bottom = document.getElementById("chBottomAdSlot");
+      if (window.__isOffline) {
+        // 无网时不会有广告，收起广告位，让游戏占满整屏
+        top.style.display = "none";
+        bottom.style.display = "none";
+        return;
+      }
+      top.style.height = "50px";
+      bottom.style.height = "100px";
+    })();
+  </script>
+  <script src="poki-ad-bridge-parent-0.0.2.js"></script>
+</body>
+</html>

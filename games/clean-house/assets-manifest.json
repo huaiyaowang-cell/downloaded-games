@@ -1,0 +1,183 @@
+{
+  "manifestVersion": 1,
+  "gameName": "clean-house",
+  "pageUrl": "https://poki.com/zh/g/clean-house#fullscreen",
+  "gameUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/index.html?country=CN&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-4bf61a10726db3b7d640affd48d3d38d688bb196&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fclean-house&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=91%2C93%2C1205&game_id=26ce2ce1-8626-4006-8400-5e12f27e474a&game_version_id=bf86ba51-630a-4ca6-9ea8-b40d4007f05a&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Clean House！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "clean-house",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/b56d53a7a0e96e185de5131b2b9feaa4/clean-house-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/b56d53a7a0e96e185de5131b2b9feaa4/clean-house-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/clean-house",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-08-06T02:06:25.517Z",
+    "tables": [],
+    "tags": [],
+    "title": "Clean House"
+  },
+  "engine": "unity",
+  "startedAt": "2026-08-05T06:14:27.000Z",
+  "stoppedAt": "2026-08-05T11:34:18.566Z",
+  "status": "listening",
+  "stats": {
+    "totalSeen": 17,
+    "downloaded": 15,
+    "failed": 0,
+    "skipped": 2
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/clean-house",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/b56d53a7a0e96e185de5131b2b9feaa4/clean-house-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-05T07:40:55.858Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://v.poki-cdn.com/b6eb8ee7-7d31-47d9-865e-554915be0118/thumbnail.3x3.vp9.mp4",
+      "localPath": "__info_assets__/preview.mp4",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-05T07:40:55.858Z",
+      "skipped": true
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/index.html?country=CN&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-4bf61a10726db3b7d640affd48d3d38d688bb196&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fclean-house&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=mobile&categories=91%2C93%2C1205&game_id=26ce2ce1-8626-4006-8400-5e12f27e474a&game_version_id=bf86ba51-630a-4ca6-9ea8-b40d4007f05a&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/Build/670ba34fe8ad0f7840e591c8b534b5ee.loader.js",
+      "localPath": "Build/670ba34fe8ad0f7840e591c8b534b5ee.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/Build/8fc5c15553a6e54e284c93ff4a6bce47.data.br",
+      "localPath": "Build/8fc5c15553a6e54e284c93ff4a6bce47.data.br",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/Build/ef1e5e11b9c83047f28da06f7ea09005.framework.js.br",
+      "localPath": "Build/ef1e5e11b9c83047f28da06f7ea09005.framework.js.br",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/Build/7b5868472b9428caf3e529dfb7d940ba.wasm.br",
+      "localPath": "Build/7b5868472b9428caf3e529dfb7d940ba.wasm.br",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/2-small.jpg",
+      "localPath": "screenshots/2-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/3-small.jpg",
+      "localPath": "screenshots/3-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/2.jpg",
+      "localPath": "screenshots/2.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/4-small.jpg",
+      "localPath": "screenshots/4-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T07:40:55.858Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/3.jpg",
+      "localPath": "screenshots/3.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T11:34:18.584Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://26ce2ce1-8626-4006-8400-5e12f27e474a.gdn.poki.com/bf86ba51-630a-4ca6-9ea8-b40d4007f05a/screenshots/4.jpg",
+      "localPath": "screenshots/4.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-05T11:34:18.584Z"
+    }
+  ],
+  "updatedAt": "2026-08-06T02:06:28.530Z"
+}
