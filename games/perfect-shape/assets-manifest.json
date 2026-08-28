@@ -1,0 +1,126 @@
+{
+  "manifestVersion": 1,
+  "gameName": "perfect-shape",
+  "pageUrl": "https://poki.com/zh/g/perfect-shape#utm_source=redirect-en-zh",
+  "gameUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/index.html?country=JP&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-b747aed8a0d5ff67b381aa97d220fedf570cff32&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fperfect-shape&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=desktop&categories=9%2C93%2C903%2C927%2C1190&special_condition=landing&game_id=eb72aea9-b04e-400d-91d5-4b7aa2a60b6d&game_version_id=a6469856-3dbf-4598-8d4e-a8e4366e0cb6&inspector=0&csp=1",
+  "portalInfo": {
+    "description": {
+      "faq": [],
+      "sections": [],
+      "summary": "在最受欢迎的免费在线小游戏网站上玩Perfect Shape！Poki (宝玩)可在您的手机、平板电脑或电脑上运行。无需下载，无需登录。现在就玩！"
+    },
+    "developer": "",
+    "engagement": {
+      "dislikes": "",
+      "likes": ""
+    },
+    "gameSlug": "perfect-shape",
+    "locale": "zh",
+    "media": {
+      "iconUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a9c824748846254329454d71d13306e0/perfect-shape-logo.png",
+      "ogImageUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a9c824748846254329454d71d13306e0/perfect-shape-logo.png",
+      "thumbnailVideoUrl": null
+    },
+    "portalUrl": "https://poki.com/zh/g/perfect-shape",
+    "rating": null,
+    "relatedGames": [],
+    "scrapedAt": "2026-08-26T07:13:33.358Z",
+    "tables": [],
+    "tags": [],
+    "title": "Perfect Shape"
+  },
+  "engine": "unity",
+  "startedAt": "2026-08-26T07:13:28.341Z",
+  "stoppedAt": "2026-08-26T07:35:55.591Z",
+  "status": "stopped",
+  "stats": {
+    "totalSeen": 10,
+    "downloaded": 9,
+    "failed": 0,
+    "skipped": 1
+  },
+  "files": [
+    {
+      "type": "portal-info",
+      "sourceUrl": "https://poki.com/zh/g/perfect-shape",
+      "localPath": "__info_assets__/meta.json",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a9c824748846254329454d71d13306e0/perfect-shape-logo.png",
+      "localPath": "__info_assets__/icon.png",
+      "status": "ok",
+      "requestType": "portal-asset",
+      "updatedAt": "2026-08-26T07:35:55.605Z",
+      "skipped": true
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/screenshots/1-small.jpg",
+      "localPath": "screenshots/1-small.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/Build/9853637125e801e9aae48e78dbbdcfca.loader.js",
+      "localPath": "Build/9853637125e801e9aae48e78dbbdcfca.loader.js",
+      "status": "ok",
+      "requestType": "Script",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/Build/7bceaf2d0b90a1ada583fb171412ba7e.framework.js.unityweb",
+      "localPath": "Build/7bceaf2d0b90a1ada583fb171412ba7e.framework.js.unityweb",
+      "status": "ok",
+      "requestType": "Fetch",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/Build/35555a54ed6b4f233621fbc0d3849847.wasm.unityweb",
+      "localPath": "Build/35555a54ed6b4f233621fbc0d3849847.wasm.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/Build/dbb04fa2e0d5ce6c17804991238eebb5.data.unityweb",
+      "localPath": "Build/dbb04fa2e0d5ce6c17804991238eebb5.data.unityweb",
+      "status": "ok",
+      "requestType": "xmlhttprequest",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "asset",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/screenshots/1.jpg",
+      "localPath": "screenshots/1.jpg",
+      "status": "ok",
+      "requestType": "Image",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "entry-html",
+      "sourceUrl": "https://eb72aea9-b04e-400d-91d5-4b7aa2a60b6d.gdn.poki.com/a6469856-3dbf-4598-8d4e-a8e4366e0cb6/index.html?country=JP&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-b747aed8a0d5ff67b381aa97d220fedf570cff32&site_id=73&iso_lang=zh&poki_url=https%3A%2F%2Fpoki.com%2Fzh%2Fg%2Fperfect-shape&hoist=yes&nonPersonalized=n&cloudsavegames=n&familyFriendly=n&device=desktop&categories=9%2C93%2C903%2C927%2C1190&special_condition=landing&game_id=eb72aea9-b04e-400d-91d5-4b7aa2a60b6d&game_version_id=a6469856-3dbf-4598-8d4e-a8e4366e0cb6&inspector=0&csp=1",
+      "localPath": "index.html",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    },
+    {
+      "type": "compat-script",
+      "sourceUrl": "",
+      "localPath": "unity-2020.js",
+      "status": "ok",
+      "requestType": "text",
+      "updatedAt": "2026-08-26T07:35:55.605Z"
+    }
+  ],
+  "updatedAt": "2026-08-26T07:35:55.605Z"
+}
