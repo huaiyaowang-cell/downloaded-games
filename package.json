@@ -14,6 +14,7 @@
     "offline:build-upload": "node scripts/run-python.mjs scripts/build_offline_game_zips.py --build-upload",
     "offline:build-upload-dev": "node scripts/run-python.mjs scripts/build_offline_game_zips.py --build-upload --dev",
     "upload:bucket:deps": "node scripts/run-python.mjs -m pip install google-cloud-storage pyyaml",
+    "check:games": "node scripts/run-python.mjs scripts/check_games.py",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node scripts/run-python.mjs -m http.server 8089"
   },

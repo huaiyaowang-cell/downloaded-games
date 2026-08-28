@@ -92,8 +92,17 @@
     measure: _pn,
     measureTime: _pn,
   };
-  window.PokiSDK = _pokiStub;
-  console.log("[poki-dl] PokiSDK stub active");
+  try { Object.freeze(_pokiStub); } catch (e) {}
+  try {
+    Object.defineProperty(window, "PokiSDK", {
+      value: _pokiStub,
+      writable: false,
+      configurable: false
+    });
+  } catch (e) {
+    window.PokiSDK = _pokiStub;
+  }
+  console.log("[poki-dl] PokiSDK stub active (sealed)");
 
   var _origGBI = Document.prototype.getElementById;
   Document.prototype.getElementById = function(id) {

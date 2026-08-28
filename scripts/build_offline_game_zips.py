@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import json
 import shutil
 import tempfile
@@ -62,6 +63,35 @@ def _compute_dir_fingerprint(game_root: Path) -> str:
     return sha.hexdigest()[:10]
 
 
+def _strip_script_tags(text: str, names: list[str]) -> str:
+    for n in names:
+        text = re.sub(r'<script\s+src="\.?/?%s"[^>]*></script>\s*' % re.escape(n), "", text)
+    return text
+
+
+def _make_offline_entry(staged_game_dir: Path) -> None:
+    game_html = staged_game_dir / "game.html"
+    src = game_html if game_html.exists() else (staged_game_dir / "index.html")
+    if not src.exists():
+        return
+    text = src.read_text(encoding="utf-8")
+    # 去掉 Service Worker 注册（离线无网，SW 注册/回退会失败或挂起导致黑屏）
+    # 注意：sw-game-boot.js 不能在此删除，下面要用 v3 加载器替换它
+    text = _strip_script_tags(text, ["sw-register.js"])
+    # 用离线安全的 v3 加载器直接启动 Unity（参照 cat-simulator 离线包可用结构）
+    text = re.sub(
+        r'<script\s+src="\.?/?sw-game-boot\.js"[^>]*></script>\s*',
+        '<script src="./v3/master-loader.js"></script>\n',
+        text,
+    )
+    (staged_game_dir / "index.html").write_text(text, encoding="utf-8")
+    if game_html.exists():
+        try:
+            game_html.unlink()
+        except OSError:
+            pass
+
+
 def _build_one_zip(
     game_root: Path,
     cdn_host: str,
@@ -72,26 +102,46 @@ def _build_one_zip(
 ) -> dict[str, Any]:
     game_name = game_root.name
     fingerprint = _compute_dir_fingerprint(game_root)
-    zip_name = f"{game_name}-{fingerprint}.zip"
+    ts = datetime.now().strftime("%Y%m%d%H%M%S")
+    zip_name = f"{game_name}-{fingerprint}-{ts}.zip"
     output_dir = offline_zip_dir / game_name
     output_dir.mkdir(parents=True, exist_ok=True)
     zip_path = output_dir / zip_name
 
     with tempfile.TemporaryDirectory(prefix=f"offline-{game_name}-") as tmp:
         temp_root = Path(tmp)
-        # zip 内顶层目录与 BUCKET_CDN_MAP 域名一致，其下与桶内前缀一致（含 dev 一级）
-        staged_game_dir = temp_root / cdn_host / bucket_target_base
-        if dev_target:
-            staged_game_dir = staged_game_dir / "dev"
-        staged_game_dir = staged_game_dir / game_name
-        staged_game_dir.parent.mkdir(parents=True, exist_ok=True)
+        staged_game_dir = temp_root
+        staged_game_dir.mkdir(parents=True, exist_ok=True)
         shutil.copytree(game_root, staged_game_dir, dirs_exist_ok=True)
+        # 剔除 Service Worker 文件：离线无网环境不需要 SW，且 H5-tools 会自动注册包内的 sw.js，
+        # 导致它拦截 index.html 并回退 poki CDN 失败（白屏 / [sw v4] fallback failed）
+        for _sw in ("sw.js", "sw-register.js", "sw-game-boot.js", "sw-shell-boot.js"):
+            _p = staged_game_dir / _sw
+            if _p.exists():
+                try:
+                    _p.unlink()
+                except OSError:
+                    pass
+        _make_offline_entry(staged_game_dir)
+
+        # 离线包内部标准前缀：<cdn-host>/<BUCKET_TARGET>[/dev]/<game>/
+        # H5-tools 下载后要求资源路径为 <cdn-host>/<BUCKET_TARGET>/dev/<game>/index.html
+        host = str(cdn_host)
+        if "://" in host:
+            host = host.split("://", 1)[1]
+        host = host.rstrip("/")
+        prefix_parts = [host, str(bucket_target_base).strip("/")]
+        if dev_target:
+            prefix_parts.append("dev")
+        prefix_parts.append(game_name)
+        zip_prefix = "/".join(part for part in prefix_parts if part)
 
         with ZipFile(zip_path, "w", compression=ZIP_DEFLATED) as zf:
             for p in sorted(temp_root.rglob("*")):
                 if not p.is_file():
                     continue
-                arc_name = p.relative_to(temp_root).as_posix()
+                rel = p.relative_to(temp_root).as_posix()
+                arc_name = f"{zip_prefix}/{rel}" if zip_prefix else rel
                 zf.write(p, arc_name)
 
     rp = f"{remote_prefix.strip('/')}/{game_name}/{zip_name}"
@@ -206,7 +256,7 @@ def main(build: bool, upload: bool, dev_target: bool = False) -> None:
     print(f"📋 离线包 zip 对象键前缀: {remote_prefix}/")
     print(f"📋 Bucket: {bucket_name}")
     print(f"📋 CDN 域名: {cdn_host} ({cdn_base_url})")
-    print(f"📋 zip 内路径前缀: {cdn_host}/{bucket_target}/<game_name>/")
+    print(f"📋 zip 内路径前缀: {cdn_host}/{bucket_target_base}{'/dev' if dev_target else ''}/<game>/（H5-tools 要求此结构）")
     print(f"📋 对应 CDN 入口: {cdn_base_url.rstrip('/')}/{bucket_target}/<game_name>/index.html")
     if offline_include_folders:
         print("📋 游戏来源: OFFLINE_INCLUDE_FOLDERS")

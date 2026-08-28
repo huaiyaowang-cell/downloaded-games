@@ -23,6 +23,10 @@
 - UPLOAD_EXCLUDE_FOLDERS: 排除 UPLOAD_PRE_PATH 下的目录名（列表）
 - UPLOAD_INCLUDE_FILES: 仅上传匹配文件名（glob 列表）
 - UPLOAD_EXCLUDE_FILES: 排除匹配文件名（glob 列表）
+- UPLOAD_GZIP_FILES: 上传时即时 gzip 的文件名（glob 列表，默认空=不启用）
+  对象名不变，仅附加 Content-Encoding: gzip，浏览器透明解压。
+  适用于 Unity WebGL 未预压缩的 .wasm/.data（GCS 不会自动压缩，裸传会让用户下载数十 MB）。
+  本地文件保持原样，离线 zip（file:// 直接读盘）不受影响。
 - OFFLINE_INCLUDE_FOLDERS: 离线包专用游戏目录（列表，相对 UPLOAD_PRE_PATH；为空时回退 UPLOAD_INCLUDE_FOLDERS）
 - BUCKET_CDN_MAP: bucket 名称 → CDN 域名（如 rabigame-puzzlegame: puzzle.rabigame.fun），用于游戏入口与离线包路径
 """
@@ -31,6 +35,8 @@ from __future__ import annotations
 
 from collections import defaultdict
 import fnmatch
+import gzip
+import io
 import json
 import mimetypes
 import os
@@ -41,6 +47,7 @@ from typing import Any
 
 import yaml
 from google.cloud.storage import Blob, Client
+from google.cloud.storage.retry import DEFAULT_RETRY
 from google.oauth2.service_account import Credentials
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -210,6 +217,21 @@ def _content_encoding(file_path: Path) -> str | None:
     if ext == ".gz":
         return "gzip"
     return None
+
+
+def _should_gzip_on_upload(file_path: Path, patterns: list[str]) -> bool:
+    """
+    是否在上传时即时 gzip（对象名不变，仅附加 Content-Encoding: gzip）。
+
+    用于 Unity WebGL 的 .wasm/.data 等未预压缩的大文件：GCS 不会自动压缩，
+    裸传会让终端用户下载数十 MB。压缩后浏览器透明解压，引擎无感知。
+    本地文件保持原样，离线 zip（file:// 直接读盘）不受影响。
+    """
+    if not patterns:
+        return False
+    if _content_encoding(file_path):  # 已是 .gz 等预压缩产物，不重复压
+        return False
+    return any(fnmatch.fnmatch(file_path.name, pat) for pat in patterns)
 
 
 def _normalize_to_project_root_path(raw: str) -> Path:
@@ -411,19 +433,60 @@ def _collect_files(
     return out
 
 
-def _upload_one(bucket, local_path: Path, remote_path: str) -> str | None:
+# 上传超时与分片：google-cloud-storage 的 client 默认 socket 写超时为 120s，
+# 大文件（Unity .data/.wasm 等）在慢速/不稳定网络（如走 VPN）下极易 120s 超时或
+# 连接中断。这里放大 client 级超时，并对超过阈值的文件强制走可续传（resumable）
+# 分片上传，连接断开后从断点续传而非整文件重传。
+UPLOAD_TIMEOUT = 1800            # 单请求超时（秒）与重试总时限（deadline）
+UPLOAD_CHUNK_SIZE = 4 * 1024 * 1024   # 分片大小
+UPLOAD_LARGE_THRESHOLD = 1024 * 1024  # 超过此大小的文件强制分片续传
+# google-cloud-storage 默认重试 deadline=120s，大文件/不稳网络下整体被掐在 120s，
+# 这里把上传重试的总时限放大到 UPLOAD_TIMEOUT
+UPLOAD_RETRY = DEFAULT_RETRY.with_deadline(UPLOAD_TIMEOUT)
+
+
+def _upload_one(
+    bucket, local_path: Path, remote_path: str, gzip_patterns: list[str] | None = None
+) -> str | None:
     try:
         blob = Blob(remote_path, bucket)
-        if local_path.suffix.lower() == ".html":
+        ext = local_path.suffix.lower()
+        if ext == ".html":
             blob.cache_control = "public, max-age=360"
+        elif ext == ".js":
+            # JS 会迭代修改，短缓存保证部署后尽快生效（2 分钟内全网一致），
+            # 避免 CDN 边缘缓存导致新版本迟迟不出现
+            blob.cache_control = "public, max-age=120"
         else:
             blob.cache_control = "public, max-age=31536000, immutable"
         blob.content_type = _content_type(local_path)
         content_encoding = _content_encoding(local_path)
         if content_encoding:
             blob.content_encoding = content_encoding
-        with open(local_path, "rb") as f:
-            blob.upload_from_file(f)
+
+        # 大文件强制可续传分片，避免连接中断导致整文件重传
+        try:
+            if local_path.stat().st_size > UPLOAD_LARGE_THRESHOLD:
+                blob.chunk_size = UPLOAD_CHUNK_SIZE
+        except OSError:
+            pass
+
+        _timeout = UPLOAD_TIMEOUT
+        if _should_gzip_on_upload(local_path, gzip_patterns or []):
+            raw = local_path.read_bytes()
+            buf = io.BytesIO()
+            # mtime=0 保证同内容压缩结果稳定，避免每次上传都产生新字节
+            with gzip.GzipFile(fileobj=buf, mode="wb", compresslevel=6, mtime=0) as gz:
+                gz.write(raw)
+            data = buf.getvalue()
+            blob.content_encoding = "gzip"
+            print(f"[gzip {len(raw) / 1048576:.1f}→{len(data) / 1048576:.1f}MB] ", end="", flush=True)
+            blob.upload_from_file(
+                io.BytesIO(data), size=len(data), timeout=_timeout, retry=UPLOAD_RETRY
+            )
+        else:
+            with open(local_path, "rb") as f:
+                blob.upload_from_file(f, timeout=_timeout, retry=UPLOAD_RETRY)
         return blob.public_url or f"gs://{bucket.name}/{remote_path}"
     except Exception as e:
         print(f"    ❌ {e}")
@@ -490,6 +553,7 @@ def _load_config() -> dict[str, Any]:
         ),
         "UPLOAD_INCLUDE_FILES": _config_value("UPLOAD_INCLUDE_FILES", file_cfg, []),
         "UPLOAD_EXCLUDE_FILES": _config_value("UPLOAD_EXCLUDE_FILES", file_cfg, []),
+        "UPLOAD_GZIP_FILES": _config_value("UPLOAD_GZIP_FILES", file_cfg, []),
         "OFFLINE_INCLUDE_FOLDERS": _config_value("OFFLINE_INCLUDE_FOLDERS", file_cfg, []),
         "BUCKET_CDN_MAP": _parse_bucket_cdn_map(
             _config_value("BUCKET_CDN_MAP", file_cfg, {})
@@ -525,6 +589,7 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
     exclude_folders = cfg["UPLOAD_EXCLUDE_FOLDERS"] or []
     include_files = cfg["UPLOAD_INCLUDE_FILES"] or []
     exclude_files = cfg["UPLOAD_EXCLUDE_FILES"] or []
+    gzip_files = cfg.get("UPLOAD_GZIP_FILES") or []
 
     roots = _discover_root_folders(include_folders, exclude_folders)
     if not roots:
@@ -542,6 +607,8 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
         print(f"📋 文件白名单: {include_files}")
     if exclude_files:
         print(f"📋 文件黑名单: {exclude_files}")
+    if gzip_files:
+        print(f"📋 上传时 gzip: {gzip_files}")
     if retry_failed:
         print(f"📋 重试模式：从每个根目录的失败日志中读取待上传文件")
 
@@ -612,7 +679,7 @@ def main(dry_run: bool = False, retry_failed: bool = False, dev_target: bool = F
         lp = item["local_path"]
         root_key = item.get("root_key") or ""
         print(f"[{idx}/{len(files)}] {rp} ... ", end="", flush=True)
-        url = _upload_one(bucket, lp, rp)
+        url = _upload_one(bucket, lp, rp, gzip_files)
         if url:
             print("✅")
             success += 1
